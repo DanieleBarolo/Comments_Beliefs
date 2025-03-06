@@ -162,25 +162,5 @@ for platform, list in d_links.items():
 import pandas as pd 
 pd.set_option('display.max_colwidth', None)
 df_results = pd.DataFrame(results, columns=['platform', 'id', 'url', 'clean_title', 'url_title', 'url_body'])
-df_results
 
-# test this one 
-url = 'https://www.breitbart.com/news/colombian-trump-threatens-leftists-presidential-ambitions/'
-response = requests.get(url)
-if response.status_code == 200:
-    html_content = response.text
-    # parse this html_content with BeautifulSoup
-else:
-    print("Error fetching page")
-
-soup = BeautifulSoup(html_content, "html.parser")
-
-# Extract the title:
-title = soup.find("h1")
-if title:
-    article_title = title.get_text(strip=True)
-
-# Extract the article body:
-body_div = soup.find("div", class_="entry-content")
-if body_div:
-    article_body = body_div.get_text(strip=True)
+# try to scale to 1K articles (e.g.) 

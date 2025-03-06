@@ -1,28 +1,94 @@
 import requests
 from bs4 import BeautifulSoup
 import datetime
+import time 
+import pandas as pd 
 
-# try a Breitbart article 
-url = "https://www.breitbart.com/politics/2013/08/13/hyperloop-could-travel-from-la-to-san-francisco-in-30-minutes/"
+def retrieve_body(url):
+    article_title = ''
+    article_body = ''
+    
+    max_retries = 3             # how many times to retry on 429
+    default_sleep_time = 30     # how many seconds to wait if no Retry-After is given
 
-response = requests.get(url)
-if response.status_code == 200:
+    for attempt in range(max_retries):
+        response = requests.get(url)
+        
+        if response.status_code == 200:
+            # good to parse
+            break
+        elif response.status_code == 429:
+            # Too Many Requests
+            print(f"429 received. Attempt {attempt+1}/{max_retries} - waiting before retrying.")
+            # If the server sent a Retry-After header, use it; otherwise wait default_sleep_time.
+            retry_after = response.headers.get("Retry-After")
+            if retry_after is not None:
+                try:
+                    wait_seconds = int(retry_after)
+                except ValueError:
+                    wait_seconds = default_sleep_time
+            else:
+                wait_seconds = default_sleep_time
+            
+            time.sleep(wait_seconds)
+        else:
+            # Some other HTTP error: we can either break or raise an exception
+            print(f"Error fetching {url}: status {response.status_code}")
+            return article_title, article_body
+    else:
+        # If we exit the for-loop normally, it means we never got a 200
+        print("Max retries hit, giving up.")
+        return article_title, article_body
+
+    # At this point, if we're here, we got a 200 response
     html_content = response.text
-    # parse this html_content with BeautifulSoup
-else:
-    print("Error fetching page")
+    soup = BeautifulSoup(html_content, "html.parser")
 
-soup = BeautifulSoup(html_content, "html.parser")
+    # Extract the title:
+    title = soup.find("h1")
+    if title:
+        article_title = title.get_text(strip=True)
 
-# Extract the title:
-title = soup.find("h1")
-if title:
-    article_title = title.get_text(strip=True)
+    # Extract the article body:
+    body_div = soup.find("div", class_="entry-content")
+    if body_div:
+        article_body = body_div.get_text(strip=True)
+    
+    return article_title, article_body
+    
+# try to scale to 1K articles (e.g.) 
+import json 
+links = {}
+with open('sampled_1k_articles.jsonl', 'r', encoding='utf-8') as file:
+    for line in file:
+        data = json.loads(line.strip())
+        links[data['_id']] = data['link']
 
-# Extract the article body:
-body_div = soup.find("div", class_="entry-content")
-if body_div:
-    article_body = body_div.get_text(strip=True)
+from tqdm import tqdm 
+results = []
+for id, link in tqdm(links.items()):
+    print(id)
+    url_title, url_body = retrieve_body(link)
+    results.append([id, link, url_title, url_body])
+
+df_results = pd.DataFrame(results, columns=['_id', 'link', 'title', 'body'])
+
+# find missing 
+empty_mask = df_results['body'].str.strip() == ''  # Strips spaces and checks if empty
+
+# Count empty values
+num_empty = empty_mask.sum()
+num_empty # 144, so 14.4% empty 
+
+# Show the rows with empty values
+pd.set_option('display.max_colwidth', None)
+empty_rows = df_results[empty_mask]
+
+df_results.to_csv('article_body/breitbart_1k.csv', index=False)
+empty_rows.to_csv('article_body/breitbart_missing.csv', index=False)
+
+# errors: 404 mostly.
+# some 502: https://www.breitbart.com/milo/2016/07/14/fabulouswall-the-winners/
 
 ### try more broadly ###
 d_links = {}
@@ -91,63 +157,6 @@ d_links['breitbart'] = [
 {'_id': '9561624851', 'dislikes': 0, 'likes': 0, 'ratingsEnabled': False, 'createdAt': datetime.datetime(2023, 2, 2, 23, 8, 41), 'adsDisabled': False, 'clean_title': 'FACT CHECK: Gavin Newsom Says ‘Permitless Carry Does Not Make You Safer’', 'isClosed': False, 'link': 'https://www.breitbart.com/politics/2023/02/01/fact-check-gavin-newsom-says-permitless-carry-does-not-make-you-safer/', 'forum': 'breitbartproduction', 'posts': 0},
 ]
 
-# create something more useful
-import time
-import requests
-from bs4 import BeautifulSoup
-
-def retrieve_body(url):
-    article_title = ''
-    article_body = ''
-    
-    max_retries = 3             # how many times to retry on 429
-    default_sleep_time = 30     # how many seconds to wait if no Retry-After is given
-
-    for attempt in range(max_retries):
-        response = requests.get(url)
-        
-        if response.status_code == 200:
-            # good to parse
-            break
-        elif response.status_code == 429:
-            # Too Many Requests
-            print(f"429 received. Attempt {attempt+1}/{max_retries} - waiting before retrying.")
-            # If the server sent a Retry-After header, use it; otherwise wait default_sleep_time.
-            retry_after = response.headers.get("Retry-After")
-            if retry_after is not None:
-                try:
-                    wait_seconds = int(retry_after)
-                except ValueError:
-                    wait_seconds = default_sleep_time
-            else:
-                wait_seconds = default_sleep_time
-            
-            time.sleep(wait_seconds)
-        else:
-            # Some other HTTP error: we can either break or raise an exception
-            print(f"Error fetching {url}: status {response.status_code}")
-            return article_title, article_body
-    else:
-        # If we exit the for-loop normally, it means we never got a 200
-        print("Max retries hit, giving up.")
-        return article_title, article_body
-
-    # At this point, if we're here, we got a 200 response
-    html_content = response.text
-    soup = BeautifulSoup(html_content, "html.parser")
-
-    # Extract the title:
-    title = soup.find("h1")
-    if title:
-        article_title = title.get_text(strip=True)
-
-    # Extract the article body:
-    body_div = soup.find("div", class_="entry-content")
-    if body_div:
-        article_body = body_div.get_text(strip=True)
-    
-    return article_title, article_body
-    
 results = []
 for platform, list in d_links.items():
     print(platform)
@@ -159,8 +168,5 @@ for platform, list in d_links.items():
         url_title, url_body = retrieve_body(url)
         results.append([platform, id, url, clean_title, url_title, url_body])
 
-import pandas as pd 
 pd.set_option('display.max_colwidth', None)
 df_results = pd.DataFrame(results, columns=['platform', 'id', 'url', 'clean_title', 'url_title', 'url_body'])
-
-# try to scale to 1K articles (e.g.) 

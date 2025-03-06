@@ -123,3 +123,38 @@ mongod --shutdown
 - Queries on large datasets **may take time**, so **use indexes** for better performance.
 - Always **backup important data** before making bulk modifications.
 - If a query takes **too long**, optimize with `.explain("executionStats")`.
+
+
+
+
+----------------------------------------------------------------------------
+
+### **User Aggregation for Breitbart Comments** (March 5, 2025)  
+
+The script (users_database.py) extracts and aggregates user-level data from the **Breitbart comments** collection in the `Comments` database. The results are stored in a new `Users` database, maintaining the same collection structure.  
+
+- **Optimized MongoDB aggregation** to compute user stats (comment count, likes, article interactions, etc.).  
+- **Indexes added** to Comments / Breitbart for efficient querying (`user_id`, `comment_id`, `createdAt`).  
+- **Data stored efficiently**, keeping only essential fields + all infos concerning the user.
+- **Uses `$merge` with `whenMatched: "merge"`** to update users without overwriting existing data.  
+
+{
+    "_id": "65893635",  // user_id
+    "user_names": ["LeonTrotsky1"],  // List of all usernames used by this user
+    "user_about": "",
+    "user_avatar": "https://c.disquscdn.com/uploads/users/6589/3635/avatar92.jpg?1377116939",
+    "user_disable3rdPartyTrackers": false,
+    "user_isAnonymous": false,
+    "user_isPowerContributor": false,
+    "user_isPrimary": true,
+    "user_isPrivate": false,
+    "user_joinedAt": "2013-08-05T14:28:26Z",
+    "user_location": "",
+    "user_profileURL": "https://disqus.com/by/LeonTrotsky1/",
+    
+    // Aggregated user stats
+    "comments_count": 1234,  // Total comments made by this user
+    "likes_count": 2567,  // Total likes received on all comments
+    "first_comment": "2013-08-14T01:24:32Z",  // Timestamp of first comment
+    "last_comment": "2025-03-04T12:30:45Z"  // Timestamp of latest comment
+}

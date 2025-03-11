@@ -296,10 +296,12 @@ print(users_in_folder_not_in_df)
 
 #___________________________________________________
 # replace 
+client = pymongo.MongoClient("mongodb://localhost:27017/")
+comments_collection = client["Comments"]["Breitbart"]
 
 # Source and new directories
 source_dir = "/Users/barolo/Desktop/PhD/Code/Comments_Project/longevity_users_comments_breitbart"
-new_dir = "/longevity_users_comments_breitbart"
+new_dir = "/Users/barolo/Desktop/PhD/Code/Comments_Beliefs/longevity_users_comments_breitbart"
 
 # Create the new directory if it doesn't exist
 os.makedirs(new_dir, exist_ok=True)
@@ -310,7 +312,7 @@ for filename in os.listdir(source_dir):
         shutil.copy(os.path.join(source_dir, filename), new_dir)
 
 # Get the list of user IDs from the DataFrame
-df_user_ids = set(top_acitve_users_names_df["_id"].tolist())
+df_user_names = set(top_acitve_users_names_df["first_name"].tolist())
 
 # Get the list of user IDs from the filenames in the new directory
 new_dir_user_ids = set()
@@ -320,17 +322,16 @@ for filename in os.listdir(new_dir):
         new_dir_user_ids.add(user_id)
 
 # Find users in the DataFrame but not in the new directory
-users_in_df_not_in_new_dir = df_user_ids - new_dir_user_ids
+users_in_df_not_in_new_dir = df_user_names - new_dir_user_ids
 print(f"Users in DataFrame but not in new directory: {len(users_in_df_not_in_new_dir)}")
 print(users_in_df_not_in_new_dir)
 
 # Query the database and save the missing users
 missing_users_query = {"user_id": {"$in": list(users_in_df_not_in_new_dir)}}
-missing_users_projection = {"_id": 1, "user_id": 1, "createdAt": 1}
 missing_users_total_comments = comments_collection.count_documents(missing_users_query)
 
 # Fetch the comments with the specified query and projection
-missing_users_cursor = comments_collection.find(missing_users_query, missing_users_projection)
+missing_users_cursor = comments_collection.find(missing_users_query)
 
 # Stream the cursor and append to files
 file_handles = {}  # dictionary user_id -> file handle
@@ -349,7 +350,137 @@ for doc in tqdm(missing_users_cursor, total=missing_users_total_comments, desc="
 for fh in file_handles.values():
     fh.close()
 
+### Sanity check: Do I have the people I wanted in the folder?
+
+# check wheter in folder_user_names there are all and only df_user_names
+
+top_acitve_users_directory = "/Users/barolo/Desktop/PhD/Code/Comments_Beliefs/longevity_users_comments_breitbart"
+
+# Get the list of user IDs from the filenames in the directory
+new_folder_user_names = set()
+for filename in os.listdir(top_acitve_users_directory):
+    if filename.endswith(".jsonl.gz"):
+        user_id = filename.replace(".jsonl.gz", "")
+        new_folder_user_names.add(user_id)
+
+
+# # check wheter in folder_user_names there are all and only df_user_names
+
+# len(set(new_folder_user_names) - set(df_user_names))
+
+# # remove from the folder the files within this set:
+# # Define the set of files to be removed
+# files_to_remove = set(new_folder_user_names) - set(df_user_names)
+# # Remove the files from the folder
+# for user_id in files_to_remove:
+#     file_path = os.path.join(top_acitve_users_directory, f"{user_id}.jsonl.gz")
+#     if os.path.exists(file_path):
+#         os.remove(file_path)
+#         print(f"Removed file: {file_path}")
+
+
+##################################################
+# -----------------------------
+## Select Best Users (in terms of consistency of comment behaviour)
+import pandas as pd
+import os
+import gzip
+import json
+from pathlib import Path
+import sys
+import os
+# Add the directory containing utils.py to the Python path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from utils import load_comments_from_jsonl_gz, plot_top_users_activity
+
+
+# Define your date format according to your data.
+# For example, if dates look like "2022-07-18T12:34:56", use:
+date_format = "%Y-%m-%dT%H:%M:%S"
+
+# Base directory containing user comment files
+top_acitve_users_directory = "/Users/barolo/Desktop/PhD/Code/Comments_Beliefs/longevity_users_comments_breitbart"
+
+def load_comments_from_jsonl_gz(user_name, base_dir):
+    """
+    Load all comments for a specific user from a compressed JSONL file (.jsonl.gz).
+    
+    Parameters:
+    - user_name: The name of the user.
+    - base_dir: The base directory where the JSONL files are stored.
+    """
+    base_dir = Path(base_dir)
+    user_name_gz =  user_name if ".jsonl.gz" in user_name else f"{user_name}.jsonl.gz"
+    user_path = base_dir / user_name_gz
+    if not user_path.exists():
+        raise FileNotFoundError(f"File not found: {user_path}\nCheck the file name and directory!")
+
+    comments_list = []
+
+    # Open the compressed file with gzip
+    with gzip.open(user_path, "rt", encoding="utf-8") as file:
+        for line in file:
+            comment = json.loads(line)
+            comments_list.append(comment)
+
+    comments_df = pd.DataFrame(comments_list)
+    # Ensure 'createdAt' exists and is in datetime format
+    if "createdAt" in comments_df.columns:
+        comments_df["createdAt"] = pd.to_datetime(comments_df["createdAt"], errors="coerce")
+
+    return comments_df
+
+
+# Example usage
+user_name = "zzzzzap"
+comments_df = load_comments_from_jsonl_gz(user_name, top_acitve_users_directory)
+print(comments_df)
+
+
+# Option: Specify a subsample size for testing.
+# Set subsample_size to None to process all user files.
+subsample_size = None 
+all_user_files = os.listdir(top_acitve_users_directory)
+user_files = all_user_files[:subsample_size] if subsample_size is not None else all_user_files
+
+# Dictionary to store Coefficient of Variation (CV) results
+cv_results = {}
+
+# Iterate over all selected user files with a progress bar
+for user_filename in tqdm(user_files, desc="Processing user files"):
+    # Load the user's comments into a DataFrame
+    user_comments_df = load_comments_from_jsonl_gz(user_filename, base_dir=top_acitve_users_directory)
+    
+    # Convert 'createdAt' to datetime using the specified format to avoid warnings.
+    # Using errors='coerce' to handle any unparsable values.
+    user_comments_df['createdAt'] = pd.to_datetime(user_comments_df['createdAt'],
+                                                     format=date_format,
+                                                     errors='coerce')
+    # Optionally, drop rows where 'createdAt' could not be parsed
+    user_comments_df = user_comments_df.dropna(subset=['createdAt'])
+    
+    # Aggregate comment count per month
+    user_comments_df['year_month'] = user_comments_df['createdAt'].dt.to_period('M')
+    comment_counts_series = user_comments_df.groupby('year_month').size()
+
+    # Calculate Coefficient of Variation (CV)
+    if len(comment_counts_series) > 1:  # Only compute if there are multiple months
+        mean_comments = comment_counts_series.mean()
+        std_dev_comments = comment_counts_series.std()
+        cv_value = std_dev_comments / mean_comments if mean_comments != 0 else None
+        cv_results[user_filename] = {"mean": mean_comments, "std": std_dev_comments, "cv": cv_value}
+
+# Convert results to a DataFrame for sorting and visualization
+cv_dataframe = pd.DataFrame.from_dict(cv_results, orient='index')
+cv_dataframe = cv_dataframe.sort_values(by="cv", ascending=True)  # Sort from stable to unstable based on CV
+
+# Save the results to a CSV file
+cv_dataframe.to_csv("cv_results_longevity_users.csv", index=True)
+
+# Display the DataFrame
+cv_dataframe
 
 
 # -----------------------------
-## Select Best Users (in terms of consistency of comment behaviour)
+## 
+

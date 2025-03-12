@@ -10,13 +10,10 @@ base_dir = "./selected_users_data/selected_users_comments_compressed"
 user_df = load_comments_from_jsonl_gz(user_name, base_dir)
 user_df
 
-get_article_text("5098126553", "Breitbart")
-
 # check the rows that do not have nan under parent
-print(user_df.shape)
-pprint(user_df[user_df['parent'].notna()].loc[18,'raw_message'])
-user_df[user_df['parent'].notna()].reset_index()['art_id'].value_counts()
-pprint(user_df[user_df['parent'].notna()].reset_index().loc[0,'parent'])
+print(f"User's name {user_name}")
+print(f"Number of comments {user_df.shape[0]}")
+print(f"Number of comments that are answers to other comments: {user_df[user_df['parent'].notna()].shape[0]}")
 
 answer_comments_df = user_df[user_df['parent'].notna()].reset_index().copy()
 answer_comments_df['art_id'].value_counts()

@@ -1,4 +1,5 @@
 /selected_users_data
+LLM_extraction/.env
 .DS_Store
 topic_shifts
 comments

@@ -85,37 +85,44 @@ def get_article_text(article_id: str, collection_name: str) -> dict:
         dict: Contains 'text' and 'link' of the article
     """
     # Define cache path
+    title = ""
+    body = ""
+    link = ""
+
     cache_dir = f"./scrape_articles/article_body/{collection_name}"
     cache_file = f"{cache_dir}/{article_id}.json"
-    
+    cached = False 
     # Check if cached version exists
     if os.path.exists(cache_file):
         with open(cache_file, 'r', encoding='utf-8') as f:
-            return json.load(f)
-    
-    # If not cached, fetch from MongoDB
-
+            article_json = json.load(f)
+            if article_json['title']: 
+                return article_json
+            else: 
+                cached = True 
+            
     BASE_DIR = "./scrape_articles/article_body"
     client = MongoClient("mongodb://localhost:27017/")
     art_db = client["Articles"]
     collection = art_db[collection_name]
-    
+
     # Fetch article data
     article_data = collection.find_one({"_id": article_id})
+    title = article_data['clean_title']
+    link = article_data.get('link', '')
+
     if not article_data:
-        return {"text": "", "link": ""}
-    
-    # Extract link from MongoDB
-    article_link = article_data.get('link', '')
+        return {"title": title, "body": body, "link": link}
     
     # Scrape article content
-    article_title, article_text = retrieve_body(article_link)
+    if cached == False: 
+        title, body = retrieve_body(link)
     
     # Prepare results
     result = {
-        "title": article_title,
-        "body": article_text,
-        "link": article_link
+        "title": title,
+        "body": body,
+        "link": link
     }
     
     # Ensure cache directory exists

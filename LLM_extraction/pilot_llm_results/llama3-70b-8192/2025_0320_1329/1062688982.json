@@ -1,0 +1,93 @@
+{
+  "article_title": "Peter King: Cruz Supporters Represent 'Dark Strain' in American Politics",
+  "article_link": "http://www.breitbart.com/Big-Government/2013/09/27/Peter-King-Cruz-Supporters-Represent-Dark-Strain-in-American-Politics",
+  "article_body": "",
+  "parent_id": "1062545155",
+  "parent_text": "He wants to be relevant, too. He's just embarrassing himself.",
+  "comment_ids": "1062688982",
+  "comment_texts": "He is a self serving, shameless politician. He can't be embarrassed.",
+  "user_name": "1Tiamo",
+  "topic": 1,
+  "results": [
+    {
+      "target": "global warming",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "No mention of global warming in the comment."
+      ]
+    },
+    {
+      "target": "fossil fuels",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "No mention of fossil fuels in the comment."
+      ]
+    },
+    {
+      "target": "God",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "No mention of God in the comment."
+      ]
+    },
+    {
+      "target": "church",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "No mention of church in the comment."
+      ]
+    },
+    {
+      "target": "Obama",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "No mention of Obama in the comment."
+      ]
+    },
+    {
+      "target": "Trump",
+      "stance": "AGAINST",
+      "stance_type": "IMPLICIT",
+      "explanation": [
+        "The comment implies that the politician (Peter King) is shameless, which can be related to Trump's supporters."
+      ]
+    },
+    {
+      "target": "Republicans",
+      "stance": "AGAINST",
+      "stance_type": "IMPLICIT",
+      "explanation": [
+        "The comment implies that the politician (Peter King) is shameless, which can be related to Republicans."
+      ]
+    },
+    {
+      "target": "Democrats",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "No mention of Democrats in the comment."
+      ]
+    },
+    {
+      "target": "Immigration",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "No mention of Immigration in the comment."
+      ]
+    },
+    {
+      "target": "Social services and welfare",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "No mention of Social services and welfare in the comment."
+      ]
+    }
+  ]
+}

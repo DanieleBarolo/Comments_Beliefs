@@ -313,3 +313,93 @@ def load_comments_from_jsonl_gz(user_name, base_dir):
 
 
 # ###############################################################################
+
+### utils more specifically for LLM ### 
+
+def init_mongo(collection): 
+    client = MongoClient("mongodb://localhost:27017/")
+    comment_db = client["Comments"]
+    comment_collection = comment_db[collection]
+    return comment_collection
+
+# construct query: # 
+def trace_comment_thread(comment_collection, comment_id, parent_id, collection='Breitbart'):
+
+    # Initialize thread tracking lists
+    article = None
+    article_title = ''
+    article_link = ''
+    article_body = ''
+    parent_text = ''
+    
+    # retrieve comment
+    comment = comment_collection.find_one({"_id": comment_id})
+    comment_text = comment.get('raw_message')
+    
+    # retrieve parent 
+    parent = comment_collection.find_one({"_id": parent_id})
+    if parent: 
+        parent_text = parent.get('raw_message') 
+    
+    # retrieve article 
+    # something to load instead if it exists 
+    article_id = str(int(comment['art_id']))
+    article = get_article_text(article_id, collection)
+    if article: 
+        article_title = article.get('title')
+        article_link = article.get('link')
+        article_body = article.get('body')
+        
+    # date 
+    comment_date = comment['createdAt'].strftime('%Y-%m-%d')
+
+    return {
+        "article_title": article_title,
+        "article_link": article_link,
+        "article_body": article_body,
+        "parent_id": parent_id,  
+        "parent_text": parent_text, 
+        "comment_ids": comment_id,
+        "comment_texts": comment_text,
+        "comment_date": comment_date
+    }
+    
+def top_n_comments(user_name, top_n, base_dir="../selected_users_data/selected_users_comments_compressed"):
+    user_df = load_comments_from_jsonl_gz(user_name, base_dir)
+    # extract the requested comments 
+    user_selection = user_df.head(top_n)
+    # get the comment and parent ids
+    comm_id, parent_id = user_selection['_id'].tolist(), user_selection['parent'].tolist()
+    # clean the parent ids 
+    parent_id = ["" if np.isnan(x) else str(int(x)) for x in parent_id]
+    return comm_id, parent_id
+
+def get_topic(
+    user_name, 
+    comment_id, 
+    base_dir="../selected_users_data/selected_users_comments_compressed",
+    topic_path="/Volumes/Untitled/seungwoong.ha/collmind/transform_global/breitbart/breitbart_new_s3_r19_h225_u20_t10"):
+    
+    user_df = load_comments_from_jsonl_gz(user_name, base_dir)
+    full_date = user_df[user_df['_id'] == comment_id]['createdAt'].iloc[0]
+    mmyy = full_date.strftime("%m%y")
+    
+    arrow_name = f"batch-{mmyy}.arrow"
+    topic_table = feather.read_table(os.path.join(topic_path, arrow_name))
+    topic_df = topic_table.to_pandas()
+    topic_int = topic_df[topic_df['id'] == comment_id]['topic'].iloc[0]
+    
+    return int(topic_int) 
+
+def generate_context(article_title, article_body, parent_comment, target_comment, article_date):
+    sections = [
+        f"Comment posted on date:\n{article_date}", 
+        f"# News comment title:\n{article_title}",
+        f"# News comment article:\n{article_body}" if article_body else None,
+        f"# News comment directly above the focal comment:\n{parent_comment}" if parent_comment else None,
+        ">>> COMMENT UNDER ANALYSIS<<<",
+        f"\n{target_comment}",
+        ">>> END COMMENT <<<"
+    ]
+    
+    return "\n\n".join(filter(None, sections))

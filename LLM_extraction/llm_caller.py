@@ -7,6 +7,7 @@ from openai import OpenAI
 from groq import Groq
 from dotenv import load_dotenv
 import instructor
+from utils import *
 
 ###############################################################################
 # Setup                                                                       #

@@ -1,3 +1,4 @@
+from utils import init_mongo
 import numpy as np 
 import pandas as pd 
 from datetime import datetime
@@ -6,72 +7,47 @@ import pyarrow.feather as feather
 import pyarrow.compute as pc
 from openai import OpenAI
 from pydantic import BaseModel
+from typing import List
 from dotenv import load_dotenv
 import json 
 import numpy as np
-from utils import trace_comment_thread, get_article_text, load_comments_from_jsonl_gz
+from utils import *
 from pprint import pprint
 from pymongo import MongoClient
-
-# ... # 
-comment_collection = init_mongo('Breitbart')
-comment = comment_collection.find_one({"_id": '1000896130'})
-date = comment['createdAt'].strftime('%Y-%m-%d')
-
-# first init mongo database comments
-comment_collection = init_mongo('Breitbart')
-
-# select a user + get some comments
-user_name = '1Tiamo'
-base_dir = "../selected_users_data/selected_users_comments_compressed"
-top_n = 100
-comm_id, parent_id = top_n_comments(user_name, top_n, base_dir)
-
-comment_id = '1000896130'
-# retrieve comment
-comment = comment_collection.find_one({"_id": comment_id})
-comment_text = comment.get('raw_message')
-
-# retrieve article 
-# something to load instead if it exists 
-article_id = str(int(comment['art_id']))
-article = get_article_text(article_id, 'Breitbart')
-if article: 
-    article_title = article.get('title')
-    article_link = article.get('link')
-    article_body = article.get('body')
-
-
-# extract the components of the thread + topic 
-comm_list = []
-for comment, parent in zip(comm_id, parent_id):
-    # get all of the essential components
-    # ahh of course this will take a while if we need to fetch many articles.
-    comm_dict = trace_comment_thread(comment_collection, comment, parent, collection = 'Breitbart')
-
-    # add user name 
-    comm_dict['user_name'] = user_name
-    
-    # add topic 
-    comm_dict['topic'] = get_topic(user_name, comment)
-
-    comm_list.append(comm_dict)
-
-# which topics do we have for this user? 
 from collections import Counter
-topic_lst = []
-for dict_ in comm_list: 
-    topic = dict_['topic'] 
-    topic_lst.append(topic)
-counted = Counter(topic_lst)
-sorted_dict = dict(sorted(counted.items(), key=lambda item: item[1], reverse=True))
+from llm_caller import write_prompt
+import json
+from pydantic import BaseModel
+from llm_caller import call_groq
+import os
+import json
+import time
+from datetime import datetime
+from tqdm import tqdm
+
+
+# 1. Connect to MongoDB# 
+
+
+# 2. load the pilot comments (top_n)
+user_name = "1Tiamo"
+top_n = 100
+file_name = f"pilot_users/{user_name}_top_{top_n}.jsonl"
+# Read the JSONL file into a list
+with open(file_name, "r") as f:
+    comm_list = [json.loads(line) for line in f]
+
+
+# 3. Sub-sample
 
 # but sure let us see whether we can "find" the climate + god things. 
-topics = [1, 8, 14]
+topics = [1, 8, 14] # pick relevant topics
 sub_list = []
 for topic in topics: 
     sub_list.extend([dict_ for dict_ in comm_list if dict_['topic'] == topic])
+comm_list = sub_list #Overwriting!!
 
+# 4. Select targets (for the LLMs calls)
 TARGETS = ["global warming", "fossil fuels", 
            "God", "church",
            "Obama", "Trump"
@@ -80,64 +56,49 @@ TARGETS = ["global warming", "fossil fuels",
 def bullet_points_target(targets = TARGETS): 
     return "\n".join(f"•{num}: {target}" for num, target in enumerate(targets))
 
-first_comment = sub_list[0]
-first_comment.get('article_title')
-from pprint import pprint
-pprint(write_prompt(article_title = first_comment.get('article_title'), 
-             article_body = first_comment.get('article_body'), 
-             parent_comment = first_comment.get('parent_text'), 
-             target_comment = first_comment.get('comment_texts'), 
-             targets=TARGETS))
+# 5. generate the prompt
 
-####### try with OLLAMA
+class CommentStance(BaseModel):
+    target: str
+    stance: str 
+    explanation: str 
 
-from llm_caller import call_ollama, FullStances
+class FullStances(BaseModel):
+    results: List[CommentStance]
 
-# Use Pydantic to validate the response
-prompt = write_prompt(article_title = first_comment.get('article_title'), 
-             article_body = first_comment.get('article_body'), 
-             parent_comment = first_comment.get('parent_text'), 
-             target_comment = first_comment.get('comment_texts'), 
-             targets=TARGETS)
-'''
-full_response = call_ollama(model_name= 'tinyllama', content_prompt = prompt)
-stances_response = FullStances.model_validate_json(full_response.message.content)
-print('-' * 50)
-print(full_response)
-print(full_response.message.content)
-print(stances_response)
-'''
+class CommentStanceX(BaseModel): 
+    target: str
+    stance: str 
+    stance_type: str
+    explanation: List[str]
+
+class FullStancesX(BaseModel): 
+    results: List[CommentStanceX]
 
 ####### try with GROQ
-from llm_caller import call_groq, FullStancesX
-# List of models to test
-GROQ_MODELS_KEYS = [
-    'gemma2-9b-it',
-    'llama-3.3-70b-versatile',
-    'llama-3.1-8b-instant',
-    'llama3-70b-8192',
-    'deepseek-r1-distill-llama-70b',
-    'deepseek-r1-distill-qwen-32b',
-    'mixtral-8x7b-32768'
-]
-
-'''
-print('-'* 50)
-print('GROQ')
-groq_response = call_groq(model_name= 'deepseek-r1-distill-llama-70b', content_prompt = prompt)
-pprint(groq_response)
-print(json.loads(groq_response.model_dump_json(indent=2)))
-'''
-
 ####### Pilot Runs
-import os
-import json
-import time
-from datetime import datetime
-from tqdm import tqdm
+
+def generate_context(article_title, article_body, parent_comment, target_comment, article_date):
+    sections = [
+        f"Comment posted on date:\n{article_date}", 
+        f"# News comment title:\n{article_title}",
+        f"# News comment article:\n{article_body}" if article_body else None,
+        f"# News comment directly above the focal comment:\n{parent_comment}" if parent_comment else None,
+        ">>> COMMENT UNDER ANALYSIS<<<",
+        f"\n{target_comment}",
+        ">>> END COMMENT <<<"
+    ]
+    
+    return "\n\n".join(filter(None, sections))
+
 
 #### okay new attempt organize later (sorry future Victor and Daniele) #### 
-def write_prompt2(article_title, article_body, parent_comment, target_comment, targets, comment_date):
+def write_prompt2(comment, targets):
+    article_title=comment.get('article_title'),
+    article_body=comment.get('article_body'),
+    parent_comment=comment.get('parent_text'),
+    target_comment=comment.get('comment_texts'),
+    comment_date = comment.get('comment_date'),
     prompt = f"""
 
     ### Overview ###
@@ -181,7 +142,22 @@ def write_prompt2(article_title, article_body, parent_comment, target_comment, t
     """
     return prompt
 
-def prompt_model(base_dir, model_name, sub_list, TARGETS, response_model=FullStances, verbose=True): 
+from vars import GROQ_MODELS
+prompt = write_prompt2(comm_list[0], targets=TARGETS)
+model_name = GROQ_MODELS[1]
+# lets call the API for just one comment 
+
+groq_response = call_groq(model_name=model_name, content_prompt=prompt, response_model=FullStancesX)
+llm_output = json.loads(groq_response.model_dump_json(indent=2))
+llm_output
+
+
+
+
+# call for all subsample of comments. 
+
+
+def prompt_model(base_dir, model_name, comm_list, TARGETS, prompt: str, response_model=FullStances, verbose=True): 
     model_dir = os.path.join(base_dir, model_name)
     timestamp = datetime.now().strftime("%Y_%m%d_%H%M")
     output_dir = f"{model_dir}/{timestamp}"
@@ -190,13 +166,10 @@ def prompt_model(base_dir, model_name, sub_list, TARGETS, response_model=FullSta
     processed = 0
     verbose = True  # Set to False if you don't want detailed output
 
-    for comment in tqdm(sub_list):
+    for comment in tqdm(comm_list):
         # Create prompt
         prompt = write_prompt2(
-            article_title=comment.get('article_title'),
-            article_body=comment.get('article_body'),
-            parent_comment=comment.get('parent_text'),
-            target_comment=comment.get('comment_texts'),
+            comment,
             targets=TARGETS
         )
         
@@ -310,3 +283,4 @@ prompt_model(
 )
 
 #### play with actually open-ended ####
+comm_list

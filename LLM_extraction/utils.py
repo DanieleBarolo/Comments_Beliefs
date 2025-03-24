@@ -1,4 +1,16 @@
 ###############################################################################
+# MONGODB Utils                                            #
+###############################################################################
+from pymongo import MongoClient
+
+def init_mongo(collection): 
+    client = MongoClient("mongodb://localhost:27017/")
+    comment_db = client["Comments"]
+    comment_collection = comment_db[collection]
+    return comment_collection
+
+
+###############################################################################
 # Scrape and Store articles bodies                                            #
 ###############################################################################
 import requests
@@ -12,8 +24,12 @@ import os
 import json
 from typing import Union, Optional
 from pydantic import BaseModel, validator
-from pymongo import MongoClient
+
 from pprint import pprint
+import numpy as np
+import pyarrow.feather as feather
+
+
 
 
 # ------------------------------ Calling API -----------------------------------
@@ -316,11 +332,7 @@ def load_comments_from_jsonl_gz(user_name, base_dir):
 
 ### utils more specifically for LLM ### 
 
-def init_mongo(collection): 
-    client = MongoClient("mongodb://localhost:27017/")
-    comment_db = client["Comments"]
-    comment_collection = comment_db[collection]
-    return comment_collection
+
 
 # construct query: # 
 def trace_comment_thread(comment_collection, comment_id, parent_id, collection='Breitbart'):

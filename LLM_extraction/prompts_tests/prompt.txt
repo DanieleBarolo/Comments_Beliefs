@@ -1,0 +1,71 @@
+
+
+    ### Overview ###
+
+    Stance classification is the task of determining the expressed or implied opinion, or stance, of a statement toward a certain, specified target.
+    Your task is to analyze the news comment and determine its stances towards specific targets. 
+
+    ### Context ###
+    Comment posted on date:
+('2013-09-17',)
+
+# News comment title:
+('Dutch King: Say Goodbye to Welfare State',)
+
+# News comment article:
+('By TOBY STERLINGAssociated PressAMSTERDAMKing Willem-Alexander delivered a message to the Dutch people from the government Tuesday in a nationally televised address: the welfare state of the 20th century is gone.In its place a “participation society” is emerging, in which people must take responsibility for their own future and create their own social and financial safety nets, with less help from the national government.The king traveled past waving fans in an ornate horse-drawn carriage to the 13th-century Hall of Knights in The Hague for the monarch’s traditional annual address on the day the government presents its budget for the coming year. It was Willem-Alexander’s first appearance on the national stage since former Queen Beatrix abdicated in April and he ascended to the throne.Rutte may be hoping that the pomp and ceremony surrounding the king and his popular wife, Queen Maxima, will provide a diversion from the gloomy reality of a budget full of unpopular new spending cuts he revealed later in the day.A series of recent polls have shown that confidence in Rutte’s government is at record low levels, and that most Dutch people _ along with labor unions, employers’ associations and many economists _ believe the Cabinet’s austerity policies are at least partially to blame as the Dutch economy has worsened even as recoveries are underway in neighboring Germany, France and Britain.After several consecutive years of government spending cuts, the Dutch economy is expected to have shrunk by more than 1 percent in 2013, and the agency is forecasting growth of just 0.5 percent next year.Willem-Alexander said that nowadays, people expect and “want to make their own choices, to arrange their own lives, and take care of each other.”The `participation society’ has been on its way for some time: benefits such as unemployment compensation and subsidies on health care have been regularly pruned for the past decade. The retirement age has been raised to 67.The king said Tuesday some costs for the care of the elderly, for youth services, and for job retraining after layoffs will now be pushed back to the local level, in order to make them better tailored to local circumstances.The monarchy was not immune to cost-cutting and Willem-Alexander’s salary will be cut from around 825,000 euros ($1.1 million) this year to 817,000 euros in 2014. Maintaining the Royal House _ castles, parades and all _ costs the government around 40 million euros annually.A review of the government’s budget by the country’s independent analysis agency showed that the deficit will widen in 2014 to 3.3 percent of GDP despite the new spending cuts intended to reduce it.Eurozone rules specify that countries must keep their deficit below 3 percent, and Rutte has been among the most prominent of European leaders, along with Germany’s Angela Merkel, in insisting that Southern European countries attempt to meet that target.Among other measures, the government announced 2,300 new military job cuts. That follows a 2011 decision to cut 12,000 jobs _ one out of every six defense employees _ between 2012 and 2015.However, the government said Tuesday it has decided once and for all not to abandon the U.S.-led “Joint Strike Fighter” program to develop new military aircraft. The program has suffered cost overruns and created divisions within Rutte’s governing coalition.A debate over the budget later this week will be crucial for the future of the coalition, as it does not command a majority in the upper house, and it must seek help from opposition parties to have the budget approved.Challenged as to whether his Cabinet may be facing a crisis, Rutte insisted in an interview with national broadcaster NOS on Tuesday that he ultimately will find support for the budget.Geert Wilders, whose far right Freedom Party currently tops popularity polls, called Rutte’s budget the equivalent of “kicking the country while it’s down.”',)
+
+# News comment directly above the focal comment:
+('Bill Clinton announced that the era of Big Government is Over an created the welfare to work program, and then along comes the Communist Organizer Obama and reverses all the progress in ending the welfare state in America. And they call themselves Progressives,,,Duh...',)
+
+>>> COMMENT UNDER ANALYSIS<<<
+
+
+('And the Republicans stood by and did absolutely NOTHING!',)
+
+>>> END COMMENT <<<
+
+    ### Targets ###
+    •global warming
+•fossil fuels
+•God
+•church
+•Obama
+•Trump
+•Republicans
+•Democrats
+•Immigration
+•Taxes
+•European Union
+•Social Security
+•Harry Potter
+•Soccer
+
+    ### Task Description ###
+
+    For each target, determine the stance in the comment:
+    - If the stance is in favor of the target, write FAVOR
+    - If it is against the target, write AGAINST
+    - If it is ambiguous, write NONE
+    - If the comment is not related to the target, write NOT RELATED
+
+    ### Explanation ### 
+    Together with the stance for a given target, provide evidence-based reasoning that quotes or references specific text from the comment that reveals the commenter's stance toward the target.
+
+    ### Output Format: ###
+
+    You must output only JSON format:
+    {
+      "results": [
+        {
+          "target": "<original_target>", 
+          "stance": "<one among [FAVOR, AGAINST, NONE, NOT RELATED]>", 
+          "stance_type": <one among [EXPLICIT, IMPLICIT, NONE]
+          "explanation": ["atomic argument", "atomic argument", ...]
+        },
+        // Repeat for each target
+      ]
+    }
+
+    ONLY return the JSON object itself.
+    

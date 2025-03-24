@@ -1,0 +1,167 @@
+{
+  "article_title": "Piers Morgan: I Don't Want All American Women Armed with Guns",
+  "article_link": "http://www.breitbart.com/Big-Journalism/2013/08/13/Piers-Morgan-I-Don-t-Want-All-American-Women-Armed-with-Guns",
+  "article_body": "",
+  "parent_id": "",
+  "parent_text": "",
+  "comment_ids": "1000896130",
+  "comment_texts": "This man is English and has no credibility when he attacks our constitutional right\nto bear arms, man or woman. His country does not allow its citizens to own and \ncarry firearms, including some members of the police. England is now the \nKNIFING capital of the world, and it's citizens have no way of protecting \nthemselves, they are like lambs that are ready for slaughter to any criminal, anytime,\nanyplace. What a #ussy.",
+  "comment_date": "2013-08-14",
+  "user_name": "1Tiamo",
+  "topic": -1,
+  "results": [
+    {
+      "target": "global warming",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention global warming.",
+        "There is no reference to climate change or environmental issues."
+      ]
+    },
+    {
+      "target": "fossil fuels",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not discuss fossil fuels.",
+        "There is no mention of energy sources or resources."
+      ]
+    },
+    {
+      "target": "God",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention God or religion.",
+        "There is no reference to spiritual or theological topics."
+      ]
+    },
+    {
+      "target": "church",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention the church or any religious institution.",
+        "There is no discussion of religious organizations or activities."
+      ]
+    },
+    {
+      "target": "Obama",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention Obama.",
+        "There is no reference to the former president or his policies."
+      ]
+    },
+    {
+      "target": "Trump",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention Trump.",
+        "There is no reference to the former president or his policies."
+      ]
+    },
+    {
+      "target": "Republicans",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention Republicans or the Republican party.",
+        "There is no discussion of political parties or affiliations."
+      ]
+    },
+    {
+      "target": "Democrats",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention Democrats or the Democratic party.",
+        "There is no discussion of political parties or affiliations."
+      ]
+    },
+    {
+      "target": "Immigration",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not discuss immigration or immigration policies.",
+        "There is no mention of border control or migration issues."
+      ]
+    },
+    {
+      "target": "Taxes",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention taxes or taxation policies.",
+        "There is no discussion of economic or financial topics."
+      ]
+    },
+    {
+      "target": "European Union",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention the European Union.",
+        "There is no reference to international organizations or alliances."
+      ]
+    },
+    {
+      "target": "Social Security",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not discuss Social Security or social welfare programs.",
+        "There is no mention of government benefits or services."
+      ]
+    },
+    {
+      "target": "Harry Potter",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention Harry Potter or any related topics.",
+        "There is no reference to books, movies, or popular culture."
+      ]
+    },
+    {
+      "target": "Soccer",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention soccer or any sports-related topics.",
+        "There is no discussion of athletics or competitions."
+      ]
+    },
+    {
+      "target": "England",
+      "stance": "AGAINST",
+      "stance_type": "EXPLICIT",
+      "explanation": [
+        "The comment states that England is \"now the KNIFING capital of the world\"",
+        "The commenter implies that England's lack of gun ownership has led to increased crime and vulnerability."
+      ]
+    },
+    {
+      "target": "Piers Morgan",
+      "stance": "AGAINST",
+      "stance_type": "EXPLICIT",
+      "explanation": [
+        "The comment calls Piers Morgan \"This man\" and implies he has \"no credibility\"",
+        "The commenter disagrees with Piers Morgan's opinion on gun ownership and criticizes his nationality."
+      ]
+    },
+    {
+      "target": "gun ownership",
+      "stance": "FAVOR",
+      "stance_type": "EXPLICIT",
+      "explanation": [
+        "The comment states that Piers Morgan \"attacks our constitutional right to bear arms\"",
+        "The commenter argues that gun ownership is necessary for self-protection and criticizes England's lack of gun ownership."
+      ]
+    }
+  ]
+}

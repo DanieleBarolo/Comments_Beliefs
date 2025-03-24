@@ -1,0 +1,126 @@
+{
+  "article_title": "Denied: WH Refuses Union Pleas for Obamacare Waivers",
+  "article_link": "http://www.breitbart.com/Big-Government/2013/09/14/Denied-WH-Refuses-Union-Pleas-For-Obamacare-Waivers",
+  "article_body": "",
+  "parent_id": "1045650940",
+  "parent_text": "Been to an ER lately? Illegals use it for a cold.",
+  "comment_ids": "1045825777",
+  "comment_texts": "Yes, among other things, including young women who want a free pregnancy test, and then if they're positive they get referred to social workers for free prenatal care until they give birth. Then\nthe child becomes a US citizen who collects more entitilement\npayments, care of the hard working taxpayers of America.\nOur country has become the dumping ground of poor\nuneducated, and sometimes lawless Mexicans. Oh, but these\nillegals hate America but they love the \"free stuff!!\"",
+  "comment_date": "2013-09-15",
+  "user_name": "1Tiamo",
+  "topic": -1,
+  "results": [
+    {
+      "target": "0: global warming",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention global warming"
+      ]
+    },
+    {
+      "target": "1: fossil fuels",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention fossil fuels"
+      ]
+    },
+    {
+      "target": "2: God",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention God"
+      ]
+    },
+    {
+      "target": "3: church",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention church"
+      ]
+    },
+    {
+      "target": "4: Obama",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention Obama, but mentions 'Obamacare' which could be related to Obama, however the context is about the healthcare system, not the person"
+      ]
+    },
+    {
+      "target": "5: Trump",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention Trump"
+      ]
+    },
+    {
+      "target": "6: Republicans",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention Republicans"
+      ]
+    },
+    {
+      "target": "7: Democrats",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention Democrats"
+      ]
+    },
+    {
+      "target": "8: Immigration",
+      "stance": "AGAINST",
+      "stance_type": "EXPLICIT",
+      "explanation": [
+        "The comment mentions 'illegals' and 'poor uneducated, and sometimes lawless Mexicans', which implies a negative stance towards immigration"
+      ]
+    },
+    {
+      "target": "9: Taxes",
+      "stance": "AGAINST",
+      "stance_type": "EXPLICIT",
+      "explanation": [
+        "The comment mentions 'hard working taxpayers of America' and 'entitilement payments', which implies a negative stance towards taxes and the use of tax money"
+      ]
+    },
+    {
+      "target": "10: European Union",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention European Union"
+      ]
+    },
+    {
+      "target": "11: Social Security",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention Social Security"
+      ]
+    },
+    {
+      "target": "12: Harry Potter",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention Harry Potter"
+      ]
+    },
+    {
+      "target": "13: Soccer",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention Soccer"
+      ]
+    }
+  ]
+}

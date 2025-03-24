@@ -1,0 +1,149 @@
+{
+  "article_title": "Elton John Calls Miley Cyrus a 'Meltdown Waiting to Happen'",
+  "article_link": "http://www.breitbart.com/Big-Hollywood/2013/09/17/Elton-John-says-he-is-concerned-about-Miley-Cyrus--Lady-Gaga",
+  "article_body": "NEW YORK, Sept. 17 (UPI)\u2013British pop star Elton John says he is concerned about Miley Cyrus and Lady Gaga because both young singers are exhibiting alarming behavior.\u201cI\u2019d like to be able to talk to her right now, but I can\u2019t get through to her,\u201d John told The Australian about Lady Gaga, the godmother of his two sons.\u201cAnd there are times when you have to listen. When your persona begins to take over your music and becomes more important, you enter a dangerous place. Once you have people around you who don\u2019t question you, you\u2019re in a dangerous place,\u201d John told the newspaper. \u201cLook at Lindsay Lohan. There was someone with a successful career and her parents completely [expletive] her up. The dad was in jail and the mum was doing coke with her. Great!\u201dHe went on to say he looks at Cyrus and sees \u201ca meltdown waiting to happen.\u201d\u201cAnd she\u2019s so young!\u201d John said. \u201cBut she\u2019s got two records in the top 20, so who is going to stop her?\u201d",
+  "parent_id": "1048351849",
+  "parent_text": "Don't say that about Selena Gomez. That girl listens to her parents. Furthermore, Selena's parents, by all accounts, don't sponge off their daughter.",
+  "comment_ids": "1048527530",
+  "comment_texts": "How do you know? Do you happen to be a member of her family?",
+  "comment_date": "2013-09-17",
+  "user_name": "1Tiamo",
+  "topic": -1,
+  "results": [
+    {
+      "target": "global warming",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention global warming.",
+        "There is no reference to environmental issues."
+      ]
+    },
+    {
+      "target": "fossil fuels",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not discuss fossil fuels.",
+        "No mention of energy sources is made."
+      ]
+    },
+    {
+      "target": "God",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not reference God or religion.",
+        "No spiritual themes are present."
+      ]
+    },
+    {
+      "target": "church",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention a church or religious institution.",
+        "No reference to religious organizations is made."
+      ]
+    },
+    {
+      "target": "Obama",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention Obama.",
+        "No reference to the former president is made."
+      ]
+    },
+    {
+      "target": "Trump",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention Trump.",
+        "No reference to the former president is made."
+      ]
+    },
+    {
+      "target": "Republicans",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not discuss Republicans or political parties.",
+        "No mention of political affiliations is made."
+      ]
+    },
+    {
+      "target": "Democrats",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention Democrats or political parties.",
+        "No reference to political affiliations is made."
+      ]
+    },
+    {
+      "target": "Immigration",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not discuss immigration.",
+        "No mention of immigration policies is made."
+      ]
+    },
+    {
+      "target": "Taxes",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention taxes.",
+        "No reference to taxation is made."
+      ]
+    },
+    {
+      "target": "European Union",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not reference the European Union.",
+        "No mention of international organizations is made."
+      ]
+    },
+    {
+      "target": "Social Security",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not discuss Social Security.",
+        "No reference to social programs is made."
+      ]
+    },
+    {
+      "target": "Harry Potter",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention Harry Potter.",
+        "No reference to the book series is made."
+      ]
+    },
+    {
+      "target": "Soccer",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not discuss soccer.",
+        "No mention of sports is made."
+      ]
+    },
+    {
+      "target": "Selena Gomez",
+      "stance": "FAVOR",
+      "stance_type": "EXPLICIT",
+      "explanation": [
+        "The comment implies a positive view of Selena Gomez by questioning the criticism of her.",
+        "The commenter seems to defend Selena Gomez by asking how the original poster knows about her family life."
+      ]
+    }
+  ]
+}

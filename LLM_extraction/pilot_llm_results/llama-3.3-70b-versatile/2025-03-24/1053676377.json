@@ -1,0 +1,141 @@
+{
+  "article_title": "Obama Whines About Congress: 'They're Focused on Trying to Mess with Me'",
+  "article_link": "http://www.breitbart.com/Breitbart-TV/2013/09/20/Obama-Whines-About-Congress-Theyre-focused-on-trying-to-mess-with-me",
+  "article_body": "Before a crowd gathered at the Ford automotive plant in Liberty, Missouri Friday, President Barack Obama lashed out at lawmakers.",
+  "parent_id": "",
+  "parent_text": "",
+  "comment_ids": "1053676377",
+  "comment_texts": "I expected no less from Obama. Time and again, he has proven that he's nothing\nbut a well spoken, ghetto black man. The president of the\nUnited States is expected to uphold his dignity and that of his office when \nspeaking in public, but this man does not possess any dignity. He spoke like\na common thug, which is what he is.",
+  "comment_date": "2013-09-21",
+  "user_name": "1Tiamo",
+  "topic": 5,
+  "results": [
+    {
+      "target": "global warming",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention global warming.",
+        "There is no reference to climate change or environmental issues."
+      ]
+    },
+    {
+      "target": "fossil fuels",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not discuss fossil fuels.",
+        "There is no mention of energy sources or fuel types."
+      ]
+    },
+    {
+      "target": "God",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention God or religion.",
+        "There is no reference to spiritual or theological topics."
+      ]
+    },
+    {
+      "target": "church",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention the church or religious institutions.",
+        "There is no discussion of religious organizations or communities."
+      ]
+    },
+    {
+      "target": "Obama",
+      "stance": "AGAINST",
+      "stance_type": "EXPLICIT",
+      "explanation": [
+        "The commenter states 'I expected no less from Obama.',",
+        "The commenter calls Obama 'a well spoken, ghetto black man.',",
+        "The commenter says 'He spoke like a common thug, which is what he is.'"
+      ]
+    },
+    {
+      "target": "Trump",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention Trump.",
+        "There is no reference to the former president or his policies."
+      ]
+    },
+    {
+      "target": "Republicans",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not discuss Republicans or the Republican party.",
+        "There is no mention of political parties or affiliations."
+      ]
+    },
+    {
+      "target": "Democrats",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention Democrats or the Democratic party.",
+        "There is no discussion of political parties or affiliations."
+      ]
+    },
+    {
+      "target": "Immigration",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not discuss immigration or border control.",
+        "There is no mention of migrant issues or policies."
+      ]
+    },
+    {
+      "target": "Taxes",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention taxes or economic policies.",
+        "There is no discussion of financial or fiscal topics."
+      ]
+    },
+    {
+      "target": "European Union",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention the European Union.",
+        "There is no reference to international organizations or alliances."
+      ]
+    },
+    {
+      "target": "Social Security",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not discuss Social Security or welfare programs.",
+        "There is no mention of social services or benefits."
+      ]
+    },
+    {
+      "target": "Harry Potter",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not mention Harry Potter or the book series.",
+        "There is no reference to fantasy or fiction topics."
+      ]
+    },
+    {
+      "target": "Soccer",
+      "stance": "NOT RELATED",
+      "stance_type": "NONE",
+      "explanation": [
+        "The comment does not discuss soccer or sports.",
+        "There is no mention of athletic events or competitions."
+      ]
+    }
+  ]
+}

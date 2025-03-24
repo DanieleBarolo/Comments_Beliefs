@@ -50,11 +50,15 @@ comm_list = sub_list #Overwriting!!
 # 4. Select targets (for the LLMs calls)
 TARGETS = ["global warming", "fossil fuels", 
            "God", "church",
-           "Obama", "Trump"
-           ]
-
+           "Obama", "Trump",
+           "Republicans", "Democrats",
+           "Immigration", "Taxes",  
+           "European Union", "Social Security", 
+           "Harry Potter", "Soccer"]
+import random 
+random_TARGETS = random.sample(TARGETS, len(TARGETS))
 def bullet_points_target(targets = TARGETS): 
-    return "\n".join(f"•{num}: {target}" for num, target in enumerate(targets))
+    return "\n".join(f"•{target}" for num, target in enumerate(targets))
 
 # 5. generate the prompt
 
@@ -142,8 +146,61 @@ def write_prompt2(comment, targets):
     """
     return prompt
 
+def write_prompt2(comment, targets):
+    article_title=comment.get('article_title'),
+    article_body=comment.get('article_body'),
+    parent_comment=comment.get('parent_text'),
+    target_comment=comment.get('comment_texts'),
+    comment_date = comment.get('comment_date'),
+    prompt = f"""
+
+    ### Overview ###
+
+    Stance classification is the task of determining the expressed or implied opinion, or stance, of a statement toward a certain, specified target.
+    Your task is to analyze the news comment and determine its stances towards specific targets. 
+    
+    ### Context ###
+    {generate_context(article_title, article_body, parent_comment, target_comment, comment_date)}
+
+    ### Targets ###
+    {bullet_points_target(targets)}
+
+    ### Task Description ###
+
+    For each target, determine the stance in the comment:
+    - If the stance is in favor of the target, write FAVOR
+    - If it is against the target, write AGAINST
+    - If it is ambiguous, write NONE
+    - If the comment is not related to the target, write NOT RELATED
+
+    ### Explanation ### 
+    Together with the stance for a given target, provide evidence-based reasoning that quotes or references specific text from the comment that reveals the commenter's stance toward the target.
+
+    ### Output Format: ###
+
+    You must output only JSON format:
+    {{
+      "results": [
+        {{
+          "target": "<original_target>", 
+          "stance": "<one among [FAVOR, AGAINST, NONE, NOT RELATED]>", 
+          "stance_type": <one among [EXPLICIT, IMPLICIT, NONE]
+          "explanation": ["atomic argument", "atomic argument", ...]
+        }},
+        // Repeat for each target
+      ]
+    }}
+    
+    ONLY return the JSON object itself.
+    """
+    return prompt
+
+
 from vars import GROQ_MODELS
 prompt = write_prompt2(comm_list[0], targets=TARGETS)
+with open("prompts_tests/prompt.txt", "w") as f: 
+    f.write(prompt)
+
 model_name = GROQ_MODELS[1]
 # lets call the API for just one comment 
 

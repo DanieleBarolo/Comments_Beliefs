@@ -28,22 +28,6 @@ And the Republicans stood by and did absolutely NOTHING!
 
 >>> END COMMENT <<<
 
-    ### Targets ###
-    •global warming
-•fossil fuels
-•God
-•church
-•Obama
-•Trump
-•Republicans
-•Democrats
-•Immigration
-•Taxes
-•European Union
-•Social Security
-•Harry Potter
-•Soccer
-
     ### Task Description ###
 
     1. Identify all the expressed targets from the user's comment. 

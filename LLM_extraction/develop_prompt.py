@@ -79,6 +79,15 @@ class CommentStanceX(BaseModel):
 class FullStancesX(BaseModel): 
     results: List[CommentStanceX]
 
+class CommentStanceOT(BaseModel): 
+    target: str
+    stance: str 
+    stance_type: str
+    explanation: List[str]
+
+class FullStancesOT(BaseModel): 
+    results: List[CommentStanceX]
+
 ####### try with GROQ
 ####### Pilot Runs
 
@@ -146,65 +155,80 @@ def write_prompt2(comment, targets):
     """
     return prompt
 
-def write_prompt2(comment, targets):
-    article_title=comment.get('article_title'),
-    article_body=comment.get('article_body'),
-    parent_comment=comment.get('parent_text'),
-    target_comment=comment.get('comment_texts'),
-    comment_date = comment.get('comment_date'),
+def write_prompt_open_target(comment, targets):
+    article_title = comment.get('article_title')
+    article_body = comment.get('article_body')
+    parent_comment = comment.get('parent_text')
+    target_comment = comment.get('comment_texts')
+    comment_date = comment.get('comment_date')
     prompt = f"""
 
     ### Overview ###
 
     Stance classification is the task of determining the expressed or implied opinion, or stance, of a statement toward a certain, specified target.
-    Your task is to analyze the news comment and determine its stances towards specific targets. 
-    
+    Your task is to analyze the news comment, generate the main targets expressed by the user, and determine its stance towards the found targets. 
+    A target should be the topic on which the comment is talking. 
+    To help you in this task, you will be provided with a broader context where the comment happened. 
+    You will have the title and body of the article, together with the time when the comment was posted. Also, if any, the news comment directly above the focal comment will be provided.
+   
     ### Context ###
     {generate_context(article_title, article_body, parent_comment, target_comment, comment_date)}
 
-    ### Targets ###
-    {bullet_points_target(targets)}
-
     ### Task Description ###
 
-    For each target, determine the stance in the comment:
-    - If the stance is in favor of the target, write FAVOR
-    - If it is against the target, write AGAINST
-    - If it is ambiguous, write NONE
-    - If the comment is not related to the target, write NOT RELATED
+    1. Identify all the expressed targets from the user's comment. 
+        - The targets can be a single word or a phrase, but its maximum length MUST be 4 words.
 
-    ### Explanation ### 
-    Together with the stance for a given target, provide evidence-based reasoning that quotes or references specific text from the comment that reveals the commenter's stance toward the target.
+    2. For each target, determine the stance in the comment:
+        2.1 Classify the Stance
+            - If the stance is in favor of the target, write FAVOR.
+            - If it is against the target, write AGAINST.
+            - If it is ambiguous, write NONE - that means the user is clearly speaking about the topic but the stance is not clear. 
+            
+        2.2. Provide the stance type:
+            - EXPLICIT: when the stance is directly stated in the comment
+            - IMPLICIT: when the stance is implied but not explicitly stated
 
+        2.3 Extract atomic arguments
+            - Extract the fundamental claims or beliefs that form the basis of the commenter's stance
+            - Each atomic argument should represent a distinct, underlying assertion or value judgment
+            - Focus on capturing the substance of WHY they hold their position, not just WHAT position they hold
+            - Good atomic arguments reveal generalizable beliefs (e.g., "Government spending benefits the wealthy" rather than "This policy costs money")
+            - Avoid simply repeating comment text; instead, distill the core reasoning principles expressed
+            - Examples:
+                • From "Politicians always lie about helping the middle class" → "Politicians are dishonest about economic policies"
+                • From "This healthcare plan just creates more bureaucracy without helping patients" → "Healthcare reform increases bureaucracy" and "Healthcare reform fails to improve patient care"
+                
     ### Output Format: ###
 
     You must output only JSON format:
     {{
-      "results": [
-        {{
-          "target": "<original_target>", 
-          "stance": "<one among [FAVOR, AGAINST, NONE, NOT RELATED]>", 
-          "stance_type": <one among [EXPLICIT, IMPLICIT, NONE]
-          "explanation": ["atomic argument", "atomic argument", ...]
-        }},
-        // Repeat for each target
-      ]
+    "results": [
+        {
+        "target": "<target description - maximum 4 words>", 
+        "stance": "<one among [FAVOR, AGAINST, NONE]>", 
+        "stance_type": "<one among [EXPLICIT, IMPLICIT]>",
+        "key_claims": ["claim 1", "claim 2", "..."],
+        "explanation": "<explanation of how the key claims support the stance classification>"
+        },
+        // Repeat for each target expressed by the user's comment
+    ]
     }}
-    
+
     ONLY return the JSON object itself.
-    """
+"""
     return prompt
 
 
 from vars import GROQ_MODELS
-prompt = write_prompt2(comm_list[0], targets=TARGETS)
-with open("prompts_tests/prompt.txt", "w") as f: 
-    f.write(prompt)
+prompt_ot = write_prompt_open_target(comm_list[2], targets=TARGETS)
+with open("prompts_tests/prompt_ot.txt", "w") as f: 
+    f.write(prompt_ot)
 
 model_name = GROQ_MODELS[1]
 # lets call the API for just one comment 
 
-groq_response = call_groq(model_name=model_name, content_prompt=prompt, response_model=FullStancesX)
+groq_response = call_groq(model_name=model_name, content_prompt=prompt_ot, response_model=FullStancesOT)
 llm_output = json.loads(groq_response.model_dump_json(indent=2))
 llm_output
 

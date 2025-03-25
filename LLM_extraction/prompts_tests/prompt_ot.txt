@@ -10,25 +10,22 @@
 
     ### Context ###
     Comment posted on date:
-2013-09-21
+2013-10-10
 
 # News comment title:
-Support for Gun Control Plummets In Wake of Navy Shooting
+McAuliffe Invested $47k in Venture of Donor Who Pled Guilty to Stealing Identities of Terminally Ill
 
 # News comment article:
-In apollreleased Friday, Rasmussen reports that support for gun control is plummeting as opposition has risen. The poll was taken in the wake of Monday’s horrific Navy Yard massacre, and yet only 44% of those polled believe stricter gun controls are necessary-the lowest number in a year. A full 50%, however, believe that more gun laws arenotnecessary. Overall, only 33% believe increased gun control laws would have stopped the Navy Yard murders.This is a startling turn of events, not only when you consider the media furor surrounding the recent mass-shootings, but that the mainstream media literally spent months in a relentless lobbying campaign to erode Americans’ Second Amendment civil rights. The media worked as hard to get control passed as they did to get Barack Obama elected and re-elected, and yet they have been trounced on this one.It is obvious now that a sustained, months-long media push that involved every trick in the book simply didn’t work. The media threatened the jobs of politicians, attempted to demonize the NRA, and flooded the airwaves with emotional blackmail.And yet, using alternate media, the other side’s argument has won out.The media should worry when they go all in and lose so decisively.Follow  John Nolte on Twitter@NolteNC
-
-# News comment directly above the focal comment:
-"The media should worry when they go all in and lose so decisively."
-
-
-
-Yes. They should.
+Virginia Democratic gubernatorial nominee Terry McAuliffeacknowledgedWednesday that he invested $47,000 in a business operated by Joseph Caramadre, who recently pled guilty to charges of “fraud, conspiracy, and identity theft” in a federal courtroom in Providence, Rhode Island.Earlier on Wednesday, theProvidence Journalreportedthat, according to federal prosecutors, Caramadre and his associates “stole identities of terminally ill people. They then used that information to purchase investments his clients profited from after the people died.”Accordingto Virginia’s NBC 12, “Caramadre was also a donor to McAuliffe’s failed 2009 bid for the Democratic nomination for governor of Virginia. Caramadre donated more than $26 thousand to McAuliffe and hosted a fundraiser for the candidate.”Terry McAuliffe was not indicted in the case, but theProvidence Journalreportedthat his name was on a list of investors in Caramadre’s admitted scheme, presented in court on Wednesday by federal prosecutors “in their effort to prove that Caramadre and his former employee, Raymour Radhakrishnan, caused more than $46 million in losses to insurance companies through an investment approach that used the identities of terminally ill people.”As part of his guilty plea, Caramadre has agreed to make restitution to his victims. The hearing Wednesday was to determine the amount of that restitution.Rhode Island’s NBC News 10 I-Teamreportedthat “there is no evidence that the investors knew that Caramadre was stealing the identities of the terminally ill patients.”McAuliffe campaign spokesperson Josh SchwerintoldNBC 12 “that McAuliffe and his campaign would donate the equivalent of the campaign donations from Caramadre to the American Cancer Society. $27 thousand from the campaign. $47 thousand from the candidate himself. The $27 thousand was to return campaign contributions. The $47 thousand was for the investment into Caramadre’s business venture.”
 
 >>> COMMENT UNDER ANALYSIS<<<
 
 
-But they don't care and they are shameless for being liars, just like Obama.
+This man is despicable and yet he's ahead of his Republican rival in the polls? Are 
+you kidding? This is how low America's standard has sunk? But then again, after
+Obama, voters will vote the scum, low life. They could even crawl out from under 
+a rock but with the help of the propaganda pushed by the communist/socialist media,
+they have a good chance of winning. And America LOSES!
 
 >>> END COMMENT <<<
 
@@ -47,29 +44,27 @@ But they don't care and they are shameless for being liars, just like Obama.
             - EXPLICIT: when the stance is directly stated in the comment
             - IMPLICIT: when the stance is implied but not explicitly stated
 
-        2.3 Extract atomic arguments
-            - Extract the fundamental claims or beliefs that form the basis of the commenter's stance
-            - Each atomic argument should represent a distinct, underlying assertion or value judgment
-            - Focus on capturing the substance of WHY they hold their position, not just WHAT position they hold
-            - Good atomic arguments reveal generalizable beliefs (e.g., "Government spending benefits the wealthy" rather than "This policy costs money")
-            - Avoid simply repeating comment text; instead, distill the core reasoning principles expressed
-            - Examples:
-                • From "Politicians always lie about helping the middle class" → "Politicians are dishonest about economic policies"
-                • From "This healthcare plan just creates more bureaucracy without helping patients" → "Healthcare reform increases bureaucracy" and "Healthcare reform fails to improve patient care"
+    2.3 Extract key claims
+        - Extract the fundamental assertions or beliefs that form the basis of the commenter's stance
+        - Each key claim should represent a distinct assertion presented as directly stated by the commenter
+        - Express claims in direct form (e.g., "Climate change is accelerating due to human activities.") rather than reported speech (e.g., "The user said that climate change was accelerating due to human activities.")
+        - DeprecationWarningistill the essential claims expressed in the comment text
 
     ### Output Format: ###
 
     You must output only JSON format:
     {
-      "results": [
+    "results": [
         {
-          "target": "<target description - maximum 4 words>", 
-          "stance": "<one among [FAVOR, AGAINST, NONE]>", 
-          "stance_type": "<one among [EXPLICIT, IMPLICIT]>",
-          "explanation": ["atomic argument", "atomic argument", ...]
+        "target": "<target description - maximum 4 words>", 
+        "stance": "<one among [FAVOR, AGAINST, NONE]>", 
+        "stance_type": "<one among [EXPLICIT, IMPLICIT]>",
+        "key_claims": "<[claim 1, claim 2, ...]>", 
+        "explanation": "<explanation of how the key claims support the stance classification>"
         },
         // Repeat for each target expressed by the user's comment
-      ]
+    ]
     }
 
     ONLY return the JSON object itself.
+    

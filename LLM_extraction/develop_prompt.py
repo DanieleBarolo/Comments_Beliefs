@@ -83,10 +83,11 @@ class CommentStanceOT(BaseModel):
     target: str
     stance: str 
     stance_type: str
-    explanation: List[str]
+    key_claims: List[str]
+    explanation: str
 
 class FullStancesOT(BaseModel): 
-    results: List[CommentStanceX]
+    results: List[CommentStanceOT]
 
 ####### try with GROQ
 ####### Pilot Runs
@@ -189,51 +190,51 @@ def write_prompt_open_target(comment, targets):
             - EXPLICIT: when the stance is directly stated in the comment
             - IMPLICIT: when the stance is implied but not explicitly stated
 
-        2.3 Extract atomic arguments
-            - Extract the fundamental claims or beliefs that form the basis of the commenter's stance
-            - Each atomic argument should represent a distinct, underlying assertion or value judgment
-            - Focus on capturing the substance of WHY they hold their position, not just WHAT position they hold
-            - Good atomic arguments reveal generalizable beliefs (e.g., "Government spending benefits the wealthy" rather than "This policy costs money")
-            - Avoid simply repeating comment text; instead, distill the core reasoning principles expressed
-            - Examples:
-                • From "Politicians always lie about helping the middle class" → "Politicians are dishonest about economic policies"
-                • From "This healthcare plan just creates more bureaucracy without helping patients" → "Healthcare reform increases bureaucracy" and "Healthcare reform fails to improve patient care"
-                
+    2.3 Extract key claims
+        - Extract the fundamental assertions or beliefs that form the basis of the commenter's stance
+        - Each key claim should represent a distinct assertion presented as directly stated by the commenter
+        - Express claims in direct form (e.g., "Climate change is accelerating due to human activities.") rather than reported speech (e.g., "The user said that climate change was accelerating due to human activities.")
+        - DeprecationWarningistill the essential claims expressed in the comment text
+
     ### Output Format: ###
 
     You must output only JSON format:
     {{
     "results": [
-        {
+        {{
         "target": "<target description - maximum 4 words>", 
         "stance": "<one among [FAVOR, AGAINST, NONE]>", 
         "stance_type": "<one among [EXPLICIT, IMPLICIT]>",
-        "key_claims": ["claim 1", "claim 2", "..."],
+        "key_claims": "<[claim 1, claim 2, ...]>", 
         "explanation": "<explanation of how the key claims support the stance classification>"
-        },
+        }},
         // Repeat for each target expressed by the user's comment
     ]
     }}
 
     ONLY return the JSON object itself.
-"""
+    """
     return prompt
 
 
 from vars import GROQ_MODELS
-prompt_ot = write_prompt_open_target(comm_list[2], targets=TARGETS)
+prompt_ot = write_prompt_open_target(comm_list[8], targets=TARGETS)
 with open("prompts_tests/prompt_ot.txt", "w") as f: 
     f.write(prompt_ot)
 
 model_name = GROQ_MODELS[1]
 # lets call the API for just one comment 
 
-groq_response = call_groq(model_name=model_name, content_prompt=prompt_ot, response_model=FullStancesOT)
-llm_output = json.loads(groq_response.model_dump_json(indent=2))
-llm_output
-
-
-
+# groq_response = call_groq(model_name=model_name, content_prompt=prompt_ot, response_model=FullStancesOT)
+# llm_output = json.loads(groq_response.model_dump_json(indent=2))
+# llm_output
+pprint(prompt_ot)
+# use ollama 
+from llm_caller import call_ollama
+model_name = "gemma3:27b"
+llm_output = call_ollama(response_model = FullStancesOT, content_prompt = prompt_ot, model_name = model_name)
+json.loads(llm_output['message']['content'])
+# old_output 
 
 # call for all subsample of comments. 
 

@@ -194,7 +194,7 @@ def write_prompt_open_target(comment, targets):
         - Extract the fundamental assertions or beliefs that form the basis of the commenter's stance
         - Each key claim should represent a distinct assertion presented as directly stated by the commenter
         - Express claims in direct form (e.g., "Climate change is accelerating due to human activities.") rather than reported speech (e.g., "The user said that climate change was accelerating due to human activities.")
-        - DeprecationWarningistill the essential claims expressed in the comment text
+        - Distill the essential claims expressed in the comment text
 
     ### Output Format: ###
 

@@ -2,10 +2,12 @@ import numpy as np
 import pandas as pd 
 from itertools import combinations
 
-df = pd.read_csv('targets.csv')
+# open or closed targets
+df = pd.read_csv('targets_closed.csv')
 
-# create consistent edge # 
-# Generate all pairwise combinations of rows
+# just take a first look
+df['direction'] = df["stance"].map({"FAVOR": 1, "AGAINST": -1})
+df.groupby('target')['direction'].sum().sort_values()
 
 def get_connections(df, idx):
 

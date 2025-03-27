@@ -1,0 +1,200 @@
+post_idx,target,stance
+0,Democrats,FAVOR
+0,California,FAVOR
+0,Republicans (GOP),AGAINST
+1,Economic growth,FAVOR
+1,Immigration / immigrants,AGAINST
+1,Mexicans,AGAINST
+1,Social welfare,AGAINST
+2,Democrats,AGAINST
+2,Nancy Pelosi,AGAINST
+2,Black people,AGAINST
+4,Immigration / immigrants,AGAINST
+5,Obama,AGAINST
+5,Immigration / immigrants,AGAINST
+5,The press,AGAINST
+5,Journalists,AGAINST
+6,Obama,AGAINST
+6,Democrats,AGAINST
+6,Immigration / immigrants,AGAINST
+6,Republicans (GOP),AGAINST
+6,Nancy Pelosi,AGAINST
+7,Immigration / immigrants,AGAINST
+8,Obama,AGAINST
+9,Democrats,AGAINST
+9,Black people,AGAINST
+9,White people,FAVOR
+10,Immigration / immigrants,AGAINST
+10,Republicans (GOP),AGAINST
+10,Trump,FAVOR
+11,The press,AGAINST
+11,Journalists,AGAINST
+11,Fox News,AGAINST
+12,The press,AGAINST
+13,The press,AGAINST
+13,Journalists,AGAINST
+13,Fake news,AGAINST
+13,Fox News,AGAINST
+14,Republicans (GOP),AGAINST
+15,Democrats,AGAINST
+15,Black people,AGAINST
+15,The press,AGAINST
+15,Journalists,AGAINST
+15,Fake news,AGAINST
+16,Republicans (GOP),AGAINST
+16,Trump,AGAINST
+18,Trump,AGAINST
+19,Hillary Clinton,AGAINST
+20,Trump,AGAINST
+21,Republicans (GOP),AGAINST
+22,Democrats,AGAINST
+22,Economic growth,AGAINST
+22,California,AGAINST
+22,Government spending,AGAINST
+23,Immigration / immigrants,AGAINST
+23,Terrorism,AGAINST
+24,Republicans (GOP),AGAINST
+26,Democrats,AGAINST
+26,Republicans (GOP),FAVOR
+26,Trump,FAVOR
+26,The press,AGAINST
+26,Journalists,AGAINST
+26,Fake news,AGAINST
+27,Obama,AGAINST
+28,Immigration / immigrants,AGAINST
+28,Government spending,AGAINST
+29,Social welfare,AGAINST
+30,Islam,AGAINST
+30,Immigration / immigrants,AGAINST
+30,Mexicans,AGAINST
+30,Muslims,AGAINST
+30,Hillary Clinton,AGAINST
+32,Trump,AGAINST
+32,Fox News,AGAINST
+33,Trump,AGAINST
+33,Economic growth,AGAINST
+33,Higher taxes,AGAINST
+34,Islam,AGAINST
+34,Police (cops),AGAINST
+34,Muslims,AGAINST
+35,Immigration / immigrants,AGAINST
+36,Obama,AGAINST
+36,Muslims,AGAINST
+37,Obama,AGAINST
+39,Republicans (GOP),FAVOR
+39,Trump,FAVOR
+40,Economic growth,AGAINST
+40,Trump,FAVOR
+41,Immigration / immigrants,AGAINST
+43,Economic growth,AGAINST
+44,Immigration / immigrants,AGAINST
+45,Democrats,AGAINST
+45,Immigration / immigrants,AGAINST
+48,Republicans (GOP),AGAINST
+48,Trump,FAVOR
+48,God,FAVOR
+49,Economic growth,AGAINST
+49,Higher taxes,AGAINST
+49,Government spending,AGAINST
+51,Immigration / immigrants,AGAINST
+51,California,AGAINST
+52,Democrats,AGAINST
+52,God,FAVOR
+52,Christians,FAVOR
+52,The church,FAVOR
+53,Immigration / immigrants,AGAINST
+53,Healthcare,AGAINST
+53,Government spending,AGAINST
+54,Democrats,AGAINST
+55,Christians,AGAINST
+55,The church,AGAINST
+56,Trump,FAVOR
+57,Nancy Pelosi,AGAINST
+59,Democrats,AGAINST
+60,Trump,FAVOR
+61,Government spending,AGAINST
+62,Republicans (GOP),FAVOR
+62,Trump,FAVOR
+62,The press,AGAINST
+62,Journalists,AGAINST
+62,Fake news,AGAINST
+63,Obama,AGAINST
+65,The press,AGAINST
+65,Journalists,AGAINST
+67,Obama,AGAINST
+68,Fake news,AGAINST
+69,Democrats,AGAINST
+69,Immigration / immigrants,AGAINST
+69,Republicans (GOP),AGAINST
+71,Economic growth,FAVOR
+71,Trump,FAVOR
+73,Democrats,AGAINST
+74,Democrats,AGAINST
+75,Democrats,AGAINST
+75,Economic growth,AGAINST
+75,Healthcare,AGAINST
+75,Social welfare,AGAINST
+75,Government spending,AGAINST
+77,Trump,FAVOR
+78,Immigration / immigrants,AGAINST
+78,Trump,AGAINST
+78,Social welfare,AGAINST
+78,Government spending,AGAINST
+79,Democrats,AGAINST
+80,Democrats,AGAINST
+81,Democrats,AGAINST
+81,Climate change,AGAINST
+82,Obama,AGAINST
+82,Democrats,AGAINST
+82,Republicans (GOP),FAVOR
+82,Trump,FAVOR
+82,Nancy Pelosi,AGAINST
+82,Hillary Clinton,AGAINST
+83,God,AGAINST
+83,Christians,AGAINST
+83,The church,AGAINST
+84,Democrats,AGAINST
+84,MSNBC,AGAINST
+84,CNN,AGAINST
+84,The press,AGAINST
+84,Journalists,AGAINST
+84,Fake news,AGAINST
+85,Democrats,AGAINST
+86,Immigration / immigrants,AGAINST
+87,Democrats,AGAINST
+87,MSNBC,AGAINST
+87,CNN,AGAINST
+87,The press,AGAINST
+87,Journalists,AGAINST
+88,Immigration / immigrants,FAVOR
+91,Democrats,FAVOR
+92,Obama,AGAINST
+92,Democrats,AGAINST
+92,NSA,AGAINST
+92,The press,AGAINST
+92,Journalists,AGAINST
+92,Fake news,AGAINST
+93,Trump,AGAINST
+93,Fox News,FAVOR
+94,Democrats,AGAINST
+94,Police (cops),FAVOR
+94,Immigration / immigrants,AGAINST
+94,God,FAVOR
+94,The press,AGAINST
+94,White people,FAVOR
+94,Christians,FAVOR
+94,Climate change,FAVOR
+94,Journalists,AGAINST
+94,Fake news,AGAINST
+95,Trump,AGAINST
+96,Police (cops),AGAINST
+96,Black people,AGAINST
+96,White people,AGAINST
+96,Social welfare,AGAINST
+97,Republicans (GOP),AGAINST
+98,Democrats,AGAINST
+98,Economic growth,AGAINST
+98,Republicans (GOP),AGAINST
+98,Social welfare,AGAINST
+98,Green energy,AGAINST
+98,Government spending,AGAINST

@@ -1,3 +1,7 @@
+# create a batch for each user.
+# include amount of tokens.
+# clean this up.
+# jsonl (look at groq batch)
 from utils import init_mongo
 import numpy as np 
 import pandas as pd 

@@ -1,6 +1,7 @@
 from llm_caller import call_groq_from_batch
 import json
 import os
+import time
 
 ##############################################################################
 # 0. Setup
@@ -42,12 +43,67 @@ file_name = f"{batch_str}_{article_str}_{parent_str}.{file_type}"
 file_path = os.path.join(prompt_dir, file_name)
 
 
-# Open the JSONL file and read one line
-with open(file_path, "r", encoding="utf-8") as file:
-    first_line = file.readline().strip()  # Read the first line and remove trailing newline
-    data = json.loads(first_line)  # Convert JSON string to a Python dictionary
-
-
 ##############################################################################
 
-call_groq_from_batch(data, temp=0.5)
+results_dir = "data/results"
+os.makedirs(results_dir, exist_ok=True)
+result_user_dir = os.path.join(results_dir, user_id)
+result_model_dir = os.path.join(result_user_dir, llm_name_groq)
+result_prompt_dir = os.path.join(result_model_dir, prompt_type) 
+# Generate results directory
+results_path = os.path.join(result_prompt_dir, file_name)
+
+# Initialize counters
+counter = 0
+start_time = time.time()
+temperature = 0.5
+
+# Process file
+with open(file_path, "r", encoding="utf-8") as infile, open(results_path, "w", encoding="utf-8") as outfile:
+    for line in infile:
+        data = json.loads(line.strip())  # Read and parse each line
+        
+        try:
+            response = call_groq_from_batch(data, temp=temperature)  # Call function
+            
+            # Format output
+            result = {
+                "id": response.id,  # Use response ID
+                "custom_id": data["custom_id"],  # Keep the original custom_id
+                "response": {
+                    "status_code": 200,
+                    "request_id": response.x_groq.get("id", "unknown_request_id"),  # Use correct request ID
+                    "body": response.model_dump()  # Convert response to dict
+                },
+                "error": None
+            }
+        
+        except Exception as e:
+            result = {
+                "id": "error",
+                "custom_id": data["custom_id"],
+                "response": None,
+                "error": str(e)  # Store error message
+            }
+            print(f"Error processing request {data['custom_id']}: {e}")
+
+        # Write result to file
+        outfile.write(json.dumps(result) + "\n")
+
+        # Update counter
+        counter += 1
+
+        # Check if we reached the limit
+        if counter == 30:
+            elapsed_time = time.time() - start_time
+            remaining_time = 60 - elapsed_time
+
+            if remaining_time > 0:
+                print(f"Reached 30 calls. Waiting {remaining_time:.2f} seconds...")
+                time.sleep(remaining_time)
+
+            # Reset counter and timer
+            counter = 0
+            start_time = time.time()
+
+print(f"Processing complete. Results saved to {results_path}")

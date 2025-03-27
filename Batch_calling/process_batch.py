@@ -16,13 +16,11 @@ llm_name_groq = "deepseek-r1-distill-llama-70b"
 batch_size =  100 # set to "all" if you want all Data in the Batch
 
 # Prompt engeniering 
-prompt_type = "open_target" # choose among ["open_target", "closed_target"]
-targets_list = None # Pass the list of Closed Targets IFF prompt_type = "Closed Target"
+prompt_type = "closed_target" # choose among ["open_target", "closed_target"]
 
 # For Ablation studies
 article_body = True # Set to False if you want to exclude body in the prompts
 parent_comment = True # Set to False if you want to exclude parent comment in the prompts
-
 
 ##############################################################################
 
@@ -31,6 +29,7 @@ os.makedirs(base_dir, exist_ok=True)  # Ensure base directory exists
 user_dir = os.path.join(base_dir, user_id)
 model_dir = os.path.join(user_dir, llm_name_groq)
 prompt_dir = os.path.join(model_dir, prompt_type) 
+
 # Ensure directories exist
 os.makedirs(prompt_dir, exist_ok=True)
 # Generate filename dynamically
@@ -42,7 +41,6 @@ file_type = "jsonl"
 file_name = f"{batch_str}_{article_str}_{parent_str}.{file_type}"
 file_path = os.path.join(prompt_dir, file_name)
 
-
 ##############################################################################
 
 results_dir = "data/results"
@@ -51,8 +49,10 @@ result_user_dir = os.path.join(results_dir, user_id)
 result_model_dir = os.path.join(result_user_dir, llm_name_groq)
 result_prompt_dir = os.path.join(result_model_dir, prompt_type) 
 # Generate results directory
-results_path = os.path.join(result_prompt_dir, file_name)
+os.makedirs(result_prompt_dir , exist_ok=True)
 
+# dir + file 
+results_path = os.path.join(result_prompt_dir, file_name)
 # Initialize counters
 counter = 0
 start_time = time.time()

@@ -4,7 +4,9 @@
 from utils import * 
 import os
 import numpy as np
+from targets import target_list
 from prompts_builder import *
+from setup import FullStancesCT, FullStancesOT
 
 ##############################################################################
 # 0. Setup
@@ -13,16 +15,16 @@ collection_name = "Breitbart"
 
 # Batch Variables
 base_dir = "data/batch_files" 
-user_id = "65893635" #user_id for "1Tiamo"
+user_id = "31499533" #user_id for "1Tiamo"
 llm_name_groq = "deepseek-r1-distill-llama-70b"
-batch_size = "all" # set to "all" if you want all Data in the Batch
+batch_size = 100 # set to "all" if you want all Data in the Batch
 
 # Prompt engeniering 
-prompt_type = "open_target" # choose among ["open_target", "closed_target"]
-targets_list = None # Pass the list of Closed Targets IFF prompt_type = "Closed Target"
+prompt_type = "closed_target" # choose among ["open_target", "closed_target"]
+targets_list = target_list # Pass the list of Closed Targets IFF prompt_type = "Closed Target"
 
 # For Ablation studies
-article_body = False # Set to False if you want to exclude body in the prompts
+article_body = True # Set to False if you want to exclude body in the prompts
 parent_comment = True # Set to False if you want to exclude parent comment in the prompts
 
 # Default system_prompt: 
@@ -84,6 +86,13 @@ else:
     indices = np.linspace(0, len(sorted_comments) - 1, batch_size, dtype=int)
     sampled_comments = [sorted_comments[i] for i in indices]
 
+### pydantic json schema ###
+if prompt_type == 'open_target': 
+    model_json_schema = FullStancesOT.model_json_schema()
+else: 
+    model_json_schema = FullStancesCT.model_json_schema()
+model_json_schema
+
 # # Print Output sample
 # for comment in sampled_comments:
 #     print(comment)
@@ -124,7 +133,7 @@ for comment in sampled_comments:
     
     if prompt_type == "open_target": 
         user_content = write_prompt_ot(art_tile, art_body, par_comment, target_comment, comment_date)
-    
+
     elif prompt_type == "closed_target":
         user_content = write_prompt_ct(art_tile, art_body, par_comment, target_comment, comment_date, 
                                        targets_list)
@@ -140,7 +149,8 @@ for comment in sampled_comments:
             "messages": [
                 {"role": "system", "content": default_sys_prompt},  
                 {"role": "user", "content": user_content}  # User-generated content
-            ]
+            ],
+            "response_model": FullStancesOT.model_json_schema() if prompt_type == 'open_target' else FullStancesCT.model_json_schema()
         }
     }
 

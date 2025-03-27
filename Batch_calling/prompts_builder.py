@@ -83,7 +83,6 @@ def write_prompt_ot(article_title, article_body, parent_comment, target_comment,
 def bullet_points_target(targets): 
     return "\n".join(f"•{target}" for num, target in enumerate(targets))
 
-
 def write_prompt_ct(article_title, article_body, parent_comment, target_comment, comment_date, targets):
 
     prompt = f"""

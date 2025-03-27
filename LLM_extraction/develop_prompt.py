@@ -156,7 +156,7 @@ def write_prompt2(comment, targets):
     """
     return prompt
 
-def write_prompt_open_target(comment, targets):
+def write_prompt_open_target(comment):
     article_title = comment.get('article_title')
     article_body = comment.get('article_body')
     parent_comment = comment.get('parent_text')

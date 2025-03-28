@@ -1,4 +1,3 @@
-import numpy as np 
 import pandas as pd 
 import json 
 import os 
@@ -40,8 +39,15 @@ for num, comment in enumerate(clean_data):
         print(topic)
         target = topic['target']
         stance = topic['stance']
-        topics.append([num, target, stance])
-        
-data = pd.DataFrame(topics, columns=['post_idx', 'target', 'stance'])
+        explanation = topic['explanation']
+        topics.append([num, target, stance, explanation])
+
+data = pd.DataFrame(topics, columns=['post_idx', 'target', 'stance', 'explanation'])
 data = data[data['stance'].isin(['FAVOR', 'AGAINST'])]
 data.to_csv('targets_closed.csv', index=False)
+
+# things to add: 
+# 1. the original comment. 
+# 2. whether there was a body + whether there was a comment above.
+# 3. do manual evaluation ourselves.
+# 4. make plot that is interactive (maybe). 

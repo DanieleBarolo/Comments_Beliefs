@@ -21,7 +21,7 @@ data = []
 with open(filepath, 'r', encoding='utf-8') as f:
     for line in f:
         data.append(json.loads(line.strip()))
-        
+
 # take out results 
 from json import JSONDecodeError
 clean_data = []

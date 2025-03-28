@@ -12,8 +12,9 @@ collection_name = "Breitbart"
 
 # Batch Variables
 base_dir = "data/batch_files" 
-user_id = "125441694" #user_id for "1Tiamo"
-llm_name_groq = "llama-3.3-70b-versatile" # "deepseek-r1-distill-llama-70b"
+user_id = "31499533" 
+# llm_name_groq = "llama-3.3-70b-versatile"
+llm_name_groq = "deepseek-r1-distill-llama-70b"
 batch_size =  100 # set to "all" if you want all Data in the Batch
 
 # Prompt engeniering 

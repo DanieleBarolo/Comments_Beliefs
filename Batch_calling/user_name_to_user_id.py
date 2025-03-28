@@ -1,7 +1,7 @@
 import gzip
 import json
 
-user = "GGbox" #insert name here
+user = "1Tiamo" #insert name here
 file_name = f"../selected_users_data/selected_users_comments_compressed/{user}.jsonl.gz"
 
 

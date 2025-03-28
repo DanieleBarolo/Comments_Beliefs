@@ -5,7 +5,7 @@ class CommentStanceCT(BaseModel):
     target: str
     stance: str 
     stance_type: str
-    explanation: List[str]
+    explanation: str
 
 class FullStancesCT(BaseModel): 
     results: List[CommentStanceCT]

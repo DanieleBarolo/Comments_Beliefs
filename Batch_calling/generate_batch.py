@@ -1,11 +1,12 @@
 ##############################################################################
 # Loadings 
 ##############################################################################
-from utils import * 
+import json
 import os
 import numpy as np
 from targets import target_list
 from prompts_builder import *
+from utils import *
 from setup import FullStancesCT, FullStancesOT
 
 ##############################################################################
@@ -16,11 +17,12 @@ collection_name = "Breitbart"
 # Batch Variables
 base_dir = "data/batch_files" 
 user_id = "46279190" #user_id for "1Tiamo"
-llm_name_groq = "llama-3.3-70b-versatile" #"deepseek-r1-distill-llama-70b"
+# llm_name_groq = "llama-3.3-70b-versatile" 
+llm_name_groq = "deepseek-r1-distill-llama-70b"
 batch_size = 100 # set to "all" if you want all Data in the Batch
 
 # Prompt engeniering 
-prompt_type = "closed_target" # choose among ["open_target", "closed_target"]
+prompt_type = "closed_target_new" # choose among ["open_target", "closed_target", "closed_target_new"]
 targets_list = target_list # Pass the list of Closed Targets IFF prompt_type = "Closed Target"
 
 # For Ablation studies
@@ -29,6 +31,10 @@ parent_comment = True # Set to False if you want to exclude parent comment in th
 
 # Default system_prompt: 
 default_sys_prompt = """"
+You are an advanced stance classification AI that analyzes news comments. 
+Your task is to determine the stance of a given comment toward specified targets. 
+Be precise, objective, and base your stance classification on clear textual evidence. 
+Only return output in valid JSON format, strictly following the specified schema.
 """
 
 ##############################################################################
@@ -88,9 +94,10 @@ else:
 ### pydantic json schema ###
 if prompt_type == 'open_target': 
     model_json_schema = FullStancesOT.model_json_schema()
-else: 
+elif prompt_type == 'closed_target': 
     model_json_schema = FullStancesCT.model_json_schema()
-model_json_schema
+elif prompt_type == 'closed_target_new':
+    model_json_schema = FullStancesCTN.model_json_schema()
 
 # # Print Output sample
 # for comment in sampled_comments:
@@ -136,8 +143,10 @@ for comment in sampled_comments:
     elif prompt_type == "closed_target":
         user_content = write_prompt_ct(art_tile, art_body, par_comment, target_comment, comment_date, 
                                        targets_list)
+    elif prompt_type == "closed_target_new":
+        user_content = write_prompt_ct_new(art_tile, art_body, par_comment, target_comment, comment_date,
+                                        target_list)
     
-
     # Create the line to be written to the file
     line_to_write = {
         "custom_id": str(target_comment_id),  # Ensure it's a string 
@@ -149,7 +158,7 @@ for comment in sampled_comments:
                 {"role": "system", "content": default_sys_prompt},  
                 {"role": "user", "content": user_content}  # User-generated content
             ],
-            "response_model": FullStancesOT.model_json_schema() if prompt_type == 'open_target' else FullStancesCT.model_json_schema()
+            "response_model": model_json_schema
         }
     }
 

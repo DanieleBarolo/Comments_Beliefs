@@ -12,13 +12,13 @@ collection_name = "Breitbart"
 
 # Batch Variables
 base_dir = "data/batch_files" 
-user_id = "31499533" 
+user_id = "46279190" 
 # llm_name_groq = "llama-3.3-70b-versatile"
 llm_name_groq = "deepseek-r1-distill-llama-70b"
 batch_size =  100 # set to "all" if you want all Data in the Batch
 
 # Prompt engeniering 
-prompt_type = "closed_target" # choose among ["open_target", "closed_target"]
+prompt_type = "closed_target_new"  # choose among ["open_target", "closed_target", "closed_target_new"]
 
 # For Ablation studies
 article_body = True # Set to False if you want to exclude body in the prompts

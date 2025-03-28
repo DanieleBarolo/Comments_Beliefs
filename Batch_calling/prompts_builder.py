@@ -83,55 +83,55 @@ def write_prompt_ot(article_title, article_body, parent_comment, target_comment,
 def bullet_points_target(targets): 
     return "\n".join(f"•{target}" for num, target in enumerate(targets))
 
-# def write_prompt_ct(article_title, article_body, parent_comment, target_comment, comment_date, targets):
+def write_prompt_ct(article_title, article_body, parent_comment, target_comment, comment_date, targets):
 
-#     prompt = f"""
+    prompt = f"""
 
-#     ### Overview ###
+    ### Overview ###
 
-#     Stance classification is the task of determining the expressed or implied opinion, or stance, of a statement toward a certain, specified target.
-#     Your task is to analyze the news comment and determine its stances towards specific targets. 
+    Stance classification is the task of determining the expressed or implied opinion, or stance, of a statement toward a certain, specified target.
+    Your task is to analyze the news comment and determine its stances towards specific targets. 
     
-#     ### Context ###
-#     {generate_context(article_title, article_body, parent_comment, target_comment, comment_date)}
+    ### Context ###
+    {generate_context(article_title, article_body, parent_comment, target_comment, comment_date)}
 
-#     ### Targets ###
-#     {bullet_points_target(targets)}
+    ### Targets ###
+    {bullet_points_target(targets)}
 
-#     ### Task Description ###
+    ### Task Description ###
 
-#     For each target, determine the stance in the comment:
-#     - If the stance is in favor of the target, write FAVOR
-#     - If it is against the target, write AGAINST
-#     - If it is ambiguous, write NONE
-#     - If the comment is not related to the target, write NOT RELATED
+    For each target, determine the stance in the comment:
+    - If the stance is in favor of the target, write FAVOR
+    - If it is against the target, write AGAINST
+    - If it is ambiguous, write NONE
+    - If the comment is not related to the target, write NOT RELATED
 
-#     ### Explanation ### 
-#     Together with the stance for a given target, provide evidence-based reasoning that quotes or references specific text from the comment that reveals the commenter's stance toward the target.
+    ### Explanation ### 
+    Together with the stance for a given target, provide evidence-based reasoning that quotes or references specific text from the comment that reveals the commenter's stance toward the target.
 
-#     ### Output Format: ###
+    ### Output Format: ###
 
-#     You must output only JSON format:
-#     {{
-#       "results": [
-#         {{
-#           "target": "<original_target>", 
-#           "stance": "<one among [FAVOR, AGAINST, NONE, NOT RELATED]>", 
-#           "stance_type": <one among [EXPLICIT, IMPLICIT, NONE]
-#           "explanation": ["atomic argument", "atomic argument", ...]
-#         }},
-#         // Repeat for each target
-#       ]
-#     }}
+    You must output only JSON format:
+    {{
+      "results": [
+        {{
+          "target": "<original_target>", 
+          "stance": "<one among [FAVOR, AGAINST, NONE, NOT RELATED]>", 
+          "stance_type": <one among [EXPLICIT, IMPLICIT, NONE]
+          "explanation": ["atomic argument", "atomic argument", ...]
+        }},
+        // Repeat for each target
+      ]
+    }}
     
-#     ONLY return the JSON object itself.
-#     """
-#     return prompt
+    ONLY return the JSON object itself.
+    """
+    return prompt
 
 
 ##### NEW PROMPT #####
 
-def write_prompt_ct(article_title, article_body, parent_comment, target_comment, comment_date, targets):
+def write_prompt_ct_new(article_title, article_body, parent_comment, target_comment, comment_date, targets):
 
     prompt = f"""
 

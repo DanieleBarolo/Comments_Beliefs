@@ -4,8 +4,9 @@ import os
 import re 
 
 # setup 
-user = '46279190'
-path = f'../Batch_calling/data/results/{user}/deepseek-r1-distill-llama-70b/closed_target/'
+user = '31499533'
+suffix = 'new'
+path = f'../Batch_calling/data/results/{user}/deepseek-r1-distill-llama-70b/closed_target_{suffix}/'
 file = 'batch_size_100_with_body_with_parent.jsonl'
 filepath = os.path.join(path, file)
 
@@ -27,25 +28,27 @@ from json import JSONDecodeError
 clean_data = []
 for num, ele in enumerate(data): 
     try: 
-        clean_line = process_jsonl(ele) 
-        clean_data.append(clean_line)   
-    except JSONDecodeError: 
+        clean_line = process_jsonl(ele)
+        idx = ele['custom_id'] 
+        clean_data.append((clean_line, idx))   
+    except (JSONDecodeError, TypeError):
         pass 
 
 # get all of the targets 
 topics = []
-for num, comment in enumerate(clean_data): 
+for num, tuple in enumerate(clean_data): 
+    comment, idx = tuple 
     comment = comment['results']
     for topic in comment: 
         print(topic)
         target = topic['target']
         stance = topic['stance']
         explanation = topic['explanation']
-        topics.append([num, target, stance, explanation])
+        topics.append([idx, target, stance, explanation])
 
 data = pd.DataFrame(topics, columns=['post_idx', 'target', 'stance', 'explanation'])
 data = data[data['stance'].isin(['FAVOR', 'AGAINST'])]
-data.to_csv(f'data/targets_closed_{user}.csv', index=False)
+data.to_csv(f'data/targets_closed_{user}_{suffix}.csv', index=False)
 
 # things to add: 
 # 1. the original comment. 

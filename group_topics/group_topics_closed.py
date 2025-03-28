@@ -4,7 +4,8 @@ import os
 import re 
 
 # setup 
-path = '../Batch_calling/data/results/31499533/deepseek-r1-distill-llama-70b/closed_target/'
+user = '46279190'
+path = f'../Batch_calling/data/results/{user}/deepseek-r1-distill-llama-70b/closed_target/'
 file = 'batch_size_100_with_body_with_parent.jsonl'
 filepath = os.path.join(path, file)
 
@@ -44,7 +45,7 @@ for num, comment in enumerate(clean_data):
 
 data = pd.DataFrame(topics, columns=['post_idx', 'target', 'stance', 'explanation'])
 data = data[data['stance'].isin(['FAVOR', 'AGAINST'])]
-data.to_csv('targets_closed.csv', index=False)
+data.to_csv(f'data/targets_closed_{user}.csv', index=False)
 
 # things to add: 
 # 1. the original comment. 

@@ -5,7 +5,8 @@ import matplotlib.pyplot as plt
 import networkx as nx 
 
 # open or closed targets
-df = pd.read_csv('targets_closed.csv')
+user_id = '46279190'
+df = pd.read_csv(f'data/targets_closed_{user_id}.csv')
 
 def get_connections(df, idx):
 
@@ -139,4 +140,4 @@ nx.draw_networkx_labels(G, pos, font_size=10, font_family="sans-serif")
 plt.axis('off')
 plt.title("Undirected Conceptual Similarity Network", fontsize=14)
 plt.tight_layout()
-plt.savefig('fig/closed_unidrected_dir.png', bbox_inches='tight')
+plt.savefig(f'fig/closed_unidrected_dir_{user_id}.png', bbox_inches='tight')

@@ -2,6 +2,7 @@ from llm_caller import call_groq_from_batch
 import json
 import os
 import time
+from tqdm import tqdm
 
 ##############################################################################
 # 0. Setup
@@ -11,8 +12,8 @@ collection_name = "Breitbart"
 
 # Batch Variables
 base_dir = "data/batch_files" 
-user_id = "31499533" #user_id for "1Tiamo"
-llm_name_groq = "deepseek-r1-distill-llama-70b"
+user_id = "125441694" #user_id for "1Tiamo"
+llm_name_groq = "llama-3.3-70b-versatile" # "deepseek-r1-distill-llama-70b"
 batch_size =  100 # set to "all" if you want all Data in the Batch
 
 # Prompt engeniering 
@@ -60,7 +61,7 @@ temperature = 0.5
 
 # Process file
 with open(file_path, "r", encoding="utf-8") as infile, open(results_path, "w", encoding="utf-8") as outfile:
-    for line in infile:
+    for line in tqdm(infile, desc="Processing batch", unit="line"):
         data = json.loads(line.strip())  # Read and parse each line
         
         try:

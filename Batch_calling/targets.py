@@ -62,7 +62,7 @@ target_list_new = {
     'Republicans (GOP)',
     # topic 2
     'Taxes', 
-    'The economy is good', # more agree / disagree 
+    'The economy is good', 
     'There are jobs', 
     'Government spending',
     # topic 4

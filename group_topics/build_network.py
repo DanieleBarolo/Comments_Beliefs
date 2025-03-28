@@ -105,7 +105,7 @@ for u, v, data in G.edges(data=True):
     edge_widths.append(count * 0.8)
 
 # for now set edge width to zero if only 1 occurence
-edge_widths = [x if x > 0.9 else 0 for x in edge_widths]
+#edge_widths = [x if x > 0.9 else 0 for x in edge_widths]
 
 # Add node information
 attr_dict = agg_df.set_index('target').to_dict(orient='index')
@@ -141,3 +141,7 @@ plt.axis('off')
 plt.title("Undirected Conceptual Similarity Network", fontsize=14)
 plt.tight_layout()
 plt.savefig(f'fig/closed_unidrected_dir_{user_id}.png', bbox_inches='tight')
+
+'''
+Look at self-loop (Christians).
+'''

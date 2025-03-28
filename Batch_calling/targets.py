@@ -54,7 +54,7 @@ target_list = {
 }
 
 ### new draft of targets ### 
-target_list_new = {
+target_list_new = { 
     # topic 1
     'Barack Obama',
     'Donald Trump', 
@@ -63,7 +63,7 @@ target_list_new = {
     # topic 2
     'Taxes', 
     'The economy is good', # more agree / disagree 
-    'There are good jobs', # more agree / disagree
+    'There are jobs', 
     'Government spending',
     # topic 4
     'Hillary Clinton',
@@ -78,32 +78,42 @@ target_list_new = {
     'Islam',
     'Terrorism',
     # topic 7
-    'God / Jesus / Bible', # collapsed 
-    'The church',
+    'Jesus',
+    'Bible', 
     'Christians',
     # topic 8
     'Fox News',
-    'Liberal media',
+    'Mainstream media',
+    'Liberal media', # maybe explain e.g., CNN etc.
     'Fake news',
     'Breitbart',
     'Journalists and the press',
-    'Government agencies (e.g., FBI, CIA, NSA)', 
+    'Government',
+    #'Government agencies (e.g., FBI, CIA, NSA)', 
     # other topics
     'Healthcare / Medicare',
     'Obamacare',
     'Social welfare',
     'Climate change is real', 
-    'Climate change is anthropogenic', 
+    'Climate change is human caused', 
     'Immigration / immigrants',
     'Mexico / Mexicans', 
     'Europe / Europeans',
+    'Brexit / UK',
     'Science / Scientists',
     'Elites',
-    'Diversity',
+    'Diversity (DEI)',
     'Socialism / Communism',
     'Capitalism / Liberalism',
     'Black lives matter',
     'Occupy wall street',
+    'Woke',
+    'Gay / LGTBQ+',
     'Vaccines',
-    'Feminism'
+    'Feminism',
+    'Guns',
+    'Drugs',
+    'Abortion',
+    'Fascism / Nazism',
+    'Fossil fuels', 
 }

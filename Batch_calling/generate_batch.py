@@ -15,8 +15,8 @@ collection_name = "Breitbart"
 
 # Batch Variables
 base_dir = "data/batch_files" 
-user_id = "31499533" #user_id for "1Tiamo"
-llm_name_groq = "deepseek-r1-distill-llama-70b"
+user_id = "46279190" #user_id for "1Tiamo"
+llm_name_groq = "deepseek-r1-distill-llama-70b" #"llama-3.3-70b-versatile"
 batch_size = 100 # set to "all" if you want all Data in the Batch
 
 # Prompt engeniering 
@@ -29,7 +29,6 @@ parent_comment = True # Set to False if you want to exclude parent comment in th
 
 # Default system_prompt: 
 default_sys_prompt = """"
-
 """
 
 ##############################################################################

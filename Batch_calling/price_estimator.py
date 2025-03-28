@@ -12,18 +12,16 @@ collection_name = "Breitbart"
 
 # Batch Variables
 base_dir = "data/batch_files" 
-user_id = "31499533" #user_id for "1Tiamo"
-llm_name_groq = "deepseek-r1-distill-llama-70b"
+user_id = "125441694" #user_id for "1Tiamo"
+llm_name_groq = "deepseek-r1-distill-llama-70b" #"llama-3.3-70b-versatile"
 batch_size =  100 # set to "all" if you want all Data in the Batch
 
 # Prompt engeniering 
-prompt_type = "open_target" # choose among ["open_target", "closed_target"]
-targets_list = None # Pass the list of Closed Targets IFF prompt_type = "Closed Target"
+prompt_type = "closed_target" # choose among ["open_target", "closed_target"]
 
 # For Ablation studies
 article_body = True # Set to False if you want to exclude body in the prompts
 parent_comment = True # Set to False if you want to exclude parent comment in the prompts
-
 
 ##############################################################################
 
@@ -84,4 +82,6 @@ def estimate_batch_full_cost(results_path):
 
     return tokens_query, costs
 
-tokens_query, costs = estimate_batch_full_cost(results_path, discount=True)
+tokens_query, costs = estimate_batch_full_cost(results_path)
+
+sum(costs) * 0.5

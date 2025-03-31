@@ -101,13 +101,14 @@ def write_prompt_ct(article_title, article_body, parent_comment, target_comment,
     ### Task Description ###
 
     For each target, determine the stance in the comment:
-    - If the stance is in favor of the target, write FAVOR
-    - If it is against the target, write AGAINST
-    - If it is ambiguous, write NONE
+    - If the stance is in favor of the target or agrees with the target, write FAVOR
+    - If the stance is against the target or disagrees with the target, write AGAINST
+    - If the stance is ambiguous, write NONE
     - If the comment is not related to the target, write NOT RELATED
 
-    ### Explanation ### 
+    ### Short explanation ### 
     Together with the stance for a given target, provide evidence-based reasoning that quotes or references specific text from the comment that reveals the commenter's stance toward the target.
+    If the stance is determined as "NOT RELATED" leave an empty string.
 
     ### Output Format: ###
 
@@ -117,8 +118,8 @@ def write_prompt_ct(article_title, article_body, parent_comment, target_comment,
         {{
           "target": "<original_target>", 
           "stance": "<one among [FAVOR, AGAINST, NONE, NOT RELATED]>", 
-          "stance_type": <one among [EXPLICIT, IMPLICIT, NONE]
-          "explanation": ["atomic argument", "atomic argument", ...]
+          "stance_type": "<one among [EXPLICIT, IMPLICIT, NONE]>",
+          "explanation": "<short explanation if stance is FAVOR/AGAINST/NONE>"
         }},
         // Repeat for each target
       ]

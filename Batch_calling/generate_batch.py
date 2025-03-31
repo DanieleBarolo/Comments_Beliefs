@@ -22,12 +22,16 @@ llm_name_groq = "deepseek-r1-distill-llama-70b"
 batch_size = 100 # set to "all" if you want all Data in the Batch
 
 # Prompt engeniering 
-prompt_type = "closed_target_new" # choose among ["open_target", "closed_target", "closed_target_new"]
+prompt_type = "closed_target" # choose among ["open_target", "closed_target", "closed_target_new"]
 targets_list = target_list # Pass the list of Closed Targets IFF prompt_type = "Closed Target"
 
 # For Ablation studies
 article_body = True # Set to False if you want to exclude body in the prompts
 parent_comment = True # Set to False if you want to exclude parent comment in the prompts
+
+# Date string
+from datetime import datetime
+timestamp = datetime.now().strftime("%Y-%m-%d")
 
 # Default system_prompt: 
 default_sys_prompt = """"

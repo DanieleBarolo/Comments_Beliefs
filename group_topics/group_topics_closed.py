@@ -9,10 +9,9 @@ user = '31499533'
 #model = 'deepseek-r1-distill-llama-70b' 
 model = 'llama-3.3-70b-versatile'
 path = f'../Batch_calling/data/results/{user}/{model}/closed_target/{time}'
-#body = 'with_body' # no_body
-body = 'no_body'
+body = 'with_body' # no_body
+#body = 'no_body'
 file = f'batch_size_100_{body}_with_parent.jsonl'
-
 filepath = os.path.join(path, file)
 
 def process_deepseek(json_line): 
@@ -63,7 +62,7 @@ for num, tuple in enumerate(clean_data):
 
 data = pd.DataFrame(topics, columns=['post_idx', 'target', 'stance', 'stance_type', 'explanation'])
 data = data[data['stance'].isin(['FAVOR', 'AGAINST'])]
-data.to_csv(f'data/{user}_{body}_{model}_{time}_small.csv', index=False)
+data.to_csv(f'data/{user}_{body}_{model}_{time}.csv', index=False)
 
 # things to add: 
 # 1. the original comment. 

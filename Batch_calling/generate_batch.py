@@ -26,7 +26,7 @@ prompt_type = "closed_target" # choose among ["open_target", "closed_target", "c
 targets_list = target_list # Pass the list of Closed Targets IFF prompt_type = "Closed Target"
 
 # For Ablation studies
-article_body = False # Set to False if you want to exclude body in the prompts
+article_body = True # Set to False if you want to exclude body in the prompts
 parent_comment = True # Set to False if you want to exclude parent comment in the prompts
 
 # Date string

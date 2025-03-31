@@ -6,12 +6,12 @@ import networkx as nx
 
 # open or closed targets
 user_id = '31499533'
-body = 'no_body' 
-#body = 'with_body'
+#body = 'no_body' 
+body = 'with_body'
 #model = 'deepseek-r1-distill-llama-70b'
 model = 'llama-3.3-70b-versatile'
 date = '2025-03-31'
-df = pd.read_csv(f'data/{user_id}_{body}_{model}_{date}_small.csv')
+df = pd.read_csv(f'data/{user_id}_{body}_{model}_{date}.csv')
 
 def get_connections(df, idx):
 

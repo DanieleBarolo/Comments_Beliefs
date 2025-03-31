@@ -5,9 +5,13 @@ import matplotlib.pyplot as plt
 import networkx as nx 
 
 # open or closed targets
-suffix = 'new'
 user_id = '31499533'
-df = pd.read_csv(f'data/targets_closed_{user_id}_{suffix}.csv')
+body = 'no_body' 
+#body = 'with_body'
+#model = 'deepseek-r1-distill-llama-70b'
+model = 'llama-3.3-70b-versatile'
+date = '2025-03-31'
+df = pd.read_csv(f'data/{user_id}_{body}_{model}_{date}_small.csv')
 
 def get_connections(df, idx):
 
@@ -106,7 +110,7 @@ for u, v, data in G.edges(data=True):
     edge_widths.append(count * 0.8)
 
 # for now set edge width to zero if only 1 occurence
-#edge_widths = [x if x > 0.9 else 0 for x in edge_widths]
+edge_widths = [x if x > 0.9 else 0 for x in edge_widths]
 
 # Add node information
 attr_dict = agg_df.set_index('target').to_dict(orient='index')
@@ -126,7 +130,7 @@ for node in G.nodes():
     node_colors.append(color_val)
     
     # Scale node size (optional: tweak multiplier for visibility)
-    node_sizes.append(300 + count * 50)
+    node_sizes.append(50 + count * 50)
 
 # Step 4: Draw the graph
 plt.figure(figsize=(12, 8))
@@ -141,7 +145,7 @@ nx.draw_networkx_labels(G, pos, font_size=10, font_family="sans-serif")
 plt.axis('off')
 plt.title("Undirected Conceptual Similarity Network", fontsize=14)
 plt.tight_layout()
-plt.savefig(f'fig/closed_unidrected_dir_{user_id}_{suffix}.png', bbox_inches='tight')
+plt.savefig(f'fig/{user_id}_{body}_{model}_{date}_small.png', bbox_inches='tight')
 
 '''
 Look at self-loop (Christians).

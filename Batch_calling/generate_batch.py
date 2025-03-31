@@ -17,8 +17,8 @@ collection_name = "Breitbart"
 # Batch Variables
 base_dir = "data/batch_files" 
 user_id = "31499533" #user_id for "1Tiamo"
-# llm_name_groq = "llama-3.3-70b-versatile" 
-llm_name_groq = "deepseek-r1-distill-llama-70b"
+llm_name_groq = "llama-3.3-70b-versatile" 
+#llm_name_groq = "deepseek-r1-distill-llama-70b"
 batch_size = 100 # set to "all" if you want all Data in the Batch
 
 # Prompt engeniering 
@@ -31,7 +31,7 @@ parent_comment = True # Set to False if you want to exclude parent comment in th
 
 # Date string
 from datetime import datetime
-timestamp = datetime.now().strftime("%Y-%m-%d")
+timestamp = datetime.now().strftime("%Y-%m-%d-%m")
 
 # Default system_prompt: 
 default_sys_prompt = """"
@@ -61,7 +61,10 @@ file_type = "jsonl"
 file_name = f"{batch_str}_{article_str}_{parent_str}.{file_type}"
 file_path = os.path.join(date_dir, file_name)
 
-print(file_path)
+# remove file if exists
+if os.path.isfile(file_path):
+    os.remove(file_path)
+
 # # Create an empty JSONL file (if it doesn’t exist)
 # if not os.path.exists(file_path):
 #     print(f"Batch file will be saved at: {file_path}")

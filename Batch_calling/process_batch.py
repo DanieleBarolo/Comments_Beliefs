@@ -13,8 +13,8 @@ collection_name = "Breitbart"
 # Batch Variables
 base_dir = "data/batch_files" 
 user_id = "31499533" 
-#llm_name_groq = "llama-3.3-70b-versatile"
-llm_name_groq = "deepseek-r1-distill-llama-70b"
+llm_name_groq = "llama-3.3-70b-versatile"
+#llm_name_groq = "deepseek-r1-distill-llama-70b"
 batch_size =  100 # set to "all" if you want all Data in the Batch
 
 # Prompt engeniering 
@@ -70,7 +70,7 @@ with open(file_path, "r", encoding="utf-8") as infile, open(results_path, "w", e
         data = json.loads(line.strip())  # Read and parse each line
         
         try:
-            response = call_groq_from_batch(data, temp=temperature)  # Call function
+            response = call_groq_from_batch(data, key_name="GROQ_API_FULL", temp=temperature)  # Call function
             
             # Format output
             result = {

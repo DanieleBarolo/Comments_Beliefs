@@ -1,4 +1,4 @@
-target_list = {
+target_list_old = {
     # topic 1
     'Obama',
     'Trump',
@@ -54,56 +54,102 @@ target_list = {
 }
 
 ### new draft of targets ### 
-target_list_new = {
-    # topic 1
-    'Barack Obama',
+
+# agree / disagree / (neutral)
+'''
+target_list_tuple = {
+    ('Barack Obama', 'I support Barack Obama'),
+    ('Donald Trump', 'I support Donald Trump'),
+    ('Democrats', 'I support Democrats'),
+    ('Republicans (GOP)', 'I support Republicans (GOP)'),
+    ('Taxes', 'Taxes are fair'), # maybe good.
+    ('The economy', 'The economy is good'), # working well? 
+    ('Jobs', 'Good jobs are available'), # ...  
+    ('Government', ''),
+    ('Hillary Clinton', 'I support Hillary Clinton'),
+    ('Nancy Peolosi', 'I support Nancy Pelosi'),
+    ('Sarah Palin', 'I support Sarah Palin'),
+    ('Black people', '...'),
+    ('White people', '...'),
+    ('Muslims', 'I like Muslims'),
+    ('Islam'),
+    ('Terrorism')
+}
+'''
+
+# tell the model: 
+# Favor/Against or Agree/Disagree
+target_list = { 
+    # politics (several topics in the topic model)
+    'Barack Obama', 
     'Donald Trump', 
     'Democrats',
     'Republicans (GOP)',
-    # topic 2
-    'Taxes', 
-    'The economy is good', # more agree / disagree 
-    'There are good jobs', # more agree / disagree
-    'Government spending',
-    # topic 4
+    'Joe Biden',
     'Hillary Clinton',
     'Nancy Pelosi',
     'Sarah Palin',
-    # topic 5
+    'Kamala Harris'
+    # economy and jobs
+    'Taxes are fair', 
+    'The economy is good', 
+    'Jobs are available', 
+    'Government spending', # consider. 
+    # race, crime, religion, immigration
     'Black people',
     'White people',
     'The police (cops)',
-    # topic 6
+    'Crime'
     'Muslims',
     'Islam',
     'Terrorism',
-    # topic 7
-    'God / Jesus / Bible', # collapsed 
-    'The church',
+    'Jesus', # God, Bible.
     'Christians',
-    # topic 8
+    'Immigration / immigrants',
+    # Media 
     'Fox News',
-    'Liberal media',
-    'Fake news',
-    'Breitbart',
+    'Mainstream / liberal media', # maybe explain e.g., CNN
+    'Right-wing media', # maybe explain?
     'Journalists and the press',
-    'Government agencies (e.g., FBI, CIA, NSA)', 
+    'Social media',
     # other topics
     'Healthcare / Medicare',
-    'Obamacare',
     'Social welfare',
-    'Climate change is real', 
-    'Climate change is anthropogenic', 
-    'Immigration / immigrants',
-    'Mexico / Mexicans', 
-    'Europe / Europeans',
+    # Elites 
+    'Politicians',
     'Science / Scientists',
-    'Elites',
-    'Diversity',
+    'Elites', # requires abstraction: very tricky. 
+    # Ideology 
     'Socialism / Communism',
     'Capitalism / Liberalism',
-    'Black lives matter',
-    'Occupy wall street',
+    'Fascism / Nazism',
+    # Various inflammatory topics 
     'Vaccines',
-    'Feminism'
+    'Covid',
+    'Drugs',
+    'Abortion',
+    'Climate change is a problem', 
+    'Climate change is real', 
+    'Fossil fuels', 
+    'Vegetarians / Vegans',
+    # Culture wars 
+    'Diversity (DEI)', 
+    'Feminism',
+    'Woke',
+    'Gay / LGTBQ+',
+    # Controls 
+    'Movies',
+    'Sport',
+    'Food',
+    'Animals', # ...
+    'Music',
+    # Education
+    'We have good schools', # (system)
+    'We have good teachers',
+    # Geo-politics
+    'China',
+    'Russia',
+    'Israel',
+    'Jews',
+    'Ukraine'
 }

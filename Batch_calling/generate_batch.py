@@ -16,7 +16,7 @@ collection_name = "Breitbart"
 
 # Batch Variables
 base_dir = "data/batch_files" 
-user_id = "46279190" #user_id for "1Tiamo"
+user_id = "31499533" #user_id for "1Tiamo"
 # llm_name_groq = "llama-3.3-70b-versatile" 
 llm_name_groq = "deepseek-r1-distill-llama-70b"
 batch_size = 100 # set to "all" if you want all Data in the Batch
@@ -50,16 +50,16 @@ os.makedirs(base_dir, exist_ok=True)  # Ensure base directory exists
 user_dir = os.path.join(base_dir, user_id)
 model_dir = os.path.join(user_dir, llm_name_groq)
 prompt_dir = os.path.join(model_dir, prompt_type) 
+date_dir = os.path.join(prompt_dir, timestamp)
 # Ensure directories exist
-os.makedirs(prompt_dir, exist_ok=True)
+os.makedirs(date_dir, exist_ok=True)
 # Generate filename dynamically
 batch_str = f"batch_size_{batch_size}"
 article_str = "with_body" if article_body else "no_body"
 parent_str = "with_parent" if parent_comment else "no_parent"
-
 file_type = "jsonl"
 file_name = f"{batch_str}_{article_str}_{parent_str}.{file_type}"
-file_path = os.path.join(prompt_dir, file_name)
+file_path = os.path.join(date_dir, file_name)
 
 print(file_path)
 # # Create an empty JSONL file (if it doesn’t exist)

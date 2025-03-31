@@ -14,10 +14,10 @@ load_dotenv()
 # Groq API                                                                    #
 ###############################################################################
 
-def call_groq_from_batch(batch_line, temp: float = 0.75):
+def call_groq_from_batch(batch_line, key_name = 'GROQ_API_KEY',temp: float = 0.75):
     
     # Initialize Groq client with API key from environment variable
-    client = Groq(api_key=os.getenv('GROQ_API_KEY'))
+    client = Groq(api_key=os.getenv(key_name))
 
     #TO-DO ADD THE VALIADTOR in Batch Calling
     # # Patch client with instructor for structured output support

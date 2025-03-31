@@ -175,4 +175,3 @@ target_list = {
     #'Jews',
     #'Ukraine'
 }
-len(target_list)

@@ -21,7 +21,7 @@ batch_size =  100 # set to "all" if you want all Data in the Batch
 prompt_type = "closed_target"  # choose among ["open_target", "closed_target", "closed_target_new"]
 
 # For Ablation studies
-article_body = True # Set to False if you want to exclude body in the prompts
+article_body = False # Set to False if you want to exclude body in the prompts
 parent_comment = True # Set to False if you want to exclude parent comment in the prompts
 
 from datetime import datetime

@@ -1,57 +1,4 @@
-target_list_old = {
-    # topic 1
-    'Obama',
-    'Trump',
-    'Democrats',
-    'Republicans (GOP)',
-    # topic 2
-    'Higher taxes',
-    'Economic growth',
-    'Government spending',
-    # topic 4
-    'Hillary Clinton',
-    'Nancy Pelosi',
-    'Sarah Palin',
-    # topic 5
-    'Black people',
-    'White people',
-    'Police (cops)',
-    # topic 6
-    'Muslims',
-    'Islam',
-    'Terrorism',
-    # topic 7
-    'God',
-    'The church',
-    'Jesus',
-    'Christians',
-    # topic 8
-    'Fox News',
-    'CNN',
-    'MSNBC',
-    'Fake news',
-    'Breitbart',
-    'The press',
-    'Journalists',
-    # topic 9
-    'California',
-    'Texas',
-    # topic 10
-    'FBI',
-    'CIA',
-    'NSA',
-    'Edward Snowden',
-    'Mueller',
-    # other topics
-    'Healthcare',
-    'Obamacare',
-    'Social welfare',
-    'Climate change',
-    'Green energy',
-    'Fossil fuels'
-    'Immigration / immigrants',
-    'Mexicans' # to test Tiamo mostly. 
-}
+
 
 ### new draft of targets ### 
 
@@ -79,7 +26,7 @@ target_list_tuple = {
 
 # tell the model: 
 # Favor/Against or Agree/Disagree
-target_list = { 
+target_list_old = { 
     # politics (several topics in the topic model)
     'Barack Obama', 
     'Donald Trump', 
@@ -152,4 +99,79 @@ target_list = {
     'Israel',
     'Jews',
     'Ukraine'
+}
+
+target_list = {
+    # politics (several topics in the topic model)
+    'Barack Obama', 
+    'Donald Trump', 
+    'Democrats',
+    'Republicans (GOP)',
+    #'Joe Biden',
+    #'Hillary Clinton',
+    #'Nancy Pelosi',
+    #'Sarah Palin',
+    #'Kamala Harris'
+    # economy and jobs
+    'Taxes are fair', 
+    'The economy is good', 
+    'Jobs are available', 
+    'Government spending', # consider. 
+    # race, crime, religion, immigration
+    'Black people',
+    #'White people',
+    'The police (cops)',
+    'Crime'
+    'Muslims / Islam',
+    #'Islam',
+    'Terrorism',
+    #'Jesus', # God, Bible.
+    'Christians / Christianity',
+    'Immigration / immigrants',
+    # Media 
+    # 'Fox News',
+    'Media', # maybe explain e.g., CNN
+    'Journalists', # maybe explain?
+    #'Journalists and the press',
+    'Social media',
+    # other topics
+    'Healthcare / Medicare',
+    'Social welfare',
+    # Elites 
+    'Politicians',
+    'Science / Scientists',
+    'Elites', # requires abstraction: very tricky. 
+    # Ideology 
+    #'Socialism / Communism',
+    #'Capitalism / Liberalism',
+    #'Fascism / Nazism',
+    # Various inflammatory topics 
+    'Vaccines',
+    #'Covid',
+    'Drugs',
+    'Abortion',
+    #'Climate change is a problem', 
+    'Climate change is real', 
+    #'Fossil fuels', 
+    #'Vegetarians / Vegans',
+    # Culture wars 
+    #'Diversity (DEI)', 
+    'Feminism',
+    'Woke',
+    'Gay / LGTBQ+',
+    # Controls 
+    'Hobbies',
+    #'Movies',
+    #'Sport',
+    #'Food',
+    #'Music', 
+    # Education
+    # 'We have good schools', # (system)
+    # 'We have good teachers',
+    # Geo-politics
+    #'China',
+    #'Russia',
+    #'Israel',
+    #'Jews',
+    #'Ukraine'
 }

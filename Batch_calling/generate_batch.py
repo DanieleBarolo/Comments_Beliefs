@@ -35,7 +35,7 @@ if all_comments_context:
 
 # Date string
 from datetime import datetime
-timestamp = datetime.now().strftime("%Y-%m-%d")
+timestamp = datetime.now().strftime("%Y-%m-%d-%m")
 
 # Default system_prompt: 
 default_sys_prompt = """"
@@ -66,7 +66,10 @@ file_type = "jsonl"
 file_name = f"{batch_str}_{article_str}_{parent_str}_{full_context}.{file_type}"
 file_path = os.path.join(date_dir, file_name)
 
-print(file_path)
+# remove file if exists
+if os.path.isfile(file_path):
+    os.remove(file_path)
+
 # # Create an empty JSONL file (if it doesn’t exist)
 # if not os.path.exists(file_path):
 #     print(f"Batch file will be saved at: {file_path}")

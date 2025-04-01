@@ -9,21 +9,26 @@ import numpy as np
 ###############################################################################
 
 collection_name = "Breitbart"
-
+user_id = "31499533"
 # Batch Variables
 base_dir = "data/batch_files" 
-user_id = "46279190" 
+# user_id = "46279190" 
 # llm_name_groq = "llama-3.3-70b-versatile" 
 llm_name_groq = "deepseek-r1-distill-llama-70b" 
 batch_size =  100 # set to "all" if you want all Data in the Batch
 
 # Prompt engeniering 
-prompt_type = "closed_target_new" # choose among ["open_target", "closed_target", "closed_target_new"]
+prompt_type = "closed_target" # choose among ["open_target", "closed_target", "closed_target_new"]
 
 # For Ablation studies
 article_body = True # Set to False if you want to exclude body in the prompts
 parent_comment = True # Set to False if you want to exclude parent comment in the prompts
 
+# Date string
+
+timestamp = "2025-03-31"
+##############################################################################
+# 1. Create Directory where to save the Batch 
 ##############################################################################
 
 os.makedirs(base_dir, exist_ok=True)  # Ensure base directory exists
@@ -31,17 +36,16 @@ os.makedirs(base_dir, exist_ok=True)  # Ensure base directory exists
 user_dir = os.path.join(base_dir, user_id)
 model_dir = os.path.join(user_dir, llm_name_groq)
 prompt_dir = os.path.join(model_dir, prompt_type) 
+date_dir = os.path.join(prompt_dir, timestamp)
 # Ensure directories exist
-os.makedirs(prompt_dir, exist_ok=True)
+os.makedirs(date_dir, exist_ok=True)
 # Generate filename dynamically
 batch_str = f"batch_size_{batch_size}"
 article_str = "with_body" if article_body else "no_body"
 parent_str = "with_parent" if parent_comment else "no_parent"
-
 file_type = "jsonl"
 file_name = f"{batch_str}_{article_str}_{parent_str}.{file_type}"
-file_path = os.path.join(prompt_dir, file_name)
-
+file_path = os.path.join(date_dir, file_name)
 
 ##############################################################################
 
@@ -50,8 +54,12 @@ os.makedirs(results_dir, exist_ok=True)
 result_user_dir = os.path.join(results_dir, user_id)
 result_model_dir = os.path.join(result_user_dir, llm_name_groq)
 result_prompt_dir = os.path.join(result_model_dir, prompt_type) 
+result_date_dir = os.path.join(result_prompt_dir, timestamp)
 # Generate results directory
-results_path = os.path.join(result_prompt_dir, file_name)
+os.makedirs(result_date_dir , exist_ok=True)
+
+# dir + file 
+results_path = os.path.join(result_date_dir, file_name)
 
 
 ##############################################################################
@@ -86,4 +94,4 @@ def estimate_batch_full_cost(results_path):
 
 tokens_query, costs = estimate_batch_full_cost(results_path)
 
-sum(costs) * 0.5
+sum(costs) 

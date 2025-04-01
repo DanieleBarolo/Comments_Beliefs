@@ -105,73 +105,76 @@ target_list = {
     # politics (several topics in the topic model)
     'Barack Obama', 
     'Donald Trump', 
+    'Joe Biden',
     'Democrats',
     'Republicans (GOP)',
-    #'Joe Biden',
-    #'Hillary Clinton',
-    #'Nancy Pelosi',
-    #'Sarah Palin',
-    #'Kamala Harris'
+    'Liberals',
+    'Conservatives',
+    'Progressives',
+    'Hillary Clinton',
+    'Nancy Pelosi',
+    'Sarah Palin',
+    'Kamala Harris'
     # economy and jobs
-    'Taxes are fair', 
-    'The economy is good', 
-    'Jobs are available', 
-    'Government spending', # consider. 
+    'Taxes are (good | fair)', 
+    'Economy is good', 
+    'Jobs are (available | good)', 
+    'The government', # spending
     # race, crime, religion, immigration
     'Black people',
-    #'White people',
-    'The police (cops)',
-    'Crime'
-    'Muslims / Islam',
-    #'Islam',
+    'White people',
+    'Police',
+    'Military',
+    'Crime',
+    'Muslims',
+    'Islam',
     'Terrorism',
-    #'Jesus', # God, Bible.
-    'Christians / Christianity',
+    'Christians',
+    'Christianity',
     'Immigration / immigrants',
     # Media 
-    # 'Fox News',
     'Media', # maybe explain e.g., CNN
     'Journalists', # maybe explain?
-    #'Journalists and the press',
     'Social media',
     # other topics
-    'Healthcare / Medicare',
+    'Healthcare',
     'Social welfare',
     # Elites 
     'Politicians',
-    'Science / Scientists',
+    'Scientists',
     'Elites', # requires abstraction: very tricky. 
     # Ideology 
-    #'Socialism / Communism',
-    #'Capitalism / Liberalism',
-    #'Fascism / Nazism',
+    'Socialism / Communism',
+    'Capitalism',
+    'Fascism / Nazism',
     # Various inflammatory topics 
     'Vaccines',
-    #'Covid',
+    'Covid',
     'Drugs',
     'Abortion',
-    #'Climate change is a problem', 
-    'Climate change is real', 
-    #'Fossil fuels', 
-    #'Vegetarians / Vegans',
+    'Climate change is (real | a problem)', 
+    'Fossil fuels', 
+    'Vegetarians / Vegans',
     # Culture wars 
-    #'Diversity (DEI)', 
+    'Diversity', 
     'Feminism',
     'Woke',
     'Gay / LGTBQ+',
     # Controls 
     'Hobbies',
-    #'Movies',
-    #'Sport',
-    #'Food',
-    #'Music', 
+    'Movies',
+    'Sport',
+    'Food',
+    'Music', 
     # Education
     # 'We have good schools', # (system)
     # 'We have good teachers',
     # Geo-politics
-    #'China',
-    #'Russia',
-    #'Israel',
-    #'Jews',
-    #'Ukraine'
+    'China',
+    'Russia',
+    'Israel',
+    'Jews',
+    'Ukraine',
+    'America / USA',
 }
+len(target_list)

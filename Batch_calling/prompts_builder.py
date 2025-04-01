@@ -7,12 +7,14 @@ from setup import *
 # Utils 
 ##############################################################################
 
-def generate_context(article_title, article_body, parent_comment, target_comment, article_date):
+def generate_context(article_title, article_body, parent_comment, oldest_comment, most_liked_comment, target_comment, article_date):
     sections = [
         f"Comment posted on date:\n{article_date}", 
         f"# News comment title:\n{article_title}",
         f"# News comment article:\n{article_body}" if article_body else None,
         f"# News comment directly above the focal comment:\n{parent_comment}" if parent_comment else None,
+        f"# Oldest comment:\n{oldest_comment}" if oldest_comment else None,
+        f"# Most liked comment:\n{most_liked_comment}" if most_liked_comment else None,
         ">>> COMMENT UNDER ANALYSIS<<<",
         f"\n{target_comment}",
         ">>> END COMMENT <<<"
@@ -23,7 +25,7 @@ def generate_context(article_title, article_body, parent_comment, target_comment
 ##############################################################################
 # Open Target 
 ##############################################################################
-def write_prompt_ot(article_title, article_body, parent_comment, target_comment, comment_date):
+def write_prompt_ot(article_title, article_body, parent_comment, oldest_comment, most_liked_comment, target_comment, comment_date):
 
     prompt = f"""
 
@@ -36,7 +38,7 @@ def write_prompt_ot(article_title, article_body, parent_comment, target_comment,
     You will have the title and body of the article, together with the time when the comment was posted. Also, if any, the news comment directly above the focal comment will be provided.
    
     ### Context ###
-    {generate_context(article_title, article_body, parent_comment, target_comment, comment_date)}
+    {generate_context(article_title, article_body, parent_comment, oldest_comment, most_liked_comment, target_comment, comment_date)}
 
     ### Task Description ###
 
@@ -83,7 +85,7 @@ def write_prompt_ot(article_title, article_body, parent_comment, target_comment,
 def bullet_points_target(targets): 
     return "\n".join(f"•{target}" for num, target in enumerate(targets))
 
-def write_prompt_ct(article_title, article_body, parent_comment, target_comment, comment_date, targets):
+def write_prompt_ct(article_title, article_body, parent_comment, oldest_comment, most_liked_comment, target_comment, comment_date, targets):
 
     prompt = f"""
 
@@ -93,7 +95,7 @@ def write_prompt_ct(article_title, article_body, parent_comment, target_comment,
     Your task is to analyze the news comment and determine its stances towards specific targets. 
     
     ### Context ###
-    {generate_context(article_title, article_body, parent_comment, target_comment, comment_date)}
+    {generate_context(article_title, article_body, parent_comment, parent_comment, oldest_comment, most_liked_comment, target_comment, comment_date)}
 
     ### Targets ###
     {bullet_points_target(targets)}
@@ -132,7 +134,7 @@ def write_prompt_ct(article_title, article_body, parent_comment, target_comment,
 
 ##### NEW PROMPT #####
 
-def write_prompt_ct_new(article_title, article_body, parent_comment, target_comment, comment_date, targets):
+def write_prompt_ct_new(article_title, article_body, parent_comment, oldest_comment, most_liked_comment, target_comment, comment_date, targets):
 
     prompt = f"""
 
@@ -142,7 +144,7 @@ def write_prompt_ct_new(article_title, article_body, parent_comment, target_comm
     Your task is to analyze the news comment and determine its stances towards specific targets. 
     
     ### Context ###
-    {generate_context(article_title, article_body, parent_comment, target_comment, comment_date)}
+    {generate_context(article_title, article_body, parent_comment, oldest_comment, most_liked_comment, target_comment, comment_date)}
 
     ### Targets ###
     {bullet_points_target(targets)}

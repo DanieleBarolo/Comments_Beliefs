@@ -12,9 +12,9 @@ def generate_context(article_title, article_body, parent_comment, oldest_comment
         f"Comment posted on date:\n{article_date}", 
         f"# News comment title:\n{article_title}",
         f"# News comment article:\n{article_body}" if article_body else None,
+        f"# Oldest comment (from the thread):\n{oldest_comment}" if oldest_comment else None,
+        f"# Most liked comment (from the thread):\n{most_liked_comment}" if most_liked_comment else None,
         f"# News comment directly above the focal comment:\n{parent_comment}" if parent_comment else None,
-        f"# Oldest comment:\n{oldest_comment}" if oldest_comment else None,
-        f"# Most liked comment:\n{most_liked_comment}" if most_liked_comment else None,
         ">>> COMMENT UNDER ANALYSIS<<<",
         f"\n{target_comment}",
         ">>> END COMMENT <<<"
@@ -95,7 +95,7 @@ def write_prompt_ct(article_title, article_body, parent_comment, oldest_comment,
     Your task is to analyze the news comment and determine its stances towards specific targets. 
     
     ### Context ###
-    {generate_context(article_title, article_body, parent_comment, parent_comment, oldest_comment, most_liked_comment, target_comment, comment_date)}
+    {generate_context(article_title, article_body, parent_comment, oldest_comment, most_liked_comment, target_comment, comment_date)}
 
     ### Targets ###
     {bullet_points_target(targets)}

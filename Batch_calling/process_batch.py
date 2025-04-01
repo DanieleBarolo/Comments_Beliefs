@@ -13,16 +13,21 @@ collection_name = "Breitbart"
 # Batch Variables
 base_dir = "data/batch_files" 
 user_id = "31499533" 
-llm_name_groq = "llama-3.3-70b-versatile"
-# llm_name_groq = "deepseek-r1-distill-llama-70b"
+# llm_name_groq = "llama-3.3-70b-versatile"
+llm_name_groq = "deepseek-r1-distill-llama-70b"
 batch_size =  100 # set to "all" if you want all Data in the Batch
 
 # Prompt engeniering 
 prompt_type = "closed_target"  # choose among ["open_target", "closed_target", "closed_target_new"]
 
 # For Ablation studies
-article_body = False # Set to False if you want to exclude body in the prompts
+article_body = True # Set to False if you want to exclude body in the prompts
 parent_comment = True # Set to False if you want to exclude parent comment in the prompts
+all_comments_context = True
+if all_comments_context:
+    oldest_comment = True # Set to False if you want to exclude oldest comment in the prompts
+    most_liked_comment = True # Set to False if you want to exclude most liked comment in the prompts
+
 
 from datetime import datetime
 timestamp = datetime.now().strftime("%Y-%m-%d")
@@ -41,9 +46,9 @@ os.makedirs(date_dir, exist_ok=True)
 batch_str = f"batch_size_{batch_size}"
 article_str = "with_body" if article_body else "no_body"
 parent_str = "with_parent" if parent_comment else "no_parent"
-
+full_context = "with_context" if all_comments_context else "no_context"
 file_type = "jsonl"
-file_name = f"{batch_str}_{article_str}_{parent_str}.{file_type}"
+file_name = f"{batch_str}_{article_str}_{parent_str}_{full_context}.{file_type}"
 file_path = os.path.join(date_dir, file_name)
 
 ##############################################################################

@@ -14,7 +14,7 @@ from setup import FullStancesCT, FullStancesOT
 ###############################################################################
 collection_name = "Breitbart"
 
-# Batch Variables
+# Batch VariablesS
 base_dir = "data/batch_files" 
 user_id = "31499533" #user_id for "1Tiamo"
 llm_name_groq = "llama-3.3-70b-versatile" 
@@ -26,8 +26,10 @@ prompt_type = "closed_target" # choose among ["open_target", "closed_target", "c
 targets_list = target_list # Pass the list of Closed Targets IFF prompt_type = "Closed Target"
 
 # For Ablation studies
-article_body = True # Set to False if you want to exclude body in the prompts
+article_body = False # Set to False if you want to exclude body in the prompts
 parent_comment = True # Set to False if you want to exclude parent comment in the prompts
+oldest_comment = True # Set to False if you want to exclude oldest comment in the prompts
+most_liked_comment = True # Set to False if you want to exclude most liked comment in the prompts
 
 # Date string
 from datetime import datetime
@@ -123,12 +125,13 @@ article_collection = init_mongo(dbs = "Articles", collection = collection_name)
 
 for comment in sampled_comments: 
     #  comment infos
-    target_comment = comment.get("raw_message")
+    target_comment_txt = comment.get("raw_message")
     target_comment_id = comment.get("_id")
     comment_date = comment.get("createdAt")
 
     # retrieve article title
-    reference_article = article_collection.find_one({"_id": comment.get("art_id")})
+    art_id = comment.get("art_id")
+    reference_article = article_collection.find_one({"_id": art_id})
     art_tile = reference_article.get("clean_title")
 
     # If article_body is not False, try to retrieve use article_body
@@ -139,16 +142,30 @@ for comment in sampled_comments:
         art_body = article_body
     
      # Same logic for parent_comment
-    par_comment = comment.get("parent") if parent_comment else parent_comment
+    par_comment_id = comment.get("parent") 
+    parent_comment = comment_collection.find_one({"_id": par_comment_id}) 
+
+    oldest_comment_full = comment_collection.find_one(
+        {'art_id': art_id},
+        sort=[('createdAt', 1)]
+    ) 
+    
+    most_liked_comment_full = comment_collection.find_one(
+    {'art_id': art_id},
+    sort=[('likes', -1)]) 
+    
+    parent_comment_txt  = parent_comment.get("raw_message") if parent_comment else parent_comment
+    oldest_comment_txt = oldest_comment_full.get("raw_message") if oldest_comment else oldest_comment
+    most_liked_txt = most_liked_comment_full.get("raw_message") if most_liked_comment else most_liked_comment
     
     if prompt_type == "open_target": 
-        user_content = write_prompt_ot(art_tile, art_body, par_comment, target_comment, comment_date)
+        user_content = write_prompt_ot(art_tile, art_body, parent_comment_txt, oldest_comment_txt, most_liked_txt, target_comment_txt, comment_date)
 
     elif prompt_type == "closed_target":
-        user_content = write_prompt_ct(art_tile, art_body, par_comment, target_comment, comment_date, 
+        user_content = write_prompt_ct(art_tile, art_body, parent_comment_txt, oldest_comment_txt, most_liked_txt, target_comment_txt, comment_date, 
                                        targets_list)
     elif prompt_type == "closed_target_new":
-        user_content = write_prompt_ct_new(art_tile, art_body, par_comment, target_comment, comment_date,
+        user_content = write_prompt_ct_new(art_tile, art_body, parent_comment_txt, oldest_comment_txt, most_liked_txt, target_comment_txt, comment_date,
                                         target_list)
     
     # Create the line to be written to the file

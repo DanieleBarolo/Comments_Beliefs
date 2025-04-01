@@ -1,0 +1,229 @@
+post_idx,target,stance,stance_type,explanation
+700162633,Republicans (GOP),AGAINST,IMPLICIT,I agree with the following: the conservative influence in Orange County is decreasing.
+700162633,Democrats,FAVOR,IMPLICIT,"I agree with the following: liberals are moving into Orange County in high numbers, which implies a shift towards more liberal or Democratic tendencies."
+978198733,Social welfare,AGAINST,EXPLICIT,"I agree with the following: those who have never collected any type of welfare should be given a temporary work permit, implying that social welfare is not desirable."
+978198733,Immigration / immigrants,AGAINST,EXPLICIT,"I agree with the following: most immigrants should be sent back, and only those who meet specific criteria should be given a temporary work permit, implying a restrictive stance on immigration."
+1062674649,Republicans (GOP),AGAINST,EXPLICIT,"I agree with the following: the GOP is being criticized for being unfeeling and unresponsive, implying they are like robots."
+1062674649,Democrats,AGAINST,EXPLICIT,"I agree with the following: some government officials, specifically Democrats like Reid and Pelosi, are criticized for not contributing positively to the country and are called 'jesters'."
+1062674649,Black people,AGAINST,EXPLICIT,"I agree with the following: the black community is criticized for electing the US Representative, implying a negative opinion of the community."
+1062674649,Politicians,AGAINST,EXPLICIT,I agree with the following: some government officials are criticized for not contributing positively to the country and are called 'jesters' and 'fools'.
+1213563404,Government spending,AGAINST,EXPLICIT,I agree with the following: the government's spending on medical care for illegal aliens is unjust and burdensome for taxpayers.
+1213563404,Social welfare,AGAINST,EXPLICIT,I agree with the following: social welfare programs that provide free medical care to illegal aliens are unfair to hardworking taxpayers.
+1213563404,Healthcare / Medicare,AGAINST,EXPLICIT,I agree with the following: the current healthcare system that provides free medical care to illegal aliens is unfair and abusive.
+1213563404,Immigration / immigrants,AGAINST,EXPLICIT,I agree with the following: illegal immigration is a burden on the healthcare system and taxpayers.
+1213563404,Democrats,AGAINST,IMPLICIT,I agree with the following: politicians who support providing free medical care to illegal aliens are misguided.
+1213563404,Taxes are fair,AGAINST,EXPLICIT,I agree with the following: the tax system is unfair because it forces hardworking taxpayers to pay for the medical care of illegal aliens.
+1213563404,Politicians,AGAINST,EXPLICIT,I agree with the following: politicians who support providing free medical care to illegal aliens are irresponsible and prioritize the wrong groups.
+1427617310,Immigration / immigrants,AGAINST,EXPLICIT,I agree with the following: the influx of immigrants should be stopped by the President.
+1427617310,Media,AGAINST,EXPLICIT,I agree with the following: the media is corrupt and will be silent about the issues caused by the President's actions.
+1427617310,Barack Obama,AGAINST,EXPLICIT,I agree with the following: President Obama is responsible for the massive invasion and is intentionally creating chaos by not stopping it.
+1452368501,Republicans (GOP),AGAINST,EXPLICIT,"I agree with the following: Republicans, such as McCain, McConnell, and Rubio, are responsible for the issue of illegal immigrants."
+1452368501,Immigration / immigrants,AGAINST,EXPLICIT,"I agree with the following: Illegal immigrants are a problem and those who support them, including senators and congressmen, are to blame."
+1452368501,Democrats,AGAINST,EXPLICIT,"I agree with the following: Democrats, such as Obama, Reid, Pelosi, and Gutierrez, are responsible for the issue of illegal immigrants."
+1452368501,Elites,AGAINST,EXPLICIT,"I agree with the following: Elites, including business owners like Zuckerberg, Bloomberg, and Gates, are to blame for the issue of illegal immigrants."
+1452368501,Media,AGAINST,EXPLICIT,I agree with the following: The media is complicit in the issue of illegal immigrants and is being manipulated by those in power.
+1452368501,Politicians,AGAINST,EXPLICIT,"I agree with the following: Politicians, including Obama, Reid, Boehner, and Pelosi, are responsible for the issue of illegal immigrants."
+1452368501,Barack Obama,AGAINST,EXPLICIT,I agree with the following: Barack Obama is responsible for the issue of illegal immigrants and is being supported by Hollywood celebrities and other elites.
+1478185050,Immigration / immigrants,AGAINST,EXPLICIT,I agree with the following: immigrants should be sent home after being given aid.
+2423543776,Woke,AGAINST,IMPLICIT,I agree with the following: the Black Lives Matter and Socialist/Communist Democrats' agenda is a threat to traditional American values.
+2423543776,Social welfare,AGAINST,IMPLICIT,"I agree with the following: the Black Lives Matter and Socialist/Communist Democrats' agenda, which may include social welfare policies, is a threat to traditional American values."
+2423543776,Democrats,AGAINST,EXPLICIT,"I agree with the following: the Democrats' agenda, specifically the Socialist/Communist Democrats, is a threat to traditional American values and white Americans."
+2423543776,Black people,AGAINST,IMPLICIT,I agree with the following: the Black Lives Matter movement and its potential impact on white Americans is a threat to their safety and traditional way of life.
+2465873254,Donald Trump,FAVOR,EXPLICIT,I agree with the following: Trump is the only one who has the guts to call it like it is and he's not for sale.
+2465873254,Immigration / immigrants,AGAINST,EXPLICIT,I agree with the following: the issue of deporting illegals is a despicable one and should be addressed.
+2465873254,Elites,AGAINST,EXPLICIT,"I agree with the following: every other candidate has been bought by big business and Wall Street, implying that elites have a negative influence."
+2465873254,Politicians,AGAINST,EXPLICIT,"I agree with the following: every other candidate has been bought by big business and Wall Street, implying a negative view of politicians in general."
+2480311184,Media,AGAINST,EXPLICIT,I agree with the following: Fox News is no longer a reliable news source.
+2480311184,Journalists,AGAINST,EXPLICIT,I agree with the following: Sheppard is despicable.
+2492682831,Media,AGAINST,EXPLICIT,"I agree with the following: the media is controlled by the government, restricting freedom of speech."
+2492682831,Journalists,FAVOR,EXPLICIT,I agree with the following: journalists should have the freedom to report the truth without government interference.
+2492682831,Government,AGAINST,EXPLICIT,I agree with the following: the government should not control the media or restrict freedom of speech.
+2541115546,Media,AGAINST,EXPLICIT,I agree with the following: Fox News is not fair and balanced.
+2550134574,Republicans (GOP),AGAINST,EXPLICIT,I agree with the following: the GOP should not push a candidate and respect the primary outcome.
+2550134574,Elites,AGAINST,EXPLICIT,"I agree with the following: the elites, referred to as 'GOPe hacks', have no right to influence the election outcome."
+2550134574,Mitt Romney,AGAINST,EXPLICIT,I agree with the following: Mitt Romney should not tell voters who to vote for.
+2574685977,Woke,AGAINST,IMPLICIT,"I agree with the following: left wing propaganda is misleading, implying a negative view of 'woke' ideologies."
+2574685977,Donald Trump,FAVOR,IMPLICIT,"I agree with the following: the opposition to Donald Trump is based on misinformation, implying support for him."
+2574685977,Immigration / immigrants,AGAINST,IMPLICIT,"I agree with the following: many people are misinformed about immigration issues, possibly due to 'left wing propaganda', suggesting a negative stance towards pro-immigration views."
+2574685977,Democrats,AGAINST,IMPLICIT,"I agree with the following: left wing propaganda is misleading, implying a negative view of the Democratic party or its ideologies."
+2574685977,Media,AGAINST,EXPLICIT,"I agree with the following: network television spreads left wing propaganda, indicating a negative stance towards the media."
+2602531608,Donald Trump,FAVOR,EXPLICIT,"I agree with the following: the commenter is anti-GOPe candidates, including Cruz, and pro-Trump, implying a favorable stance towards Trump."
+2602531608,Republicans (GOP),AGAINST,EXPLICIT,"I agree with the following: the commenter criticizes GOPe politicians for being anti-Reagan and implies that they are against Trump, indicating an unfavorable stance towards the GOP establishment."
+2602531608,Elites,AGAINST,IMPLICIT,I agree with the following: the commenter uses the term 'GOPe' which implies a negative view of the Republican establishment or elites.
+2639119548,Christians / Christianity,AGAINST,EXPLICIT,I agree with the following: people who use religion or faith for personal gain are phony.
+2639119548,Politicians,AGAINST,EXPLICIT,"I agree with the following: people who use religion or faith for personal gain are phony, which implies that some politicians are not trustworthy."
+2659301602,Donald Trump,AGAINST,EXPLICIT,I agree with the following: it is not surprising that some people are not endorsing Donald Trump.
+2683228781,Jobs are available,AGAINST,EXPLICIT,I agree with the following: Hillary's policies will put workers out of work.
+2683228781,Democrats,AGAINST,EXPLICIT,"I agree with the following: Democrats, specifically Hillary, have bad energy policies and unfair trade deals."
+2683228781,Politicians,AGAINST,EXPLICIT,"I agree with the following: Politicians, specifically Hillary and Ed Rendell, have made bad decisions."
+2713628812,Donald Trump,AGAINST,EXPLICIT,"I agree with the following: Trump is being used by others, implying a negative view of his endorsement or influence."
+2713628812,Republicans (GOP),AGAINST,EXPLICIT,"I agree with the following: Ryan, a key Republican figure, is being criticized, implying a negative view of the party's actions or leadership."
+2713628812,Politicians,AGAINST,EXPLICIT,"I agree with the following: Ryan is described as a 'useful idiot,' implying a negative view of his political actions or influence."
+2745775857,Republicans (GOP),AGAINST,EXPLICIT,I agree with the following: the GOP is using the speaker as a useful idiot and disrespecting Republican voters.
+2745775857,Levin,AGAINST,EXPLICIT,I agree with the following: Levin is a traitor.
+2787419518,The economy is good,AGAINST,EXPLICIT,"I agree with the following: the economy of California has been negatively impacted by the Democrats, as evidenced by its high debt."
+2787419518,Government spending,AGAINST,EXPLICIT,I agree with the following: excessive government spending has led to a significant increase in California's debt.
+2787419518,Democrats,AGAINST,EXPLICIT,"I agree with the following: the Democrats have mismanaged California, leading to economic problems and corruption."
+2801742475,CrimeMuslims / Islam,AGAINST,EXPLICIT,"I agree with the following: the Syrian refugee's actions were not a terrorist attack, implying that Muslims or people of Islamic faith are not inherently violent."
+2801742475,Terrorism,AGAINST,EXPLICIT,"I agree with the following: the explosion was not a terrorist attack, indicating that the commenter does not support or condone terrorism."
+2801742475,Immigration / immigrants,FAVOR,EXPLICIT,"I agree with the following: the Syrian refugee's actions were a result of being denied amnesty, implying that the commenter sympathizes with the refugee's situation and potentially supports more lenient immigration policies."
+2826025211,Republicans (GOP),AGAINST,EXPLICIT,I agree with the following: the GOP senator is a political hack and in the pockets of the billionaire donor class.
+2826025211,Elites,AGAINST,EXPLICIT,"I agree with the following: the senator is in the pockets of the billionaire donor class, implying a negative view of elites."
+2826025211,Politicians,AGAINST,EXPLICIT,"I agree with the following: the senator is a political hack, implying a negative view of politicians."
+2854091777,Clinton Foundation,AGAINST,EXPLICIT,I agree with the following: the Clinton Foundation is a lucrative enterprise that should be shut down.
+2883901393,Donald Trump,FAVOR,EXPLICIT,I agree with the following: Donald Trump is not something to be afraid of.
+2883901393,Democrats,AGAINST,EXPLICIT,"I agree with the following: The Democrats, or in this case 'Hollywood commies', are self-destructing."
+2883901393,Elites,AGAINST,EXPLICIT,"I agree with the following: The elites, or in this case 'Hollywood commies', are self-destructing and afraid of Donald Trump."
+2903700452,The economy is good,AGAINST,EXPLICIT,"I agree with the following: the US has been ruined and transformed into a banana republic, implying a negative economic state."
+2903700452,Media,AGAINST,EXPLICIT,I agree with the following: there is widespread corruption in the media.
+2903700452,Barack Obama,AGAINST,EXPLICIT,"I agree with the following: Barack Obama is an arrogant jerk with no meaningful achievements and has ruined America, which will be his legacy."
+2918636679,Immigration / immigrants,AGAINST,EXPLICIT,I agree with the following: the government should not allow illegal immigrants into the country and should take action to remove them.
+2918636679,Politicians,AGAINST,EXPLICIT,"I agree with the following: the government, led by corrupt politicians, is acting against the interests of Americans."
+2918636679,Government,AGAINST,EXPLICIT,I agree with the following: the government is corrupt and is acting against the interests of Americans by allowing illegal immigrants into the country.
+2937305580,Social welfare,AGAINST,EXPLICIT,"I agree with the following: socialist politics are causing the NFL ratings drop, implying a negative view of socialist policies often associated with social welfare."
+2937305580,NFL officials,AGAINST,EXPLICIT,"I agree with the following: NFL officials are not admitting the real cause of the ratings drop, implying a lack of trust in their statement."
+2947188768,Crime/Muslims / Islam,AGAINST,EXPLICIT,"I agree with the following: Muslims are associated with crime, specifically rape."
+2947188768,Immigration / immigrants,AGAINST,EXPLICIT,"I agree with the following: immigration is problematic and associated with crime, specifically rape, and should be restricted."
+2947188768,Democrats,AGAINST,EXPLICIT,"I agree with the following: Democrats, specifically Hillary, have an open-border policy that allows criminals into the country."
+2996563993,Donald Trump,AGAINST,IMPLICIT,"I agree with the following: the Trump administration's trade policies may not be effective for companies like Ford, GE, GM, etc."
+2996563993,Taxes are fair,AGAINST,EXPLICIT,I agree with the following: companies will have to pay hefty taxes under a President Trump administration.
+3005124660,CrimeMuslims / Islam,AGAINST,IMPLICIT,"I agree with the following: Dubai is not a desirable place to visit, possibly due to its association with certain crimes or laws."
+3028986779,Immigration / immigrants,AGAINST,EXPLICIT,"I agree with the following: immigrants will have a significant influence on Sweden, implying a negative impact."
+3055841913,CrimeMuslims / Islam,AGAINST,EXPLICIT,I agree with the following: the Obama administration's actions put the country's security at risk due to its Muslim appointees.
+3055841913,Immigration / immigrants,AGAINST,EXPLICIT,"I agree with the following: the Obama administration's actions, such as giving tours of secure areas to investigated Somalis, put the country's security at risk."
+3055841913,Democrats,AGAINST,EXPLICIT,"I agree with the following: the Obama administration's actions put the country's security at risk, implying that Democrats are responsible for these actions."
+3055841913,Barack Obama,AGAINST,EXPLICIT,"I agree with the following: Obama's administration put the country's security at risk due to its actions, and we can't get rid of Obama soon enough."
+3104339300,Healthcare / Medicare,AGAINST,IMPLICIT,"I agree with the following: the current healthcare system, particularly cancer research, is ineffective in producing a cure despite significant time and resources invested."
+3104339300,Science / Scientists,FAVOR,IMPLICIT,"I agree with the following: science research has produced many kinds of DNA testing, which is a positive achievement."
+3119799462,Donald Trump,FAVOR,EXPLICIT,I agree with the following: President Trump is trying to undo decades of corruption and incompetence of our leaders.
+3119799462,Elites,AGAINST,IMPLICIT,I agree with the following: our leaders have been corrupt and incompetent for decades.
+3119799462,Politicians,AGAINST,IMPLICIT,I agree with the following: our leaders have been corrupt and incompetent for decades.
+3132440892,Woke,AGAINST,IMPLICIT,I agree with the following: Celebrities are blindly following their masters and are out of touch with reality.
+3132440892,Elites,AGAINST,EXPLICIT,"I agree with the following: Hollywood elites, referred to as 'Hollywood commie bosses', are controlling and out of touch with reality."
+3132440892,Media,AGAINST,EXPLICIT,"I agree with the following: The media, specifically Hollywood, is dying and out of touch with reality, as indicated by the profit losses of the big five studios."
+3149995561,Government spending,AGAINST,EXPLICIT,"I agree with the following: excessive government spending is a bad decision, as implied by the criticism of Merkel."
+3149995561,Social welfare,AGAINST,EXPLICIT,"I agree with the following: social welfare programs, such as paying migrants to leave, are misguided, as implied by the criticism of Merkel."
+3149995561,Immigration / immigrants,AGAINST,EXPLICIT,"I agree with the following: Merkel's immigration policies, including paying migrants to leave, are flawed, as implied by the criticism of Merkel."
+3149995561,Politicians,AGAINST,EXPLICIT,"I agree with the following: Merkel is making poor decisions, as implied by the criticism of Merkel."
+3210698257,Healthcare / Medicare,AGAINST,EXPLICIT,I agree with the following: it is time to repeal Obamacare
+3210698257,Donald Trump,AGAINST,EXPLICIT,I agree with the following: Pres. Trump is not saying enough about the bill
+3210698257,Politicians,AGAINST,EXPLICIT,I agree with the following: Ryan should get out of the way
+3247281903,Woke,AGAINST,EXPLICIT,I agree with the following: CEOs should not inject politics and social justice into business.
+3247281903,Gay / LGTBQ+,AGAINST,EXPLICIT,I agree with the following: CEOs should not take a stance on the transgender bathroom issue.
+3282502461,Immigration / immigrants,AGAINST,EXPLICIT,I agree with the following: America has been harmed by illegal immigration and the actions of immigration activists are misguided.
+3342831243,Immigration / immigrants,FAVOR,EXPLICIT,I agree with the following: the enforcement of immigration laws is necessary and judges who oppose it disrespect the Constitution.
+3342831243,Democrats,AGAINST,EXPLICIT,"I agree with the following: left-wing judges, likely referring to Democrats, disrespect our Constitution and the rule of law."
+3369578601,Elizabeth Warren,AGAINST,EXPLICIT,I agree with the following: Elizabeth Warren is nasty.
+3416560783,CrimeMuslims / Islam,AGAINST,IMPLICIT,"I agree with the following: Acid attacks are more common in countries with significant Muslim populations, implying a possible connection between the two."
+3450893576,Donald Trump,FAVOR,EXPLICIT,I agree with the following: President Trump is an outsider who can learn from his mistakes and become stronger.
+3450893576,Republicans (GOP),AGAINST,EXPLICIT,I agree with the following: President Trump made errors in judgement by hiring and recommending individuals for WH positions based on GOPe people's recommendations.
+3450893576,Elites,AGAINST,EXPLICIT,"I agree with the following: President Trump is dealing with 'swamp creatures', implying a negative view of the elite."
+3496997844,Government spending,AGAINST,EXPLICIT,I agree with the following: taxpayer money is being misused by Elon Musk.
+3534170723,Donald Trump,AGAINST,IMPLICIT,I agree with the following: the NFL should not be involved in politics and Trump's views should not be supported by NFL figures.
+3558116378,The police (cops),FAVOR,EXPLICIT,I agree with the following: ICE should enforce immigration laws by raiding places that employ illegal aliens.
+3558116378,Immigration / immigrants,AGAINST,EXPLICIT,I agree with the following: illegal aliens should not be employed in the US and ICE should raid places that employ them.
+3582392667,Woke,AGAINST,IMPLICIT,I agree with the following: the concept of 'woke' is part of the left's agenda to destroy American institutions.
+3582392667,Democrats,AGAINST,IMPLICIT,"I agree with the following: the left, which includes Democrats, is trying to destroy American institutions."
+3582392667,Elites,AGAINST,EXPLICIT,I agree with the following: globalists like Soros are trying to bring the US to its knees.
+3582392667,Christians / Christianity,FAVOR,EXPLICIT,"I agree with the following: America is the lone nation that retains its Christian faith, which is under attack by the left."
+3582392667,Gay / LGTBQ+,AGAINST,EXPLICIT,I agree with the following: the concept of gender identity is a left-wing creation aimed at destroying American institutions.
+3603516675,Social welfare,AGAINST,EXPLICIT,I agree with the following: social welfare should not be provided to illegals.
+3603516675,Healthcare / Medicare,AGAINST,EXPLICIT,I agree with the following: free healthcare should be stopped for illegals.
+3603516675,Immigration / immigrants,AGAINST,EXPLICIT,I agree with the following: illegals should be deported.
+3641562072,Woke,AGAINST,EXPLICIT,I agree with the following: leftism is foolish.
+3641562072,Democrats,AGAINST,EXPLICIT,"I agree with the following: the current CA governor, a leftist, is a fool."
+3681572504,Woke,AGAINST,EXPLICIT,I agree with the following: virtue signaling is negative.
+3681572504,Donald Trump,FAVOR,IMPLICIT,I agree with the following: the criticism from the English Bishop towards Pro-Trump Christians is unjustified.
+3681572504,Elites,AGAINST,EXPLICIT,"I agree with the following: the authority of Buckingham palace is superior to the virtue signaling CoE, implying that the CoE is part of the elite that is being criticized."
+3681572504,Christians / Christianity,FAVOR,IMPLICIT,"I agree with the following: the criticism from the English Bishop towards Pro-Trump Christians is unjustified, implying support for Christians."
+3690591739,Donald Trump,AGAINST,EXPLICIT,I agree with the following: the claim about Donald Trump thinking Jared and Ivanka should not have come to Washington is questionable.
+3721491638,Donald Trump,AGAINST,IMPLICIT,"I agree with the following: the commenter is skeptical about Nancy Pelosi's statement, which implies a negative stance towards Donald Trump, given the context of the news title 'Pelosi: The ‘Trump Tax Scam’ Is a ‘Dark Cloud Hanging Over the Capitol’"
+3721491638,Democrats,AGAINST,IMPLICIT,"I agree with the following: the commenter is questioning Nancy Pelosi's statement, implying a negative stance towards Democrats"
+3721491638,Politicians,AGAINST,IMPLICIT,"I agree with the following: the commenter is questioning Nancy Pelosi's statement, implying a negative stance towards politicians in general"
+3762493146,Democrats,AGAINST,EXPLICIT,I agree with the following: Democrats are determined to disarm American citizens and oppress them.
+3791638252,Donald Trump,FAVOR,EXPLICIT,"I agree with the following: the POTUS administration should have Twitter investigated for free speech violations, implying that the commenter supports Donald Trump's rights to free speech."
+3791638252,Media,AGAINST,EXPLICIT,"I agree with the following: social media companies, like Twitter, should be investigated for free speech violations, implying that the commenter is against the current practices of media companies."
+3791638252,Social media,AGAINST,EXPLICIT,"I agree with the following: social media companies, like Twitter, should be investigated for free speech violations, implying that the commenter is against the current practices of social media companies."
+3832517624,Government spending,AGAINST,EXPLICIT,I agree with the following: taxpayer subsidies are being misused.
+3845531409,Media,AGAINST,EXPLICIT,"I agree with the following: the media, specifically the show, should be boycotted by calling its sponsors."
+3884048511,Barack Obama,AGAINST,EXPLICIT,I agree with the following: Michelle is not getting attention from Barack.
+3884048511,Michelle Obama,AGAINST,EXPLICIT,"I agree with the following: Michelle is not the forever first lady, she is just dreaming."
+3952883141,Donald Trump,FAVOR,EXPLICIT,"I agree with the following: the enforcement of border laws, which is implied to be a policy supported by Donald Trump."
+3952883141,Republicans (GOP),AGAINST,EXPLICIT,I agree with the following: the Republican senators who are demanding an end to border enforcement are lawless and should be stopped.
+3952883141,Immigration / immigrants,AGAINST,EXPLICIT,"I agree with the following: the enforcement of border laws is necessary to maintain the rule of law in America, implying that unregulated immigration is undesirable."
+3952883141,Politicians,AGAINST,EXPLICIT,"I agree with the following: the politicians, specifically the Republican senators, who are demanding an end to border enforcement are lawless and should be stopped."
+3975388305,Media,AGAINST,EXPLICIT,I agree with the following: the media should not dignify certain individuals with an article.
+3975388305,Journalists,AGAINST,EXPLICIT,"I agree with the following: Dan Rather, as a journalist, is lying and does not deserve an article."
+4006814990,Republicans (GOP),FAVOR,IMPLICIT,"I agree with the following: Jordan could be a better speaker, implying support for a Republican candidate."
+4006814990,Politicians,FAVOR,IMPLICIT,"I agree with the following: Jordan could be a better speaker, implying a positive view of a specific politician."
+4036979838,Donald Trump,AGAINST,EXPLICIT,I agree with the following: the former president is a liar.
+4036979838,Barack Obama,FAVOR,EXPLICIT,"I agree with the following: the former president is not a liar, implying the commenter has a positive view of him."
+4071478882,Media,AGAINST,EXPLICIT,I agree with the following: the media reports fake news.
+4092611503,Republicans (GOP),AGAINST,EXPLICIT,"I agree with the following: the GOP, specifically the establishment wing (GOPe), is misguided in their stance on immigration and amnesty."
+4092611503,Immigration / immigrants,AGAINST,EXPLICIT,"I agree with the following: providing amnesty to undocumented immigrants, such as those covered by DACA, is undesirable."
+4092611503,Democrats,AGAINST,EXPLICIT,"I agree with the following: the left, which includes Democrats, is misguided in their stance on immigration and amnesty."
+4092611503,Elites,AGAINST,EXPLICIT,"I agree with the following: the elites, including the Koch brothers and certain politicians, are misguided in their stance on immigration and amnesty."
+4092611503,Politicians,AGAINST,EXPLICIT,"I agree with the following: certain politicians, such as those in the GOPe, are misguided in their stance on immigration and amnesty."
+4119400723,Democrats,AGAINST,EXPLICIT,I agree with the following: Kamala Harris is bad.
+4138528515,The economy is good,FAVOR,EXPLICIT,"I agree with the following: the trade agreement assures the 3 nations more leverage to negotiate with China to reverse the trade imbalance, which is beneficial for the US economy."
+4176830197,Woke,AGAINST,IMPLICIT,I agree with the following: the term 'left wing crowd' implies a negative view of progressive or 'woke' ideologies.
+4176830197,Democrats,AGAINST,IMPLICIT,I agree with the following: the term 'left wing crowd' implies a negative view of the Democratic party or its supporters.
+4431773691,Government spending,AGAINST,EXPLICIT,I agree with the following: excessive government spending will eventually bankrupt the nation.
+4431773691,Social welfare,AGAINST,EXPLICIT,"I agree with the following: social welfare programs, such as cradle to grave entitlements, will lead to the downfall of a nation."
+4431773691,Democrats,AGAINST,EXPLICIT,"I agree with the following: Democrats running for president in 2020 will promise excessive entitlements, which will have a negative impact on the nation."
+4452531832,Woke,AGAINST,EXPLICIT,"I agree with the following: college students being treated as customers is a negative aspect, implying a stance against the 'woke' culture that may prioritize customer satisfaction over traditional educational values."
+4473466301,Donald Trump,FAVOR,EXPLICIT,"I agree with the following: the hosts who disrespected President Trump were wrong to do so, as he is a figure who was voted for by over 60 million Americans, including myself."
+4473466301,Media,AGAINST,EXPLICIT,"I agree with the following: the media, specifically ESPN, has made a mistake by allowing hosts to disrespect President Trump, which has driven away viewers."
+4520365121,Donald Trump,AGAINST,EXPLICIT,I agree with the following: that I don't agree with Pres. Trump on the issue of DACA amnesty.
+4520365121,Immigration / immigrants,AGAINST,EXPLICIT,"I agree with the following: that DACA amnesty will encourage more illegal aliens to cross our border, which implies that I am against the current immigration policy."
+4555154868,Donald Trump,AGAINST,IMPLICIT,"I agree with the following: musicians who are planning anti-Trump concerts are not phonies with gigantic egos, implying that the commenter disagrees with Trump."
+4555154868,Elites,AGAINST,EXPLICIT,"I agree with the following: musicians who are planning concerts are not phonies with gigantic egos, implying that the commenter is against the idea of elites being phonies."
+4581375491,Woke,AGAINST,EXPLICIT,"I agree with the following: leftists, who are associated with being 'woke', are being hypocritical by championing anti-racism while allegedly being racist."
+4581375491,Democrats,AGAINST,IMPLICIT,"I agree with the following: leftists, who are often associated with the Democratic party, are being hypocritical by championing anti-racism while allegedly being racist."
+4581375491,Google,AGAINST,EXPLICIT,"I agree with the following: Google, a company that champions anti-racism, is allegedly racist."
+4606132000,Climate change is real,AGAINST,EXPLICIT,I agree with the following: it is not possible for the world to halt climate change by adopting a vegetarian diet due to the lack of arable land to sustain the global population.
+4606132000,Science / Scientists,AGAINST,EXPLICIT,"I agree with the following: statistics cited by vegetarians and vegans, which may be based on scientific studies, are misleading."
+4622429977,Government spending,AGAINST,EXPLICIT,"I agree with the following: politicians use their positions to acquire wealth, implying that government spending is misused for personal gain."
+4622429977,Donald Trump,FAVOR,EXPLICIT,"I agree with the following: President Trump donates his salary, implying that he is not motivated by personal financial gain, unlike other politicians."
+4622429977,Democrats,AGAINST,EXPLICIT,"I agree with the following: Democrat politicians, such as the ones mentioned, use their positions to acquire wealth, implying corruption."
+4622429977,Elites,AGAINST,EXPLICIT,"I agree with the following: politicians, referred to as 'elites' or 'politician parasites,' use their positions to acquire wealth, implying that they are corrupt and out of touch with the people."
+4622429977,Politicians,AGAINST,EXPLICIT,"I agree with the following: politicians are 'parasites' who use their positions to acquire wealth, implying corruption and a negative view of politicians in general."
+4622429977,Barack Obama,AGAINST,EXPLICIT,"I agree with the following: Barack Obama, referred to as 'Barry,' is implied to be one of the politicians who has used his position to acquire wealth."
+4646366509,Christians / Christianity,AGAINST,EXPLICIT,"I agree with the following: the Vatican officials have ignored abuse within the Catholic church, implying a criticism of the church's leadership and values."
+4669207710,Democrats,AGAINST,IMPLICIT,"I agree with the following: the left wing, specifically Democrats, are not calling out Tom Arnold for his behavior."
+4669207710,Media,AGAINST,EXPLICIT,"I agree with the following: media hacks are not doing their job properly, specifically in calling out Tom Arnold."
+4669207710,Journalists,AGAINST,EXPLICIT,"I agree with the following: journalists, referred to as media hacks, are not doing their job properly."
+4688428694,Immigration / immigrants,AGAINST,EXPLICIT,I agree with the following: the court should challenge the current immigration policy.
+4688428694,Democrats,AGAINST,EXPLICIT,I agree with the following: the liberal/socialist justices are misguided in their decision-making.
+4710185668,Immigration / immigrants,AGAINST,EXPLICIT,"I agree with the following: Pete Buttigieg is appealing to illegal Mexicans to vote for him, implying that his stance on immigration is being criticized."
+4710185668,Democrats,AGAINST,IMPLICIT,"I agree with the following: Pete Buttigieg's actions are being viewed as pandering, which implies a negative view of his party's stance or strategy."
+4710185668,Politicians,AGAINST,EXPLICIT,"I agree with the following: Pete Buttigieg is pandering to a specific group for votes, which reflects negatively on politicians in general."
+4755223978,Democrats,AGAINST,EXPLICIT,I agree with the following: the Democrats are corrupt and are trying to destroy the Constitution.
+4755223978,Media,AGAINST,EXPLICIT,"I agree with the following: the media is corrupt and biased against the right, referring to them as 'left wing media hacks'."
+4755223978,Journalists,AGAINST,EXPLICIT,"I agree with the following: journalists are corrupt and biased, referring to them as 'media hacks'."
+4789965759,Immigration / immigrants,FAVOR,EXPLICIT,I agree with the following: some countries will still let immigrants in and allow them refugee status.
+4813050627,Woke,AGAINST,EXPLICIT,"I agree with the following: Taylor Swift's video is whining and that she should consider a sex change, implying a negative view of her perceived 'woke' behavior."
+4813050627,Gay / LGTBQ+,AGAINST,EXPLICIT,"I agree with the following: the commenter is suggesting Taylor Swift should get a sex change, which could be seen as mocking or dismissive of the LGBTQ+ community."
+4813050627,Feminism,AGAINST,EXPLICIT,"I agree with the following: the commenter is being sarcastic and dismissive of Taylor Swift's perceived feminist views, implying a negative stance towards feminism."
+4835947699,The economy is good,AGAINST,EXPLICIT,"I agree with the following: the economy of Venezuela has already been brought down, implying it is not good."
+4835947699,Politicians,AGAINST,EXPLICIT,"I agree with the following: Mauro (implied to be a politician) has brought down Venezuela, implying a negative view of politicians."
+4865240050,Democrats,AGAINST,EXPLICIT,I agree with the following: the Democrats have a controversial or undesirable goal regarding voting by mail.
+4917737314,Democrats,AGAINST,EXPLICIT,I agree with the following: Democrats will be more emboldened to commit crimes if there are no consequences for their actions.
+4917737314,Media,AGAINST,EXPLICIT,I agree with the following: the US media has descended to a depraved state and displays corruption daily.
+4939992820,Donald Trump,AGAINST,EXPLICIT,I agree with the following: President Trump's response to the rioters' violence is being negatively influenced.
+4957168538,Woke,AGAINST,IMPLICIT,I agree with the following: radical left ideologies are not supported
+4957168538,Republicans (GOP),FAVOR,IMPLICIT,I agree with the following: American patriotism is valued
+4957168538,Democrats,AGAINST,IMPLICIT,I agree with the following: radical left ideologies are not supported
+5033489102,The economy is good,AGAINST,EXPLICIT,I agree with the following: Germany's economy took a big hit.
+5033489102,Donald Trump,FAVOR,EXPLICIT,"I agree with the following: Pres. Trump's actions against China's trade practices are justified, as they led to China losing hundreds of billions."
+5078731030,Woke,AGAINST,EXPLICIT,"I agree with the following: The NFL and other sports leagues are overly focused on social justice issues, and this is a negative trend."
+5078731030,The police (cops),FAVOR,IMPLICIT,I agree with the following: The police are being unfairly criticized and targeted by Marxist and BLM supporters.
+5078731030,Democrats,AGAINST,IMPLICIT,"I agree with the following: The NFL and other sports leagues are being influenced by Marxist and communist ideologies, which are often associated with the Democratic party."
+5078731030,Elites,AGAINST,EXPLICIT,"I agree with the following: The players in the NFL and other sports leagues are being used by Marxist communists, implying that the elites are out of touch with ordinary Americans."
+5106639331,Republicans (GOP),AGAINST,EXPLICIT,I agree with the following: Lindsey Graham is a coward and not fit to be chairman of the Judicial Committee.
+5106639331,Politicians,AGAINST,EXPLICIT,"I agree with the following: Lindsey Graham is a coward and not fit to be chairman of the Judicial Committee, implying that some politicians are not fit for their roles."
+5946716108,The economy is good,AGAINST,IMPLICIT,I agree with the following: the economy is not good due to the actions of globalists and corrupt politicians.
+5946716108,Government spending,AGAINST,EXPLICIT,"I agree with the following: government spending, as seen in the 'Inflation Reduction' bill, is corrupt and will destroy the middle class."
+5946716108,Republicans (GOP),AGAINST,EXPLICIT,I agree with the following: the GOP is corrupt and helped pass a bill that will harm the middle class.
+5946716108,Elites,AGAINST,EXPLICIT,"I agree with the following: the elites, including globalists, are working against the middle class and have a harmful agenda."
+5946716108,Politicians,AGAINST,EXPLICIT,"I agree with the following: politicians, including those in the GOP, are corrupt and working against the middle class."

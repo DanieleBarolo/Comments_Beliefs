@@ -108,9 +108,10 @@ def write_prompt_ct(article_title, article_body, parent_comment, oldest_comment,
     - If the stance is ambiguous, write NONE
     - If the comment is not related to the target, write NOT RELATED
 
-    ### Short explanation ### 
-    Together with the stance for a given target, provide evidence-based reasoning that quotes or references specific text from the comment that reveals the commenter's stance toward the target.
-    If the stance is determined as "NOT RELATED" leave an empty string.
+    ### KEY CLAIM ###
+    - Extract the fundamental assertion or belief that form the basis of the commenter's stance
+    - The key claim should be expressed impersonalizing the user in the form of "I agree with the following: <extracted claim>".
+    - If no stance is expressed (NOT RELATED, NONE) then leave the explanation field empty. 
 
     ### Output Format: ###
 
@@ -121,7 +122,7 @@ def write_prompt_ct(article_title, article_body, parent_comment, oldest_comment,
           "target": "<original_target>", 
           "stance": "<one among [FAVOR, AGAINST, NONE, NOT RELATED]>", 
           "stance_type": "<one among [EXPLICIT, IMPLICIT, NONE]>",
-          "explanation": "<short explanation if stance is FAVOR/AGAINST/NONE>"
+          "explanation": "<I agree with the following: ...> if stance in FAVOR/AGAINST"
         }},
         // Repeat for each target
       ]

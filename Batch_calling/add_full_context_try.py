@@ -14,7 +14,7 @@ article_filter = {'art_id': art_id}
 
 # ## Create compound indexes
 # comment_collection.create_index([('art_id', 1), ('createdAt', 1)]) 
-comment_collection.create_index([('art_id', 1), ('likes', -1)])
+# comment_collection.create_index([('art_id', 1), ('likes', -1)])
 
 oldest_comment = comment_collection.find_one(
         {'art_id': art_id},

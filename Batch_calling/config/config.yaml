@@ -1,0 +1,30 @@
+# Main configuration parameters
+mongodb:
+  host: "localhost"
+  port: 27017
+
+# User and collection settings
+user_id: "31499533"
+collection_name: "Breitbart"
+
+# Model settings
+model:
+  name: "deepseek-r1-distill-llama-70b" # ["deepseek-r1-distill-llama-70b", "llama-3.3-70b-versatile" ]
+  temperature: 0.5
+
+# Batch settings
+batch:
+  size: 100
+  prompt_type: "closed_target" # [open_target, closed_target, closed_target_new]
+
+# For Ablation studies
+content: 
+  article_body : false
+  parent_comment : true
+  oldest_comment : true 
+  most_liked_comment : true
+
+# Path settings
+paths:
+  base_dir: "data/batch_files"
+  results_dir: "data/results"

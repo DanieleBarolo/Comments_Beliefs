@@ -6,7 +6,7 @@ import numpy as np
 from targets import target_list
 from prompts_builder import *
 from utils import *
-from setup import FullStancesCT, FullStancesOT
+from setup import *
 from datetime import datetime
 
 def create_dir(base_dir, user_id, llm_name_groq, prompt_type, timestamp):

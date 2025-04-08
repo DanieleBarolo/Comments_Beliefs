@@ -1,7 +1,7 @@
 experiment:
   key: exp_00002
-  date: '2025-04-07'
-  time: '17:38'
+  date: '2025-04-08'
+  time: '11:26'
   description: 'EXAMPLE: Create a new experiment configuration'
 user:
   user_id: '31499533'
@@ -12,7 +12,7 @@ api:
     temperature: 0
 data:
   collection_name: Breitbart
-  batch_size: 100
+  batch_size: 200
 prompts:
   type: closed_target
   system_prompt: "You are an advanced stance classification AI that analyzes news\

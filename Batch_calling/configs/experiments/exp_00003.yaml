@@ -1,5 +1,5 @@
 experiment:
-  key: exp_00001
+  key: exp_00003
   date: '2025-04-08'
   time: '11:26'
   description: 'EXAMPLE: Create a new experiment configuration'

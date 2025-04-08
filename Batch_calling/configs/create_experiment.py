@@ -113,12 +113,14 @@ if __name__ == "__main__":
 
     description = "EXAMPLE: Create a new experiment configuration"
 
+    user_ids = ["31499533", "31499533", "31499533"]
+
     user_id = "31499533"
     username = "1Tiamo"
 
-    model = "deepseek-r1-distill-llama-70b"
+    model = "deepseek-r1-distill-llama-70b" # "llama-3.3-70b-versatile"
 
-    batch_size = 100
+    batch_size = 200
     context = {"include_article_body": False,
              "include_most_liked_comment": True,
              "include_parent_comment": True,
@@ -126,12 +128,13 @@ if __name__ == "__main__":
     
     prompt_type = "closed_target"
 
-    config_path = create_experiment_config(
-        user_id = user_id,
-        description = description,
-        username = username,
-        batch_size = batch_size,
-        context = context,
+    for user_id in user_ids:
+        config_path = create_experiment_config(
+            user_id = user_id,
+            description = description,
+            username = username,
+            batch_size = batch_size,
+            context = context,
         model = model,
         prompt_type = prompt_type
     )

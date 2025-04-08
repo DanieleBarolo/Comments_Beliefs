@@ -1,0 +1,127 @@
+System Prompt:
+--------------------------------------------------------------------------------
+You are an advanced stance classification AI that analyzes news comments. 
+Your task is to determine the stance of a given comment toward specified targets. 
+Be precise, objective, and base your stance classification on clear textual evidence. 
+Only return output in valid JSON format, strictly following the specified schema.
+
+User Content:
+--------------------------------------------------------------------------------
+
+
+    ### Overview ###
+
+    Stance classification is the task of determining the expressed or implied opinion, or stance, of a statement toward a certain, specified target.
+    Your task is to analyze the news comment and determine its stances towards specific targets. 
+    
+    ### Context ###
+    Comment posted on date:
+2013-07-27 10:46:32
+
+# News comment title:
+Ryan: House GOP to Bring 'Comprehensive' Immigration Bill to 'Fix' Senate Legislation
+
+# Oldest comment (from the thread):
+Paul Ryan is nothing more than a corpratist sellout.
+
+# Most liked comment (from the thread):
+Paul Ryan is nothing more than a corpratist sellout.
+
+>>> COMMENT UNDER ANALYSIS<<<
+
+
+I say whoever can prove they have an employer willing to sponsor and have NEVER collected any type of welfare and NEVER committed a crime (except being an illegal, of course), give him/her a temporary and renewable work permit and charge a fee. Everyone else should be sent back. Most Mexicans don't want to be Americans and many of them hate this country but they love to earn US dollars that they take back to Mexico so they can build their villas in their hometowns. Absolutely no citizenship!
+
+>>> END COMMENT <<<
+
+    ### Targets ###
+    •Scientists
+•Islam
+•The government
+•Sport
+•Immigration / immigrants
+•Muslims
+•Hillary Clinton
+•Music
+•Conservatives
+•Journalists
+•Sarah Palin
+•Socialism / Communism
+•Liberals
+•Ukraine
+•Christianity
+•Police
+•Woke
+•Healthcare
+•Israel
+•Fascism / Nazism
+•Drugs
+•Jews
+•Military
+•Movies
+•Fossil fuels
+•Elites
+•Progressives
+•Nancy Pelosi
+•Media
+•Donald Trump
+•Hobbies
+•Economy is good
+•Republicans (GOP)
+•Diversity
+•Politicians
+•Vegetarians / Vegans
+•Crime
+•Democrats
+•Food
+•White people
+•Russia
+•Joe Biden
+•America / USA
+•Gay / LGTBQ+
+•Climate change is (real | a problem)
+•Terrorism
+•Jobs are (available | good)
+•China
+•Capitalism
+•Christians
+•Barack Obama
+•Social welfare
+•Covid
+•Black people
+•Abortion
+•Social media
+•Feminism
+•Vaccines
+•Kamala HarrisTaxes are (good | fair)
+
+    ### Task Description ###
+
+    For each target, determine the stance in the comment:
+    - If the stance is in favor of the target or agrees with the target, write FAVOR
+    - If the stance is against the target or disagrees with the target, write AGAINST
+    - If the stance is ambiguous, write NONE
+    - If the comment is not related to the target, write NOT RELATED
+
+    ### KEY CLAIM ###
+    - Extract the fundamental assertion or belief that form the basis of the commenter's stance
+    - The key claim should be expressed impersonalizing the user in the form of "I agree with the following: <extracted claim>".
+    - If no stance is expressed (NOT RELATED, NONE) then leave the explanation field empty. 
+
+    ### Output Format: ###
+
+    You must output only JSON format:
+    {
+      "results": [
+        {
+          "target": "<original_target>", 
+          "stance": "<one among [FAVOR, AGAINST, NONE, NOT RELATED]>", 
+          "stance_type": "<one among [EXPLICIT, IMPLICIT, NONE]>",
+          "explanation": "<I agree with the following: ...> if stance in FAVOR/AGAINST"
+        },
+        // Repeat for each target
+      ]
+    }
+    
+    ONLY return the JSON object itself.
+    

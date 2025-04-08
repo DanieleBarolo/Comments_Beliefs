@@ -1,0 +1,140 @@
+System Prompt:
+--------------------------------------------------------------------------------
+You are an advanced stance classification AI that analyzes news comments. 
+Your task is to determine the stance of a given comment toward specified targets. 
+Be precise, objective, and base your stance classification on clear textual evidence. 
+Only return output in valid JSON format, strictly following the specified schema.
+
+User Content:
+--------------------------------------------------------------------------------
+
+
+    ### Overview ###
+
+    Stance classification is the task of determining the expressed or implied opinion, or stance, of a statement toward a certain, specified target.
+    Your task is to analyze the news comment and determine its stances towards specific targets. 
+    
+    ### Context ###
+    Comment posted on date:
+2013-09-28 17:03:55
+
+# News comment title:
+Rep. Wonders if GOP Are Robots Who Do Not Bleed or Feel
+
+# Oldest comment (from the thread):
+You need help understanding our opposition to ACA because it requires RATIONAL THOUGHT instead of knee jerk emotional response.
+
+Also, your Glorious Leader's brilliant plan will STILL leave 30 million Americans without healthcare INSURANCE.
+
+In addition, there were LOTS of serious, logical alternatives to ACA proposed, but they don't have the goal of CONTROLLING Americans, so they were dismissed by the Ostentatious Potentate and his minions.
+
+# Most liked comment (from the thread):
+You need help understanding our opposition to ACA because it requires RATIONAL THOUGHT instead of knee jerk emotional response.
+
+Also, your Glorious Leader's brilliant plan will STILL leave 30 million Americans without healthcare INSURANCE.
+
+In addition, there were LOTS of serious, logical alternatives to ACA proposed, but they don't have the goal of CONTROLLING Americans, so they were dismissed by the Ostentatious Potentate and his minions.
+
+>>> COMMENT UNDER ANALYSIS<<<
+
+
+This woman should just shut up. If this black, US Representative is what the black
+community elected to represent them, it says a lot about them and their community.
+Some of these government officials (Reid, Pelosi) do not contribute anything positive to improve our country and it's people. These people are nothing but JESTERS
+and even at that, the entertainment they provide is of poor quality because they can
+only speak in hyperbole but can't juggle apples. Let them expose what they truly are...
+FOOLS!
+
+>>> END COMMENT <<<
+
+    ### Targets ###
+    •Scientists
+•Islam
+•The government
+•Sport
+•Immigration / immigrants
+•Muslims
+•Hillary Clinton
+•Music
+•Conservatives
+•Journalists
+•Sarah Palin
+•Socialism / Communism
+•Liberals
+•Ukraine
+•Christianity
+•Police
+•Woke
+•Healthcare
+•Israel
+•Fascism / Nazism
+•Drugs
+•Jews
+•Military
+•Movies
+•Fossil fuels
+•Elites
+•Progressives
+•Nancy Pelosi
+•Media
+•Donald Trump
+•Hobbies
+•Economy is good
+•Republicans (GOP)
+•Diversity
+•Politicians
+•Vegetarians / Vegans
+•Crime
+•Democrats
+•Food
+•White people
+•Russia
+•Joe Biden
+•America / USA
+•Gay / LGTBQ+
+•Climate change is (real | a problem)
+•Terrorism
+•Jobs are (available | good)
+•China
+•Capitalism
+•Christians
+•Barack Obama
+•Social welfare
+•Covid
+•Black people
+•Abortion
+•Social media
+•Feminism
+•Vaccines
+•Kamala HarrisTaxes are (good | fair)
+
+    ### Task Description ###
+
+    For each target, determine the stance in the comment:
+    - If the stance is in favor of the target or agrees with the target, write FAVOR
+    - If the stance is against the target or disagrees with the target, write AGAINST
+    - If the stance is ambiguous, write NONE
+    - If the comment is not related to the target, write NOT RELATED
+
+    ### KEY CLAIM ###
+    - Extract the fundamental assertion or belief that form the basis of the commenter's stance
+    - The key claim should be expressed impersonalizing the user in the form of "I agree with the following: <extracted claim>".
+    - If no stance is expressed (NOT RELATED, NONE) then leave the explanation field empty. 
+
+    ### Output Format: ###
+
+    You must output only JSON format:
+    {
+      "results": [
+        {
+          "target": "<original_target>", 
+          "stance": "<one among [FAVOR, AGAINST, NONE, NOT RELATED]>", 
+          "stance_type": "<one among [EXPLICIT, IMPLICIT, NONE]>",
+          "explanation": "<I agree with the following: ...> if stance in FAVOR/AGAINST"
+        },
+        // Repeat for each target
+      ]
+    }
+    
+    ONLY return the JSON object itself.
+    

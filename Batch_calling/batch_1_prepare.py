@@ -1,62 +1,31 @@
 ''' new document instead of generate_batch.py '''
 
 import json
-import os
 import numpy as np
 from targets import target_list
-from prompts_builder import *
+from prompts.prompts_builder import *
 from utils import *
 from setup import *
+import os
 from datetime import datetime
+import yaml
+from pathlib import Path
 
-def create_dir(base_dir, user_id, llm_name_groq, prompt_type, timestamp):
-    
-    # basedirectory  
-    os.makedirs(base_dir, exist_ok=True) 
-    
-    # subdirectory 
-    user_dir = os.path.join(base_dir, user_id)
-    model_dir = os.path.join(user_dir, llm_name_groq)
-    prompt_dir = os.path.join(model_dir, prompt_type) 
-    date_dir = os.path.join(prompt_dir, timestamp)
-    os.makedirs(date_dir, exist_ok=True)
+# Get the project root directory
+PROJECT_ROOT = Path(__file__).parent.parent.absolute()
 
-    return date_dir
-
-def create_filename(batch_size, article_body, directory):
-
-    # generate filename 
-    batch_str = f"batch_size_{batch_size}"
-    article_str = "with_body" if article_body else "no_body"
-    context_str = "with_context" if article_comments else "no_parent"
-    file_type = "jsonl"
-    file_name = f"{batch_str}_{article_str}_{context_str}.{file_type}"
-    file_path = os.path.join(directory, file_name)
+# def get_model_schema(prompt_type):
     
-    # remove file if exists
-    if os.path.isfile(file_path): 
-        os.remove(file_path)
-    
-    return file_path 
-
-def get_model_schema(prompt_type):
-    
-    if prompt_type == 'open_target': 
-        model_json_schema = FullStancesOT.model_json_schema()
-    elif prompt_type == 'closed_target': 
-        model_json_schema = FullStancesCT.model_json_schema()
-    elif prompt_type == 'closed_target_new':
-        model_json_schema = FullStancesCTN.model_json_schema()
+#     if prompt_type == 'open_target': 
+#         model_json_schema = FullStancesOT.model_json_schema()
+#     elif prompt_type == 'closed_target': 
+#         model_json_schema = FullStancesCT.model_json_schema()
+#     elif prompt_type == 'closed_target_new':
+#         model_json_schema = FullStancesCTN.model_json_schema()
         
-    return model_json_schema 
+#     return model_json_schema 
 
-def write_jsonl_line(target_comment_id, llm_name_groq, user_content, model_json_schema):
-    default_sys_prompt = """"
-You are an advanced stance classification AI that analyzes news comments. 
-Your task is to determine the stance of a given comment toward specified targets. 
-Be precise, objective, and base your stance classification on clear textual evidence. 
-Only return output in valid JSON format, strictly following the specified schema.
-"""
+def write_jsonl_line(target_comment_id, llm_name_groq, user_content, default_sys_prompt, temperature):
 
     # Create the line to be written to the file
     jsonl_line = {
@@ -69,11 +38,15 @@ Only return output in valid JSON format, strictly following the specified schema
                 {"role": "system", "content": default_sys_prompt},  
                 {"role": "user", "content": user_content}  # User-generated content
             ],
-            "response_model": model_json_schema
+            "response_format": {"type": "json_object"}, # modified from "response_model"
+            "temperature": temperature
         }
     }
     return jsonl_line 
 
+################################################################################
+# we might want to change the sampling method here
+################################################################################
 def sample_comments(comments, batch_size): 
     sorted_comments = list(comments.sort("createdAt", 1))
 
@@ -87,10 +60,10 @@ def sample_comments(comments, batch_size):
     
     return sampled_comments
 
-def get_user_content(
+def write_text_prompt_from_comment_data(
     prompt_type, 
-    article_title,
-    article_body,
+    article_title_text,
+    article_body_text,
     parent_comment_text,
     oldest_comment_text,
     liked_comment_text,
@@ -98,13 +71,16 @@ def get_user_content(
     comment_date,
     target_list=False
 ): 
+    """"
+    return the prompt for that given comment
+    """
     kwargs = {
-        'article_title': article_title,
-        'article_body': article_body,
+        'article_title': article_title_text, # for ablation study
+        'article_body': article_body_text,
         'parent_comment': parent_comment_text,
         'oldest_comment': oldest_comment_text,
         'most_liked_comment': liked_comment_text,
-        'target_comment': target_comment_text,
+        'target_comment': target_comment_text, # for abltion study 
         'comment_date': comment_date,
     }
 
@@ -114,9 +90,6 @@ def get_user_content(
     elif prompt_type == "closed_target":
         user_content = write_prompt_ct(**kwargs, targets=target_list)
 
-    elif prompt_type == "closed_target_new":
-        user_content = write_prompt_ct_new(**kwargs, targets=target_list)
-
     else:
         user_content = ''
 
@@ -125,60 +98,65 @@ def get_user_content(
 def write_line(
     file_path, 
     prompt_type,
+    default_sys_prompt,
     comment, 
-    article_collection, 
+    temperature,
     llm_name_groq = 'deepseek-r1-distill-llama-70b',
     collection_name = 'Breitbart', 
-    article_comments = True,
+    target_comment = True,
+    article_title = True,
+    parent_comment = True,
+    oldest_comment = False,
+    liked_comment = False,
     article_body = False,
     target_list = False):
     
-    parent_comment = ''
-    oldest_comment = ''
-    liked_comment = ''
-    
+    # initialize collections
+    comment_collection = init_mongo(dbs = "Comments", collection = collection_name)
+    article_collection = init_mongo(dbs = "Articles", collection = collection_name)
+
     # comment info 
-    target_comment_text = comment.get('raw_message')
+    target_comment_text = comment.get('raw_message') if target_comment else ''
     target_comment_id = comment.get('_id')
     comment_date = comment.get('createdAt')
     
     # article title 
     article_id = comment.get('art_id')
+    
     article_obj = article_collection.find_one({'_id': article_id})
-    article_title = article_obj.get('clean_title')
+    article_title_text = article_obj.get('clean_title') if article_title else ''
     
     # retreive artcle body 
     if article_body: 
         article_obj = get_article_text(
             article_id = article_id, 
             collection_name = collection_name)
-        article_body = article_obj.get('body')
+        article_body_text = article_obj.get('body')
     else: # do we need this?
-        article_body = ''
+        article_body_text = ''
     
     # same logic for parent comment
-    if article_comments: 
-        parent_comment_id = comment.get('parent')
-        parent_comment = comment_collection.find_one({'_id': parent_comment_id})
-        oldest_comment = comment_collection.find_one(
-            {'art_id': article_id},
-            sort=[('createdAt', 1)] # is it really 1 here and not 0?
-        )
-        liked_comment = comment_collection.find_one(
-            {'art_id': article_id},
-            sort=[('likes', -1)]
-        )
+    parent_comment_id = comment.get('parent')
+    parent_comment_obj = comment_collection.find_one({'_id': parent_comment_id})
+    oldest_comment_obj = comment_collection.find_one(
+        {'art_id': article_id},
+        sort=[('createdAt', 1)] # is it really 1 here and not 0?
+    )
+    liked_comment_obj = comment_collection.find_one(
+        {'art_id': article_id},
+        sort=[('likes', -1)]
+    )
     
     # context around comments 
-    parent_comment_text = parent_comment.get('raw_message') if parent_comment else ''
-    oldest_comment_text = oldest_comment.get('raw_message') if oldest_comment else ''
-    liked_comment_text = liked_comment.get('raw_message') if liked_comment else ''
+    parent_comment_text = parent_comment_obj.get('raw_message') if parent_comment and parent_comment_obj else ''
+    oldest_comment_text = oldest_comment_obj.get('raw_message') if oldest_comment and oldest_comment_obj else ''
+    liked_comment_text = liked_comment_obj.get('raw_message') if liked_comment and liked_comment_obj else ''
     
     # user content (main prompt)
-    user_content = get_user_content(
+    user_content = write_text_prompt_from_comment_data(
         prompt_type, 
-        article_title,
-        article_body,
+        article_title_text,
+        article_body_text,
         parent_comment_text,
         oldest_comment_text,
         liked_comment_text,
@@ -187,54 +165,67 @@ def write_line(
         target_list) 
 
     # json line (combining everything)
-    jsonl_line = write_jsonl_line(target_comment_id, llm_name_groq, user_content, model_json_schema)
+    jsonl_line = write_jsonl_line(target_comment_id, llm_name_groq, user_content, default_sys_prompt, temperature)
     
     # write 
     with open(file_path, "a") as f:
         f.write(json.dumps(jsonl_line) + "\n")
 
-# setup 
-collection_name = "Breitbart" 
-base_dir = "data/batch_files" 
-user_id = "31499533" #user_id for "1Tiamo" 
-llm_name_groq = "deepseek-r1-distill-llama-70b" 
-batch_size = 500 # set to "all" if you want all Data in the Batch
-prompt_type = "closed_target" # choose among ["open_target", "closed_target", "closed_target_new"]
-targets_list = target_list # Pass the list of Closed Targets IFF prompt_type = "Closed Target"
-article_body = False 
-article_comments = True 
-timestamp = datetime.now().strftime("%Y-%m-%d-%m")
 
-# paths 
-directory = create_dir(
-    base_dir,
-    user_id,
-    llm_name_groq,
-    prompt_type,
-    timestamp
-)
-file_path = create_filename(
-    batch_size,
-    article_body,
-    directory
-)
 
-# comments, articles, model schema
-comment_collection = init_mongo(dbs = "Comments", collection = collection_name)
-comments = comment_collection.find({"user_id": user_id})
-sampled_comments = sample_comments(comments, batch_size) # sample comments
-model_json_schema = get_model_schema(prompt_type)
-article_collection = init_mongo(dbs = "Articles", collection = collection_name)
+################################################################################
+# Change by using the config file
+################################################################################   
 
-for comment in sampled_comments: 
-    write_line(
-        file_path,
-        prompt_type,
-        comment,
-        article_collection,
-        llm_name_groq=llm_name_groq, # default
-        collection_name=collection_name, #default
-        article_comments=article_comments, # default
-        article_body=article_body, #default
-        target_list=target_list
-    )
+def write_jsonl_file(config_file_path):
+
+    with open(f"configs/experiments/{config_file_path}.yaml", 'r') as f:
+        config = yaml.safe_load(f)
+
+
+    user_id = config.get('user', {}).get('user_id')
+    llm_name_groq = config.get('api', {}).get('groq', {}).get('model', "deepseek-r1-distill-llama-70b")
+    temperature = config.get('api', {}).get('groq', {}).get('temperature', 0)
+
+    prompt_type = config.get('prompts', {}).get('type', "closed_target")
+    default_sys_prompt = config.get('prompts', {}).get('system_prompt')
+
+    batch_size = config.get('data', {}).get('batch_size', 100)
+    collection_name = config.get('data', {}).get('collection_name', "Breitbart")
+
+    article_body = config.get('context', {}).get('include_article_body')
+    most_liked_comment = config.get('context', {}).get('include_most_liked_comment')
+    parent_comment = config.get('context', {}).get('include_parent_comment')
+    oldest_comment = config.get('context', {}).get('include_oldest_comment')
+
+
+    # sample comments
+    comment_collection = init_mongo(dbs = "Comments", collection = collection_name)
+    comments = comment_collection.find({"user_id": user_id})
+    sampled_comments = sample_comments(comments, batch_size)
+
+    file_path = config.get('paths', {}).get('batch_files')
+    save_path = os.path.join(file_path, f"{config_file_path}.jsonl")
+
+    target_list = config.get('prompts', {}).get('targets')
+
+    # write jsonl file
+    for comment in sampled_comments:
+        write_line(
+            save_path,
+            prompt_type,
+            default_sys_prompt,
+            comment,
+            temperature,
+            llm_name_groq=llm_name_groq,
+            collection_name=collection_name, 
+            target_comment = True,  # default
+            article_title = True, #default
+            parent_comment = parent_comment,
+            oldest_comment = oldest_comment,
+            liked_comment = most_liked_comment,
+            article_body = article_body,
+            target_list=target_list)
+
+if __name__ == "__main__":
+    write_jsonl_file("exp_00001")

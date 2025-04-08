@@ -114,7 +114,7 @@ target_list = {
     'Hillary Clinton',
     'Nancy Pelosi',
     'Sarah Palin',
-    'Kamala Harris'
+    'Kamala Harris',
     # economy and jobs
     'Taxes are (good | fair)', 
     'Economy is good', 

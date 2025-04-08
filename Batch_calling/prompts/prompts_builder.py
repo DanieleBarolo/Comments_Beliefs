@@ -9,14 +9,14 @@ from setup import *
 
 def generate_context(article_title, article_body, parent_comment, oldest_comment, most_liked_comment, target_comment, article_date):
     sections = [
-        f"Comment posted on date:\n{article_date}", 
-        f"# News comment title:\n{article_title}",
+        f"Comment posted on date:\n{article_date}" if article_date else None,
+        f"# News comment title:\n{article_title}" if article_title else None,
         f"# News comment article:\n{article_body}" if article_body else None,
         f"# Oldest comment (from the thread):\n{oldest_comment}" if oldest_comment else None,
         f"# Most liked comment (from the thread):\n{most_liked_comment}" if most_liked_comment else None,
         f"# News comment directly above the focal comment:\n{parent_comment}" if parent_comment else None,
         ">>> COMMENT UNDER ANALYSIS<<<",
-        f"\n{target_comment}",
+        f"\n{target_comment}" if target_comment else None,
         ">>> END COMMENT <<<"
     ]
     
@@ -132,51 +132,3 @@ def write_prompt_ct(article_title, article_body, parent_comment, oldest_comment,
     """
     return prompt
 
-
-##### NEW PROMPT #####
-
-def write_prompt_ct_new(article_title, article_body, parent_comment, oldest_comment, most_liked_comment, target_comment, comment_date, targets):
-
-    prompt = f"""
-
-    ### Overview ###
-
-    Stance classification is the task of determining the expressed or implied opinion, or stance, of a statement toward a certain, specified target.
-    Your task is to analyze the news comment and determine its stances towards specific targets. 
-    
-    ### Context ###
-    {generate_context(article_title, article_body, parent_comment, oldest_comment, most_liked_comment, target_comment, comment_date)}
-
-    ### Targets ###
-    {bullet_points_target(targets)}
-    
-    ### Task Description ###
-
-    1. Identify which targets from the list are actually mentioned or referenced in the comment, either explicitly or implicitly. Ignore targets that are not present.
-    
-    2. For each identified target, determine the stance in the comment:
-       - If the stance is in favor of the target, write FAVOR
-       - If it is against the target, write AGAINST
-       - If it is ambiguous, write NONE
-
-    ### Explanation ### 
-    Together with the stance for a given target, provide evidence-based reasoning that quotes or references specific text from the comment that reveals the commenter's stance toward the target.
-
-    ### Output Format: ###
-
-    You must output only JSON format:
-    {{
-      "results": [
-        {{
-          "target": "<original_target>", 
-          "stance": "<one among [FAVOR, AGAINST, NONE]>", 
-          "stance_type": <one among [EXPLICIT, IMPLICIT, NONE]
-          "explanation": <brief explanation of the stance>
-        }},
-        // Repeat for each target that are mentioned in the comment
-      ]
-    }}
-    
-    ONLY return the JSON object itself.
-    """
-    return prompt 

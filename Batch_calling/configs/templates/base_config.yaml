@@ -23,15 +23,6 @@ data:
   batch_size: 100  # set to "all" if you want all Data in the Batch
   # sampling_method: "time_based"  
 
-# Prompt Configuration
-prompts:
-  type: "{prompt_type}"  # open_target, closed_target
-  system_prompt: |
-    You are an advanced stance classification AI that analyzes news comments. 
-    Your task is to determine the stance of a given comment toward specified targets. 
-    Be precise, objective, and base your stance classification on clear textual evidence. 
-    Only return output in valid JSON format, strictly following the specified schema.
-
 # Context Options
 context:
   include_article_body: false
@@ -44,3 +35,10 @@ paths:
   base_dir: "data"
   batch_files: "data/batch_files"
   results: "data/results"
+
+# Prompt Configuration
+prompts:
+  type: "{prompt_type}"  # open_target, closed_target
+  system_prompt: "{system_prompt}"  # Will be loaded from system_prompt.txt
+  prompt_template: "{prompt_template}"  # Will be loaded from the appropriate template file
+  targets: "{targets}"  # Will be populated from targets.py when type is closed_target

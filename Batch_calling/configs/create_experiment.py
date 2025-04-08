@@ -1,8 +1,12 @@
 import yaml
 from pathlib import Path
 from datetime import datetime
-from typing import Dict, Any, Optional
+from typing import Dict, Any, Optional, List
 import re
+import sys
+# Add the parent directory to sys.path to import from Batch_calling
+sys.path.append(str(Path(__file__).parent.parent))
+from targets import target_list
 
 def get_next_exp_number(experiments_dir: Path) -> int:
     """Get the next available experiment number."""
@@ -15,6 +19,24 @@ def get_next_exp_number(experiments_dir: Path) -> int:
                 max_num = max(max_num, int(match.group(1)))
     
     return max_num + 1
+
+def load_prompt_template(prompt_type: str) -> str:
+    """Load the prompt template for the given prompt type."""
+    template_path = Path(__file__).parent.parent / "prompts" / prompt_type / "template.txt"
+    if not template_path.exists():
+        raise FileNotFoundError(f"Prompt template not found: {template_path}")
+    
+    with open(template_path) as f:
+        return f.read().strip()
+
+def load_system_prompt() -> str:
+    """Load the system prompt from the system_prompt.txt file."""
+    system_prompt_path = Path(__file__).parent.parent / "prompts" / "system_prompt.txt"
+    if not system_prompt_path.exists():
+        raise FileNotFoundError(f"System prompt file not found: {system_prompt_path}")
+    
+    with open(system_prompt_path) as f:
+        return f.read().strip()
 
 def create_experiment_config(
     user_id: str,
@@ -76,7 +98,14 @@ def create_experiment_config(
     })
     
     config["data"]["batch_size"] = batch_size
-    config["prompts"]["type"] = prompt_type
+    
+    # Load and set prompt configurations
+    config["prompts"].update({
+        "type": prompt_type,
+        "system_prompt": load_system_prompt(),
+        "prompt_template": load_prompt_template(prompt_type),
+        "targets": list(target_list) if prompt_type == "closed_target" else None
+    })
     
     # Apply any additional overrides
     for key, value in kwargs.items():
@@ -113,14 +142,12 @@ if __name__ == "__main__":
 
     description = "EXAMPLE: Create a new experiment configuration"
 
-    user_ids = ["31499533", "31499533", "31499533"]
-
     user_id = "31499533"
     username = "1Tiamo"
 
     model = "deepseek-r1-distill-llama-70b" # "llama-3.3-70b-versatile"
 
-    batch_size = 200
+    batch_size = 100
     context = {"include_article_body": False,
              "include_most_liked_comment": True,
              "include_parent_comment": True,
@@ -128,13 +155,12 @@ if __name__ == "__main__":
     
     prompt_type = "closed_target"
 
-    for user_id in user_ids:
-        config_path = create_experiment_config(
+    config_path = create_experiment_config(
             user_id = user_id,
             description = description,
             username = username,
             batch_size = batch_size,
             context = context,
-        model = model,
-        prompt_type = prompt_type
+            model = model,
+            prompt_type = prompt_type
     )

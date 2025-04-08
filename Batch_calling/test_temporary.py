@@ -3,7 +3,7 @@ import json
 import os
 import numpy as np
 from targets import target_list
-from prompts_builder import *
+from Batch_calling.prompts.prompts_builder import *
 from utils import *
 from setup import FullStancesCT, FullStancesOT
 

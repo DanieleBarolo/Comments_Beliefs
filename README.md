@@ -17,6 +17,10 @@ If running manually with your **external SSD storage**:
 ```bash
 mongod --dbpath "/Volumes/Untitled/mongo_data"
 ```
+OR
+```bash
+mongod --dbpath "/Volumes/T7 Shield/mongo_data"
+```
 Check that MongoDB is running:
 ```bash
 brew services list

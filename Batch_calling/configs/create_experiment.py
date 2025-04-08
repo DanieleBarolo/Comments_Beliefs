@@ -75,7 +75,7 @@ def create_experiment_config(
         config = yaml.safe_load(f)
     
     # Get next experiment number
-    experiments_dir = Path(__file__).parent / "experiments"
+    experiments_dir = Path("data/experiments/configs")
     exp_num = get_next_exp_number(experiments_dir)
     exp_key = f"exp_{exp_num:05d}"
     

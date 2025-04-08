@@ -27,7 +27,7 @@ def sample_users(users_df, sample_size):
 def upload_to_groq(exp_key, api_key):
     """Upload a batch file to Groq and save the response"""
     # Construct the path to the batch file
-    batch_file = Path("data/batch_files") / f"{exp_key}.jsonl"
+    batch_file = Path("data/experiments/batches") / f"{exp_key}.jsonl"
     
     if not batch_file.exists():
         raise FileNotFoundError(f"Batch file not found: {batch_file}")
@@ -37,7 +37,7 @@ def upload_to_groq(exp_key, api_key):
         result = upload_file_to_groq(api_key, str(batch_file))
         
         # Save the upload response
-        upload_dir = Path("data/groq/uploads")
+        upload_dir = Path("data/experiments/uploads")
         upload_dir.mkdir(parents=True, exist_ok=True)
         
         upload_file = upload_dir / f"{exp_key}_upload.json"
@@ -126,7 +126,7 @@ def main():
     print(f"\nProcessed {len(sampled_users)} users")
     
     # Save detailed results
-    results_dir = Path("experiments")
+    results_dir = Path("data/experiments/results")
     results_dir.mkdir(parents=True, exist_ok=True)
     
     # Save as JSON for detailed logging

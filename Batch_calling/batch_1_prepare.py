@@ -179,7 +179,7 @@ def write_line(
 
 def write_jsonl_file(config_file_path):
 
-    with open(f"configs/experiments/{config_file_path}.yaml", 'r') as f:
+    with open(f"data/experiments/configs/{config_file_path}.yaml", 'r') as f:
         config = yaml.safe_load(f)
 
 
@@ -204,7 +204,7 @@ def write_jsonl_file(config_file_path):
     comments = comment_collection.find({"user_id": user_id})
     sampled_comments = sample_comments(comments, batch_size)
 
-    file_path = config.get('paths', {}).get('batch_files')
+    file_path = "data/experiments/batches"
     save_path = os.path.join(file_path, f"{config_file_path}.jsonl")
 
     target_list = config.get('prompts', {}).get('targets')

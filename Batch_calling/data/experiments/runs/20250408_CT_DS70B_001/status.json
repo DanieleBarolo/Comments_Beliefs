@@ -1,0 +1,12 @@
+{
+  "created": "2025-04-08T19:29:53.165148",
+  "steps": {
+    "config_created": true,
+    "batches_created": true,
+    "uploads_completed": true,
+    "results_received": false,
+    "batch_jobs_created": true
+  },
+  "last_updated": "2025-04-08T19:30:30.809160",
+  "description": "First batches for sampled users"
+}

@@ -39,24 +39,24 @@ def load_system_prompt() -> str:
         return f.read().strip()
 
 def create_experiment_config(
-    user_id: str,
+    user_ids: List[str],
     description: str,
     template: str = "base_config.yaml",
-    username: Optional[str] = None,
+    usernames: Optional[List[str]] = None,
     model: str = "deepseek-r1-distill-llama-70b",
     temperature: float = 0,
     prompt_type: str = "closed_target",
     batch_size: int = 100,
     **kwargs
-) -> str:
+) -> Dict:
     """
-    Create a new experiment configuration file.
+    Create a new experiment configuration.
     
     Args:
-        user_id: The user ID for the experiment
+        user_ids: List of user IDs for the experiment
         description: Description of the experiment
         template: Template file to use (default: base_config.yaml)
-        username: Optional username (defaults to user_id if not provided)
+        usernames: Optional list of usernames corresponding to user_ids
         model: Model to use (default: deepseek-r1-distill-llama-70b)
         temperature: Temperature setting for the model (default: 0)
         prompt_type: Type of prompt (default: closed_target)
@@ -64,7 +64,7 @@ def create_experiment_config(
         **kwargs: Additional configuration options to override
     
     Returns:
-        str: Path to the created configuration file
+        Dict: The configuration dictionary
     """
     # Load template
     template_path = Path(__file__).parent / "templates" / template
@@ -74,62 +74,61 @@ def create_experiment_config(
     with open(template_path) as f:
         config = yaml.safe_load(f)
     
-    # Get next experiment number
-    experiments_dir = Path("data/experiments/configs")
-    exp_num = get_next_exp_number(experiments_dir)
-    exp_key = f"exp_{exp_num:05d}"
+    # Create a new ordered dictionary with sections in the desired order
+    ordered_config = {}
     
-    # Update configuration
-    config["experiment"].update({
-        "key": exp_key,
+    # Experiment section
+    ordered_config["experiment"] = {
         "date": datetime.now().strftime("%Y-%m-%d"),
         "time": datetime.now().strftime("%H:%M"),
         "description": description
-    })
+    }
     
-    config["user"].update({
-        "user_id": user_id,
-        "username": username or user_id
-    })
+    # Users section
+    ordered_config["users"] = {
+        "user_ids": user_ids,
+        "user_names": usernames if usernames else []
+    }
     
-    config["api"]["groq"].update({
+    # API section
+    ordered_config["api"] = config["api"]
+    ordered_config["api"]["groq"].update({
         "model": model,
         "temperature": temperature
     })
     
-    config["data"]["batch_size"] = batch_size
+    # Data section
+    ordered_config["data"] = config["data"]
+    ordered_config["data"]["batch_size"] = batch_size
     
-    # Load and set prompt configurations
-    config["prompts"].update({
+    # Context section
+    ordered_config["context"] = config.get("context", {})
+    if "context" in kwargs:
+        ordered_config["context"].update(kwargs.pop("context"))
+    
+    # Paths section (if exists in template)
+    if "paths" in config:
+        ordered_config["paths"] = config["paths"]
+    
+    # Prompts section
+    ordered_config["prompts"] = {
         "type": prompt_type,
         "system_prompt": load_system_prompt(),
         "prompt_template": load_prompt_template(prompt_type),
         "targets": list(target_list) if prompt_type == "closed_target" else None
-    })
+    }
     
     # Apply any additional overrides
     for key, value in kwargs.items():
         keys = key.split(".")
-        current = config
+        current = ordered_config
         for k in keys[:-1]:
+            if k not in current:
+                current[k] = {}
             current = current[k]
         current[keys[-1]] = value
     
-    # Generate filename
-    filename = f"{exp_key}.yaml"
-    config_path = experiments_dir / filename
-    
-    # Create experiments directory if it doesn't exist
-    experiments_dir.mkdir(parents=True, exist_ok=True)
-    
-    # Save config
-    with open(config_path, 'w') as f:
-        yaml.dump(config, f, sort_keys=False, default_flow_style=False)
-    
-    print(f"Created experiment configuration: {config_path}")
-    return str(config_path)
-
-
+    return ordered_config
 
 
 if __name__ == "__main__":
@@ -142,12 +141,12 @@ if __name__ == "__main__":
 
     description = "EXAMPLE: Create a new experiment configuration"
 
-    user_id = "31499533"
-    username = "1Tiamo"
+    user_ids = ["31499533", "31499534"]
+    usernames = ["1Tiamo", "JohnDoe"]
 
     model = "deepseek-r1-distill-llama-70b" # "llama-3.3-70b-versatile"
 
-    batch_size = 100
+    batch_size = 300
     context = {"include_article_body": False,
              "include_most_liked_comment": True,
              "include_parent_comment": True,
@@ -155,12 +154,19 @@ if __name__ == "__main__":
     
     prompt_type = "closed_target"
 
-    config_path = create_experiment_config(
-            user_id = user_id,
+    config = create_experiment_config(
+            user_ids = user_ids,
             description = description,
-            username = username,
+            usernames = usernames,
             batch_size = batch_size,
             context = context,
             model = model,
             prompt_type = prompt_type
     )
+
+    #save config example
+    config_path = Path(__file__).parent / "experiments" / "example_config.yaml"
+    with open(config_path, "w") as f:
+        yaml.dump(config, f, sort_keys=False, default_flow_style=False)
+
+    print(f"Experiment configuration saved to {config_path}")

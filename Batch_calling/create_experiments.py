@@ -57,12 +57,12 @@ def main():
         raise ValueError("GROQ_API_FULL not found in environment variables")
     
     # Configuration parameters
-    sample_size = 3  # Number of users to sample
+    sample_size = 5  # Number of users to sample
     
     # Experiment parameters
-    description = "Batch experiment for sampled users"
+    description = "First batches for sampled users"
     model = "deepseek-r1-distill-llama-70b"
-    batch_size = 10
+    batch_size = 500
     prompt_type = "closed_target"
     
     # Context settings
@@ -114,7 +114,7 @@ def main():
                 result['groq_status'] = 'success'
                 print(f"Successfully uploaded {exp_key} to Groq")
             else:
-                result['groq_status'] = 'failed'
+                result['groq_status'] = 'failed'        
                 
         except Exception as e:
             print(f"Error processing user {user['user_name']}: {str(e)}")
@@ -134,12 +134,7 @@ def main():
     with open(results_file, 'w') as f:
         json.dump(experiment_results, f, indent=2)
     print(f"Saved detailed results to {results_file}")
-    
-    # Save summary as CSV
-    summary_df = pd.DataFrame(experiment_results)
-    summary_file = results_dir / f"experiment_summary_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
-    summary_df.to_csv(summary_file, index=False)
-    print(f"Saved summary to {summary_file}")
+
 
 if __name__ == "__main__":
     main() 

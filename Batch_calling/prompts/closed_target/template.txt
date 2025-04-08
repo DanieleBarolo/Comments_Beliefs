@@ -1,0 +1,40 @@
+### Overview ###
+
+Stance classification is the task of determining the expressed or implied opinion, or stance, of a statement toward a certain, specified target.
+Your task is to analyze the news comment and determine its stances towards specific targets. 
+
+### Context ###
+{context}
+
+### Targets ###
+{targets}
+
+### Task Description ###
+
+For each target, determine the stance in the comment:
+- If the stance is in favor of the target or agrees with the target, write FAVOR
+- If the stance is against the target or disagrees with the target, write AGAINST
+- If the stance is ambiguous, write NONE
+- If the comment is not related to the target, write NOT RELATED
+
+### KEY CLAIM ###
+- Extract the fundamental assertion or belief that form the basis of the commenter's stance
+- The key claim should be expressed impersonalizing the user in the form of "I agree with the following: <extracted claim>".
+- If no stance is expressed (NOT RELATED, NONE) then leave the explanation field empty. 
+
+### Output Format: ###
+
+You must output only JSON format:
+{
+  "results": [
+    {
+      "target": "<original_target>", 
+      "stance": "<one among [FAVOR, AGAINST, NONE, NOT RELATED]>", 
+      "stance_type": "<one among [EXPLICIT, IMPLICIT, NONE]>",
+      "explanation": "<I agree with the following: ...> if stance in FAVOR/AGAINST"
+    },
+    // Repeat for each target
+  ]
+}
+
+ONLY return the JSON object itself.

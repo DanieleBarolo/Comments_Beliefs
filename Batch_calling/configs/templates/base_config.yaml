@@ -1,0 +1,46 @@
+# Experiment Configuration
+experiment:
+
+  key: "{exp_key}"  # Optional experiment key (e.g., "exp_001")
+  date: "{date}"  # YYYY-MM-DD
+  time: "{time}"  # HHMM
+  description: "{description}"
+
+# User Configuration
+user:
+  user_id: "{user_id}"
+  username: "{username}"
+
+# API Configuration
+api:
+  groq:
+    model: "deepseek-r1-distill-llama-70b" # "llama-3.3-70b-versatile"
+    temperature: 0 # [0, 2]
+
+# Data Configuration
+data:
+  collection_name: "Breitbart"
+  batch_size: 100  # set to "all" if you want all Data in the Batch
+  # sampling_method: "time_based"  
+
+# Prompt Configuration
+prompts:
+  type: "{prompt_type}"  # open_target, closed_target
+  system_prompt: |
+    You are an advanced stance classification AI that analyzes news comments. 
+    Your task is to determine the stance of a given comment toward specified targets. 
+    Be precise, objective, and base your stance classification on clear textual evidence. 
+    Only return output in valid JSON format, strictly following the specified schema.
+
+# Context Options
+context:
+  include_article_body: false
+  include_parent_comment: true
+  include_oldest_comment: true
+  include_most_liked_comment: true 
+
+# Directory Structure
+paths:
+  base_dir: "data"
+  batch_files: "data/batch_files"
+  results: "data/results"

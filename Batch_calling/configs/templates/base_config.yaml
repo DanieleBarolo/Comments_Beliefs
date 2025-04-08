@@ -1,15 +1,13 @@
 # Experiment Configuration
 experiment:
-
-  key: "{exp_key}"  # Optional experiment key (e.g., "exp_001")
-  date: "{date}"  # YYYY-MM-DD
-  time: "{time}"  # HHMM
-  description: "{description}"
+  date: {date}  # YYYY-MM-DD
+  time: {time}  # HHMM
+  description: {description}
 
 # User Configuration
-user:
-  user_id: "{user_id}"
-  username: "{username}"
+users:
+  user_ids: {user_ids}  # List of user IDs
+  user_names: {user_names}  # Optional username
 
 # API Configuration
 api:

@@ -10,6 +10,8 @@ import os
 from datetime import datetime
 import yaml
 from pathlib import Path
+from paths import ExperimentPaths
+from typing import Optional
 
 # Get the project root directory
 PROJECT_ROOT = Path(__file__).parent.parent.absolute()
@@ -48,17 +50,32 @@ def write_jsonl_line(target_comment_id, llm_name_groq, user_content, default_sys
 # we might want to change the sampling method here
 ################################################################################
 def sample_comments(comments, batch_size): 
-    sorted_comments = list(comments.sort("createdAt", 1))
-
+    """Sample comments from a list of comments.
+    
+    Args:
+        comments: List of comments to sample from
+        batch_size: Number of comments to sample
+    
+    Returns:
+        List of sampled comments
+    """
+    if not comments:
+        return []
+    
+    # Convert to list if it's a cursor
+    if not isinstance(comments, list):
+        comments = list(comments)
+    
+    # Sort by creation date
+    sorted_comments = sorted(comments, key=lambda x: x.get('createdAt', ''))
+    
     # Handle batch_size logic
     if batch_size == "all" or batch_size >= len(sorted_comments):
-        sampled_comments = sorted_comments  # Use all comments
-    else:
-        # Select batch_size evenly distributed samples (it is already sorted by time)
-        indices = np.linspace(0, len(sorted_comments) - 1, batch_size, dtype=int)
-        sampled_comments = [sorted_comments[i] for i in indices]
+        return sorted_comments
     
-    return sampled_comments
+    # Select batch_size evenly distributed samples
+    indices = np.linspace(0, len(sorted_comments) - 1, batch_size, dtype=int)
+    return [sorted_comments[i] for i in indices]
 
 def write_text_prompt_from_comment_data(
     prompt_type, 
@@ -177,55 +194,84 @@ def write_line(
 # Change by using the config file
 ################################################################################   
 
-def write_jsonl_file(config_file_path):
-
-    with open(f"data/experiments/configs/{config_file_path}.yaml", 'r') as f:
+def write_jsonl_file(run_id: str, user_id: str, output_dir: Path, base_dir: Optional[str] = None):
+    """Create batch files for a specific user in a run.
+    
+    Args:
+        run_id: The run identifier
+        user_id: The user ID to process
+        output_dir: Directory where to save the batch file
+        base_dir: Base directory for experiments (optional)
+    """
+    print(f"\nProcessing batch file for user {user_id}")
+    paths = ExperimentPaths(base_dir=base_dir)
+    
+    # Load run configuration
+    config_path = paths.get_config_path(run_id)
+    print(f"Loading config from: {config_path}")
+    with open(config_path, 'r') as f:
         config = yaml.safe_load(f)
-
-
-    user_id = config.get('user', {}).get('user_id')
+    
+    # Extract configuration
     llm_name_groq = config.get('api', {}).get('groq', {}).get('model', "deepseek-r1-distill-llama-70b")
     temperature = config.get('api', {}).get('groq', {}).get('temperature', 0)
-
     prompt_type = config.get('prompts', {}).get('type', "closed_target")
     default_sys_prompt = config.get('prompts', {}).get('system_prompt')
-
     batch_size = config.get('data', {}).get('batch_size', 100)
     collection_name = config.get('data', {}).get('collection_name', "Breitbart")
-
-    article_body = config.get('context', {}).get('include_article_body')
-    most_liked_comment = config.get('context', {}).get('include_most_liked_comment')
-    parent_comment = config.get('context', {}).get('include_parent_comment')
-    oldest_comment = config.get('context', {}).get('include_oldest_comment')
-
-
-    # sample comments
-    comment_collection = init_mongo(dbs = "Comments", collection = collection_name)
-    comments = comment_collection.find({"user_id": user_id})
+    context = config.get('context', {})
+    
+    print(f"Configuration loaded: model={llm_name_groq}, batch_size={batch_size}")
+    
+    # Create batch file path
+    batch_path = output_dir / "batch.jsonl"
+    print(f"Will write to: {batch_path}")
+    
+    # Ensure output directory exists
+    output_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Sample comments for this user
+    print(f"Connecting to MongoDB for user {user_id}")
+    comment_collection = init_mongo(dbs="Comments", collection=collection_name)
+    comments = list(comment_collection.find({"user_id": user_id}))
+    print(f"Found {len(comments)} comments for user {user_id}")
+    
+    if not comments:
+        print(f"Warning: No comments found for user {user_id}")
+        return
+    
     sampled_comments = sample_comments(comments, batch_size)
-
-    file_path = "data/experiments/batches"
-    save_path = os.path.join(file_path, f"{config_file_path}.jsonl")
-
-    target_list = config.get('prompts', {}).get('targets')
-
-    # write jsonl file
+    print(f"Sampled {len(sampled_comments)} comments")
+    
+    # Write batch file
+    count = 0
     for comment in sampled_comments:
         write_line(
-            save_path,
+            batch_path,
             prompt_type,
             default_sys_prompt,
             comment,
             temperature,
             llm_name_groq=llm_name_groq,
-            collection_name=collection_name, 
-            target_comment = True,  # default
-            article_title = True, #default
-            parent_comment = parent_comment,
-            oldest_comment = oldest_comment,
-            liked_comment = most_liked_comment,
-            article_body = article_body,
-            target_list=target_list)
+            collection_name=collection_name,
+            target_comment=True,
+            article_title=True,
+            parent_comment=context.get('include_parent_comment', True),
+            oldest_comment=context.get('include_oldest_comment', True),
+            liked_comment=context.get('include_most_liked_comment', True),
+            article_body=context.get('include_article_body', False),
+            target_list=config.get('prompts', {}).get('targets')
+        )
+        count += 1
+    
+    print(f"Successfully wrote {count} lines to {batch_path}")
 
 if __name__ == "__main__":
-    write_jsonl_file("exp_00001")
+    # Example usage
+    BATCH_CALLING_DIR = Path(__file__).parent.absolute()
+    write_jsonl_file(
+        "20250408_CT_DS70B_004", 
+        "243896279", 
+        Path("/Users/barolo/Desktop/PhD/Code/Comments_Beliefs/Batch_calling/data/experiments/users/243896279/20250408_CT_DS70B_004/batch.jsonl"),
+        base_dir=str(BATCH_CALLING_DIR / "data" / "experiments")
+    )

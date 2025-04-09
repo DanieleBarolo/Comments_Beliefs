@@ -1,0 +1,11 @@
+{
+  "created": "2025-04-09T17:16:08.035010",
+  "steps": {
+    "config_created": true,
+    "batches_created": false,
+    "uploads_completed": false,
+    "results_received": false
+  },
+  "last_updated": "2025-04-09T17:16:08.038030",
+  "description": "First batches for sampled users"
+}

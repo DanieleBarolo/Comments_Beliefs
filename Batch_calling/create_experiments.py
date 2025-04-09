@@ -200,129 +200,129 @@ def create_batch_jobs_step(run_id: str) -> None:
     else:
         print("\nSome batch job creations failed. Check the errors above.")
 
-def main():
-    # Load environment variables
-    load_dotenv()
-    api_key = os.getenv('GROQ_API_FULL')
-    if not api_key:
-        raise ValueError("GROQ_API_FULL not found in environment variables")
+# def main():
+#     # Load environment variables
+#     load_dotenv()
+#     api_key = os.getenv('GROQ_API_FULL')
+#     if not api_key:
+#         raise ValueError("GROQ_API_FULL not found in environment variables")
     
-    # Configuration parameters
-    sample_size = 5  # Number of users to sample
+#     # Configuration parameters
+#     sample_size = 5  # Number of users to sample
     
-    # Experiment parameters
-    description = "First batches for sampled users"
-    model = "deepseek-r1-distill-llama-70b"
-    batch_size = 500
-    prompt_type = "closed_target"
+#     # Experiment parameters
+#     description = "First batches for sampled users"
+#     model = "deepseek-r1-distill-llama-70b"
+#     batch_size = 500
+#     prompt_type = "closed_target"
     
-    # Context settings
-    context = {
-        "include_article_body": False,
-        "include_most_liked_comment": True,
-        "include_parent_comment": True,
-        "include_oldest_comment": True
-    }
+#     # Context settings
+#     context = {
+#         "include_article_body": False,
+#         "include_most_liked_comment": True,
+#         "include_parent_comment": True,
+#         "include_oldest_comment": True
+#     }
     
-    try:
-        # Step 1: Load and sample users
-        users_df = load_users()
-        user_ids, usernames = sample_users(users_df, sample_size)
+#     try:
+#         # Step 1: Load and sample users
+#         users_df = load_users()
+#         user_ids, usernames = sample_users(users_df, sample_size)
         
-        # Step 2: Create run ID
-        run_id = create_run_id(prompt_type, model)
+#         # Step 2: Create run ID
+#         run_id = create_run_id(prompt_type, model)
         
-        # Step 3: Create directory structure
-        dirs = create_experiment_directories(run_id, user_ids)
-        create_status_file(dirs["run_dir"], description)
+#         # Step 3: Create directory structure
+#         dirs = create_experiment_directories(run_id, user_ids)
+#         create_status_file(dirs["run_dir"], description)
         
-        # Step 4: Create and save configuration
-        config_params = {
-            "user_ids": user_ids,
-            "usernames": usernames,
-            "description": description,
-            "model": model,
-            "batch_size": batch_size,
-            "prompt_type": prompt_type,
-            "context": context
-        }
-        create_experiment_config_step(run_id, config_params)
+#         # Step 4: Create and save configuration
+#         config_params = {
+#             "user_ids": user_ids,
+#             "usernames": usernames,
+#             "description": description,
+#             "model": model,
+#             "batch_size": batch_size,
+#             "prompt_type": prompt_type,
+#             "context": context
+#         }
+#         create_experiment_config_step(run_id, config_params)
         
-        # Step 5: Create batch files
-        create_batches_step(run_id)
+#         # Step 5: Create batch files
+#         create_batches_step(run_id)
         
-        # Step 6: Upload to Groq
-        upload_batches_step(run_id)
+#         # Step 6: Upload to Groq
+#         upload_batches_step(run_id)
         
-        # Step 7: Create batch jobs
-        create_batch_jobs_step(run_id)
+#         # Step 7: Create batch jobs
+#         create_batch_jobs_step(run_id)
         
-        print(f"\nExperiment {run_id} completed successfully")
-        
-    except FileNotFoundError as e:
-        print(f"Error: Required file not found - {e}")
-        sys.exit(1)
-    except Exception as e:
-        print(f"Error running experiment: {str(e)}")
-        raise
-
 if __name__ == "__main__":
     """
     # Run everything
     main()
     """
     
-    # Load environment variables
-    load_dotenv()
-    api_key = os.getenv('GROQ_API_FULL')
-    if not api_key:
-        raise ValueError("GROQ_API_FULL not found in environment variables")
+    # # Load environment variables
+    # load_dotenv()
+    # api_key = os.getenv('GROQ_API_FULL')
+    # if not api_key:
+    #     raise ValueError("GROQ_API_FULL not found in environment variables")
     
-    # Configuration parameters
-    sample_size = 5  # Number of users to sample
+    # # Configuration parameters
+    # sample_size = 5  # Number of users to sample
     
-    # Experiment parameters
-    description = "First batches for sampled users"
-    model = "deepseek-r1-distill-llama-70b"
-    batch_size = 500
-    prompt_type = "closed_target"
+    # # Experiment parameters
+    # description = "First batches for sampled users"
+    # model = "deepseek-r1-distill-llama-70b"
+    # batch_size = 500
+    # prompt_type = "closed_target"
     
-    # Context settings
-    context = {
-        "include_article_body": False,
-        "include_most_liked_comment": True,
-        "include_parent_comment": True,
-        "include_oldest_comment": True
-    }
+    # # Context settings
+    # context = {
+    #     "include_article_body": False,
+    #     "include_most_liked_comment": True,
+    #     "include_parent_comment": True,
+    #     "include_oldest_comment": True
+    # }
     
-    # Step 1: Load and sample users
-    users_df = load_users()
-    user_ids, usernames = sample_users(users_df, sample_size)
+    # # Step 1: Load and sample users
+    # users_df = load_users()
+    # user_ids, usernames = sample_users(users_df, sample_size)
     
-    # Step 2: Create run ID
-    run_id = create_run_id(prompt_type, model)
+    # # Step 2: Create run ID
+    # run_id = create_run_id(prompt_type, model)
     
-    # Step 3: Create directory structure
-    dirs = create_experiment_directories(run_id, user_ids)
-    create_status_file(dirs["run_dir"], description)
+    # # Step 3: Create directory structure
+    # dirs = create_experiment_directories(run_id, user_ids)
+    # create_status_file(dirs["run_dir"], description)
     
-    # Step 4: Create and save configuration
-    config_params = {
-        "user_ids": user_ids,
-        "usernames": usernames,
-        "description": description,
-        "model": model,
-        "batch_size": batch_size,
-        "prompt_type": prompt_type,
-        "context": context
-    }
-    create_experiment_config_step(run_id, config_params)
+    # # Step 4: Create and save configuration
+    # config_params = {
+    #     "user_ids": user_ids,
+    #     "usernames": usernames,
+    #     "description": description,
+    #     "model": model,
+    #     "batch_size": batch_size,
+    #     "prompt_type": prompt_type,
+    #     "context": context
+    # }
+    # create_experiment_config_step(run_id, config_params)
     
-    # Step 5: Create batch files
-    create_batches_step(run_id)
+    # # Step 5: Create batch files
+    # create_batches_step(run_id)
     
+    run_id = "20250409_CT_DS70B_002"
     # Step 6: Upload to Groq
     upload_batches_step(run_id)
     
     # Step 7: Create batch jobs
-    create_batch_jobs_step(run_id)
+    # create_batch_jobs_step(run_id)
+
+
+#### TO DO:
+    # # Step 8: Check status
+    # check_status(run_id)
+
+    # # Step 9: Get results
+    # get_results(run_id)

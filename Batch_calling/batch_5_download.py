@@ -2,6 +2,9 @@ import requests
 import os 
 import json 
 from batch_4_status import check_batches_step
+from dotenv import load_dotenv
+from pathlib import Path 
+from paths import ExperimentPaths
 
 def download_file_content(api_key, output_file_id, output_file):
     url = f"https://api.groq.com/openai/v1/files/{output_file_id}/content"
@@ -19,7 +22,7 @@ def download_file_content(api_key, output_file_id, output_file):
 
 # get all completed files 
 def complete_runs(run_id, api_key):
-    from paths import ExperimentPaths
+    
     paths = ExperimentPaths(base_dir=str(Path(__file__).parent.absolute() / "data" / "experiments"))
     
     # Load users
@@ -33,15 +36,17 @@ def complete_runs(run_id, api_key):
     
         # Extract file 
         with open(os.path.join(user_run_dir, 'batch_status.json'), 'r') as f: 
-            file = json.load(f)
+            batch_status = json.load(f)
         
-        output_file_id = file['output_file_id']
-        error_file_id = file['error_file_id']
+        status = batch_status['status']
+        output_file_id = batch_status['output_file_id']
+        error_file_id = batch_status['error_file_id']
         
         # Download + save
-        download_file_content(api_key, output_file_id, os.path.join(user_run_dir, 'batch_results.jsonl'))
-        download_file_content(api_key, error_file_id, os.path.join(user_run_dir, 'batch_errors.jsonl'))
-        
+        if status == 'completed': # consider expired 
+            download_file_content(api_key, output_file_id, os.path.join(user_run_dir, 'batch_results.jsonl'))
+            download_file_content(api_key, error_file_id, os.path.join(user_run_dir, 'batch_errors.jsonl'))
+            
     return user_run_dir  
 
 # Usage example

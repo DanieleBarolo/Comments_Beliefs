@@ -1,0 +1,863 @@
+target,stance,stance_type,explanation,comment_id,comment_date
+Hillary Clinton,AGAINST,EXPLICIT,I agree with the following: Hillary Clinton's actions or decisions are problematic or unacceptable.,1958315354,2015-04-11 00:35:02
+Economy is good,AGAINST,IMPLICIT,I agree with the following: The comment expresses skepticism about the economy being good by questioning the focus on it.,972183820,2013-07-22 14:12:21
+Democrats,AGAINST,EXPLICIT,"I agree with the following: The comment criticizes Dianne Feinstein, implying she has a problem, which reflects negatively on Democrats.",1394380742,2014-05-19 21:42:38
+Politicians,AGAINST,EXPLICIT,"I agree with the following: The comment criticizes Dianne Feinstein, implying she has a problem, which reflects negatively on politicians in general.",1394380742,2014-05-19 21:42:38
+Democrats,AGAINST,EXPLICIT,"I agree with the following: Durbin, as a Democrat, is being insulted, indicating a negative stance towards Democrats.",1456401178,2014-06-27 00:21:29
+Politicians,AGAINST,EXPLICIT,"I agree with the following: The comment insults Durbin, a politician, indicating a negative stance towards politicians.",1456401178,2014-06-27 00:21:29
+Politicians,AGAINST,EXPLICIT,"I agree with the following: The commenter expresses strong negative feelings towards the politician, calling them a 'fool' and an 'idiot,' and expresses shame because of their actions.",562198263,2012-06-19 20:54:01
+Democrats,AGAINST,IMPLICIT,"I agree with the following: The negative stance towards Claire McCaskill, a Democrat, implies a negative stance towards Democrats, though it's not explicitly stated.",562198263,2012-06-19 20:54:01
+Media,FAVOR,EXPLICIT,I agree with the following: Breitbart is an important platform that keeps Melissa relevant.,1404026298,2014-05-25 22:12:18
+Healthcare,AGAINST,IMPLICIT,"I agree with the following: The government is underreporting the number of veteran deaths, indicating dissatisfaction with the healthcare system's transparency.",1443934031,2014-06-19 14:40:43
+Military,AGAINST,IMPLICIT,"I agree with the following: The government is underreporting veteran deaths, suggesting criticism towards the military's treatment of veterans.",1443934031,2014-06-19 14:40:43
+Media,AGAINST,IMPLICIT,"I agree with the following: The comment implies media is underreporting, showing distrust in media accuracy.",1443934031,2014-06-19 14:40:43
+America / USA,AGAINST,IMPLICIT,I agree with the following: Criticism of the government's handling of veterans reflects negatively on the country.,1443934031,2014-06-19 14:40:43
+Politicians,AGAINST,IMPLICIT,I agree with the following: The government's underreporting indicates a negative view of politicians' accountability.,1443934031,2014-06-19 14:40:43
+The government,AGAINST,IMPLICIT,"I agree with the following: The comment suggests the government is hiding the true number of veteran deaths, indicating strong dissatisfaction.",1443934031,2014-06-19 14:40:43
+Christianity,FAVOR,EXPLICIT,"I agree with the following: Holly Fisher's values, including her association with the Bible, are positive and something liberals do not recognize.",1479816117,2014-07-11 01:39:30
+Military,FAVOR,IMPLICIT,"I agree with the following: Holly Fisher, as an Army wife, represents a positive aspect that liberals do not recognize.",1479816117,2014-07-11 01:39:30
+America / USA,FAVOR,IMPLICIT,"I agree with the following: Holly Fisher represents values that make America great, which liberals do not recognize.",1479816117,2014-07-11 01:39:30
+Democrats,AGAINST,EXPLICIT,I agree with the following: Liberals do not recognize what makes this country great.,1479816117,2014-07-11 01:39:30
+Christians,FAVOR,EXPLICIT,"I agree with the following: Holly Fisher's values, including her association with the Bible, are positive and something liberals do not recognize.",1479816117,2014-07-11 01:39:30
+Conservatives,FAVOR,IMPLICIT,"I agree with the following: Holly Fisher represents values that conservatives recognize as great, which liberals do not.",1479816117,2014-07-11 01:39:30
+Liberals,AGAINST,EXPLICIT,I agree with the following: Liberals do not recognize what makes this country great.,1479816117,2014-07-11 01:39:30
+Journalists,AGAINST,EXPLICIT,I agree with the following: The comment critiques the professionalism of journalists conducting news conferences at the State Department.,1412008102,2014-05-30 12:48:32
+Politicians,AGAINST,EXPLICIT,"I agree with the following: The comment expresses frustration with Jen Psaki's handling of communications, implying ineffective strategy.",1412008102,2014-05-30 12:48:32
+Republicans (GOP),FAVOR,EXPLICIT,I agree with the following: Mitt Romney is superior to Barack Obama.,1433082005,2014-06-13 02:03:06
+Barack Obama,AGAINST,EXPLICIT,I agree with the following: Barack Obama is less competent than Mitt Romney.,1433082005,2014-06-13 02:03:06
+Joe Biden,AGAINST,EXPLICIT,I agree with the following: Joe Biden does not care about this country.,1462666742,2014-07-01 01:28:35
+Democrats,AGAINST,EXPLICIT,I agree with the following: Democrats do not care about this country.,1462666742,2014-07-01 01:28:35
+Politicians,AGAINST,EXPLICIT,I agree with the following: Politicians do not care about this country.,1462666742,2014-07-01 01:28:35
+The government,AGAINST,EXPLICIT,I agree with the following: The government does not care about this country.,1462666742,2014-07-01 01:28:35
+Liberals,AGAINST,EXPLICIT,I agree with the following: Liberals do not care about this country.,1462666742,2014-07-01 01:28:35
+Progressives,AGAINST,EXPLICIT,I agree with the following: Progressives do not care about this country.,1462666742,2014-07-01 01:28:35
+Barack Obama,AGAINST,EXPLICIT,"I agree with the following: The commenter is against Barack Obama's actions or policies, as indicated by the aggressive language telling him to leave.",2082776121,2015-06-16 21:40:15
+Sport,AGAINST,EXPLICIT,I agree with the following: Michael Sam was cut from the NFL roster because he wasn't good enough at playing football.,1575264870,2014-09-05 13:47:50
+Gay / LGTBQ+,AGAINST,EXPLICIT,I agree with the following: Michael Sam's sexual orientation was not the reason he was cut from the NFL roster.,1575264870,2014-09-05 13:47:50
+Hobbies,FAVOR,EXPLICIT,"I agree with the following: Obama is engaged in golf, which is a hobby.",1556904608,2014-08-24 13:41:00
+Sport,FAVOR,EXPLICIT,"I agree with the following: Obama is engaged in golf, which is a sport.",1556904608,2014-08-24 13:41:00
+Barack Obama,FAVOR,EXPLICIT,I agree with the following: Obama is engaged in golf.,1556904608,2014-08-24 13:41:00
+Abortion,AGAINST,EXPLICIT,"I agree with the following: Planned Parenthood does not follow high ethical standards because they perform abortions, which I consider murdering the unborn.",2142635282,2015-07-17 19:17:53
+Joe Biden,AGAINST,IMPLICIT,"I agree with the following: The current administration is viewed negatively, and the commenter is looking forward to its end.",1977993595,2015-04-20 19:26:01
+Jobs are (available | good),FAVOR,EXPLICIT,"I agree with the following: The commenter believes they are qualified for the job, indicating a positive stance towards jobs being available or good.",1755473485,2014-12-23 01:29:14
+Barack Obama,AGAINST,EXPLICIT,I agree with the following: Barack Obama has burned the Constitution.,1702208437,2014-11-19 22:49:11
+Democrats,AGAINST,EXPLICIT,"I agree with the following: The comment expresses doubt in Democrats' ability to win, implying opposition.",1505996992,2014-07-26 23:55:53
+Politicians,AGAINST,EXPLICIT,"I agree with the following: The comment criticizes Steny Hoyer, a politician, implying opposition.",1505996992,2014-07-26 23:55:53
+Barack Obama,AGAINST,EXPLICIT,"I agree with the following: The commenter strongly dislikes Barack Obama, referring to him as the 'Biggest asshole in the history of the country.'",1831443107,2015-02-02 23:11:44
+Journalists,AGAINST,EXPLICIT,"I agree with the following: The reporter in question has not had an original thought and his life is plagiarized, which criticizes journalists.",1593291928,2014-09-17 16:59:39
+Democrats,AGAINST,EXPLICIT,"I agree with the following: The comment criticizes O'Malley, implying disagreement with his views, suggesting a negative stance towards Democrats.",1020998805,2013-08-28 19:51:48
+Sport,AGAINST,EXPLICIT,"I agree with the following: NFL teams did not thoroughly research their draft picks, especially number 1 picks, which suggests incompetence.",1855838500,2015-02-14 22:26:38
+Barack Obama,AGAINST,EXPLICIT,"I agree with the following: It's painful to watch people who think they are competent prove that they are not, which is directed at Obama.",1855838500,2015-02-14 22:26:38
+Barack Obama,AGAINST,IMPLICIT,I agree with the following: The comment uses sarcasm to imply that Barack Obama's intelligence and academic credentials are overestimated or not translating to effective leadership.,1075652326,2013-10-08 23:13:05
+Terrorism,AGAINST,IMPLICIT,"I agree with the following: The comment implies a negative view of Hamas, which is often associated with terrorism, thus expressing an against stance towards terrorism.",1543931772,2014-08-15 13:14:49
+Jobs are (available | good),AGAINST,EXPLICIT,"I agree with the following: The comment expresses frustration about someone still having a job, indicating dissatisfaction with the job situation.",1125987676,2013-11-16 16:05:20
+Journalists,AGAINST,EXPLICIT,"I agree with the following: The comment uses derogatory language towards a journalist, indicating a negative stance.",1125987676,2013-11-16 16:05:20
+Media,AGAINST,EXPLICIT,"I agree with the following: The comment uses offensive language towards a media personality, indicating a negative stance towards the media.",1125987676,2013-11-16 16:05:20
+Democrats,AGAINST,EXPLICIT,"I agree with the following: The anti-war movement is just another wing of the Democrat Party and is not truly against war, except if it is a Republican war.",1606194860,2014-09-26 02:56:21
+Barack Obama,AGAINST,EXPLICIT,"I agree with the following: It's not because he is black, it's because he is a dumb ass liberal, just like the other dumb ass liberals that support him.",1606194860,2014-09-26 02:56:21
+Liberals,AGAINST,EXPLICIT,"I agree with the following: It's not because he is black, it's because he is a dumb ass liberal, just like the other dumb ass liberals that support him.",1606194860,2014-09-26 02:56:21
+Healthcare,AGAINST,EXPLICIT,"I agree with the following: The commenter is against the healthcare policy, specifically Obamacare.",1087617261,2013-10-18 21:04:20
+Democrats,AGAINST,EXPLICIT,I agree with the following: The commenter is against Democratic leaders.,1087617261,2013-10-18 21:04:20
+Barack Obama,AGAINST,EXPLICIT,"I agree with the following: The commenter uses a derogatory term for Obama, indicating opposition.",1087617261,2013-10-18 21:04:20
+Politicians,AGAINST,EXPLICIT,"I agree with the following: The commenter suggests firing politicians, indicating opposition.",1087617261,2013-10-18 21:04:20
+Nancy Pelosi,AGAINST,EXPLICIT,"I agree with the following: The commenter mentions Pelosi as someone to be fired, indicating opposition.",1087617261,2013-10-18 21:04:20
+The government,AGAINST,EXPLICIT,"I agree with the following: The commenter suggests firing government officials, indicating opposition.",1087617261,2013-10-18 21:04:20
+Hillary Clinton,AGAINST,EXPLICIT,I agree with the following: Hillary Clinton is not qualified to tell the truth about Benghazi.,999113518,2013-08-13 14:56:02
+Politicians,AGAINST,EXPLICIT,"I agree with the following: Politicians, specifically Hillary Clinton, are not truthful.",999113518,2013-08-13 14:56:02
+The government,AGAINST,EXPLICIT,I agree with the following: The government is not transparent or truthful.,999113518,2013-08-13 14:56:02
+Barack Obama,AGAINST,IMPLICIT,I agree with the following: Barack Obama's administration is not trustworthy because his adviser is lying.,1146876774,2013-12-02 03:02:57
+Politicians,AGAINST,EXPLICIT,I agree with the following: Politicians like Plouffe are lying and being dishonest.,1146876774,2013-12-02 03:02:57
+The government,AGAINST,IMPLICIT,"I agree with the following: The government, through Plouffe, is dishonest and untrustworthy.",1146876774,2013-12-02 03:02:57
+Barack Obama,AGAINST,IMPLICIT,I agree with the following: Obama is acting in a submissive manner.,1155861607,2013-12-09 13:36:16
+Military,FAVOR,EXPLICIT,"I agree with the following: Sgt. Marle was simply asking for a courtesy, not special privileges.",1631803342,2014-10-12 13:17:13
+The government,AGAINST,EXPLICIT,I agree with the following: The government condones illegal activity.,1028976398,2013-09-03 23:56:49
+Drugs,AGAINST,EXPLICIT,I agree with the following: The government condones illegal drug activity.,1028976398,2013-09-03 23:56:49
+Joe Biden,AGAINST,IMPLICIT,"I agree with the following: The situation might lead to the Oval Office, implying criticism towards the current administration.",1028976398,2013-09-03 23:56:49
+Democrats,AGAINST,IMPLICIT,"I agree with the following: The situation might lead to the Oval Office, implying criticism towards the current administration.",1028976398,2013-09-03 23:56:49
+Politicians,AGAINST,IMPLICIT,"I agree with the following: The situation might lead to the Oval Office, implying criticism towards political leadership.",1028976398,2013-09-03 23:56:49
+Journalists,AGAINST,EXPLICIT,"I agree with the following: The press should have spent more time investigating Obama instead of vilifying Palin, implying journalists are biased.",1195576024,2014-01-10 21:38:35
+Sarah Palin,FAVOR,EXPLICIT,"I agree with the following: The press vilified Palin, suggesting she was treated unfairly.",1195576024,2014-01-10 21:38:35
+Media,AGAINST,EXPLICIT,"I agree with the following: CNN and MSNBC followers are criticized, indicating a negative view of the media.",1195576024,2014-01-10 21:38:35
+Democrats,AGAINST,IMPLICIT,"I agree with the following: Criticizing Obama, a Democrat, implies a negative stance towards Democrats.",1195576024,2014-01-10 21:38:35
+Barack Obama,AGAINST,EXPLICIT,"I agree with the following: Obama is called a fraud and jive huckster, showing a clear negative stance.",1195576024,2014-01-10 21:38:35
+Liberals,AGAINST,EXPLICIT,"I agree with the following: The term 'libs' is used derogatorily, indicating a negative stance towards liberals.",1195576024,2014-01-10 21:38:35
+Democrats,AGAINST,EXPLICIT,"I agree with the following: Missouri keeps re-electing McCaskill, which is criticized.",1734374232,2014-12-10 03:23:50
+Politicians,AGAINST,EXPLICIT,"I agree with the following: McCaskill is criticized, indicating dissatisfaction with politicians.",1734374232,2014-12-10 03:23:50
+The government,AGAINST,EXPLICIT,I agree with the following: The government is criticized for re-electing McCaskill.,1734374232,2014-12-10 03:23:50
+Democrats,AGAINST,EXPLICIT,I agree with the following: Democrats lie when they speak.,1278228286,2014-03-10 04:06:38
+Politicians,AGAINST,EXPLICIT,I agree with the following: Politicians lie when they speak.,1278228286,2014-03-10 04:06:38
+Barack Obama,AGAINST,EXPLICIT,"I agree with the following: The comment explicitly criticizes Barack Obama, calling him delusional, implying he uses crack, and labeling him a pathological liar.",1251416502,2014-02-19 13:03:56
+Healthcare,AGAINST,EXPLICIT,I agree with the following: Obamacare is dead.,1100125911,2013-10-28 22:46:56
+Media,AGAINST,EXPLICIT,"I agree with the following: The media, specifically the NYT, is accused of being liars.",1107780884,2013-11-04 01:02:17
+Democrats,AGAINST,EXPLICIT,"I agree with the following: Democrats, referred to as liberals, are called serial liars.",1107780884,2013-11-04 01:02:17
+Barack Obama,AGAINST,EXPLICIT,I agree with the following: Barack Obama is implied to be a liar who frequently misspeaks.,1107780884,2013-11-04 01:02:17
+Politicians,AGAINST,EXPLICIT,I agree with the following: Politicians are criticized for lying and misleading the public.,1107780884,2013-11-04 01:02:17
+Liberals,AGAINST,EXPLICIT,I agree with the following: Liberals are called serial liars.,1107780884,2013-11-04 01:02:17
+Republicans (GOP),AGAINST,EXPLICIT,I agree with the following: Republicans are letting the administration get away with murder and are thus guilty.,1049144406,2013-09-18 11:57:14
+Democrats,AGAINST,EXPLICIT,"I agree with the following: The administration is lying and prohibiting testimony, which is wrong.",1049144406,2013-09-18 11:57:14
+Muslims,FAVOR,EXPLICIT,I agree with the following: Koran reading at 10:30. Attendance mandatory.,1370435165,2014-05-05 15:25:13
+Islam,FAVOR,EXPLICIT,I agree with the following: Koran reading at 10:30. Attendance mandatory.,1370435165,2014-05-05 15:25:13
+Military,AGAINST,EXPLICIT,"I agree with the following: The military is being led from behind, which is ineffective.",1016644289,2013-08-25 05:58:15
+America / USA,AGAINST,EXPLICIT,"I agree with the following: America is leading from behind, which is ineffective.",1016644289,2013-08-25 05:58:15
+Barack Obama,AGAINST,EXPLICIT,"I agree with the following: Barack Obama is leading from behind, which is ineffective.",1016644289,2013-08-25 05:58:15
+Politicians,AGAINST,EXPLICIT,"I agree with the following: Politicians are leading from behind, which is ineffective.",1016644289,2013-08-25 05:58:15
+The government,AGAINST,EXPLICIT,"I agree with the following: The government is leading from behind, which is ineffective.",1016644289,2013-08-25 05:58:15
+Democrats,AGAINST,EXPLICIT,I agree with the following: Chuck Schumer is an asshole.,868690263,2013-04-19 22:51:08
+Politicians,AGAINST,EXPLICIT,I agree with the following: Chuck Schumer is an asshole.,868690263,2013-04-19 22:51:08
+Ukraine,AGAINST,EXPLICIT,I agree with the following: Obama should be taking the Ukraine crisis more seriously instead of being out to lunch.,1490451903,2014-07-17 21:46:13
+Democrats,AGAINST,EXPLICIT,"I agree with the following: Obama, as a Democrat, should stop blaming others and start leading effectively.",1490451903,2014-07-17 21:46:13
+Barack Obama,AGAINST,EXPLICIT,I agree with the following: Obama should stop taking vacations and start acting like a president.,1490451903,2014-07-17 21:46:13
+Politicians,AGAINST,EXPLICIT,I agree with the following: Politicians like Obama should focus on their duties instead of leisure activities.,1490451903,2014-07-17 21:46:13
+The government,AGAINST,EXPLICIT,"I agree with the following: The government, under Obama's leadership, is not handling the Ukraine crisis effectively.",1490451903,2014-07-17 21:46:13
+Barack Obama,AGAINST,EXPLICIT,I agree with the following: The commenter expresses a negative stance towards Barack Obama by using derogatory language and implying criticism of his actions.,1787368953,2015-01-11 20:23:55
+Barack Obama,AGAINST,EXPLICIT,"I agree with the following: The comment expresses frustration with another speech, likely referring to Obama's, indicating a negative stance.",993164889,2013-08-08 15:08:03
+Politicians,AGAINST,EXPLICIT,I agree with the following: The dismissive tone towards speeches suggests a negative view of politicians giving them.,993164889,2013-08-08 15:08:03
+The government,AGAINST,EXPLICIT,I agree with the following: The comment's dismissive tone implies dissatisfaction with government speeches.,993164889,2013-08-08 15:08:03
+Gay / LGTBQ+,AGAINST,EXPLICIT,"I agree with the following: The comment mocks Will Smith's son for wearing a dress, implying disapproval of LGBTQ+ expressions.",2055151451,2015-05-31 21:26:30
+Terrorism,AGAINST,EXPLICIT,I agree with the following: The strategy of not calling ISIS 'Islamic extremism' is leading to losing the war against terrorism.,2171124493,2015-08-03 00:17:34
+Democrats,AGAINST,IMPLICIT,"I agree with the following: The criticism of Jeh Johnson, a Democrat, implies disapproval of the Democratic approach to handling ISIS terminology.",2171124493,2015-08-03 00:17:34
+The government,AGAINST,IMPLICIT,I agree with the following: The government's strategy in the war against terrorism is being criticized as ineffective.,2171124493,2015-08-03 00:17:34
+Joe Biden,AGAINST,EXPLICIT,I agree with the following: Joe Biden won't let truth get in his way.,2292124263,2015-10-06 01:00:03
+Democrats,AGAINST,EXPLICIT,"I agree with the following: Like all democrats, Biden won't let truth get in his way.",2292124263,2015-10-06 01:00:03
+Elites,AGAINST,EXPLICIT,"I agree with the following: The comment suggests that heads should roll and the guillotine comes to mind, indicating a strong stance against elites.",2196016996,2015-08-15 20:25:52
+Crime,AGAINST,EXPLICIT,"I agree with the following: The comment suggests that heads should roll and the guillotine comes to mind, indicating a strong stance against crime.",2196016996,2015-08-15 20:25:52
+Hillary Clinton,AGAINST,EXPLICIT,"I agree with the following: The comment is in a thread about Hillary Clinton and suggests that she should be punished, indicating a strong stance against her.",2196016996,2015-08-15 20:25:52
+Democrats,AGAINST,EXPLICIT,"I agree with the following: The comment is in a thread critical of Democrats and suggests punishment for them, indicating a strong stance against Democrats.",2196016996,2015-08-15 20:25:52
+Barack Obama,AGAINST,EXPLICIT,"I agree with the following: The comment mentions Obama as an example for punishment, indicating a strong stance against him.",2196016996,2015-08-15 20:25:52
+Politicians,AGAINST,EXPLICIT,"I agree with the following: The comment suggests that heads should roll and the guillotine comes to mind, indicating a strong stance against politicians.",2196016996,2015-08-15 20:25:52
+The government,AGAINST,EXPLICIT,"I agree with the following: The comment suggests dissatisfaction with the government and suggests punishment, indicating a strong stance against the government.",2196016996,2015-08-15 20:25:52
+The government,AGAINST,EXPLICIT,I agree with the following: The White House might have pressured Kobe Bryant for speaking his mind.,1309011412,2014-03-28 23:48:55
+Donald Trump,AGAINST,EXPLICIT,"I agree with the following: The comment suggests that having votes alone is insufficient, implying criticism of Trump's qualifications or effectiveness.",2568382474,2016-03-14 05:59:18
+Movies,AGAINST,EXPLICIT,I agree with the following: Hollywood is out of touch with reality and should stop using hashtags and social media campaigns.,2728037005,2016-06-13 13:04:09
+Elites,AGAINST,IMPLICIT,"I agree with the following: Elites, such as those in Hollywood, are out of touch with reality.",2728037005,2016-06-13 13:04:09
+Media,AGAINST,EXPLICIT,"I agree with the following: The media, particularly Hollywood, is out of touch with reality.",2728037005,2016-06-13 13:04:09
+Social media,AGAINST,EXPLICIT,"I agree with the following: Social media campaigns, such as using hashtags, are ineffective and unrealistic.",2728037005,2016-06-13 13:04:09
+Joe Biden,AGAINST,EXPLICIT,"I agree with the following: The comment refers to Joe Biden as 'Bozos,' indicating strong opposition.",2953053992,2016-10-16 12:20:52
+Media,AGAINST,EXPLICIT,"I agree with the following: The comment suggests MSM would go out of business, indicating a negative view.",2953053992,2016-10-16 12:20:52
+The government,AGAINST,EXPLICIT,I agree with the following: The term 'regime' shows opposition to the current administration.,2953053992,2016-10-16 12:20:52
+Journalists,AGAINST,EXPLICIT,I agree with the following: Criticism of MSM implies opposition to journalists.,2953053992,2016-10-16 12:20:52
+Republicans (GOP),FAVOR,EXPLICIT,"I agree with the following: President Trump, a Republican, is supported.",2832114293,2016-08-11 13:30:27
+Democrats,AGAINST,EXPLICIT,"I agree with the following: Obama, a Democrat, is criticized.",2832114293,2016-08-11 13:30:27
+Barack Obama,AGAINST,EXPLICIT,I agree with the following: Obama's administration is described as a mess.,2832114293,2016-08-11 13:30:27
+Conservatives,FAVOR,EXPLICIT,I agree with the following: Conservatives are supported through Trump.,2832114293,2016-08-11 13:30:27
+Donald Trump,FAVOR,EXPLICIT,I agree with the following: Trump is needed to clean up Obama's mess.,2832114293,2016-08-11 13:30:27
+Music,FAVOR,EXPLICIT,I agree with the following: Their music has a great beat. I would give it a 10.,2595453678,2016-03-29 19:40:30
+Hobbies,FAVOR,IMPLICIT,I agree with the following: Their music has a great beat. I would give it a 10.,2595453678,2016-03-29 19:40:30
+Crime,AGAINST,EXPLICIT,I agree with the following: The Clinton Crime Foundation is associated with criminal activities.,2767444449,2016-07-06 01:43:10
+Hillary Clinton,AGAINST,EXPLICIT,I agree with the following: Hillary Clinton is crooked and lying.,2767444449,2016-07-06 01:43:10
+Politicians,AGAINST,EXPLICIT,I agree with the following: Politicians like Hillary Clinton are crooked and dishonest.,2767444449,2016-07-06 01:43:10
+Taxes are (good | fair),AGAINST,EXPLICIT,I agree with the following: The media's handling of Trump's tax returns is corrupt and unethical.,2929741610,2016-10-02 16:57:10
+Journalists,AGAINST,EXPLICIT,I agree with the following: Journalists are corrupt and lack ethics.,2929741610,2016-10-02 16:57:10
+Media,AGAINST,EXPLICIT,I agree with the following: The media is corrupt and lacks ethics.,2929741610,2016-10-02 16:57:10
+Barack Obama,AGAINST,IMPLICIT,I agree with the following: There should be more scrutiny of Obama's college records.,2929741610,2016-10-02 16:57:10
+Donald Trump,AGAINST,IMPLICIT,I agree with the following: The authenticity of Trump's tax returns is questionable.,2929741610,2016-10-02 16:57:10
+Hillary Clinton,AGAINST,EXPLICIT,I agree with the following: Hillary Clinton is facing a challenging situation where she won't know what to do now.,2850426624,2016-08-21 21:56:32
+Barack Obama,AGAINST,EXPLICIT,"I agree with the following: The comment expresses a negative view towards Barack Obama, referring to him as a 'blow hard' and expressing relief that his term is ending.",2881949271,2016-09-08 03:11:57
+Politicians,AGAINST,EXPLICIT,"I agree with the following: The comment expresses a negative view towards politicians, referring to them as 'blow hards' and expressing relief that their term is ending.",2881949271,2016-09-08 03:11:57
+Democrats,AGAINST,EXPLICIT,"I agree with the following: The comment criticizes liberals, who are often associated with Democrats, implying they are outdated and lacking in ideas.",3111925184,2017-01-21 22:26:41
+Liberals,AGAINST,EXPLICIT,"I agree with the following: The comment refers to 'libs' in a derogatory manner, indicating a negative stance towards liberals.",3111925184,2017-01-21 22:26:41
+Democrats,AGAINST,EXPLICIT,"I agree with the following: Democrats are the party of racism, slavery, and the KKK.",2632500972,2016-04-19 22:35:16
+Fascism / Nazism,AGAINST,IMPLICIT,"I agree with the following: The KKK, associated with fascism, is linked to the Democratic party.",2632500972,2016-04-19 22:35:16
+Democrats,AGAINST,EXPLICIT,I agree with the following: Democrats got caught with their pants down which is standard for many of them.,2970466020,2016-10-26 21:11:45
+Music,AGAINST,EXPLICIT,"I agree with the following: The commenter expresses dislike for the culture associated with certain music genres, specifically criticizing rappers.",3001828054,2016-11-14 17:38:06
+Elites,AGAINST,EXPLICIT,"I agree with the following: The commenter criticizes the culture referred to by the NYT, implying a negative stance towards elites.",3001828054,2016-11-14 17:38:06
+Diversity,AGAINST,IMPLICIT,I agree with the following: The commenter's criticism of certain cultural aspects suggests opposition to diversity as portrayed.,3001828054,2016-11-14 17:38:06
+Journalists,AGAINST,EXPLICIT,"I agree with the following: The commenter expresses a negative view of journalists, specifically criticizing the NYT.",3001828054,2016-11-14 17:38:06
+Black people,AGAINST,EXPLICIT,"I agree with the following: The commenter uses derogatory language towards black people, indicating a negative stance.",3001828054,2016-11-14 17:38:06
+America / USA,FAVOR,IMPLICIT,"I agree with the following: The commenter supports draining the swamp, a metaphor for positive change in America.",3001828054,2016-11-14 17:38:06
+Media,AGAINST,EXPLICIT,"I agree with the following: The commenter criticizes the media, specifically the NYT, indicating a negative stance.",3001828054,2016-11-14 17:38:06
+Conservatives,FAVOR,IMPLICIT,"I agree with the following: The commenter's views align with conservative perspectives, indicating support.",3001828054,2016-11-14 17:38:06
+Politicians,AGAINST,IMPLICIT,I agree with the following: The reference to draining the swamp implies criticism of politicians.,3001828054,2016-11-14 17:38:06
+Donald Trump,FAVOR,IMPLICIT,"I agree with the following: The commenter supports draining the swamp, a policy associated with Trump.",3001828054,2016-11-14 17:38:06
+The government,AGAINST,IMPLICIT,"I agree with the following: The comment implies dissatisfaction with the government, suggesting a negative stance.",3001828054,2016-11-14 17:38:06
+Liberals,AGAINST,IMPLICIT,I agree with the following: The commenter's criticism of certain cultural aspects suggests opposition to liberals.,3001828054,2016-11-14 17:38:06
+Progressives,AGAINST,IMPLICIT,I agree with the following: The commenter's negative view of certain cultural elements implies opposition to progressives.,3001828054,2016-11-14 17:38:06
+Immigration / immigrants,AGAINST,EXPLICIT,I agree with the following: Not having to build the wall implies opposition to stricter immigration control.,3198907368,2017-03-11 13:10:05
+Donald Trump,AGAINST,IMPLICIT,I agree with the following: Opposing the wall implies opposition to Trump's immigration policies.,3198907368,2017-03-11 13:10:05
+Brian Williams,AGAINST,EXPLICIT,"I agree with the following: Brian Williams should retire and is referred to as 'fake,' indicating a negative stance.",3046117144,2016-12-10 22:40:09
+NBC,AGAINST,EXPLICIT,"I agree with the following: NBC is criticized for giving Brian Williams a 'fake retirement,' indicating a negative stance.",3046117144,2016-12-10 22:40:09
+Hillary Clinton,AGAINST,EXPLICIT,"I agree with the following: Hillary Clinton should retire, indicating a negative stance.",3046117144,2016-12-10 22:40:09
+Andrea Mitchell,AGAINST,EXPLICIT,"I agree with the following: Andrea Mitchell should retire, indicating a negative stance.",3046117144,2016-12-10 22:40:09
+Drugs,AGAINST,IMPLICIT,"I agree with the following: The comment implies that Nancy Pelosi might have used drugs excessively, suggesting a negative stance towards drug use.",2987868405,2016-11-06 17:14:03
+Politicians,AGAINST,IMPLICIT,"I agree with the following: The comment implies that Nancy Pelosi, as a politician, might have used drugs excessively, suggesting a negative stance towards politicians.",2987868405,2016-11-06 17:14:03
+Nancy Pelosi,AGAINST,IMPLICIT,"I agree with the following: The comment implies that Nancy Pelosi might have used drugs excessively, suggesting a negative stance towards her.",2987868405,2016-11-06 17:14:03
+Republicans (GOP),FAVOR,IMPLICIT,I agree with the following: The commenter supports Republicans by agreeing with the thread's pro-Trump sentiment.,3171119370,2017-02-23 15:17:26
+America / USA,FAVOR,IMPLICIT,I agree with the following: The commenter supports America by aligning with the pro-Trump sentiment in the thread.,3171119370,2017-02-23 15:17:26
+Democrats,AGAINST,IMPLICIT,I agree with the following: The commenter is against Democrats by supporting the opposing viewpoint in the thread.,3171119370,2017-02-23 15:17:26
+Economy is good,FAVOR,IMPLICIT,I agree with the following: The commenter supports the economy being good by aligning with the thread's positive economic sentiment.,3171119370,2017-02-23 15:17:26
+Conservatives,FAVOR,IMPLICIT,I agree with the following: The commenter supports conservatives by agreeing with the thread's conservative viewpoint.,3171119370,2017-02-23 15:17:26
+Donald Trump,FAVOR,IMPLICIT,I agree with the following: The commenter supports Donald Trump by agreeing with the pro-Trump Wine sentiment in the thread.,3171119370,2017-02-23 15:17:26
+Liberals,AGAINST,IMPLICIT,I agree with the following: The commenter is against liberals by supporting the opposing viewpoint in the thread.,3171119370,2017-02-23 15:17:26
+Donald Trump,AGAINST,EXPLICIT,"I agree with the following: Performing at Donald Trump's inauguration would require a lobotomy re-do, implying opposition to Trump.",3057737839,2016-12-18 13:00:44
+Barack Obama,AGAINST,EXPLICIT,"I agree with the following: The comment implies criticism towards Obama by comparing his mulligans to those in golf, suggesting dissatisfaction with his actions or decisions.",3102376599,2017-01-16 16:00:52
+Democrats,AGAINST,EXPLICIT,"I agree with the following: The commenter is critical of Democrats, suggesting they have no proof and are wasting taxpayer money.",3277908938,2017-04-27 22:26:09
+Politicians,AGAINST,EXPLICIT,"I agree with the following: The commenter is critical of Adam Schiff, a politician, implying he lacks evidence.",3277908938,2017-04-27 22:26:09
+Donald Trump,FAVOR,IMPLICIT,"I agree with the following: The commenter questions the evidence against Trump, implying support for him.",3277908938,2017-04-27 22:26:09
+Hillary Clinton,AGAINST,EXPLICIT,I agree with the following: Hillary Clinton does not answer questions truthfully in interviews.,2125391106,2015-07-08 22:17:56
+Liberals,AGAINST,EXPLICIT,I agree with the following: The fact of the matter is he is a lying liberal.,3219619684,2017-03-23 17:51:00
+Journalists,AGAINST,EXPLICIT,"I agree with the following: The comment expresses a negative stance towards journalists, specifically Acosta, implying they were handled poorly.",3450241463,2017-08-03 19:24:14
+Media,AGAINST,EXPLICIT,"I agree with the following: The comment expresses a negative stance towards the media, specifically mentioning Acosta as a left-wing pundit.",3450241463,2017-08-03 19:24:14
+Donald Trump,FAVOR,IMPLICIT,"I agree with the following: The comment praises Stephen Miller, a Trump adviser, indicating support for Trump's administration.",3450241463,2017-08-03 19:24:14
+Journalists,AGAINST,EXPLICIT,"I agree with the following: ABC is covering for Muslims, which is discrediting them.",3070104127,2016-12-26 21:55:26
+Media,AGAINST,EXPLICIT,"I agree with the following: ABC is covering for Muslims, which is discrediting them.",3070104127,2016-12-26 21:55:26
+Muslims,AGAINST,EXPLICIT,I agree with the following: Muslims are discrediting themselves.,3070104127,2016-12-26 21:55:26
+Barack Obama,AGAINST,EXPLICIT,"I agree with the following: The comment uses the derogatory term 'Obozo' to refer to Barack Obama, indicating a negative stance towards him.",2693808438,2016-05-25 00:46:03
+Politicians,AGAINST,EXPLICIT,"I agree with the following: The comment suggests firing high-ranking officials, indicating dissatisfaction with politicians.",2693808438,2016-05-25 00:46:03
+The government,AGAINST,EXPLICIT,"I agree with the following: The comment implies dissatisfaction with government officials, suggesting they should be fired.",2693808438,2016-05-25 00:46:03
+Hillary Clinton,AGAINST,EXPLICIT,"I agree with the following: Hillary Clinton is involved in unethical behavior by indirectly causing harm, and she is skilled at manipulating situations to her advantage.",2901717162,2016-09-17 13:45:18
+Donald Trump,FAVOR,EXPLICIT,I agree with the following: President Trump has done more in one month to MAGA than Pres Obama did his entire presidency.,3159035100,2017-02-16 22:01:40
+Barack Obama,AGAINST,EXPLICIT,I agree with the following: President Trump has done more in one month to MAGA than Pres Obama did his entire presidency.,3159035100,2017-02-16 22:01:40
+Hillary Clinton,AGAINST,EXPLICIT,"I agree with the following: Hillary Clinton is receiving an award for assisting through her support, implying criticism of her actions.",3251884619,2017-04-12 01:13:54
+Abortion,AGAINST,IMPLICIT,"I agree with the following: Planned Parenthood is criticized for giving awards for 'kills,' implying opposition to abortion.",3251884619,2017-04-12 01:13:54
+Climate change is (real | a problem),AGAINST,EXPLICIT,"I agree with the following: The comment expresses disbelief at the claim that forced childbirth is a fundamental cause of climate change, implying skepticism towards the idea that climate change is caused by such factors.",3306551646,2017-05-15 13:01:18
+Abortion,AGAINST,EXPLICIT,"I agree with the following: The comment expresses disbelief at the claim linking forced childbirth to climate change, implying opposition to the idea that forced childbirth is a significant factor in climate change.",3306551646,2017-05-15 13:01:18
+Feminism,AGAINST,EXPLICIT,I agree with the following: The comment expresses disbelief and opposition to Gloria Steinem's feminist stance on forced childbirth and climate change.,3306551646,2017-05-15 13:01:18
+Diversity,AGAINST,EXPLICIT,I agree with the following: The NBA should not support diversity policies that allow transgender individuals to use bathrooms corresponding to their gender identity.,2711179337,2016-06-04 00:14:32
+Woke,AGAINST,EXPLICIT,I agree with the following: The NBA's decision to move the All-Star Game is an overreach of corporate influence on social issues.,2711179337,2016-06-04 00:14:32
+Sport,AGAINST,EXPLICIT,I agree with the following: The NBA should not move the All-Star Game from Charlotte.,2711179337,2016-06-04 00:14:32
+Democrats,AGAINST,EXPLICIT,I agree with the following: Democrats are wrong to support policies that allow transgender individuals to use bathrooms corresponding to their gender identity.,2711179337,2016-06-04 00:14:32
+Conservatives,FAVOR,EXPLICIT,I agree with the following: Conservatives are right to oppose the NBA's decision to move the All-Star Game over the bathroom law.,2711179337,2016-06-04 00:14:32
+Liberals,AGAINST,EXPLICIT,I agree with the following: Liberals are wrong to support the NBA's decision to move the All-Star Game.,2711179337,2016-06-04 00:14:32
+Progressives,AGAINST,EXPLICIT,I agree with the following: Progressives are wrong to support policies that allow transgender individuals to use bathrooms corresponding to their gender identity.,2711179337,2016-06-04 00:14:32
+Gay / LGTBQ+,AGAINST,EXPLICIT,I agree with the following: The NBA should not support transgender rights by moving the All-Star Game.,2711179337,2016-06-04 00:14:32
+Social media,AGAINST,EXPLICIT,"I agree with the following: Facebook is not needed to find Breitbart, implying dissatisfaction with Facebook's role in content curation.",2656691821,2016-05-03 23:13:31
+Conservatives,FAVOR,IMPLICIT,"I agree with the following: The commenter supports accessing Breitbart, a conservative outlet, indicating support for conservative content.",2656691821,2016-05-03 23:13:31
+Barack Obama,AGAINST,EXPLICIT,I agree with the following: Barack Obama made a significant mistake.,2315618209,2015-10-19 20:10:36
+Abortion,AGAINST,EXPLICIT,"I agree with the following: The comment criticizes Wendy Davis's abortion decision, implying a negative stance towards abortion.",2358368393,2015-11-13 20:29:35
+Conservatives,FAVOR,IMPLICIT,"I agree with the following: The comment aligns with conservative views opposing abortion, indicating support for conservatives.",2358368393,2015-11-13 20:29:35
+Liberals,AGAINST,EXPLICIT,"I agree with the following: The comment is critical of liberals, indicating an opposition to their stance on abortion.",2358368393,2015-11-13 20:29:35
+Liberals,AGAINST,EXPLICIT,I agree with the following: The commenter is expressing a negative view towards liberals by using a derogatory term.,2381809082,2015-11-27 22:30:05
+Journalists,AGAINST,EXPLICIT,"I agree with the following: Bernstein is a coward and a liberal, which reflects negatively on journalists.",2432166185,2015-12-30 15:14:21
+Media,AGAINST,EXPLICIT,"I agree with the following: Bernstein is a coward and a liberal, which reflects negatively on the media.",2432166185,2015-12-30 15:14:21
+Liberals,AGAINST,EXPLICIT,"I agree with the following: Bernstein is a coward and a liberal, which reflects negatively on liberals.",2432166185,2015-12-30 15:14:21
+Police,AGAINST,EXPLICIT,"I agree with the following: The Dept of Justice is corrupt, which implies criticism towards the police as part of the criminal justice system.",2337555614,2015-11-01 12:55:48
+Crime,AGAINST,EXPLICIT,"I agree with the following: The Dept of Justice is corrupt, indicating a negative stance towards the criminal justice system's handling of crime.",2337555614,2015-11-01 12:55:48
+America / USA,AGAINST,EXPLICIT,"I agree with the following: The Dept of Justice is corrupt, which is part of the American government, indicating a negative stance towards America.",2337555614,2015-11-01 12:55:48
+Politicians,AGAINST,EXPLICIT,"I agree with the following: The Dept of Justice is corrupt, which is part of the government led by politicians, indicating a negative stance.",2337555614,2015-11-01 12:55:48
+The government,AGAINST,EXPLICIT,"I agree with the following: The Dept of Justice is corrupt, which is part of the government, indicating a negative stance.",2337555614,2015-11-01 12:55:48
+Black people,AGAINST,EXPLICIT,"I agree with the following: The commenter is against the Black Lives Matter movement, which supports Black people, indicating a negative stance towards Black people.",2501879814,2016-02-08 02:47:37
+Media,AGAINST,EXPLICIT,"I agree with the following: The AP got caught with their pants down and what we see is ugly, hugely ugly.",3324071641,2017-05-25 13:47:21
+Immigration / immigrants,AGAINST,EXPLICIT,"I agree with the following: Dreamers are only capable of doing menial jobs like cleaning bidets, which is a negative view of immigrants.",3503842260,2017-09-05 23:01:46
+Jobs are (available | good),AGAINST,EXPLICIT,I agree with the following: Kaepernick can't win the job based on his talent.,3460361905,2017-08-10 00:35:48
+Movies,AGAINST,EXPLICIT,I agree with the following: Spike Lee is a twerp.,3460361905,2017-08-10 00:35:48
+Black people,AGAINST,EXPLICIT,I agree with the following: Kaepernick can't win the job based on his talent.,3460361905,2017-08-10 00:35:48
+Sport,AGAINST,EXPLICIT,I agree with the following: Kaepernick can't win the job based on his talent.,3460361905,2017-08-10 00:35:48
+Democrats,AGAINST,EXPLICIT,"I agree with the following: The comment suggests renaming things named after Robert Byrd, a Democrat with KKK ties, indicating a negative stance towards Democrats.",3471418774,2017-08-16 19:03:00
+Donald Trump,FAVOR,EXPLICIT,I agree with the following: Trump's head looks better than Griffin's head.,3332427165,2017-05-30 22:39:23
+Hillary Clinton,AGAINST,IMPLICIT,I agree with the following: The comment implies criticism towards Hillary Clinton by association with Bill Clinton's behavior.,3515427571,2017-09-13 13:43:14
+Politicians,AGAINST,IMPLICIT,"I agree with the following: The comment criticizes Bill Clinton, a politician, implying disapproval of politicians' behavior.",3515427571,2017-09-13 13:43:14
+Democrats,AGAINST,IMPLICIT,"I agree with the following: The comment criticizes the liberal mentality, which is associated with Democrats, indicating a negative stance.",2519955667,2016-02-17 20:13:40
+Liberals,AGAINST,IMPLICIT,"I agree with the following: The comment criticizes the liberal mentality, indicating a negative stance.",2519955667,2016-02-17 20:13:40
+Democrats,AGAINST,EXPLICIT,I agree with the following: Maxine Waters is an embarrassing human being.,3417352288,2017-07-14 23:50:07
+Politicians,AGAINST,EXPLICIT,I agree with the following: Maxine Waters is an embarrassing human being.,3417352288,2017-07-14 23:50:07
+Journalists,AGAINST,EXPLICIT,"I agree with the following: The comment criticizes the idea of a 'badge of honor' for journalists, implying skepticism or negative view.",3404001816,2017-07-07 02:45:31
+Media,AGAINST,EXPLICIT,"I agree with the following: The comment questions the idea of a 'badge of honor' for the media, indicating criticism or negative view.",3404001816,2017-07-07 02:45:31
+Journalists,AGAINST,EXPLICIT,"I agree with the following: The comment explicitly criticizes journalists, blaming them for the current issues.",3361695090,2017-06-15 00:22:20
+Media,AGAINST,EXPLICIT,I agree with the following: The comment explicitly blames the media for the current issues.,3361695090,2017-06-15 00:22:20
+Democrats,AGAINST,EXPLICIT,I agree with the following: The comment explicitly blames Democrats for the current issues.,3361695090,2017-06-15 00:22:20
+Politicians,AGAINST,EXPLICIT,I agree with the following: The comment explicitly blames politicians in Congress for the current issues.,3361695090,2017-06-15 00:22:20
+Liberals,AGAINST,EXPLICIT,"I agree with the following: The comment explicitly criticizes liberals, blaming them for the current issues.",3361695090,2017-06-15 00:22:20
+Donald Trump,AGAINST,IMPLICIT,"I agree with the following: The comment expresses frustration with Donald Trump, possibly criticizing his behavior or statements.",3527154257,2017-09-20 22:42:14
+Hillary Clinton,AGAINST,EXPLICIT,I agree with the following: Hillary Clinton did not know why she was running for president.,3536007065,2017-09-26 02:32:10
+Jews,AGAINST,EXPLICIT,I agree with the following: There would be no big loss if all Jews were nuked.,2258369734,2015-09-17 12:21:08
+Democrats,AGAINST,EXPLICIT,I agree with the following: Democrats are idiots and will suffer negative consequences if they elect a Muslim as their party chairman.,3028079217,2016-11-30 17:44:26
+Muslims,AGAINST,EXPLICIT,I agree with the following: Electing a Muslim as party chairman will lead to negative consequences.,3028079217,2016-11-30 17:44:26
+Joe Biden,AGAINST,EXPLICIT,I agree with the following: Joe Biden is a dumbass.,3795607203,2018-03-10 00:13:00
+Social media,AGAINST,EXPLICIT,I agree with the following: Mark Zuckerberg mishandled the situation regarding Facebook's treatment of private user data.,3840755691,2018-04-05 18:18:50
+Democrats,AGAINST,EXPLICIT,I agree with the following: Democrats in Congress are responsible for tarnishing reputations.,3874592447,2018-04-26 22:54:37
+Crime,AGAINST,EXPLICIT,"I agree with the following: The comment highlights that people didn't care about Bill Clinton's abuse, indicating a negative stance towards the lack of attention to crime.",3730364511,2018-01-28 15:38:35
+Politicians,AGAINST,EXPLICIT,"I agree with the following: The comment suggests that people didn't care about Bill Clinton's abuse, implying criticism towards politicians.",3730364511,2018-01-28 15:38:35
+Feminism,FAVOR,EXPLICIT,"I agree with the following: The comment points out past neglect of abuse, which aligns with feminist concerns about such issues.",3730364511,2018-01-28 15:38:35
+ABC,AGAINST,EXPLICIT,"I agree with the following: ABC's decision to cancel Rosanne is criticized, and the network is accused of listening to a racist figure.",3922387739,2018-05-29 17:58:56
+Al Sharpton,AGAINST,EXPLICIT,I agree with the following: Al Sharpton is referred to as a 'Master Racist Hustler' and accused of being a racist.,3922387739,2018-05-29 17:58:56
+Barack Obama,AGAINST,EXPLICIT,I agree with the following: Obama did not deserve the Nobel Peace Prize.,3898099352,2018-05-12 22:55:33
+Barack Obama,AGAINST,EXPLICIT,I agree with the following: Trump sounds better than Obama.,3742902860,2018-02-05 00:44:09
+Donald Trump,FAVOR,EXPLICIT,I agree with the following: Trump sounds better than Obama.,3742902860,2018-02-05 00:44:09
+Liberals,AGAINST,EXPLICIT,I agree with the following: Liberals say the dumbest things and stupidity is in their DNA.,3756014568,2018-02-13 14:06:56
+Media,AGAINST,EXPLICIT,"I agree with the following: The media is not providing the content I want to watch, so I need to change the channel.",3913524693,2018-05-23 12:15:53
+Donald Trump,AGAINST,EXPLICIT,I agree with the following: Trump gives her a chance to do something great and she stabs him in the back.,4036792553,2018-08-12 22:41:40
+Republicans (GOP),AGAINST,EXPLICIT,I agree with the following: Republicans should not stand up for Brennan.,4045315261,2018-08-17 13:36:47
+Democrats,AGAINST,EXPLICIT,"I agree with the following: Only Democrats stand up for Brennan, implying criticism.",4045315261,2018-08-17 13:36:47
+Elites,AGAINST,EXPLICIT,"I agree with the following: The comment criticizes the management of the company, implying that the elites or those in charge have failed.",3543734264,2017-09-30 13:44:48
+Food,AGAINST,EXPLICIT,"I agree with the following: The comment states that the company has been killed, indicating a negative stance towards the food company.",3543734264,2017-09-30 13:44:48
+Sport,AGAINST,EXPLICIT,"I agree with the following: The comment mentions the NFL being next on the chopping block, indicating a negative stance towards sports organizations.",3543734264,2017-09-30 13:44:48
+Economy is good,AGAINST,EXPLICIT,I agree with the following: The comment implies economic failure by stating the company has been killed and the NFL is next.,3543734264,2017-09-30 13:44:48
+Politicians,AGAINST,EXPLICIT,I agree with the following: Politicians are elected by people who are dumber.,4015569083,2018-07-31 21:03:08
+Democrats,AGAINST,EXPLICIT,I agree with the following: The Democrats on the committee are lying and leaking.,4119426623,2018-09-28 18:45:22
+Donald Trump,AGAINST,EXPLICIT,I agree with the following: Donald Trump looks like a cadaver.,4190210178,2018-11-11 21:31:56
+Journalists,AGAINST,EXPLICIT,"I agree with the following: CNN is irrelevant and has hack reporters and wannabe journalists, so their opinions are not taken seriously.",4181494605,2018-11-06 17:42:59
+Media,AGAINST,EXPLICIT,"I agree with the following: CNN is irrelevant and has hack reporters and wannabe journalists, so their opinions are not taken seriously.",4181494605,2018-11-06 17:42:59
+Hillary Clinton,AGAINST,EXPLICIT,I agree with the following: The Clintons are not taking the hint to go away.,4224174547,2018-12-04 02:42:07
+Sport,AGAINST,EXPLICIT,I agree with the following: Armstrong's cheating career makes his opinion irrelevant.,4061408419,2018-08-26 17:56:04
+Democrats,AGAINST,EXPLICIT,I agree with the following: The Democratic Party is slimy and embarrassing.,4102878713,2018-09-19 02:47:14
+Movies,AGAINST,EXPLICIT,I agree with the following: Hollywood is filthy and disgusting.,3559122004,2017-10-09 19:13:10
+Elites,AGAINST,EXPLICIT,I agree with the following: The liberal establishment is comparable to Hollywood filth.,3559122004,2017-10-09 19:13:10
+Media,AGAINST,EXPLICIT,I agree with the following: Hollywood is filthy and disgusting.,3559122004,2017-10-09 19:13:10
+Democrats,AGAINST,IMPLICIT,I agree with the following: The liberal establishment is comparable to Hollywood filth.,3559122004,2017-10-09 19:13:10
+Liberals,AGAINST,EXPLICIT,I agree with the following: The liberal establishment is comparable to Hollywood filth.,3559122004,2017-10-09 19:13:10
+Republicans (GOP),FAVOR,EXPLICIT,I agree with the following: The comment supports Republicans by criticizing Democrats involved in the Kavanaugh confirmation.,4241270750,2018-12-14 16:38:07
+Democrats,AGAINST,EXPLICIT,"I agree with the following: The comment criticizes Feinstein and Dr. Ford, who are Democrats, indicating opposition.",4241270750,2018-12-14 16:38:07
+Conservatives,FAVOR,EXPLICIT,I agree with the following: The comment supports conservatives by defending Kavanaugh.,4241270750,2018-12-14 16:38:07
+Politicians,AGAINST,EXPLICIT,"I agree with the following: The comment criticizes Feinstein, a politician, indicating opposition.",4241270750,2018-12-14 16:38:07
+Liberals,AGAINST,EXPLICIT,I agree with the following: The comment opposes liberals by criticizing Feinstein and Dr. Ford.,4241270750,2018-12-14 16:38:07
+Russia,AGAINST,EXPLICIT,I agree with the following: The Russia probe is a waste of time and resources.,4146850177,2018-10-16 00:31:48
+Taxes are (good | fair),AGAINST,EXPLICIT,I agree with the following: Taxpayers' money is being wasted.,4146850177,2018-10-16 00:31:48
+The government,AGAINST,EXPLICIT,I agree with the following: The government is wasting taxpayers' money.,4146850177,2018-10-16 00:31:48
+Abortion,AGAINST,EXPLICIT,I agree with the following: Her policies promote these murders.,4263525762,2018-12-31 14:25:10
+Abortion,FAVOR,EXPLICIT,I agree with the following: Pro-life posts should not be blocked by Twitter.,3862694413,2018-04-19 15:30:37
+Social media,AGAINST,EXPLICIT,"I agree with the following: Twitter is censoring pro-life posts, which is wrong.",3862694413,2018-04-19 15:30:37
+Donald Trump,FAVOR,EXPLICIT,I agree with the following: They should have blown his ass out of the air.,3990311735,2018-07-16 00:54:54
+Republicans (GOP),FAVOR,EXPLICIT,I agree with the following: They should have lost their clearances as soon as they were outed.,4002873787,2018-07-23 20:30:13
+Elites,AGAINST,EXPLICIT,I agree with the following: They should have lost their clearances as soon as they were outed.,4002873787,2018-07-23 20:30:13
+America / USA,FAVOR,EXPLICIT,I agree with the following: They should have lost their clearances as soon as they were outed.,4002873787,2018-07-23 20:30:13
+Democrats,AGAINST,EXPLICIT,I agree with the following: They should have lost their clearances as soon as they were outed.,4002873787,2018-07-23 20:30:13
+Barack Obama,AGAINST,EXPLICIT,I agree with the following: They should have lost their clearances as soon as they were outed.,4002873787,2018-07-23 20:30:13
+Conservatives,FAVOR,EXPLICIT,I agree with the following: They should have lost their clearances as soon as they were outed.,4002873787,2018-07-23 20:30:13
+Politicians,AGAINST,EXPLICIT,I agree with the following: They should have lost their clearances as soon as they were outed.,4002873787,2018-07-23 20:30:13
+Donald Trump,FAVOR,EXPLICIT,I agree with the following: They should have lost their clearances as soon as they were outed.,4002873787,2018-07-23 20:30:13
+The government,FAVOR,EXPLICIT,I agree with the following: They should have lost their clearances as soon as they were outed.,4002873787,2018-07-23 20:30:13
+Liberals,AGAINST,EXPLICIT,I agree with the following: They should have lost their clearances as soon as they were outed.,4002873787,2018-07-23 20:30:13
+Progressives,AGAINST,EXPLICIT,I agree with the following: They should have lost their clearances as soon as they were outed.,4002873787,2018-07-23 20:30:13
+Media,AGAINST,EXPLICIT,"I agree with the following: MSNBC continues to employ a vicious, hateful person, making it the network of hate.",3935950740,2018-06-08 16:13:40
+Immigration / immigrants,AGAINST,EXPLICIT,I agree with the following: You don't care about border security and just want more fund voters.,4255489015,2018-12-24 22:29:34
+Democrats,AGAINST,EXPLICIT,I agree with the following: You don't care about border security and just want more fund voters.,4255489015,2018-12-24 22:29:34
+Democrats,AGAINST,EXPLICIT,I agree with the following: Democrats are being criticized in a derogatory manner.,3679664489,2017-12-27 02:40:11
+Journalists,AGAINST,EXPLICIT,"I agree with the following: The comment expresses skepticism about the legitimacy of journalists, implying they do not deserve the title.",3631782979,2017-11-25 01:06:24
+Hillary Clinton,AGAINST,EXPLICIT,I agree with the following: Hillary Clinton is to blame for her election loss and is criticized for her actions and character.,3568968113,2017-10-15 23:09:31
+Progressives,AGAINST,EXPLICIT,I agree with the following: Progressives are ungrateful and have a negative behavior.,3622714575,2017-11-19 00:21:36
+Republicans (GOP),AGAINST,EXPLICIT,"I agree with the following: The comment criticizes a Republican Senator for not owning up to their involvement, indicating a negative stance towards Republicans.",3595164405,2017-11-01 16:03:50
+Politicians,AGAINST,EXPLICIT,"I agree with the following: The comment criticizes a politician (Senator) for not taking responsibility, indicating a negative stance towards politicians.",3595164405,2017-11-01 16:03:50
+The government,AGAINST,EXPLICIT,"I agree with the following: The comment criticizes a government official (Senator), indicating a negative stance towards the government.",3595164405,2017-11-01 16:03:50
+Donald Trump,AGAINST,EXPLICIT,"I agree with the following: The comment criticizes the president, implying that he has caused more harm than terrorists, which is a direct opposition to Donald Trump.",4089659795,2018-09-11 15:07:27
+Elites,AGAINST,EXPLICIT,I agree with the following: The current leaders are incompetent and need to be removed.,3717408129,2018-01-20 14:30:39
+Politicians,AGAINST,EXPLICIT,I agree with the following: The current politicians are incompetent and need to be removed.,3717408129,2018-01-20 14:30:39
+The government,AGAINST,EXPLICIT,I agree with the following: The government is being run by incompetent leaders who need to be removed.,3717408129,2018-01-20 14:30:39
+Media,AGAINST,EXPLICIT,"I agree with the following: Megyn Kelly and NBC are criticized negatively, indicating a stance against the media.",3657562619,2017-12-11 20:03:09
+Democrats,AGAINST,EXPLICIT,"I agree with the following: Michael Avenatti, who is associated with the Democratic party, should be disbarred for gross incompetence.",4129413150,2018-10-04 21:16:27
+Democrats,AGAINST,EXPLICIT,I agree with the following: Democrats are a bunch of jerk-offs.,3648070610,2017-12-05 19:14:39
+The government,AGAINST,EXPLICIT,I agree with the following: The government's handling of California projects is problematic.,3640848477,2017-12-01 02:37:12
+Hillary Clinton,AGAINST,EXPLICIT,"I agree with the following: Beto O’Rourke is compared to the Clintons for keeping money, implying a negative stance towards Hillary Clinton.",4200156253,2018-11-17 21:23:23
+Democrats,AGAINST,EXPLICIT,"I agree with the following: Beto O’Rourke is criticized for keeping money instead of sharing it with fellow Democrats, indicating a negative stance towards Democrats.",4200156253,2018-11-17 21:23:23
+Politicians,AGAINST,EXPLICIT,"I agree with the following: Beto O’Rourke is criticized for his handling of funds, indicating a negative stance towards politicians.",4200156253,2018-11-17 21:23:23
+Christianity,AGAINST,EXPLICIT,"I agree with the following: The comment criticizes the portrayal of someone as a minister, implying doubt in their legitimacy within the Christian faith.",4294077776,2019-01-19 21:33:42
+Christians,AGAINST,EXPLICIT,"I agree with the following: The comment questions the legitimacy of someone portraying themselves as a minister, implying a negative view towards that individual's association with Christians.",4294077776,2019-01-19 21:33:42
+Democrats,AGAINST,EXPLICIT,"I agree with the following: Democrats are lying and backstabbing, making negotiation impossible.",4316278667,2019-01-31 18:43:03
+Donald Trump,FAVOR,EXPLICIT,I agree with the following: The President should do a live State of the Union prime time address to the nation.,4289312050,2019-01-16 20:08:01
+Nancy Pelosi,AGAINST,EXPLICIT,I agree with the following: Who wants to see San Fran Nan chewing her cud behind the President for an hour?,4289312050,2019-01-16 20:08:01
+Climate change is (real | a problem),AGAINST,IMPLICIT,I agree with the following: Harrison Ford's warning about climate change is not credible.,4330872907,2019-02-10 15:00:06
+Economy is good,AGAINST,EXPLICIT,I agree with the following: The economy is not good because California owes $155 billion dollars.,4276105250,2019-01-08 23:08:13
+The government,AGAINST,EXPLICIT,I agree with the following: The government is mismanaging finances as California owes $155 billion dollars.,4276105250,2019-01-08 23:08:13
+White people,AGAINST,EXPLICIT,I agree with the following: The comment implies that the person lost because they were racist towards white people.,3978559024,2018-07-08 00:45:57
+Democrats,AGAINST,EXPLICIT,I agree with the following: The comment implies that losing to a Democrat indicates a negative stance towards Democrats.,3978559024,2018-07-08 00:45:57
+Crime,AGAINST,EXPLICIT,I agree with the following: Jussie Smollett committed a crime and is in jail.,4352023834,2019-02-24 14:46:43
+Liberals,AGAINST,EXPLICIT,I agree with the following: Liberals love to kill.,4431141986,2019-04-20 13:39:04
+Republicans (GOP),FAVOR,EXPLICIT,"I agree with the following: The comment supports Trump's actions, which align with GOP goals.",4377183165,2019-03-13 21:56:01
+America / USA,FAVOR,EXPLICIT,"I agree with the following: The comment supports Trump's actions, which can be seen as favorable to America.",4377183165,2019-03-13 21:56:01
+Democrats,AGAINST,EXPLICIT,"I agree with the following: The comment supports Trump, which is against Democrats.",4377183165,2019-03-13 21:56:01
+Conservatives,FAVOR,EXPLICIT,"I agree with the following: The comment supports Trump, aligning with conservatives.",4377183165,2019-03-13 21:56:01
+Donald Trump,FAVOR,EXPLICIT,I agree with the following: The comment is clearly in support of Trump's achievements.,4377183165,2019-03-13 21:56:01
+Liberals,AGAINST,EXPLICIT,"I agree with the following: The comment supports Trump, which is against liberals.",4377183165,2019-03-13 21:56:01
+Progressives,AGAINST,EXPLICIT,"I agree with the following: The comment supports Trump, which is against progressives.",4377183165,2019-03-13 21:56:01
+Republicans (GOP),FAVOR,EXPLICIT,"I agree with the following: The comment suggests skepticism towards rushing to judgment, implying support for Republicans like Roy Moore.",3611876460,2017-11-12 01:42:11
+Democrats,AGAINST,EXPLICIT,"I agree with the following: The comment cautions against rushing to judgment, implying skepticism towards Democrats.",3611876460,2017-11-12 01:42:11
+Conservatives,FAVOR,EXPLICIT,I agree with the following: The comment aligns with conservative viewpoints by defending Roy Moore.,3611876460,2017-11-12 01:42:11
+Liberals,AGAINST,EXPLICIT,"I agree with the following: The comment opposes rushing to judgment, implying opposition to liberal perspectives.",3611876460,2017-11-12 01:42:11
+Progressives,AGAINST,EXPLICIT,I agree with the following: The comment opposes progressive stances by cautioning against judgment.,3611876460,2017-11-12 01:42:11
+Elites,FAVOR,IMPLICIT,I agree with the following: AOC and BETO are part of the same elite group.,4381015885,2019-03-16 14:52:22
+Socialism / Communism,FAVOR,IMPLICIT,I agree with the following: AOC and BETO align with socialist ideals.,4381015885,2019-03-16 14:52:22
+Democrats,FAVOR,IMPLICIT,I agree with the following: AOC and BETO are prominent Democrats.,4381015885,2019-03-16 14:52:22
+Politicians,FAVOR,IMPLICIT,I agree with the following: AOC and BETO are politicians who share similar views.,4381015885,2019-03-16 14:52:22
+Liberals,FAVOR,IMPLICIT,I agree with the following: AOC and BETO are liberal politicians.,4381015885,2019-03-16 14:52:22
+Progressives,FAVOR,IMPLICIT,I agree with the following: AOC is a progressive politician.,4381015885,2019-03-16 14:52:22
+Democrats,AGAINST,EXPLICIT,I agree with the following: The comment implies opposition to the Democrats' actions.,4410144754,2019-04-05 00:43:12
+Nancy Pelosi,AGAINST,EXPLICIT,I agree with the following: The comment directly criticizes Nancy Pelosi's actions as ineffective.,4410144754,2019-04-05 00:43:12
+Joe Biden,FAVOR,EXPLICIT,"I agree with the following: Joe Biden will serve as president for six more years, indicating support for him.",4360660278,2019-03-02 03:48:58
+Nancy Pelosi,AGAINST,EXPLICIT,"I agree with the following: The comment mocks Nancy Pelosi's actions, showing a negative stance towards her.",4360660278,2019-03-02 03:48:58
+Democrats,FAVOR,IMPLICIT,I agree with the following: Support for Joe Biden implies support for the Democratic party.,4360660278,2019-03-02 03:48:58
+Liberals,AGAINST,EXPLICIT,"I agree with the following: The comment mocks Rob Reiner, a liberal, implying he has lost his mind.",4385720045,2019-03-19 20:56:55
+Donald Trump,AGAINST,EXPLICIT,"I agree with the following: The comment criticizes Trump's children, implying they are negatively affected by him.",4457429089,2019-05-10 16:29:32
+Hillary Clinton,AGAINST,EXPLICIT,I agree with the following: Hillary Clinton mishandled classified emails and was not charged despite evidence.,4388954379,2019-03-22 03:25:09
+Socialism / Communism,AGAINST,EXPLICIT,"I agree with the following: The comment compares the situation to Venezuela and refers to 'socialist buddies,' indicating opposition to socialism.",4439181674,2019-04-26 17:11:40
+America / USA,FAVOR,IMPLICIT,I agree with the following: The comment implies support for American values by contrasting with Venezuela.,4439181674,2019-04-26 17:11:40
+Democrats,AGAINST,EXPLICIT,"I agree with the following: The term 'socialist buddies' refers to Democrats, indicating opposition.",4439181674,2019-04-26 17:11:40
+The government,AGAINST,EXPLICIT,I agree with the following: The comment questions the authority of the government.,4439181674,2019-04-26 17:11:40
+Liberals,AGAINST,EXPLICIT,I agree with the following: The term 'socialist buddies' implies opposition to liberals.,4439181674,2019-04-26 17:11:40
+Progressives,AGAINST,EXPLICIT,I agree with the following: Opposition to socialism extends to progressives.,4439181674,2019-04-26 17:11:40
+Crime,AGAINST,EXPLICIT,"I agree with the following: The comment implies that the person in question should be in jail, indicating a stance against crime.",4397969804,2019-03-27 13:31:18
+Hillary Clinton,AGAINST,EXPLICIT,"I agree with the following: The comment refers to Hillary Clinton as a 'liar' and questions why she is not in jail, indicating a negative stance.",4397969804,2019-03-27 13:31:18
+Politicians,AGAINST,EXPLICIT,"I agree with the following: The comment is critical of a politician (Hillary Clinton), indicating a negative stance.",4397969804,2019-03-27 13:31:18
+Liberals,AGAINST,EXPLICIT,"I agree with the following: Hollywood liberals are acting predictably, implying criticism of their actions or beliefs.",4484599611,2019-05-31 21:16:33
+Media,AGAINST,EXPLICIT,I agree with the following: Twitter's censorship is inappropriate.,4402900945,2019-03-30 20:44:25
+Social media,AGAINST,EXPLICIT,I agree with the following: Twitter should be permanently shut down for its censorship.,4402900945,2019-03-30 20:44:25
+Abortion,AGAINST,EXPLICIT,"I agree with the following: The comment criticizes Pelosi as the 'abortion queen,' indicating opposition to abortion.",4310440546,2019-01-28 04:13:50
+Nancy Pelosi,AGAINST,EXPLICIT,"I agree with the following: The comment refers to Pelosi as the 'abortion queen,' indicating a negative stance towards her.",4310440546,2019-01-28 04:13:50
+Democrats,AGAINST,IMPLICIT,"I agree with the following: The comment implies criticism towards Democrats by suggesting that citizens are afraid of Northam, a Democrat, indicating a negative stance.",4324071947,2019-02-05 23:13:22
+The government,AGAINST,IMPLICIT,"I agree with the following: The comment suggests fear of a government official (Northam), indicating a negative stance towards the government.",4324071947,2019-02-05 23:13:22
+Republicans (GOP),AGAINST,EXPLICIT,"I agree with the following: Cindy McCain is part of the same problematic group as her husband, implying criticism towards Republicans.",4328496323,2019-02-08 18:43:08
+Politicians,AGAINST,EXPLICIT,"I agree with the following: Cindy McCain is part of the same problematic group as her husband, implying criticism towards politicians.",4328496323,2019-02-08 18:43:08
+Music,AGAINST,EXPLICIT,I agree with the following: Hateful aging singers flipping the bird.,4303454610,2019-01-23 17:18:19
+Fascism / Nazism,AGAINST,EXPLICIT,I agree with the following: Accusing HS students of giving Nazi signs.,4303454610,2019-01-23 17:18:19
+Diversity,AGAINST,EXPLICIT,I agree with the following: The Democratic party is the party of identity politics and hate.,4303454610,2019-01-23 17:18:19
+Media,AGAINST,EXPLICIT,I agree with the following: Liberal columnists accusing HS students of giving N-word hand signals and the Nazi sign.,4303454610,2019-01-23 17:18:19
+Democrats,AGAINST,EXPLICIT,I agree with the following: The Democratic party has always been the party of identity politics and hate.,4303454610,2019-01-23 17:18:19
+Liberals,AGAINST,EXPLICIT,I agree with the following: Liberals are drawing hateful pictures of HS students comparing them to snakes.,4303454610,2019-01-23 17:18:19
+The government,AGAINST,EXPLICIT,"I agree with the following: The government should be sued, indicating opposition.",4341117975,2019-02-17 00:38:13
+Republicans (GOP),FAVOR,EXPLICIT,I agree with the following: Support for Republicans.,4335951314,2019-02-13 17:39:28
+America / USA,FAVOR,EXPLICIT,I agree with the following: Support for America.,4335951314,2019-02-13 17:39:28
+Conservatives,FAVOR,EXPLICIT,I agree with the following: Support for conservatives.,4335951314,2019-02-13 17:39:28
+Donald Trump,FAVOR,EXPLICIT,I agree with the following: Support for Donald Trump.,4335951314,2019-02-13 17:39:28
+Media,FAVOR,EXPLICIT,I agree with the following: The commenter supports the takeover of the Washington Post by the individual referred to as 'kid.',4346500516,2019-02-20 17:24:06
+Crime,AGAINST,IMPLICIT,"I agree with the following: The comment mocks Jussie Smollett's situation, implying guilt and legal consequences, thus expressing a negative stance towards his alleged criminal actions.",4348095525,2019-02-21 17:03:52
+Democrats,AGAINST,EXPLICIT,"I agree with the following: The comment mocks Maxine Waters, a Democrat, using a derogatory nickname and suggesting she should stop talking, indicating opposition to her and, by extension, the Democratic party.",4494863519,2019-06-08 23:16:05
+Healthcare,AGAINST,EXPLICIT,"I agree with the following: The senator's handling of the cancer guarantee promise has been criticized, indicating dissatisfaction with their approach to healthcare.",4319920004,2019-02-03 03:52:18
+Politicians,AGAINST,EXPLICIT,"I agree with the following: The comment criticizes the senator's lack of contribution and unfulfilled promises, showing a negative stance towards politicians.",4319920004,2019-02-03 03:52:18
+The government,AGAINST,EXPLICIT,I agree with the following: The criticism towards the senator reflects a broader dissatisfaction with the government's effectiveness.,4319920004,2019-02-03 03:52:18
+Donald Trump,FAVOR,IMPLICIT,"I agree with the following: The comment mocks Buttigieg, implying support for Trump by dismissing criticism of him.",4393255321,2019-03-24 22:57:41
+Media,FAVOR,EXPLICIT,I agree with the following: NPR has sharp eyes and is effective in their reporting or oversight.,4488898664,2019-06-04 14:12:13
+Journalists,AGAINST,EXPLICIT,"I agree with the following: The media supported someone they now criticize, indicating poor judgment.",4474060656,2019-05-23 16:34:52
+Media,AGAINST,EXPLICIT,"I agree with the following: The media supported someone they now criticize, indicating poor judgment.",4474060656,2019-05-23 16:34:52
+Drugs,AGAINST,IMPLICIT,I agree with the following: The decision not to prosecute drug-related offenses is problematic.,4466787105,2019-05-17 22:09:38
+Police,AGAINST,IMPLICIT,I agree with the following: The police's decision not to prosecute was expected and possibly inappropriate.,4466787105,2019-05-17 22:09:38
+Elites,AGAINST,IMPLICIT,I agree with the following: Elites may receive preferential treatment in legal matters.,4466787105,2019-05-17 22:09:38
+Crime,AGAINST,IMPLICIT,I agree with the following: The handling of this crime was inappropriate.,4466787105,2019-05-17 22:09:38
+Democrats,AGAINST,IMPLICIT,I agree with the following: Democrats may be involved in inappropriate decisions.,4466787105,2019-05-17 22:09:38
+Politicians,AGAINST,IMPLICIT,I agree with the following: Politicians may receive preferential treatment.,4466787105,2019-05-17 22:09:38
+The government,AGAINST,IMPLICIT,I agree with the following: The government's decision-making is questionable.,4466787105,2019-05-17 22:09:38
+Liberals,AGAINST,IMPLICIT,I agree with the following: Liberals may be involved in inappropriate decisions.,4466787105,2019-05-17 22:09:38
+Republicans (GOP),FAVOR,IMPLICIT,I agree with the following: The comment supports Republican figures and policies.,4631447534,2019-09-27 16:35:57
+Elites,AGAINST,EXPLICIT,I agree with the following: The comment refers to 'elites' in a negative context.,4631447534,2019-09-27 16:35:57
+Crime,FAVOR,EXPLICIT,I agree with the following: The comment implies a stance against crime by mentioning treason and jail.,4631447534,2019-09-27 16:35:57
+America / USA,FAVOR,IMPLICIT,"I agree with the following: The comment supports Trump and criticizes the deep state, implying support for America.",4631447534,2019-09-27 16:35:57
+Media,AGAINST,EXPLICIT,I agree with the following: The comment criticizes the media's role in the 'deep state coup.',4631447534,2019-09-27 16:35:57
+Democrats,AGAINST,EXPLICIT,I agree with the following: The comment criticizes Democrats and the 'deep state coup.',4631447534,2019-09-27 16:35:57
+Conservatives,FAVOR,IMPLICIT,"I agree with the following: The comment supports Trump, aligning with conservative views.",4631447534,2019-09-27 16:35:57
+Politicians,AGAINST,EXPLICIT,I agree with the following: The comment criticizes politicians in Congress.,4631447534,2019-09-27 16:35:57
+Donald Trump,FAVOR,EXPLICIT,I agree with the following: The comment explicitly supports Trump.,4631447534,2019-09-27 16:35:57
+The government,AGAINST,EXPLICIT,I agree with the following: The comment criticizes the government's actions.,4631447534,2019-09-27 16:35:57
+Liberals,AGAINST,EXPLICIT,I agree with the following: The comment's tone is against liberals.,4631447534,2019-09-27 16:35:57
+Joe Biden,AGAINST,EXPLICIT,"I agree with the following: Joe Biden is incorrect in his claim about genders, and the comment mocks his stance.",4572759404,2019-08-10 00:40:18
+Climate change is (real | a problem),AGAINST,EXPLICIT,"I agree with the following: The comment suggests skepticism about the impact of climate change by implying it won't matter because the world will end, dismissing its significance.",4564336931,2019-08-03 14:30:45
+Republicans (GOP),AGAINST,EXPLICIT,I agree with the following: Republicans are not holding hoax conspirators accountable.,4596466677,2019-08-29 16:42:53
+The government,AGAINST,EXPLICIT,I agree with the following: The government is failing to hold hoax conspirators accountable.,4596466677,2019-08-29 16:42:53
+Donald Trump,AGAINST,EXPLICIT,I agree with the following: Donald Trump's administration is not holding hoax conspirators accountable.,4596466677,2019-08-29 16:42:53
+Politicians,AGAINST,EXPLICIT,I agree with the following: Politicians are not holding hoax conspirators accountable.,4596466677,2019-08-29 16:42:53
+Elites,AGAINST,EXPLICIT,I agree with the following: Elites are not being held accountable for hoax conspiracies.,4596466677,2019-08-29 16:42:53
+Democrats,AGAINST,EXPLICIT,"I agree with the following: Chuck Schumer (a Democrat) is lying, so I don't believe anything he says.",4655259024,2019-10-17 02:26:27
+Democrats,AGAINST,EXPLICIT,I agree with the following: Liew's main contribution to mankind is that he was named after the British toilet.,4553151872,2019-07-25 15:04:21
+Journalists,AGAINST,EXPLICIT,"I agree with the following: The comment implies that Jorge Ramos, a journalist, is not appropriate to participate in American elections, suggesting a negative stance towards journalists.",4614589963,2019-09-13 13:34:25
+America / USA,FAVOR,EXPLICIT,"I agree with the following: The comment suggests that a Mexican journalist should not participate in American elections, implying support for America maintaining its elections without foreign influence.",4614589963,2019-09-13 13:34:25
+Media,AGAINST,EXPLICIT,"I agree with the following: The comment criticizes a journalist's participation in American elections, indicating a negative stance towards the media.",4614589963,2019-09-13 13:34:25
+Journalists,AGAINST,EXPLICIT,I agree with the following: Jake Tapper is incompetent.,4668009238,2019-10-27 21:50:01
+Media,AGAINST,EXPLICIT,I agree with the following: Jake Tapper is incompetent.,4668009238,2019-10-27 21:50:01
+Democrats,AGAINST,EXPLICIT,I agree with the following: A 16-year-old autistic school drop-out who has done nothing of note in her life is qualified to run for president as a Democrat.,4580497318,2019-08-16 13:02:26
+Donald Trump,AGAINST,EXPLICIT,I agree with the following: Donald Trump lacks courage and masculinity.,4620786626,2019-09-18 23:46:01
+Democrats,AGAINST,EXPLICIT,"I agree with the following: The commenter expresses strong opposition towards Eric Swalwell, a Democrat, indicating a negative stance towards Democrats.",4502857784,2019-06-14 23:19:27
+Politicians,AGAINST,EXPLICIT,"I agree with the following: The commenter uses vulgar language towards Eric Swalwell, a politician, indicating a negative stance towards politicians.",4502857784,2019-06-14 23:19:27
+Republicans (GOP),FAVOR,EXPLICIT,"I agree with the following: Celebrating the country is a patriotic act, which aligns with Republican values.",4526530045,2019-07-04 02:51:19
+Military,FAVOR,EXPLICIT,I agree with the following: Honoring the flag is a patriotic act that supports the military.,4526530045,2019-07-04 02:51:19
+America / USA,FAVOR,EXPLICIT,I agree with the following: Celebrating the country and honoring the flag is a patriotic act that shows love for America.,4526530045,2019-07-04 02:51:19
+Democrats,AGAINST,EXPLICIT,"I agree with the following: The left hates America, implying Democrats are against patriotic celebrations.",4526530045,2019-07-04 02:51:19
+Conservatives,FAVOR,EXPLICIT,I agree with the following: Conservatives value patriotism and honoring the flag.,4526530045,2019-07-04 02:51:19
+Donald Trump,FAVOR,EXPLICIT,I agree with the following: Trump's 'Salute to America' event is a patriotic celebration.,4526530045,2019-07-04 02:51:19
+Liberals,AGAINST,EXPLICIT,"I agree with the following: Liberals are against patriotic celebrations, showing they hate America.",4526530045,2019-07-04 02:51:19
+Movies,AGAINST,EXPLICIT,"I agree with the following: Rob Reiner, a figure in Hollywood, is criticized, implying a negative view of the movie industry.",4520668236,2019-06-29 13:13:13
+Elites,AGAINST,IMPLICIT,I agree with the following: The criticism of Rob Reiner implies a negative view of Hollywood elites.,4520668236,2019-06-29 13:13:13
+Media,AGAINST,EXPLICIT,I agree with the following: The negative comment about Rob Reiner reflects poorly on the media.,4520668236,2019-06-29 13:13:13
+Democrats,AGAINST,EXPLICIT,I agree with the following: Democrats are responsible for Chicago being a sh*thole city.,4536986783,2019-07-12 15:12:29
+Joe Biden,AGAINST,EXPLICIT,I agree with the following: Joe Biden made a threatening statement.,4699353460,2019-11-22 22:42:00
+Democrats,AGAINST,EXPLICIT,I agree with the following: Swalwell should keep his yap shut and he embarrasses himself when he talks or tweets.,4690696077,2019-11-15 18:15:22
+Joe Biden,AGAINST,EXPLICIT,I agree with the following: Joe Biden made a mistake by calling the virus the 'Luhan Virus'.,4851230676,2020-03-28 13:23:50
+China,AGAINST,EXPLICIT,"I agree with the following: The virus originated from Wuhan, China.",4851230676,2020-03-28 13:23:50
+Politicians,AGAINST,EXPLICIT,"I agree with the following: Politicians, like Joe Biden, are prone to making mistakes.",4851230676,2020-03-28 13:23:50
+The government,AGAINST,EXPLICIT,I agree with the following: The government's handling of the virus's name is incorrect.,4851230676,2020-03-28 13:23:50
+Democrats,AGAINST,EXPLICIT,"I agree with the following: Schiff and SwallowsWell are sitting on theirs, implying criticism towards Democrats.",4695726716,2019-11-20 00:53:34
+Politicians,AGAINST,EXPLICIT,"I agree with the following: Schiff and SwallowsWell are sitting on theirs, implying criticism towards politicians.",4695726716,2019-11-20 00:53:34
+The government,AGAINST,EXPLICIT,"I agree with the following: Schiff and SwallowsWell are sitting on theirs, implying criticism towards the government.",4695726716,2019-11-20 00:53:34
+Nancy Pelosi,AGAINST,EXPLICIT,"I agree with the following: Nancy Pelosi's real teeth are long gone, and she now just gums her hubby, implying she is no longer effective.",4876690877,2020-04-15 23:55:19
+Democrats,AGAINST,IMPLICIT,"I agree with the following: The comment mocks Nadler and Cohen, implying incompetence in handling the situation, reflecting negatively on Democrats.",4708786858,2019-12-01 23:28:40
+Politicians,AGAINST,IMPLICIT,"I agree with the following: The comment criticizes Nadler and Cohen, suggesting they are part of a fiasco, indicating a negative view of politicians involved.",4708786858,2019-12-01 23:28:40
+Sport,AGAINST,IMPLICIT,"I agree with the following: NBA players receiving reduced pay is something to mock, implying criticism towards their situation.",4879608703,2020-04-18 02:01:19
+Democrats,AGAINST,EXPLICIT,I agree with the following: The mayor is a failed democratic leader blaming someone else for their incompetence.,4858688592,2020-04-02 23:35:26
+Politicians,AGAINST,EXPLICIT,I agree with the following: The mayor is a failed democratic leader blaming someone else for their incompetence.,4858688592,2020-04-02 23:35:26
+Republicans (GOP),FAVOR,EXPLICIT,"I agree with the following: The comment supports John McCain, a Republican, implying support for the GOP.",4683862797,2019-11-10 02:56:40
+America / USA,FAVOR,EXPLICIT,"I agree with the following: The comment suggests McCain will best serve the country, implying support for America.",4683862797,2019-11-10 02:56:40
+Conservatives,FAVOR,EXPLICIT,"I agree with the following: The comment supports John McCain, a conservative figure, implying support for conservatives.",4683862797,2019-11-10 02:56:40
+Politicians,FAVOR,EXPLICIT,"I agree with the following: The comment suggests McCain will best serve the country, implying support for politicians like him.",4683862797,2019-11-10 02:56:40
+The government,FAVOR,EXPLICIT,"I agree with the following: The comment suggests McCain will best serve the country, implying support for the government.",4683862797,2019-11-10 02:56:40
+Democrats,AGAINST,EXPLICIT,"I agree with the following: The comment criticizes Elizabeth Warren, a Democrat, implying she lied about her Native American heritage, which reflects negatively on Democrats.",4766561303,2020-01-22 14:45:09
+Democrats,AGAINST,EXPLICIT,I agree with the following: Democrats are acting out of hatred and are engaged in wrongdoing.,4719257133,2019-12-10 14:42:00
+Nancy Pelosi,AGAINST,EXPLICIT,I agree with the following: Nancy Pelosi is acting out of hatred and is engaged in wrongdoing.,4719257133,2019-12-10 14:42:00
+Joe Biden,AGAINST,EXPLICIT,"I agree with the following: Joe Biden is responsible for the release of inmates who committed crimes, which is a bad decision.",4885186768,2020-04-22 12:46:57
+Jobs are (available | good),FAVOR,EXPLICIT,I agree with the following: It would be my privilege to support the availability of jobs for truckers.,4847170527,2020-03-25 14:26:28
+Capitalism,FAVOR,EXPLICIT,I agree with the following: The private sector's support for truckers exemplifies capitalist values.,4847170527,2020-03-25 14:26:28
+Food,FAVOR,EXPLICIT,I agree with the following: Providing food to truckers is a positive action.,4847170527,2020-03-25 14:26:28
+America / USA,FAVOR,EXPLICIT,I agree with the following: Supporting American businesses helping truckers is beneficial.,4847170527,2020-03-25 14:26:28
+Economy is good,FAVOR,EXPLICIT,I agree with the following: The economy is good when businesses support essential workers like truckers.,4847170527,2020-03-25 14:26:28
+Republicans (GOP),AGAINST,EXPLICIT,"I agree with the following: The comment criticizes Mitt Romney, implying doubt in his sincerity, which reflects a negative stance towards Republicans.",4756320198,2020-01-14 03:34:37
+Conservatives,AGAINST,EXPLICIT,"I agree with the following: The comment criticizes Mitt Romney, a conservative, implying a negative stance towards conservatives.",4756320198,2020-01-14 03:34:37
+Politicians,AGAINST,EXPLICIT,"I agree with the following: The comment mocks Romney, indicating a negative view of politicians.",4756320198,2020-01-14 03:34:37
+Democrats,AGAINST,EXPLICIT,"I agree with the following: Van Hollen's claim of overwhelming evidence is questionable, implying disagreement with his stance as a Democrat.",4745845264,2020-01-05 13:47:14
+Politicians,AGAINST,EXPLICIT,"I agree with the following: Van Hollen's representation of Maryland is disappointing, indicating a negative view of politicians.",4745845264,2020-01-05 13:47:14
+Donald Trump,FAVOR,EXPLICIT,I agree with the following: President Trump deserves thanks.,4730230761,2019-12-19 21:59:01
+Joe Biden,AGAINST,EXPLICIT,I agree with the following: Joe Biden is not competent enough to handle the presidency and would likely underperform.,4832979793,2020-03-14 17:52:45
+Movies,AGAINST,EXPLICIT,I agree with the following: Seth Rogen's movies will have as few viewers as the NBA.,5017717854,2020-08-04 15:42:16
+Media,AGAINST,EXPLICIT,I agree with the following: I am actively avoiding consuming media produced by Seth Rogen.,5017717854,2020-08-04 15:42:16
+Black people,AGAINST,EXPLICIT,"I agree with the following: The comment expresses opposition to the Black Lives Matter movement, implying a negative stance towards Black people.",5062795418,2020-09-08 19:10:41
+Joe Biden,AGAINST,EXPLICIT,I agree with the following: Joe Biden is hiding something or not being truthful.,5058108213,2020-09-04 18:31:11
+Donald Trump,AGAINST,IMPLICIT,I agree with the following: The comment implies criticism of Donald Trump's statements or behavior.,5105258452,2020-10-10 16:42:20
+Journalists,AGAINST,EXPLICIT,"I agree with the following: The comment refers to a journalist as a 'clown,' indicating a negative stance towards journalists.",5146223959,2020-11-10 17:37:51
+Media,AGAINST,EXPLICIT,"I agree with the following: The comment refers to a network as a 'loser network,' indicating a negative stance towards the media.",5146223959,2020-11-10 17:37:51
+Democrats,AGAINST,IMPLICIT,"I agree with the following: The negative tone towards MSNBC, often associated with Democratic views, implies a negative stance towards Democrats.",5146223959,2020-11-10 17:37:51
+Politicians,AGAINST,EXPLICIT,"I agree with the following: The comment refers to a public figure as a 'clown,' indicating a negative stance towards politicians.",5146223959,2020-11-10 17:37:51
+Liberals,AGAINST,IMPLICIT,"I agree with the following: The negative tone towards MSNBC, often associated with liberal views, implies a negative stance towards liberals.",5146223959,2020-11-10 17:37:51
+China,AGAINST,EXPLICIT,I agree with the following: Democrats doing dirty deals with the Chinese is problematic.,4894809599,2020-04-29 18:35:54
+Abortion,AGAINST,EXPLICIT,I agree with the following: Democrats have no problem killing babies.,4894809599,2020-04-29 18:35:54
+Democrats,AGAINST,EXPLICIT,"I agree with the following: Democrats have no problem killing babies, assaulting women, and doing dirty deals with the Chinese.",4894809599,2020-04-29 18:35:54
+Democrats,AGAINST,EXPLICIT,"I agree with the following: The woman does not understand that the coronavirus originated in Wuhan China, implying criticism towards her stance or understanding, which is against the Democrats.",4829194933,2020-03-11 20:36:49
+Politicians,AGAINST,EXPLICIT,"I agree with the following: The woman does not understand that the coronavirus originated in Wuhan China, implying criticism towards her as a politician.",4829194933,2020-03-11 20:36:49
+Nancy Pelosi,AGAINST,EXPLICIT,"I agree with the following: The woman does not understand that the coronavirus originated in Wuhan China, implying direct criticism towards Nancy Pelosi.",4829194933,2020-03-11 20:36:49
+Covid,AGAINST,EXPLICIT,"I agree with the following: The woman does not understand that the coronavirus originated in Wuhan China, implying criticism towards her stance on Covid.",4829194933,2020-03-11 20:36:49
+Politicians,AGAINST,EXPLICIT,I agree with the following: Politicians like Schiff and Trump are imbeciles.,4902156678,2020-05-05 15:52:51
+Donald Trump,AGAINST,EXPLICIT,I agree with the following: Donald Trump is an imbecile.,4902156678,2020-05-05 15:52:51
+Black people,AGAINST,IMPLICIT,I agree with the following: The comment implies a negative or derogatory view towards Black people through the remark about skin color.,5070577549,2020-09-14 21:12:06
+Joe Biden,AGAINST,EXPLICIT,I agree with the following: The comment expresses dissatisfaction with Joe Biden's actions by questioning the outcome of his decisions.,5173105237,2020-12-01 18:28:49
+Donald Trump,FAVOR,EXPLICIT,I agree with the following: President Trump is thanked for cleaning up the Middle East.,5168636297,2020-11-27 19:02:00
+Israel,FAVOR,EXPLICIT,I agree with the following: Israel is thanked for cleaning up the Middle East.,5168636297,2020-11-27 19:02:00
+Joe Biden,AGAINST,EXPLICIT,I agree with the following: Joe Biden (referred to as Xiden) is criticized for potentially screwing up the Middle East.,5168636297,2020-11-27 19:02:00
+Joe Biden,AGAINST,EXPLICIT,"I agree with the following: The comment implies that Joe Biden's events are uneventful or unengaging, suggesting a negative view of Biden.",5125936294,2020-10-26 19:45:29
+Joe Biden,AGAINST,EXPLICIT,I agree with the following: Joe Biden is involved in corrupt activities.,5143228843,2020-11-08 13:58:25
+Drugs,FAVOR,EXPLICIT,I agree with the following: Smoking crack is acceptable.,5143228843,2020-11-08 13:58:25
+Republicans (GOP),FAVOR,EXPLICIT,"I agree with the following: Melania Trump brought class to the White House, implying support for Republican values.",5181335861,2020-12-08 15:32:25
+America / USA,FAVOR,EXPLICIT,"I agree with the following: The country is going to miss Melania, indicating a positive view of America under her influence.",5181335861,2020-12-08 15:32:25
+Democrats,AGAINST,EXPLICIT,"I agree with the following: The previous occupant is criticized, referring to a Democrat, indicating opposition.",5181335861,2020-12-08 15:32:25
+Barack Obama,AGAINST,EXPLICIT,"I agree with the following: The previous occupant is criticized, referring to Obama, indicating opposition.",5181335861,2020-12-08 15:32:25
+Conservatives,FAVOR,EXPLICIT,"I agree with the following: Melania brought class, aligning with conservative values.",5181335861,2020-12-08 15:32:25
+Donald Trump,FAVOR,EXPLICIT,I agree with the following: Positive mention of Melania suggests support for Donald Trump.,5181335861,2020-12-08 15:32:25
+Liberals,AGAINST,EXPLICIT,I agree with the following: Positive stance towards Melania implies opposition to liberals.,5181335861,2020-12-08 15:32:25
+Progressives,AGAINST,EXPLICIT,I agree with the following: Positive stance towards Melania implies opposition to progressives.,5181335861,2020-12-08 15:32:25
+Gay / LGTBQ+,AGAINST,EXPLICIT,"I agree with the following: The commenter finds Cece scary, which reflects a negative stance towards non-binary individuals or the LGBTQ+ community.",5116445475,2020-10-19 17:09:44
+Journalists,AGAINST,IMPLICIT,"I agree with the following: The comment suggests skepticism towards journalists receiving accolades, indicating criticism.",4910143309,2020-05-11 22:08:48
+Media,AGAINST,IMPLICIT,I agree with the following: The comment implies criticism towards the media for potentially rewarding deceptive behavior.,4910143309,2020-05-11 22:08:48
+Police,AGAINST,EXPLICIT,I agree with the following: Defunding the police is a bad idea because it will leave people vulnerable to crime.,4935352782,2020-05-31 21:58:54
+Republicans (GOP),FAVOR,EXPLICIT,I agree with the following: Trump is working so hard to correct the damage you inflicted on the country and he has had to fight your attempted coup d'état to top it off.,4917481938,2020-05-17 20:09:16
+America / USA,FAVOR,EXPLICIT,I agree with the following: Trump is working so hard to correct the damage you inflicted on the country and he has had to fight your attempted coup d'état to top it off.,4917481938,2020-05-17 20:09:16
+Democrats,AGAINST,EXPLICIT,I agree with the following: Trump is working so hard to correct the damage you inflicted on the country and he has had to fight your attempted coup d'état to top it off.,4917481938,2020-05-17 20:09:16
+Barack Obama,AGAINST,EXPLICIT,I agree with the following: Trump is working so hard to correct the damage you inflicted on the country and he has had to fight your attempted coup d'état to top it off.,4917481938,2020-05-17 20:09:16
+Conservatives,FAVOR,EXPLICIT,I agree with the following: Trump is working so hard to correct the damage you inflicted on the country and he has had to fight your attempted coup d'état to top it off.,4917481938,2020-05-17 20:09:16
+Donald Trump,FAVOR,EXPLICIT,I agree with the following: Trump is working so hard to correct the damage you inflicted on the country and he has had to fight your attempted coup d'état to top it off.,4917481938,2020-05-17 20:09:16
+Immigration / immigrants,AGAINST,EXPLICIT,"I agree with the following: The commenter suggests throwing the individual over the fence, implying deportation, which indicates a stance against immigrants.",4823912960,2020-03-07 14:16:13
+Crime,AGAINST,EXPLICIT,"I agree with the following: The commenter advocates for castration and deportation, showing a strong stance against crime.",4823912960,2020-03-07 14:16:13
+Kamala Harris,AGAINST,EXPLICIT,I agree with the following: There is not enough bleach to sanitize her pages.,4984500751,2020-07-08 19:09:49
+Joe Biden,FAVOR,EXPLICIT,"I agree with the following: He was just clearing his throat, implying that the accusation of farting was unfounded.",4930791888,2020-05-28 14:03:07
+Politicians,AGAINST,EXPLICIT,I agree with the following: Politicians are responsible for the deaths of seniors in nursing homes.,4994794181,2020-07-16 23:40:59
+Covid,AGAINST,EXPLICIT,I agree with the following: The handling of Covid in nursing homes led to many senior deaths.,4994794181,2020-07-16 23:40:59
+Police,AGAINST,IMPLICIT,I agree with the following: The handling of the police department is criticized.,4944484355,2020-06-07 14:02:15
+Democrats,AGAINST,EXPLICIT,I agree with the following: Democrats are responsible for the situation.,4944484355,2020-06-07 14:02:15
+Politicians,AGAINST,EXPLICIT,I agree with the following: Politicians are to blame for the situation.,4944484355,2020-06-07 14:02:15
+The government,AGAINST,EXPLICIT,I agree with the following: The government is responsible for the situation.,4944484355,2020-06-07 14:02:15
+Liberals,AGAINST,EXPLICIT,I agree with the following: Liberals are responsible for the situation.,4944484355,2020-06-07 14:02:15
+Movies,FAVOR,EXPLICIT,I agree with the following: The commenter likes Star Wars characters.,4960669693,2020-06-19 20:14:13
+Crime,AGAINST,EXPLICIT,I agree with the following: De Blasio is running a shooting gallery in New York City and he doesn't give a rat's azz who gets shot.,4973098966,2020-06-29 18:21:55
+The government,AGAINST,EXPLICIT,I agree with the following: Judge Sullivan has been a total disgrace to his profession and should retire.,4966514236,2020-06-24 14:54:59
+Social welfare,AGAINST,EXPLICIT,"I agree with the following: The comment criticizes the approach to fixing the broken family structure, implying dissatisfaction with current social welfare policies.",4949941459,2020-06-11 12:45:19
+Crime,AGAINST,EXPLICIT,"I agree with the following: The comment suggests that fixing the family structure would reduce the need to address issues like crime, implying a critical stance towards current crime rates or policies.",4949941459,2020-06-11 12:45:19
+Politicians,AGAINST,EXPLICIT,I agree with the following: Bill Clinton is guilty of the alleged misconduct.,5012779978,2020-07-31 13:32:54
+Diversity,AGAINST,EXPLICIT,I agree with the following: The comment expresses opposition to diversity initiatives by criticizing 'wokeness'.,5079205568,2020-09-21 12:31:20
+Woke,AGAINST,EXPLICIT,"I agree with the following: The comment explicitly criticizes 'wokeness', indicating a negative stance.",5079205568,2020-09-21 12:31:20
+Gay / LGTBQ+,AGAINST,IMPLICIT,I agree with the following: The comment's opposition to 'wokeness' implies a negative stance towards LGBTQ+ rights discussed in the news title.,5079205568,2020-09-21 12:31:20
+Sport,AGAINST,EXPLICIT,I agree with the following: The viewership for the 22 PGA Championship will decline significantly.,5243092698,2021-01-26 22:08:03
+Media,AGAINST,EXPLICIT,I agree with the following: The viewership for the NBA and PGA Championship is declining.,5243092698,2021-01-26 22:08:03
+Joe Biden,AGAINST,EXPLICIT,"I agree with the following: Joe Biden is being criticized for having a close, potentially undue relationship with Xi Jinping, implying favoritism and secrecy.",5264403236,2021-02-11 15:19:51
+Donald Trump,FAVOR,EXPLICIT,"I agree with the following: The comment suggests that Donald Trump was treated unfairly compared to Joe Biden, indicating a favorable view of Trump.",5264403236,2021-02-11 15:19:51
+China,AGAINST,IMPLICIT,I agree with the following: The implication of a close relationship between Joe Biden and Xi Jinping may suggest a negative view of China's influence.,5264403236,2021-02-11 15:19:51
+China,AGAINST,IMPLICIT,I agree with the following: The close relationship implied between Joe Biden and Xi Jinping may suggest a negative view of China's influence.,5264403236,2021-02-11 15:19:51
+Healthcare,AGAINST,EXPLICIT,I agree with the following: The governor's legislation allowing the killing of live babies is morally wrong.,5185120096,2020-12-11 13:29:29
+Black people,AGAINST,EXPLICIT,I agree with the following: The governor's action of wearing blackface is offensive and disrespectful to Black people.,5185120096,2020-12-11 13:29:29
+Abortion,AGAINST,EXPLICIT,I agree with the following: The governor's support for abortion through legislation is morally wrong.,5185120096,2020-12-11 13:29:29
+Democrats,AGAINST,EXPLICIT,I agree with the following: The Democratic governor's actions are tyrannical and hypocritical.,5185120096,2020-12-11 13:29:29
+Politicians,AGAINST,EXPLICIT,"I agree with the following: The governor, as a politician, is hypocritical and deserving of criticism.",5185120096,2020-12-11 13:29:29
+The government,AGAINST,EXPLICIT,"I agree with the following: The government, under the governor's leadership, is acting hypocritically.",5185120096,2020-12-11 13:29:29
+Liberals,AGAINST,EXPLICIT,"I agree with the following: Liberals, like the governor, are hypocritical in their actions.",5185120096,2020-12-11 13:29:29
+Crime,AGAINST,EXPLICIT,I agree with the following: The crime rate is too high.,5162838212,2020-11-23 15:44:08
+The government,AGAINST,IMPLICIT,I agree with the following: The government is not effectively controlling crime.,5162838212,2020-11-23 15:44:08
+The government,AGAINST,EXPLICIT,I agree with the following: The government should not have added all the pork to the bill.,5201102194,2020-12-24 23:57:00
+Politicians,AGAINST,EXPLICIT,I agree with the following: Politicians should not have added all the pork to the bill.,5201102194,2020-12-24 23:57:00
+Taxes are (good | fair),AGAINST,EXPLICIT,I agree with the following: Taxes could have been better spent if not for the pork.,5201102194,2020-12-24 23:57:00
+Economy is good,AGAINST,EXPLICIT,I agree with the following: The economy could have been better if not for the pork in the bill.,5201102194,2020-12-24 23:57:00
+Democrats,AGAINST,EXPLICIT,I agree with the following: Schiff is being hypocritical and dishonest.,5157622719,2020-11-19 14:44:34
+Donald Trump,AGAINST,EXPLICIT,I agree with the following: Trump is trying to overturn illegitimate election results.,5157622719,2020-11-19 14:44:34
+Democrats,AGAINST,EXPLICIT,"I agree with the following: The high voter registration numbers in Georgia are questionable and suggest skepticism towards Stacey Abrams, implying criticism by associating her with being a Democrat.",5194112180,2020-12-18 20:11:38
+Joe Biden,AGAINST,EXPLICIT,"I agree with the following: The commenter is expressing frustration and anger towards Joe Biden, questioning his lack of outrage.",5221841708,2021-01-11 00:49:47
+Politicians,AGAINST,EXPLICIT,I agree with the following: Cuomo is showing signs of decreased mental capacity.,5030893057,2020-08-14 21:56:51
+Hillary Clinton,AGAINST,EXPLICIT,I agree with the following: Hillary Clinton should be canceled.,5189350000,2020-12-14 21:52:10
+Republicans (GOP),AGAINST,EXPLICIT,I agree with the following: Republicans are engaging in fraudulent activities by shredding ballots in their districts.,5021448296,2020-08-07 13:58:45
+Joe Biden,AGAINST,EXPLICIT,I agree with the following: Joe Biden supports baby killing.,5216682353,2021-01-07 16:34:59
+Christianity,AGAINST,EXPLICIT,"I agree with the following: Christianity should not give communion to Biden, Pelosi, and Durbin.",5216682353,2021-01-07 16:34:59
+Abortion,AGAINST,EXPLICIT,I agree with the following: Abortion is wrong and should not be supported.,5216682353,2021-01-07 16:34:59
+Democrats,AGAINST,EXPLICIT,I agree with the following: Democrats support baby killing.,5216682353,2021-01-07 16:34:59
+Nancy Pelosi,AGAINST,EXPLICIT,I agree with the following: Nancy Pelosi supports baby killing.,5216682353,2021-01-07 16:34:59
+Barack Obama,AGAINST,EXPLICIT,I agree with the following: Barack Obama should go away.,5154126220,2020-11-16 20:35:43
+Democrats,AGAINST,EXPLICIT,I agree with the following: Democrats are hapless.,5110279840,2020-10-14 19:20:52
+Democrats,AGAINST,EXPLICIT,I agree with the following: Democratic governance is leading to a run-down city.,5043295691,2020-08-24 16:47:17
+Crime,AGAINST,EXPLICIT,"I agree with the following: The comment expresses a negative view towards crime by referring to individuals as 'thugs' and 'punk,' indicating opposition to criminal behavior.",5047377723,2020-08-27 14:29:08
+Media,AGAINST,EXPLICIT,I agree with the following: MSNBC is composed of morons who produce worthless content.,5082939113,2020-09-24 02:49:02
+Kamala Harris,AGAINST,EXPLICIT,"I agree with the following: Kamala Harris is deferring to too many people, indicating poor leadership.",5176701664,2020-12-04 14:31:10
+Politicians,AGAINST,EXPLICIT,I agree with the following: Politicians like Kamala Harris are not taking responsibility.,5176701664,2020-12-04 14:31:10
+Sport,AGAINST,IMPLICIT,I agree with the following: The handling of the fan's removal from the game is being criticized.,5247745789,2021-01-30 14:55:39
+Joe Biden,AGAINST,EXPLICIT,I agree with the following: Joe Biden is responsible for creating a crisis.,5307550326,2021-03-17 18:03:44
+Kamala Harris,AGAINST,EXPLICIT,I agree with the following: Kamala Harris is responsible for creating a crisis.,5307550326,2021-03-17 18:03:44
+Immigration / immigrants,AGAINST,EXPLICIT,I agree with the following: The situation at the border is a crisis.,5307550326,2021-03-17 18:03:44
+Democrats,AGAINST,IMPLICIT,I agree with the following: The crisis is attributed to the Democratic administration.,5307550326,2021-03-17 18:03:44
+Sport,AGAINST,EXPLICIT,"I agree with the following: The comment mocks a situation involving sports fans, indicating a negative stance towards the sport or its fans.",5251903824,2021-02-02 22:36:42
+Nancy Pelosi,AGAINST,EXPLICIT,I agree with the following: Nancy Pelosi is being criticized for her actions regarding impeachment charges.,5258535802,2021-02-08 00:22:09
+Joe Biden,AGAINST,EXPLICIT,I agree with the following: The O’Biden administration is to blame for the uptick in stupidity in the government.,5331531646,2021-04-05 22:57:13
+Scientists,AGAINST,EXPLICIT,I agree with the following: There is skepticism about obeying science as promised.,5331531646,2021-04-05 22:57:13
+Joe Biden,AGAINST,IMPLICIT,"I agree with the following: Joe Biden's policies are harmful to the people, especially regarding medicine prices.",5240515571,2021-01-25 00:08:02
+Social welfare,AGAINST,IMPLICIT,I agree with the following: The current social welfare policies are causing harm to the people.,5240515571,2021-01-25 00:08:02
+Healthcare,AGAINST,IMPLICIT,"I agree with the following: The healthcare policies are leading to higher medicine prices, which is bad for the people.",5240515571,2021-01-25 00:08:02
+Drugs,AGAINST,IMPLICIT,I agree with the following: The higher prices of drugs are bad for the people.,5240515571,2021-01-25 00:08:02
+Fossil fuels,AGAINST,IMPLICIT,I agree with the following: Higher gas prices are bad for the people.,5240515571,2021-01-25 00:08:02
+America / USA,AGAINST,IMPLICIT,I agree with the following: The current policies in America are causing harm to the people.,5240515571,2021-01-25 00:08:02
+Democrats,AGAINST,IMPLICIT,I agree with the following: The Democrats are responsible for the harmful policies.,5240515571,2021-01-25 00:08:02
+Economy is good,AGAINST,IMPLICIT,I agree with the following: The economy is being negatively affected by higher prices.,5240515571,2021-01-25 00:08:02
+Politicians,AGAINST,IMPLICIT,I agree with the following: Politicians are responsible for the harmful policies.,5240515571,2021-01-25 00:08:02
+The government,AGAINST,IMPLICIT,I agree with the following: The government's actions are causing harm to the people.,5240515571,2021-01-25 00:08:02
+Republicans (GOP),AGAINST,EXPLICIT,"I agree with the following: The comment criticizes the voting process, implying issues with Republican handling of elections.",5312338682,2021-03-21 19:24:35
+Elites,AGAINST,EXPLICIT,I agree with the following: The term 'clowns like yourself' implies criticism towards elites.,5312338682,2021-03-21 19:24:35
+America / USA,AGAINST,EXPLICIT,I agree with the following: The comment criticizes the voting system in America.,5312338682,2021-03-21 19:24:35
+Democrats,AGAINST,EXPLICIT,I agree with the following: The comment implies criticism towards Democratic politicians.,5312338682,2021-03-21 19:24:35
+Politicians,AGAINST,EXPLICIT,I agree with the following: The term 'clowns like yourself' criticizes politicians.,5312338682,2021-03-21 19:24:35
+The government,AGAINST,EXPLICIT,I agree with the following: The comment criticizes the government's handling of voting processes.,5312338682,2021-03-21 19:24:35
+Politicians,AGAINST,EXPLICIT,I agree with the following: Mitt Romney's actions will lead to negative consequences from his peers.,5328087173,2021-04-02 19:49:21
+Taxes are (good | fair),AGAINST,EXPLICIT,I agree with the following: The cost of the cake for Kamala Harris was an inappropriate use of taxpayer money.,5334184011,2021-04-07 22:30:20
+Kamala Harris,AGAINST,EXPLICIT,"I agree with the following: Kamala Harris is not taking her responsibilities seriously, as evidenced by her eating cake while there are pressing issues.",5334184011,2021-04-07 22:30:20
+Politicians,AGAINST,EXPLICIT,"I agree with the following: Politicians, specifically Kamala Harris, are misusing taxpayer money on personal indulgences like cake.",5334184011,2021-04-07 22:30:20
+The government,AGAINST,EXPLICIT,I agree with the following: The government is wasting taxpayer money on unnecessary expenses like cake for Kamala Harris.,5334184011,2021-04-07 22:30:20
+Elites,AGAINST,EXPLICIT,"I agree with the following: Sheldon Whitehouse apologized only because he was exposed, implying insincerity.",5431423454,2021-06-24 12:57:07
+Diversity,AGAINST,EXPLICIT,"I agree with the following: The apology was due to being outed, suggesting the lack of diversity was not genuinely addressed.",5431423454,2021-06-24 12:57:07
+Joe Biden,AGAINST,EXPLICIT,I agree with the following: Joe Biden is mentally unstable or crazy.,5296543197,2021-03-08 22:24:53
+Joe Biden,AGAINST,EXPLICIT,"I agree with the following: Joe Biden is OK with killing babies, which is against his stance on abortion.",5236097338,2021-01-21 13:44:03
+Abortion,AGAINST,EXPLICIT,"I agree with the following: Joe Biden is OK with killing babies, which is against his stance on abortion.",5236097338,2021-01-21 13:44:03
+Taxes are (good | fair),AGAINST,EXPLICIT,I agree with the following: The federal government's use of tax money for hotels and daily expenses is excessive and mismanaged.,5337673432,2021-04-10 18:04:25
+The government,AGAINST,EXPLICIT,I agree with the following: The federal government's allocation of funds for hotels and daily expenses is excessive and mismanaged.,5337673432,2021-04-10 18:04:25
+Democrats,AGAINST,EXPLICIT,I agree with the following: The mayor's decision not to seek reelection reflects poorly on her performance.,5373995945,2021-05-07 14:46:46
+Politicians,AGAINST,EXPLICIT,I agree with the following: The mayor's performance was unsatisfactory.,5373995945,2021-05-07 14:46:46
+The government,AGAINST,EXPLICIT,I agree with the following: The mayor's decision not to seek reelection indicates a failure in her governance.,5373995945,2021-05-07 14:46:46
+Democrats,AGAINST,EXPLICIT,"I agree with the following: Lee is used to being fact-checked and called out for her lies, which is SOP for Democrats.",5282507649,2021-02-25 16:54:12
+Sport,AGAINST,EXPLICIT,"I agree with the following: The comment expresses a dismissive attitude towards the significance of the Lombardi Trophy, implying that it is not worthy of such reverence.",5268951813,2021-02-15 01:40:55
+Police,AGAINST,IMPLICIT,I agree with the following: LeBron's outrage implies criticism of the police officer's actions.,5354584649,2021-04-22 12:20:59
+Covid,AGAINST,EXPLICIT,"I agree with the following: The comment expresses opposition to COVID-19 measures by telling someone to put their mask back on, indicating a negative stance towards COVID-19 protocols.",5304092017,2021-03-14 22:36:50
+Elites,AGAINST,IMPLICIT,"I agree with the following: The comment implies criticism towards media elites, suggesting they are not as competent as figures like Oprah.",5383838449,2021-05-14 21:49:54
+Journalists,AGAINST,IMPLICIT,"I agree with the following: The comment criticizes the journalist's questioning, implying a negative view of their professionalism.",5383838449,2021-05-14 21:49:54
+Media,AGAINST,IMPLICIT,"I agree with the following: The comment criticizes the media figure, indicating a negative stance towards the media.",5383838449,2021-05-14 21:49:54
+Democrats,AGAINST,EXPLICIT,I agree with the following: The D in Democrat stands for DUMBAZZ DEMOCRATS.,5344858123,2021-04-15 12:46:46
+Drugs,AGAINST,EXPLICIT,I agree with the following: Criticizing individuals for substance abuse.,5279207268,2021-02-23 00:40:35
+Barack Obama,AGAINST,EXPLICIT,I agree with the following: Criticizing Barack Obama by labeling him as a drunk.,5279207268,2021-02-23 00:40:35
+Joe Biden,AGAINST,EXPLICIT,I agree with the following: The president is criticized as being 'dementia ridden' and unaware of the damage he is causing to the country.,5455460703,2021-07-14 14:01:16
+Democrats,AGAINST,IMPLICIT,"I agree with the following: The criticism of the president, a Democrat, implies a negative stance towards Democrats.",5455460703,2021-07-14 14:01:16
+Economy is good,AGAINST,IMPLICIT,"I agree with the following: The comment suggests the president is causing damage, implying the economy is not good.",5455460703,2021-07-14 14:01:16
+Politicians,AGAINST,IMPLICIT,I agree with the following: The criticism of the president reflects negatively on politicians in general.,5455460703,2021-07-14 14:01:16
+The government,AGAINST,IMPLICIT,"I agree with the following: The negative remarks about the president, part of the government, indicate a negative stance.",5455460703,2021-07-14 14:01:16
+Liberals,AGAINST,IMPLICIT,"I agree with the following: The president, as a liberal, is criticized, reflecting negatively on liberals.",5455460703,2021-07-14 14:01:16
+Taxes are (good | fair),AGAINST,EXPLICIT,"I agree with the following: Introducing more taxes, such as a 'fudge tax,' is not a good idea.",5320991209,2021-03-27 22:05:53
+Movies,AGAINST,EXPLICIT,I agree with the following: Disney is now in the perverted porn business now.,5411963416,2021-06-07 23:55:00
+Diversity,AGAINST,EXPLICIT,I agree with the following: Disney is now in the perverted porn business now.,5411963416,2021-06-07 23:55:00
+Woke,AGAINST,EXPLICIT,I agree with the following: That should make all of the Tinker Bells excited.,5411963416,2021-06-07 23:55:00
+Media,AGAINST,EXPLICIT,I agree with the following: Disney is now in the perverted porn business now.,5411963416,2021-06-07 23:55:00
+Gay / LGTBQ+,AGAINST,EXPLICIT,I agree with the following: Disney is now in the perverted porn business now.,5411963416,2021-06-07 23:55:00
+Democrats,AGAINST,IMPLICIT,"I agree with the following: The comment criticizes a Democrat politician's behavior, implying negligence in following COVID-19 protocols.",5226818031,2021-01-14 10:36:37
+Politicians,AGAINST,IMPLICIT,"I agree with the following: The comment mocks a politician's behavior, suggesting he does not take COVID-19 precautions seriously.",5226818031,2021-01-14 10:36:37
+Media,AGAINST,EXPLICIT,"I agree with the following: The NY Times hires or supports individuals who are seen as 'useful idiots,' implying a negative view of the media.",5395654638,2021-05-24 23:05:59
+Drugs,AGAINST,EXPLICIT,I agree with the following: Being a 'druggy' is criticized.,5448978679,2021-07-08 23:44:28
+Democrats,AGAINST,EXPLICIT,I agree with the following: It pays to be the child of a democrat. Make big bucks for being a druggy and having no talents or even good looks.,5448978679,2021-07-08 23:44:28
+Social welfare,FAVOR,EXPLICIT,I agree with the following: Providing free stuff will fix the problem.,5370001932,2021-05-04 12:21:33
+Diversity,AGAINST,IMPLICIT,I agree with the following: The idea that free stuff will fix diversity issues is sarcastic and critical.,5370001932,2021-05-04 12:21:33
+Joe Biden,AGAINST,EXPLICIT,"I agree with the following: The comment implies corruption by Joe Biden, suggesting he is receiving a 10% cut, indicating a negative stance.",5465455872,2021-07-22 15:30:49
+Donald Trump,AGAINST,IMPLICIT,"I agree with the following: The comment implies a negative stance towards Donald Trump by suggesting self-reflection, possibly indicating disagreement with Trump's policies or actions.",5488092732,2021-08-09 21:53:43
+Democrats,AGAINST,EXPLICIT,I agree with the following: Raskin needs to take a shower.,5399875218,2021-05-28 12:23:07
+Democrats,AGAINST,EXPLICIT,"I agree with the following: Democrats still think 2+2=5, implying they are misinformed.",5407357653,2021-06-03 21:54:38
+Politicians,AGAINST,EXPLICIT,"I agree with the following: Democrats still think 2+2=5, implying politicians are misinformed.",5407357653,2021-06-03 21:54:38
+The government,AGAINST,EXPLICIT,"I agree with the following: Democrats still think 2+2=5, implying the government is misinformed.",5407357653,2021-06-03 21:54:38
+Covid,AGAINST,EXPLICIT,"I agree with the following: Of course they were undercounted, implying Covid-related deaths were mishandled.",5407357653,2021-06-03 21:54:38
+China,AGAINST,EXPLICIT,"I agree with the following: They will sink so low they will see CHINA, implying a negative view of China.",5350260335,2021-04-19 01:22:31
+Sport,AGAINST,EXPLICIT,"I agree with the following: They ain’t seen the bottom yet, indicating a negative outlook on the sports situation.",5350260335,2021-04-19 01:22:31
+Black people,AGAINST,IMPLICIT,I agree with the following: The comment implies a negative stance towards Black people by associating them with 'thugs' in the context of BLM Plaza.,5460109003,2021-07-18 11:21:07
+Joe Biden,AGAINST,EXPLICIT,"I agree with the following: Joe Biden has mishandled the situation, screwing it up overnight.",5358940621,2021-04-26 00:15:20
+Joe Biden,AGAINST,EXPLICIT,I agree with the following: Joe Biden is as bad as Hillary Clinton.,5499662264,2021-08-18 23:00:17
+Hillary Clinton,AGAINST,EXPLICIT,I agree with the following: Hillary Clinton is as bad as Joe Biden.,5499662264,2021-08-18 23:00:17
+Diversity,AGAINST,EXPLICIT,"I agree with the following: Being 'woke' is causing failure, implying opposition to diversity.",5475442777,2021-07-30 13:20:59
+Woke,AGAINST,EXPLICIT,I agree with the following: Being 'woke' is causing failure.,5475442777,2021-07-30 13:20:59
+Liberals,AGAINST,EXPLICIT,I agree with the following: Liberals ruin everything.,5475442777,2021-07-30 13:20:59
+Social welfare,AGAINST,EXPLICIT,"I agree with the following: The comment criticizes the distribution of money, implying opposition to social welfare policies.",5377865558,2021-05-11 00:15:49
+Taxes are (good | fair),AGAINST,EXPLICIT,"I agree with the following: The comment questions the source of money, indicating opposition to tax policies.",5377865558,2021-05-11 00:15:49
+Democrats,AGAINST,EXPLICIT,"I agree with the following: The comment criticizes Democrats, implying opposition.",5377865558,2021-05-11 00:15:49
+Economy is good,AGAINST,EXPLICIT,I agree with the following: The comment implies doubt about economic management.,5377865558,2021-05-11 00:15:49
+Politicians,AGAINST,EXPLICIT,"I agree with the following: The comment questions the legislature's role, indicating skepticism.",5377865558,2021-05-11 00:15:49
+The government,AGAINST,EXPLICIT,I agree with the following: The comment criticizes government spending practices.,5377865558,2021-05-11 00:15:49
+Liberals,AGAINST,EXPLICIT,"I agree with the following: The term 'libs' is used critically, showing opposition.",5377865558,2021-05-11 00:15:49
+Joe Biden,AGAINST,EXPLICIT,"I agree with the following: The commenter is critical of Joe Biden's administration, implying high gas prices are a result of his policies.",5420077463,2021-06-14 23:46:36
+Fossil fuels,AGAINST,EXPLICIT,"I agree with the following: The commenter is critical of high gas prices, which are linked to fossil fuel prices.",5420077463,2021-06-14 23:46:36
+America / USA,AGAINST,EXPLICIT,I agree with the following: The commenter is critical of the current state of gas prices in America.,5420077463,2021-06-14 23:46:36
+Democrats,AGAINST,EXPLICIT,I agree with the following: The commenter is critical of the Democratic administration's impact on gas prices.,5420077463,2021-06-14 23:46:36
+Economy is good,AGAINST,EXPLICIT,I agree with the following: The commenter implies the economy is not good due to high gas prices.,5420077463,2021-06-14 23:46:36
+Politicians,AGAINST,EXPLICIT,"I agree with the following: The commenter is critical of politicians, specifically Joe Biden.",5420077463,2021-06-14 23:46:36
+The government,AGAINST,EXPLICIT,I agree with the following: The commenter is critical of the government's impact on gas prices.,5420077463,2021-06-14 23:46:36
+Liberals,AGAINST,EXPLICIT,I agree with the following: The commenter is critical of the liberal administration's policies.,5420077463,2021-06-14 23:46:36
+Joe Biden,AGAINST,EXPLICIT,I agree with the following: If this ahole president was doing his job we wouldn’t need FEMA at all.,5444254449,2021-07-05 04:37:05
+Democrats,AGAINST,EXPLICIT,I agree with the following: The Democrats are responsible for the decline of the United States.,5425661401,2021-06-19 15:48:04
+The government,AGAINST,EXPLICIT,I agree with the following: The government is doing something harmful to the country.,5425661401,2021-06-19 15:48:04
+Joe Biden,AGAINST,IMPLICIT,I agree with the following: Joe Biden is not telling the truth.,5600144660,2021-11-07 18:25:57
+Joe Biden,AGAINST,EXPLICIT,I agree with the following: The commenter expresses a strong negative opinion towards Joe Biden by using derogatory language and associating him with a negative administration.,5648759490,2021-12-17 14:28:09
+Democrats,AGAINST,EXPLICIT,I agree with the following: All Democrats are racist to the bone. Have been and always will be.,5698410551,2022-01-19 13:42:42
+Crime,AGAINST,EXPLICIT,I agree with the following: The homeowner's actions against the burglar are justified.,5494577267,2021-08-14 23:59:54
+Jobs are (available | good),FAVOR,EXPLICIT,I agree with the following: Jobs are available for migrants.,5529604409,2021-09-10 15:20:57
+The government,AGAINST,EXPLICIT,I agree with the following: The government's handling of the visit to Afghanistan was wasteful and inefficient.,5515680512,2021-08-30 21:05:19
+Liberals,AGAINST,EXPLICIT,"I agree with the following: The comment criticizes the L.A. Times, implying a negative stance towards liberals.",5502425148,2021-08-21 01:26:59
+Feminism,AGAINST,EXPLICIT,"I agree with the following: A pervert takes the award from a Real Woman, implying opposition to transgender women participating in female categories.",5684805504,2022-01-10 17:49:09
+Joe Biden,AGAINST,EXPLICIT,I agree with the following: Joe Biden is responsible for the economic issues causing the lack of bread in the grocery store.,5691458073,2022-01-14 21:31:37
+Economy is good,AGAINST,IMPLICIT,"I agree with the following: The economy is not good, as evidenced by the lack of bread and high prices.",5691458073,2022-01-14 21:31:37
+Economy is good,AGAINST,IMPLICIT,"I agree with the following: The economy is not good, as indicated by the lack of bread and high prices.",5691458073,2022-01-14 21:31:37
+Christianity,AGAINST,EXPLICIT,I agree with the following: The church should stop giving communion to Joe Biden because he supports abortion.,5519696354,2021-09-02 20:06:38
+Abortion,AGAINST,EXPLICIT,I agree with the following: Joe Biden's support for abortion is the murder of innocent babies.,5519696354,2021-09-02 20:06:38
+Joe Biden,AGAINST,EXPLICIT,I agree with the following: Joe Biden's policies and actions are causing damage to the country.,5538098683,2021-09-17 12:05:06
+Social media,AGAINST,EXPLICIT,"I agree with the following: Jack Dorsey, associated with social media, is criticized and dismissed with vulgar language.",5511227068,2021-08-27 12:16:12
+Climate change is (real | a problem),AGAINST,EXPLICIT,"I agree with the following: The environmental policies promoting green energy, such as those supported by AOC, are not effective and may lead to hazards like Tesla battery fires.",5478960880,2021-08-02 14:01:06
+Military,AGAINST,EXPLICIT,"I agree with the following: This SOB should be in the Brig, not the Marine Colonel.",5554196529,2021-09-30 17:26:42
+Crime,AGAINST,EXPLICIT,"I agree with the following: This SOB should be in the Brig, not the Marine Colonel.",5554196529,2021-09-30 17:26:42
+The government,AGAINST,EXPLICIT,"I agree with the following: This SOB should be in the Brig, not the Marine Colonel.",5554196529,2021-09-30 17:26:42
+Social welfare,AGAINST,EXPLICIT,I agree with the following: They ought to fire anybody associated with this PO 💩💩 program.,5583282853,2021-10-25 00:43:01
+Jobs are (available | good),AGAINST,EXPLICIT,I agree with the following: They ought to fire anybody associated with this PO 💩💩 program.,5583282853,2021-10-25 00:43:01
+The government,AGAINST,EXPLICIT,I agree with the following: They ought to fire anybody associated with this PO 💩💩 program.,5583282853,2021-10-25 00:43:01
+Joe Biden,AGAINST,EXPLICIT,I agree with the following: Joe Biden has not accomplished much as president.,5621247466,2021-11-25 03:47:08
+Hillary Clinton,AGAINST,EXPLICIT,I agree with the following: Hillary Clinton never became president.,5621247466,2021-11-25 03:47:08
+Joe Biden,AGAINST,EXPLICIT,"I agree with the following: The comment expresses opposition towards Joe Biden through the phrase 'Let's Go Brandon,' which is a known euphemism for a vulgar expression directed at Joe Biden.",5564059686,2021-10-08 18:02:34
+Fascism / Nazism,AGAINST,EXPLICIT,I agree with the following: The KKK's ideology is problematic and should be criticized.,5592009243,2021-11-01 00:40:48
+White people,AGAINST,EXPLICIT,I agree with the following: The KKK's white supremacist ideology is wrong.,5592009243,2021-11-01 00:40:48
+Diversity,FAVOR,IMPLICIT,I agree with the following: Diversity is a positive value opposed by the KKK.,5592009243,2021-11-01 00:40:48
+Black people,AGAINST,EXPLICIT,I agree with the following: The racist act of blackface is wrong.,5592009243,2021-11-01 00:40:48
+America / USA,AGAINST,EXPLICIT,I agree with the following: The KKK's influence in America is problematic.,5592009243,2021-11-01 00:40:48
+Democrats,AGAINST,EXPLICIT,I agree with the following: The KKK's opposition to Democrats is wrong.,5592009243,2021-11-01 00:40:48
+Conservatives,AGAINST,EXPLICIT,I agree with the following: The KKK's conservative ideology is wrong.,5592009243,2021-11-01 00:40:48
+Politicians,AGAINST,EXPLICIT,I agree with the following: The governor's association with the KKK is wrong.,5592009243,2021-11-01 00:40:48
+The government,AGAINST,EXPLICIT,I agree with the following: The government's historical ties to the KKK are problematic.,5592009243,2021-11-01 00:40:48
+Republicans (GOP),AGAINST,EXPLICIT,I agree with the following: Crybaby Kinzinger ended his own career.,5573079454,2021-10-16 12:32:15
+The government,AGAINST,EXPLICIT,"I agree with the following: The prosecution, as part of the government, is acting in a way that deserves criticism or punishment.",5610411814,2021-11-16 12:56:55
+Joe Biden,AGAINST,EXPLICIT,"I agree with the following: Joe Biden is criticized for rewarding migrants with free travel, healthcare, and debit cards, which the commenter views negatively.",5836733325,2022-04-23 20:10:46
+Healthcare,AGAINST,EXPLICIT,"I agree with the following: The commenter criticizes the provision of healthcare to migrants, indicating a negative stance towards this policy.",5836733325,2022-04-23 20:10:46
+Social welfare,AGAINST,EXPLICIT,"I agree with the following: The commenter disapproves of providing free travel, healthcare, and debit cards, which are aspects of social welfare.",5836733325,2022-04-23 20:10:46
+Immigration / immigrants,AGAINST,EXPLICIT,"I agree with the following: The commenter criticizes migrants, implying opposition to immigration policies that allow such benefits.",5836733325,2022-04-23 20:10:46
+Abortion,AGAINST,EXPLICIT,"I agree with the following: Democrats are changing their stance on abortion, which is seen negatively.",5850322477,2022-05-07 11:55:44
+Democrats,AGAINST,EXPLICIT,I agree with the following: Democrats engage in negative behavior by changing their stances for political advantage.,5850322477,2022-05-07 11:55:44
+Politicians,AGAINST,EXPLICIT,"I agree with the following: Politicians change their stances for political advantage, which is seen negatively.",5850322477,2022-05-07 11:55:44
+Diversity,AGAINST,EXPLICIT,"I agree with the following: Bravo being 'woke' is criticized, indicating opposition to diversity.",5707962843,2022-01-26 01:02:14
+Woke,AGAINST,EXPLICIT,I agree with the following: Bravo is criticized for being 'woke'.,5707962843,2022-01-26 01:02:14
+Black people,AGAINST,EXPLICIT,"I agree with the following: The comment expresses opposition to BLM, which supports Black rights.",5707962843,2022-01-26 01:02:14
+Feminism,AGAINST,EXPLICIT,I agree with the following: The use of 'vaginas' as an insult suggests opposition to feminism.,5707962843,2022-01-26 01:02:14
+Republicans (GOP),AGAINST,EXPLICIT,"I agree with the following: Kinzinger is criticized for his closeness to Adam Schiff, implying a negative stance towards Republicans.",5844594087,2022-05-01 22:52:26
+Democrats,AGAINST,EXPLICIT,I agree with the following: The comment implies a negative stance towards Democrats by criticizing Adam Schiff.,5844594087,2022-05-01 22:52:26
+Politicians,AGAINST,EXPLICIT,"I agree with the following: The comment criticizes politicians, indicating a negative stance.",5844594087,2022-05-01 22:52:26
+Republicans (GOP),FAVOR,EXPLICIT,I agree with the following: The comment suggests support for Republicans by criticizing Democrats for their actions.,5797916686,2022-03-20 18:14:52
+Democrats,AGAINST,EXPLICIT,I agree with the following: The comment criticizes Democrats for their actions towards Supreme Court nominees.,5797916686,2022-03-20 18:14:52
+Politicians,AGAINST,EXPLICIT,"I agree with the following: The comment criticizes politicians, specifically Dick Durbin, implying a negative stance.",5797916686,2022-03-20 18:14:52
+Social welfare,AGAINST,EXPLICIT,I agree with the following: CRT is not helping these poor kids.,5776430882,2022-03-03 14:12:11
+Diversity,AGAINST,EXPLICIT,I agree with the following: CRT is not helping these poor kids.,5776430882,2022-03-03 14:12:11
+Media,AGAINST,EXPLICIT,I agree with the following: MSNBC does not have any competent people working for the company.,5641259348,2021-12-11 03:23:14
+Crime,AGAINST,IMPLICIT,I agree with the following: Baltimore has a high crime rate.,5743257822,2022-02-17 22:29:54
+Liberals,AGAINST,EXPLICIT,I agree with the following: CRT is pushed and supported by the whack jobs on the left you freakin bozo.,5439094003,2021-06-30 18:14:03
+Progressives,AGAINST,EXPLICIT,I agree with the following: CRT is pushed and supported by the whack jobs on the left you freakin bozo.,5439094003,2021-06-30 18:14:03
+Joe Biden,AGAINST,EXPLICIT,I agree with the following: Joe Biden is responsible for policies that negatively impact American citizens.,5952906498,2022-08-18 00:28:35
+Taxes,AGAINST,EXPLICIT,I agree with the following: Tax-paying citizens are being overburdened.,5952906498,2022-08-18 00:28:35
+Immigration / immigrants,AGAINST,EXPLICIT,I agree with the following: Illegal immigrants are taking advantage of the system.,5952906498,2022-08-18 00:28:35
+Fascism / Nazism,AGAINST,EXPLICIT,I agree with the following: The current administration is acting like Nazis.,5952906498,2022-08-18 00:28:35
+America / USA,AGAINST,IMPLICIT,I agree with the following: The current policies are negatively affecting America.,5952906498,2022-08-18 00:28:35
+Joe Biden,AGAINST,IMPLICIT,"I agree with the following: The Biden administration is not competent, as suggested by the comment implying that someone considered stupid would fit well there.",5961981126,2022-08-27 18:59:23
+Kamala Harris,AGAINST,IMPLICIT,"I agree with the following: Kamala Harris's tour will be short, implying skepticism about her effectiveness.",5791557293,2022-03-16 14:28:57
+Joe Biden,AGAINST,EXPLICIT,"I agree with the following: The comment refers to Joe Biden as 'this clown,' indicating a negative stance.",5630970945,2021-12-03 02:14:09
+Immigration / immigrants,AGAINST,IMPLICIT,I agree with the following: The negative tone towards Biden's sanctuary policy implies opposition to his immigration policies.,5630970945,2021-12-03 02:14:09
+Democrats,AGAINST,IMPLICIT,"I agree with the following: The negative stance towards Biden, a Democrat, implies opposition to Democrats.",5630970945,2021-12-03 02:14:09
+Politicians,AGAINST,EXPLICIT,"I agree with the following: The comment uses a derogatory term for Biden, a politician, indicating a negative stance.",5630970945,2021-12-03 02:14:09
+The government,FAVOR,IMPLICIT,"I agree with the following: The comment suggests approval of the Appeal Courts' action, part of the government, indicating a favorable stance.",5630970945,2021-12-03 02:14:09
+Democrats,AGAINST,EXPLICIT,I agree with the following: The left (Democrats) will face significant consequences in November.,5728088753,2022-02-09 21:17:26
+Liberals,AGAINST,EXPLICIT,I agree with the following: The left (liberals) will face significant consequences in November.,5728088753,2022-02-09 21:17:26
+Progressives,AGAINST,EXPLICIT,I agree with the following: The left (progressives) will face significant consequences in November.,5728088753,2022-02-09 21:17:26
+Joe Biden,AGAINST,EXPLICIT,I agree with the following: Joe Biden's leadership is causing concern and criticism.,5762078762,2022-02-24 11:33:52
+Kamala Harris,AGAINST,EXPLICIT,I agree with the following: Kamala Harris replacing Joe Biden would be problematic.,5762078762,2022-02-24 11:33:52
+Covid,AGAINST,EXPLICIT,"I agree with the following: Masks are as ineffective as wearing maxi-pads on the face, implying that Covid prevention measures like masks are not useful.",5208028319,2020-12-31 19:33:37
+Abortion,AGAINST,EXPLICIT,"I agree with the following: The comment strongly opposes abortion, equating it with murder and questioning the humanity of those who support it.",5865091761,2022-05-23 00:03:06
+Hillary Clinton,AGAINST,EXPLICIT,I agree with the following: Hillary Clinton speaks excessively without substance.,5814408541,2022-04-02 02:21:39
+Democrats,FAVOR,IMPLICIT,"I agree with the following: The comment implies support for Nancy Pelosi's progressive stance, aligning with Democratic values.",5887501328,2022-06-14 11:10:13
+Nancy Pelosi,FAVOR,IMPLICIT,I agree with the following: The comment suggests that Nancy Pelosi's progressive stance is expected and acceptable given her background.,5887501328,2022-06-14 11:10:13
+Liberals,FAVOR,IMPLICIT,I agree with the following: The comment aligns with liberal values by supporting Nancy Pelosi's stance on drag culture.,5887501328,2022-06-14 11:10:13
+Progressives,FAVOR,IMPLICIT,I agree with the following: The comment supports progressive values by affirming Nancy Pelosi's stance.,5887501328,2022-06-14 11:10:13
+Gay / LGTBQ+,FAVOR,IMPLICIT,I agree with the following: The comment supports LGBTQ+ expression as exemplified by Nancy Pelosi's statement.,5887501328,2022-06-14 11:10:13
+The government,AGAINST,EXPLICIT,"I agree with the following: The FBI's actions are an horrendous abuse of power, which even J. Edgar Hoover would disapprove of.",5943560573,2022-08-10 17:55:27
+Kamala Harris,AGAINST,EXPLICIT,I agree with the following: Kamala Harris is part of the pandering politicians who supported Jussie Smollett.,5786267286,2022-03-11 21:02:36
+Elites,AGAINST,EXPLICIT,I agree with the following: The elites who defended Jussie Smollett deserve scorn and ridicule.,5786267286,2022-03-11 21:02:36
+Woke,AGAINST,EXPLICIT,I agree with the following: The term 'woke' is used critically towards those who supported Jussie Smollett.,5786267286,2022-03-11 21:02:36
+Crime,AGAINST,EXPLICIT,"I agree with the following: Jussie Smollett's sentence is too short, indicating a negative stance on crime.",5786267286,2022-03-11 21:02:36
+Media,AGAINST,EXPLICIT,I agree with the following: The media figures who supported Jussie Smollett deserve scorn.,5786267286,2022-03-11 21:02:36
+Democrats,AGAINST,EXPLICIT,I agree with the following: The Democratic politicians who supported Jussie Smollett are criticized.,5786267286,2022-03-11 21:02:36
+Politicians,AGAINST,EXPLICIT,I agree with the following: The politicians who supported Jussie Smollett are pandering and deserve ridicule.,5786267286,2022-03-11 21:02:36
+Donald Trump,AGAINST,EXPLICIT,I agree with the following: Donald Trump is referred to as a 'lying Trump hating clown.',5786267286,2022-03-11 21:02:36
+Nancy Pelosi,AGAINST,EXPLICIT,I agree with the following: Nancy Pelosi is listed among the pandering politicians who supported Jussie Smollett.,5786267286,2022-03-11 21:02:36
+Liberals,AGAINST,EXPLICIT,I agree with the following: Liberals who supported Jussie Smollett are criticized.,5786267286,2022-03-11 21:02:36
+Progressives,AGAINST,EXPLICIT,I agree with the following: Progressive figures who supported Jussie Smollett are criticized.,5786267286,2022-03-11 21:02:36
+Media,AGAINST,EXPLICIT,"I agree with the following: CNN is bringing this clown to its network for yuks and laughs, indicating a lack of seriousness.",6099199649,2023-01-25 21:32:06
+Police,AGAINST,EXPLICIT,"I agree with the following: The police are responsible for releasing criminals, making their job harder.",5858252935,2022-05-15 21:32:38
+Crime,AGAINST,EXPLICIT,I agree with the following: Releasing criminals contributes to more crime.,5858252935,2022-05-15 21:32:38
+Republicans (GOP),AGAINST,EXPLICIT,I agree with the following: Republicans like Kinzinger and Lizzie are losers and should be gone.,5927302692,2022-07-24 17:20:05
+Joe Biden,AGAINST,EXPLICIT,"I agree with the following: Biden's SEC is involved in a scandal to ensure he gets his 10%, implying corruption.",6065302399,2022-12-13 19:56:09
+Healthcare,AGAINST,IMPLICIT,"I agree with the following: The commenter is skeptical about the accuracy of the COVID-19 diagnosis, implying doubt in the healthcare system.",5880236715,2022-06-06 17:01:42
+Vaccines,AGAINST,IMPLICIT,I agree with the following: The skepticism about COVID-19 may reflect broader doubts about vaccines.,5880236715,2022-06-06 17:01:42
+Scientists,AGAINST,IMPLICIT,I agree with the following: The comment suggests doubt in scientific accuracy regarding the diagnosis.,5880236715,2022-06-06 17:01:42
+Covid,AGAINST,IMPLICIT,"I agree with the following: The commenter questions the COVID-19 diagnosis, indicating skepticism.",5880236715,2022-06-06 17:01:42
+Immigration / immigrants,FAVOR,EXPLICIT,I agree with the following: The US should count illegal immigrants in their census.,5902278166,2022-06-29 15:52:31
+America / USA,AGAINST,EXPLICIT,I agree with the following: The US should count illegal immigrants in their census.,5902278166,2022-06-29 15:52:31
+The government,AGAINST,EXPLICIT,I agree with the following: The US government should allow counting illegal immigrants in the census.,5902278166,2022-06-29 15:52:31
+Elites,AGAINST,IMPLICIT,"I agree with the following: The luxurious lifestyle of elites, such as having a large pool, is problematic or hypocritical.",6008093294,2022-10-09 23:46:00
+Media,AGAINST,EXPLICIT,"I agree with the following: Chris Wallace is a perfect fit for CNN+, implying a negative view of CNN+ and its media coverage.",5825935592,2022-04-13 10:48:00
+Journalists,AGAINST,EXPLICIT,"I agree with the following: MSNBC viewers are 'readers of crap,' implying a negative stance towards journalists associated with MSNBC.",5871230422,2022-05-29 01:08:02
+Media,AGAINST,EXPLICIT,"I agree with the following: MSNBC is criticized as 'readers of crap,' indicating a negative stance towards the media.",5871230422,2022-05-29 01:08:02
+Joe Biden,AGAINST,EXPLICIT,"I agree with the following: Joe Biden is not competent and requires constant attention, implying he is unfit for his role.",5831540607,2022-04-18 20:42:08
+Media,AGAINST,EXPLICIT,I agree with the following: MSNBC imposters are douche bags.,5932922273,2022-07-30 14:35:51
+Politicians,FAVOR,EXPLICIT,I agree with the following: The Health Secretary's action is commendable and could teach the Supreme Court justice about biology.,5892264516,2022-06-19 13:37:53
+Journalists,AGAINST,EXPLICIT,"I agree with the following: Geraldo Rivera showed total ignorance describing the AR-15, and he should stick to looking for empty vaults.",6094051657,2023-01-19 16:21:32
+Media,AGAINST,EXPLICIT,I agree with the following: Journalists like Geraldo Rivera are ignorant and incompetent in their reporting.,6094051657,2023-01-19 16:21:32
+Military,AGAINST,EXPLICIT,I agree with the following: The military is an embarrassment.,6117660360,2023-02-17 15:49:48
+Joe Biden,AGAINST,IMPLICIT,I agree with the following: The documents were planted to harm Joe Biden.,6088645527,2023-01-12 21:17:11
+Joe Biden,AGAINST,EXPLICIT,"I agree with the following: The comment suggests that Joe Biden is engaging in inappropriate behavior and setting a bad example, indicating a negative stance.",5980563029,2022-09-14 03:00:02
+Military,AGAINST,EXPLICIT,"I agree with the following: The comment criticizes the increase in military sexual assault reports under the Biden administration, indicating a negative stance.",5980563029,2022-09-14 03:00:02
+Crime,AGAINST,IMPLICIT,"I agree with the following: The comment implies criticism of inappropriate behavior, which can be related to crime, indicating a negative stance.",5980563029,2022-09-14 03:00:02
+America / USA,AGAINST,IMPLICIT,"I agree with the following: The comment is critical of the Biden administration's handling of military issues, which relates to the USA, indicating a negative stance.",5980563029,2022-09-14 03:00:02
+Politicians,AGAINST,IMPLICIT,"I agree with the following: The comment criticizes Joe Biden, a politician, indicating a negative stance towards politicians in general.",5980563029,2022-09-14 03:00:02
+The government,AGAINST,IMPLICIT,"I agree with the following: The comment is critical of the Biden administration, part of the government, indicating a negative stance.",5980563029,2022-09-14 03:00:02
+Republicans (GOP),AGAINST,EXPLICIT,I agree with the following: Tim Ryan said that all Republicans should be killed.,5991634923,2022-09-20 23:28:26
+Joe Biden,AGAINST,EXPLICIT,I agree with the following: The country is suffering greatly after Joe Biden won.,6165951076,2023-04-20 01:16:37
+Joe Biden,AGAINST,EXPLICIT,I agree with the following: Biden will probably take credit for dropping the bombs.,6189711647,2023-05-21 00:15:35
+Immigration / immigrants,AGAINST,EXPLICIT,I agree with the following: Illegal immigrants do not contribute significantly to society beyond being future Democratic voters.,6047214892,2022-11-22 12:21:05
+Taxes are (good | fair),AGAINST,EXPLICIT,I agree with the following: Taxpayers should not have to pay to house illegal immigrants.,6047214892,2022-11-22 12:21:05
+Diversity,AGAINST,IMPLICIT,I agree with the following: The presence of illegal immigrants does not positively contribute to diversity.,6047214892,2022-11-22 12:21:05
+America / USA,AGAINST,IMPLICIT,I agree with the following: Illegal immigrants are a burden on American society.,6047214892,2022-11-22 12:21:05
+Democrats,AGAINST,EXPLICIT,I agree with the following: Illegal immigrants are being used to create future Democratic voters.,6047214892,2022-11-22 12:21:05
+Economy is good,AGAINST,IMPLICIT,I agree with the following: Illegal immigrants do not contribute positively to the economy.,6047214892,2022-11-22 12:21:05
+The government,AGAINST,EXPLICIT,I agree with the following: The government's policy on housing illegal immigrants is wasteful.,6047214892,2022-11-22 12:21:05
+Donald Trump,AGAINST,EXPLICIT,I agree with the following: I am finished with Trump. He should drop out now and do the party a favor.,6040139117,2022-11-14 14:46:49
+Gay / LGTBQ+,AGAINST,EXPLICIT,I agree with the following: Transgender individuals should not be allowed in girls' locker rooms.,6000481826,2022-09-30 23:33:34
+Politicians,AGAINST,EXPLICIT,"I agree with the following: The comment criticizes Pete Buttigieg, implying dissatisfaction with his performance as a politician.",6122273831,2023-02-23 13:58:27
+Joe Biden,AGAINST,EXPLICIT,I agree with the following: Biden has been embarrassing this country for 50 years.,6106804231,2023-02-04 00:39:32
+Republicans (GOP),FAVOR,EXPLICIT,"I agree with the following: The commenter encourages Joe Manchin to become a Republican, indicating support for the Republican party.",6175701870,2023-05-02 19:16:34
+Democrats,AGAINST,EXPLICIT,"I agree with the following: The commenter suggests that Joe Manchin should leave the Democratic party, indicating opposition to Democrats.",6175701870,2023-05-02 19:16:34
+Crime,AGAINST,EXPLICIT,"I agree with the following: The commenter condemns Alec Baldwin for the murder, indicating a clear stance against crime.",5781812062,2022-03-08 01:23:03
+Elites,AGAINST,EXPLICIT,"I agree with the following: The comment expresses frustration towards elites, suggesting they are concerned only with control.",6140441614,2023-03-18 11:54:16
+Economy is good,AGAINST,EXPLICIT,I agree with the following: The comment suggests the economy is not good due to control by elites.,6140441614,2023-03-18 11:54:16
+Politicians,AGAINST,EXPLICIT,I agree with the following: The comment expresses frustration towards politicians being concerned with control.,6140441614,2023-03-18 11:54:16
+The government,AGAINST,EXPLICIT,"I agree with the following: The comment implies the government is controlling, which is viewed negatively.",6140441614,2023-03-18 11:54:16
+Joe Biden,AGAINST,EXPLICIT,I agree with the following: Joe Biden is acting in a treasonous manner.,6111541714,2023-02-09 20:48:03
+Republicans (GOP),AGAINST,EXPLICIT,I agree with the following: MAGA republicans are being criticized.,6111541714,2023-02-09 20:48:03
+Social welfare,AGAINST,EXPLICIT,I agree with the following: The approach of not entertaining delusions in society has not worked well for her.,6073096448,2022-12-23 16:23:59
+Healthcare,AGAINST,EXPLICIT,I agree with the following: The handling of mental illness in society has not been effective.,6073096448,2022-12-23 16:23:59
+Diversity,AGAINST,EXPLICIT,I agree with the following: The current approach to diversity has not been effective.,6073096448,2022-12-23 16:23:59
+Woke,AGAINST,EXPLICIT,I agree with the following: The 'woke' approach has not worked well.,6073096448,2022-12-23 16:23:59
+America / USA,AGAINST,EXPLICIT,"I agree with the following: America needs to wake up, implying current issues.",6073096448,2022-12-23 16:23:59
+The government,AGAINST,EXPLICIT,I agree with the following: The government's approach to mental health has not worked.,6073096448,2022-12-23 16:23:59
+Gay / LGBTQ+,AGAINST,EXPLICIT,I agree with the following: The approach to LGBTQ+ issues has not worked well.,6073096448,2022-12-23 16:23:59

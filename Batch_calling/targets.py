@@ -177,4 +177,3 @@ target_list = {
     'Ukraine',
     'America / USA',
 }
-len(target_list)

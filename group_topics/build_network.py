@@ -1,17 +1,9 @@
-import numpy as np 
 import pandas as pd 
 from itertools import combinations
 import matplotlib.pyplot as plt
 import networkx as nx 
-
-# open or closed targets
-user_id = '31499533'
-#body = 'no_body' 
-body = 'with_body'
-#model = 'deepseek-r1-distill-llama-70b'
-model = 'llama-3.3-70b-versatile'
-date = '2025-03-31'
-df = pd.read_csv(f'data/{user_id}_{body}_{model}_{date}.csv')
+import os 
+import re
 
 def get_connections(df, idx):
 
@@ -30,12 +22,23 @@ def get_connections(df, idx):
             'source': target1,
             'target': target2,
             'connection': connection,
-            'idx': idx
+            'comment_id': idx
         })
 
     return edges
 
-def aggregate_network(df):
+def compute_edges(df):
+    unique_comments = df['comment_id'].unique().tolist()
+    super_edges = []
+    for idx in unique_comments: 
+        df_sub = df[df['comment_id']==idx]
+        edges_sub = get_connections(df_sub, idx)
+        super_edges.extend(edges_sub)
+
+    df_edges = pd.DataFrame(super_edges)
+    return df_edges
+
+def aggregate_edges(df):
     # 1. Normalize the pairs so source-target and target-source are treated the same
     df['pair'] = df.apply(lambda row: tuple(sorted([row['source'], row['target']])), axis=1)
 
@@ -50,103 +53,135 @@ def aggregate_network(df):
     aggregated = aggregated.drop(columns='pair')
     return aggregated 
 
-unique_idx = df['post_idx'].unique().tolist()
-super_edges = []
-for idx in unique_idx: 
-    df_sub = df[df['post_idx']==idx]
-    edges_sub = get_connections(df_sub, idx)
-    super_edges.extend(edges_sub)
-
-df_edges = pd.DataFrame(super_edges)
-df_edges_agg = aggregate_network(df_edges)
-
-### aggregation of nodes generally ###
-df['direction'] = df['stance'].map({'FAVOR': 1, 'AGAINST': -1})
-agg_df = df.groupby('target').agg(
-    average_direction=('direction', 'mean'),
-    count=('direction', 'count')
-).reset_index()
-
-### general setup ###
-cmap = plt.cm.bwr
+def aggregate_nodes(df):
+    df['direction'] = df['stance'].map({'FAVOR': 1, 'AGAINST': -1})
+    aggregated_nodes = df.groupby('target').agg(
+        average_direction=('direction', 'mean'),
+        count=('direction', 'count')
+    ).reset_index()
+    return aggregated_nodes
 
 ### first network ### 
+def plot_network(df_edges_agg, df_nodes_agg, edge_scale, node_scale, edge_n_threshold=1, k=0.5, savefig=False):
+    cmap = plt.cm.RdYlGn
 
-# Step 1: Create the graph
-G = nx.Graph()
+    # Step 1: Create the graph
+    G = nx.Graph()
 
-# Step 2: Add edges with weight = average_connection
-for _, row in df_edges_agg.iterrows():
-    # Use the average_connection as "closeness" (higher = closer)
-    # NetworkX uses 'weight' as a distance metric, so we can optionally invert it for layout
-    G.add_edge(
-        row['source'], 
-        row['target'], 
-        closeness=row['average_connection'],
-        strength=row['connection_count']
+    # Step 2: Add edges with weight = average_connection
+    for _, row in df_edges_agg.iterrows():
+        # Use the average_connection as "closeness" (higher = closer)
+        # NetworkX uses 'weight' as a distance metric, so we can optionally invert it for layout
+        G.add_edge(
+            row['source'], 
+            row['target'], 
+            closeness=row['average_connection'],
+            strength=row['connection_count']
+            )
+
+    # Step 3: Compute layout based on weights (stronger = closer)
+    # Invert weights to simulate distance (layout places closer nodes when distance is small)
+    #inverse_weights = {(u, v): 1 / d['weight'] if d['weight'] != 0 else 1e6 for u, v, d in G.edges(data=True)}
+    #nx.set_edge_attributes(G, 'strength')
+
+    # Use spring layout with "distance" as distance metric
+    pos = nx.spring_layout(G, k = k, weight='closeness', seed=42)
+
+    # Add edge information
+    edge_colors = []
+    edge_widths = []
+
+    for u, v, data in G.edges(data=True):
+        avg_conn = data.get('closeness', 0)
+        count = data.get('strength', 1)
+        
+        # Normalize color: -1 → 0 (red), 1 → 1 (blue)
+        color_val = (avg_conn + 1) / 2
+        edge_colors.append(color_val)
+
+        # Scale line width
+        if count <= edge_n_threshold: 
+            edge_widths.append(0)
+        else: 
+            edge_widths.append(count * edge_scale)
+
+    # for now set edge width to zero if only 1 occurence
+    # edge_widths = [x if x > 0.9 else 0 for x in edge_widths]
+
+    # Add node information
+    attr_dict = df_nodes_agg.set_index('target').to_dict(orient='index')
+    nx.set_node_attributes(G, attr_dict)
+
+    # Color map from red (-1) → white (0) → blue (1)
+    node_colors = []
+    node_sizes = []
+
+    for node in G.nodes():
+        data = G.nodes[node]
+        avg_dir = data.get('average_direction', 0)
+        count = data.get('count', 1)
+        
+        # Normalize to [0, 1] for colormap: -1 → 0 (red), 0 → 0.5 (white), 1 → 1 (blue)
+        color_val = (avg_dir + 1) / 2
+        node_colors.append(color_val)
+        
+        # Scale node size (optional: tweak multiplier for visibility)
+        node_sizes.append(count * node_scale)
+
+    # Step 4: Draw the graph
+    plt.figure(figsize=(12, 8))
+    nx.draw_networkx_nodes(G, pos, node_size=node_sizes, node_color=node_colors, cmap=cmap)
+    nx.draw_networkx_edges(G, pos, width=edge_widths, edge_color=edge_colors, alpha=0.7, edge_cmap=cmap)
+    nx.draw_networkx_labels(G, pos, font_size=10, font_family="sans-serif")
+
+    # Optional: edge labels showing weight
+    #edge_labels = nx.get_edge_attributes(G, 'weight')
+    #nx.draw_networkx_edge_labels(G, pos, edge_labels={k: f"{v:.2f}" for k, v in edge_labels.items()}, font_size=8)
+
+    plt.axis('off')
+    plt.title("")
+    plt.tight_layout()
+    
+    if savefig: 
+        plt.savefig(savefig)
+        plt.close()
+    else: 
+        plt.show()
+
+# import yaml file for topics 
+
+# open or closed targets
+run_id = '20250409_CT_DS70B_002'
+path = f'data/{run_id}'
+files = os.listdir(path) 
+yaml_path = f'../Batch_calling/data/experiments/runs/{run_id}/config.yaml'
+
+import yaml
+with open(yaml_path, 'r') as f:
+    batch_information = yaml.safe_load(f)
+target_list = batch_information['prompts']['targets']
+
+# make directory 
+outdir = os.path.join('fig', run_id)
+if not os.path.exists(outdir): 
+    os.makedirs(outdir)
+
+# test on one random guy
+for f in files: 
+    user_id = re.match(r'\d+', f).group()
+    df = pd.read_csv(os.path.join(path, f))
+    df = df.drop(columns='explanation').drop_duplicates()
+    df = df[df['target'].isin(target_list)]
+    df_edges = compute_edges(df)
+    df_edges_agg = aggregate_edges(df_edges)
+    df_nodes_agg = aggregate_nodes(df)
+    # make network 
+    plot_network(
+        df_edges_agg = df_edges_agg,
+        df_nodes_agg = df_nodes_agg, 
+        edge_scale = 0.5, 
+        node_scale = 10, 
+        edge_n_threshold = 5,
+        k = 1,
+        savefig = os.path.join(outdir, user_id)
         )
-
-# Step 3: Compute layout based on weights (stronger = closer)
-# Invert weights to simulate distance (layout places closer nodes when distance is small)
-#inverse_weights = {(u, v): 1 / d['weight'] if d['weight'] != 0 else 1e6 for u, v, d in G.edges(data=True)}
-#nx.set_edge_attributes(G, 'strength')
-
-# Use spring layout with "distance" as distance metric
-pos = nx.spring_layout(G, k = 1, weight='closeness', seed=42)
-
-# Add edge information
-edge_colors = []
-edge_widths = []
-
-for u, v, data in G.edges(data=True):
-    avg_conn = data.get('closeness', 0)
-    count = data.get('strength', 1)
-    
-    # Normalize color: -1 → 0 (red), 1 → 1 (blue)
-    color_val = (avg_conn + 1) / 2
-    edge_colors.append(color_val)
-
-    # Scale line width
-    edge_widths.append(count * 0.8)
-
-# for now set edge width to zero if only 1 occurence
-edge_widths = [x if x > 0.9 else 0 for x in edge_widths]
-
-# Add node information
-attr_dict = agg_df.set_index('target').to_dict(orient='index')
-nx.set_node_attributes(G, attr_dict)
-
-# Color map from red (-1) → white (0) → blue (1)
-node_colors = []
-node_sizes = []
-
-for node in G.nodes():
-    data = G.nodes[node]
-    avg_dir = data.get('average_direction', 0)
-    count = data.get('count', 1)
-    
-    # Normalize to [0, 1] for colormap: -1 → 0 (red), 0 → 0.5 (white), 1 → 1 (blue)
-    color_val = (avg_dir + 1) / 2
-    node_colors.append(color_val)
-    
-    # Scale node size (optional: tweak multiplier for visibility)
-    node_sizes.append(50 + count * 50)
-
-# Step 4: Draw the graph
-plt.figure(figsize=(12, 8))
-nx.draw_networkx_nodes(G, pos, node_size=node_sizes, node_color=node_colors, cmap=cmap)
-nx.draw_networkx_edges(G, pos, width=edge_widths, edge_color=edge_colors, alpha=0.7, edge_cmap=cmap)
-nx.draw_networkx_labels(G, pos, font_size=10, font_family="sans-serif")
-
-# Optional: edge labels showing weight
-#edge_labels = nx.get_edge_attributes(G, 'weight')
-#nx.draw_networkx_edge_labels(G, pos, edge_labels={k: f"{v:.2f}" for k, v in edge_labels.items()}, font_size=8)
-
-plt.axis('off')
-plt.title("Undirected Conceptual Similarity Network", fontsize=14)
-plt.tight_layout()
-plt.savefig(f'fig/{user_id}_{body}_{model}_{date}_small.png', bbox_inches='tight')
-
-'''
-Look at self-loop (Christians).
-'''

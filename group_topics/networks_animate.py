@@ -27,4 +27,4 @@ for f in folders:
 
     # Save as GIF animation
     output_gif = os.path.join(outdir, f'{f}.gif')
-    imageio.mimsave(output_gif, images, fps=5)  # duration is seconds per frame
+    imageio.mimsave(output_gif, images, fps=5, loop=0)  # duration is seconds per frame

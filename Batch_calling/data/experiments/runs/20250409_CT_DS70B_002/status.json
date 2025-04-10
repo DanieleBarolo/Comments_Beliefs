@@ -4,8 +4,9 @@
     "config_created": true,
     "batches_created": true,
     "uploads_completed": true,
-    "results_received": false
+    "results_received": false,
+    "batch_jobs_created": true
   },
-  "last_updated": "2025-04-09T17:21:20.350824",
+  "last_updated": "2025-04-09T17:48:25.874067",
   "description": "First batches for sampled users"
 }

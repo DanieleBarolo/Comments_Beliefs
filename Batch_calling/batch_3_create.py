@@ -74,6 +74,15 @@ def create_batch_step(run_id: str, user_id: str, user_run_dir: Path) -> None:
 
 if __name__ == "__main__":
     BATCH_CALLING_DIR = Path(__file__).parent.absolute()
+    run_id = "20250409_CT_DS70B_002"
+
+    # run it for all users
+    users_path = Path(BATCH_CALLING_DIR / "data" / "experiments" / run_id / "users.json")
+    with open(users_path, 'r') as f:
+        users = json.load(f)["users"]
+    for user_id in users:
+        create_batch_step(run_id, user_id, Path(BATCH_CALLING_DIR / "data" / "experiments" / run_id / "users" / user_id))
+
     # Example usage:
     # create_batch_step(
     #     "20250408_CT_DS70B_004",

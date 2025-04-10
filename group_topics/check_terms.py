@@ -37,8 +37,3 @@ df_nodes = pd.read_csv(filepath)
 # merge 
 df_merge = df.merge(df_nodes, on = 'post_idx', how = 'inner')
 pd.set_option('display.max_colwidth', None)
-
-# now we can find guys 
-
-df_merge[df_merge['target']=='Google']
-df_merge.dtypes

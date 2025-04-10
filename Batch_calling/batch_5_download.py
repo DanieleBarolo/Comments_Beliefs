@@ -1,4 +1,7 @@
-import requests  
+import requests
+import os 
+import json 
+from batch_4_status import check_batches_step
 
 def download_file_content(api_key, output_file_id, output_file):
     url = f"https://api.groq.com/openai/v1/files/{output_file_id}/content"
@@ -14,14 +17,36 @@ def download_file_content(api_key, output_file_id, output_file):
 
     return f"File downloaded successfully to {output_file}"
 
+# get all completed files 
+def complete_runs(run_id, api_key):
+    from paths import ExperimentPaths
+    paths = ExperimentPaths(base_dir=str(Path(__file__).parent.absolute() / "data" / "experiments"))
+    
+    # Load users
+    users_path = paths.get_users_path(run_id)
+    with open(users_path, "r") as f:
+        users = json.load(f)["users"]
+    
+    # Find path 
+    for user_id in users:
+        user_run_dir = paths.get_user_run_dir(user_id, run_id)
+    
+        # Extract file 
+        with open(os.path.join(user_run_dir, 'batch_status.json'), 'r') as f: 
+            file = json.load(f)
+        
+        output_file_id = file['output_file_id']
+        error_file_id = file['error_file_id']
+        
+        # Download + save
+        download_file_content(api_key, output_file_id, os.path.join(user_run_dir, 'batch_results.jsonl'))
+        download_file_content(api_key, error_file_id, os.path.join(user_run_dir, 'batch_errors.jsonl'))
+        
+    return user_run_dir  
+
 # Usage example
-api_key = "YOUR_GROQ_API_KEY"
-output_file_id = "file_01jh6xa97be52b7pg88czwrrwb" # replace with your own completed batch job's `output_file_id`
-output_file = "batch_output.jsonl" # replace with your own file of choice to download batch job contents to
-
-try:
-    result = download_file_content(api_key, file_id, output_file)
-    print(result)
-
-except Exception as e:
-    print(f"Error: {e}")
+load_dotenv()
+api_key = os.getenv('GROQ_API_FULL')
+run_id = '20250409_CT_DS70B_002'
+check_batches_step(run_id)
+complete_runs(run_id, api_key)

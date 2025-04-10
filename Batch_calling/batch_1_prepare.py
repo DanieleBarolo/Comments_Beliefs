@@ -16,17 +16,6 @@ from typing import Optional
 # Get the project root directory
 PROJECT_ROOT = Path(__file__).parent.parent.absolute()
 
-# def get_model_schema(prompt_type):
-    
-#     if prompt_type == 'open_target': 
-#         model_json_schema = FullStancesOT.model_json_schema()
-#     elif prompt_type == 'closed_target': 
-#         model_json_schema = FullStancesCT.model_json_schema()
-#     elif prompt_type == 'closed_target_new':
-#         model_json_schema = FullStancesCTN.model_json_schema()
-        
-#     return model_json_schema 
-
 def write_jsonl_line(target_comment_id, llm_name_groq, user_content, default_sys_prompt, temperature):
 
     # Create the line to be written to the file
@@ -187,8 +176,6 @@ def write_line(
     # write 
     with open(file_path, "a") as f:
         f.write(json.dumps(jsonl_line) + "\n")
-
-
 
 ################################################################################
 # Change by using the config file

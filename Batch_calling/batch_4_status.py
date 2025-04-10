@@ -28,7 +28,7 @@ def check_batch_status(api_key: str, batch_id: str) -> Dict:
     
     return response.json()
 
-def check_batch_step(run_id: str, user_id: str, user_run_dir: Path) -> Optional[Dict]:
+def check_batch_step(user_id: str, user_run_dir: Path) -> Optional[Dict]:
     """Check the status of a batch job for a user.
     
     Args:
@@ -91,7 +91,7 @@ def check_batches_step(run_id: str) -> None:
     for user_id in users:
         try:
             user_run_dir = paths.get_user_run_dir(user_id, run_id)
-            status_response = check_batch_step(run_id, str(user_id), user_run_dir)
+            status_response = check_batch_step(str(user_id), user_run_dir)
             
             if status_response:
                 # Check if batch is completed

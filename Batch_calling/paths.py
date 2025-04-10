@@ -1,6 +1,5 @@
 from pathlib import Path
 from datetime import datetime
-import os
 
 class ExperimentPaths:
     """Handles all experiment-related paths and directory creation."""

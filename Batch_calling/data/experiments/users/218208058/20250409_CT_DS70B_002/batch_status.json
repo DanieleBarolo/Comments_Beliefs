@@ -4,11 +4,11 @@
   "endpoint": "/v1/chat/completions",
   "input_file_id": "file_01jrdj8dgye508k01tpv8qb05y",
   "completion_window": "24h",
-  "status": "validating",
+  "status": "in_progress",
   "output_file_id": null,
   "error_file_id": null,
   "created_at": 1744213705,
-  "in_progress_at": null,
+  "in_progress_at": 1744261887,
   "finalizing_at": null,
   "completed_at": null,
   "failed_at": null,
@@ -19,7 +19,7 @@
   "request_counts": {
     "completed": 0,
     "failed": 0,
-    "total": 0
+    "total": 500
   },
   "metadata": null,
   "errors": null

@@ -1,0 +1,1 @@
+{"id":"batch_req_out_01jrjr3jxyfbzsq4tfjyxdafyn","custom_id":"2728693373","response":{"status_code":400,"request_id":"req_01jrjr2mwzevcssdekz01r3d3v","body":{"error":{"message":"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}},"error":null}

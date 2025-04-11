@@ -62,7 +62,7 @@ def process_line(line):
     comment_id = line['custom_id']
     return answer['results'], comment_id #, comment_id
 
-def collect_user_nodes(user_lines, collection='Breitbart'): 
+def collect_user_nodes(user_lines, collection='Motherjones'): 
     dataframe_lines = []
     for user_line in user_lines: 
         answers, comment_id = process_line(user_line)
@@ -79,7 +79,7 @@ def collect_user_nodes(user_lines, collection='Breitbart'):
     return node_data
 
 # actually run it 
-run_id = '20250409_CT_DS70B_002'
+run_id = '20250411_CT_DS70B_005' #motherjones updated
 resultlist = load_users_from_run(run_id)
 
 # make directory 
@@ -93,11 +93,12 @@ yaml_path = f'../Batch_calling/data/experiments/runs/{run_id}/config.yaml'
 with open(yaml_path, 'r') as f:
     batch_information = yaml.safe_load(f)
 target_list = batch_information['prompts']['targets']
+collection = batch_information['data']['collection_name']
 
 # run over the resultlist 
 for user_id, user_lines in resultlist: 
     # collect user nodes    
-    user_df = collect_user_nodes(user_lines)
+    user_df = collect_user_nodes(user_lines, collection)
     # occasionally there are duplicates because of LLM hallucinations
     # can also be duplicates for different explanations 
     # for now we just drop them all 

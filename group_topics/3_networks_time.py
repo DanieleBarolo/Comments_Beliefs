@@ -105,7 +105,7 @@ def plot_time_slices(
                 )
 
 ### actually run shit ###
-run_id = '20250409_CT_DS70B_002'
+run_id = '20250411_CT_DS70B_005'
 path = f'data/{run_id}'
 files = os.listdir(path) 
 

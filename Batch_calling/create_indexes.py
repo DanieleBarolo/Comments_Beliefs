@@ -32,7 +32,7 @@ def create_indexes_for_collection(collection_name: str):
 
 
 motherjones = init_mongo(dbs = "Comments", collection = "Motherjones")
-user_id = "51937073"
+user_id = "27844421"
 comments = motherjones.find({"user_id": user_id})
 # transform to list
 comments = list(comments)

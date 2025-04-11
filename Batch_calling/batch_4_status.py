@@ -113,5 +113,5 @@ def check_batches_step(run_id: str) -> None:
 
 if __name__ == "__main__":
     # Example usage:
-    check_batches_step("20250408_CT_DS70B_001")
+    check_batches_step("20250411_CT_DS70B_005")
     # pass

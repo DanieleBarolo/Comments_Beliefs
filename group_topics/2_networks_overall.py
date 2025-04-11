@@ -6,7 +6,7 @@ from utility import compute_edges, aggregate_edges, aggregate_nodes, plot_networ
 
 
 # open or closed targets
-run_id = '20250409_CT_DS70B_002'
+run_id = '20250411_CT_DS70B_005'
 path = f'data/{run_id}'
 files = os.listdir(path) 
 

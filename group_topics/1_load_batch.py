@@ -2,6 +2,7 @@ import os
 import json 
 from pymongo import MongoClient
 import pandas as pd 
+import yaml
 
 def init_mongo(dbs: str, collection: str): 
     client = MongoClient("mongodb://localhost:27017/")
@@ -87,9 +88,20 @@ outdir = os.path.join('data', run_id)
 if not os.path.exists(outdir): 
     os.makedirs(outdir)
 
+# need yaml file for prespecified targets
+yaml_path = f'../Batch_calling/data/experiments/runs/{run_id}/config.yaml'
+with open(yaml_path, 'r') as f:
+    batch_information = yaml.safe_load(f)
+target_list = batch_information['prompts']['targets']
+
+# run over the resultlist 
 for user_id, user_lines in resultlist: 
     # collect user nodes    
     user_df = collect_user_nodes(user_lines)
     # occasionally there are duplicates because of LLM hallucinations
-    user_df = user_df.drop_duplicates()
+    # can also be duplicates for different explanations 
+    # for now we just drop them all 
+    user_df = user_df.drop(columns='explanation').drop_duplicates()
+    # drop targets not in list
+    user_df = user_df[user_df['target'].isin(target_list)]
     user_df.to_csv(os.path.join(outdir, f"{user_id}_raw.csv"), index=False)

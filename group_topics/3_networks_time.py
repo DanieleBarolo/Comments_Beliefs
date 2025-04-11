@@ -1,67 +1,14 @@
 import pandas as pd 
-import matplotlib.pyplot as plt
 import networkx as nx 
 import os 
 import re
-from utility import compute_edges, aggregate_edges, aggregate_nodes
+from utility import compute_edges, aggregate_edges, aggregate_nodes, plot_network
 import shutil
 
 def recreate_directory(directory_path):
     if os.path.exists(directory_path):
         shutil.rmtree(directory_path)  # Deletes directory and all its contents
     os.makedirs(directory_path) 
-
-### first network ### 
-def plot_network(df_edges_agg, df_nodes_agg, edge_scale, node_scale,
-                 edge_n_threshold=1, k=1, pos=None, fixed_xlim=None, fixed_ylim=None,
-                 savefig=False):
-    
-    cmap = plt.cm.RdYlGn
-
-    # Create graph
-    G = nx.Graph()
-    for _, row in df_edges_agg.iterrows():
-        G.add_edge(
-            row['source'], 
-            row['target'], 
-            closeness=row['average_connection'],
-            strength=row['connection_count']
-        )
-
-    # Use provided fixed positions directly
-    if pos is None: 
-        pos = nx.spring_layout(G, k=k, weight='closeness', seed=42)
-
-    # Edge attributes
-    edge_colors = [(data['closeness'] + 1)/2 for _, _, data in G.edges(data=True)]
-    edge_widths = [data['strength']*edge_scale if data['strength']>edge_n_threshold else 0 for _, _, data in G.edges(data=True)]
-
-    # Node attributes
-    attr_dict = df_nodes_agg.set_index('target').to_dict(orient='index')
-    nx.set_node_attributes(G, attr_dict)
-
-    node_colors = [(G.nodes[n].get('average_direction',0)+1)/2 for n in G.nodes()]
-    node_sizes = [G.nodes[n].get('count',1)*node_scale for n in G.nodes()]
-
-    # Plotting
-    plt.figure(figsize=(12, 8))
-    nx.draw_networkx_nodes(G, pos, node_size=node_sizes, node_color=node_colors, cmap=cmap)
-    nx.draw_networkx_edges(G, pos, width=edge_widths, edge_color=edge_colors, alpha=0.7, edge_cmap=cmap)
-    nx.draw_networkx_labels(G, pos, font_size=10, font_family="sans-serif")
-
-    # Set fixed limits
-    if fixed_xlim and fixed_ylim:
-        plt.xlim(fixed_xlim)
-        plt.ylim(fixed_ylim)
-
-    plt.axis('off')
-    plt.tight_layout()
-
-    if savefig: 
-        plt.savefig(savefig)
-        plt.close()
-    else: 
-        plt.show()
 
 # group into time slices, but overlapping # 
 def create_time_windows(df, window_size_days, move_size_days, date_col='comment_date'):
@@ -92,7 +39,6 @@ def create_time_windows(df, window_size_days, move_size_days, date_col='comment_
     return slices
 
 def get_pos(df_edges, k=1):
-
     G = nx.Graph()
     for _, row in df_edges.iterrows():
         G.add_edge(
@@ -119,7 +65,6 @@ def get_fixed_pos(pos):
     global_y_lim = (y_min - padding * y_range, y_max + padding * y_range)
 
     return global_x_lim, global_y_lim
-
 
 def plot_time_slices(
     time_slices, 
@@ -163,12 +108,6 @@ def plot_time_slices(
 run_id = '20250409_CT_DS70B_002'
 path = f'data/{run_id}'
 files = os.listdir(path) 
-yaml_path = f'../Batch_calling/data/experiments/runs/{run_id}/config.yaml'
-
-import yaml
-with open(yaml_path, 'r') as f:
-    batch_information = yaml.safe_load(f)
-target_list = batch_information['prompts']['targets']
 
 # make directory 
 outdir = os.path.join('fig', 'temporal', run_id)
@@ -179,8 +118,6 @@ for f in files:
     # get basic data out 
     user_id = re.match(r'\d+', f).group()
     df = pd.read_csv(os.path.join(path, f))
-    df = df.drop(columns='explanation').drop_duplicates()
-    df = df[df['target'].isin(target_list)]
 
     # create time slices
     time_slices = create_time_windows(

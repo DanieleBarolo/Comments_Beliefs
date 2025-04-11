@@ -1,0 +1,11 @@
+{
+  "created": "2025-04-10T17:50:54.253357",
+  "steps": {
+    "config_created": true,
+    "batches_created": true,
+    "uploads_completed": false,
+    "results_received": false
+  },
+  "last_updated": "2025-04-10T17:51:16.539400",
+  "description": "Trying another collection"
+}

@@ -1,0 +1,115 @@
+experiment:
+  date: '2025-04-11'
+  time: '16:47'
+  description: Second batch for Motherjones collection
+users:
+  user_ids:
+  - 5517820
+  - 1326296
+  - 13513031
+  - 260017004
+  - 40542097
+  user_names: []
+api:
+  groq:
+    model: deepseek-r1-distill-llama-70b
+    temperature: 0
+data:
+  collection_name: Motherjones
+  batch_size: 500
+context:
+  include_article_body: false
+  include_parent_comment: true
+  include_oldest_comment: true
+  include_most_liked_comment: true
+paths:
+  base_dir: data
+  batch_files: data/batch_files
+  results: data/results
+prompts:
+  type: closed_target
+  system_prompt: "You are an advanced stance classification AI that analyzes news\
+    \ comments. \nYour task is to determine the stance of a given comment toward specified\
+    \ targets. \nBe precise, objective, and base your stance classification on clear\
+    \ textual evidence. \nOnly return output in valid JSON format, strictly following\
+    \ the specified schema."
+  prompt_template: "### Overview ###\n\nStance classification is the task of determining\
+    \ the expressed or implied opinion, or stance, of a statement toward a certain,\
+    \ specified target.\nYour task is to analyze the news comment and determine its\
+    \ stances towards specific targets. \n\n### Context ###\n{context}\n\n### Targets\
+    \ ###\n{targets}\n\n### Task Description ###\n\nFor each target, determine the\
+    \ stance in the comment:\n- If the stance is in favor of the target or agrees\
+    \ with the target, write FAVOR\n- If the stance is against the target or disagrees\
+    \ with the target, write AGAINST\n- If the stance is ambiguous, write NONE\n-\
+    \ If the comment is not related to the target, write NOT RELATED\n\n### KEY CLAIM\
+    \ ###\n- Extract the fundamental assertion or belief that form the basis of the\
+    \ commenter's stance\n- The key claim should be expressed impersonalizing the\
+    \ user in the form of \"I agree with the following: <extracted claim>\".\n- If\
+    \ no stance is expressed (NOT RELATED, NONE) then leave the explanation field\
+    \ empty. \n\n### Output Format: ###\n\nYou must output only JSON format:\n{\n\
+    \  \"results\": [\n    {\n      \"target\": \"<original_target>\", \n      \"\
+    stance\": \"<one among [FAVOR, AGAINST, NONE, NOT RELATED]>\", \n      \"stance_type\"\
+    : \"<one among [EXPLICIT, IMPLICIT, NONE]>\",\n      \"explanation\": \"<I agree\
+    \ with the following: ...> if stance in FAVOR/AGAINST\"\n    },\n    // Repeat\
+    \ for each target\n  ]\n}\n\nONLY return the JSON object itself."
+  targets:
+  - America / USA
+  - Media
+  - Russia
+  - Republicans (GOP)
+  - Jobs are (available | good)
+  - Kamala Harris
+  - Military
+  - Gay / LGTBQ+
+  - Sarah Palin
+  - Liberals
+  - Food
+  - Democrats
+  - Vegetarians / Vegans
+  - Black people
+  - Diversity
+  - Conservatives
+  - Scientists
+  - Donald Trump
+  - White people
+  - Israel
+  - Social welfare
+  - Hillary Clinton
+  - Hobbies
+  - Islam
+  - Barack Obama
+  - Socialism / Communism
+  - Elites
+  - Woke
+  - Police
+  - The government
+  - Economy is good
+  - Christianity
+  - Social media
+  - Drugs
+  - Terrorism
+  - Crime
+  - Climate change is (real | a problem)
+  - Progressives
+  - China
+  - Capitalism
+  - Taxes are (good | fair)
+  - Jews
+  - Vaccines
+  - Feminism
+  - Sport
+  - Covid
+  - Movies
+  - Ukraine
+  - Music
+  - Fascism / Nazism
+  - Immigration / immigrants
+  - Fossil fuels
+  - Christians
+  - Muslims
+  - Healthcare
+  - Nancy Pelosi
+  - Abortion
+  - Journalists
+  - Politicians
+  - Joe Biden

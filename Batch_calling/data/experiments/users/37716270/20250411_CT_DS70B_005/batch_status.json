@@ -1,0 +1,26 @@
+{
+  "id": "batch_01jrjngp8wf0s8nff6t01t7ks9",
+  "object": "batch",
+  "endpoint": "/v1/chat/completions",
+  "input_file_id": "file_01jrjngkbsex6shvkg1g69641r",
+  "completion_window": "24h",
+  "status": "validating",
+  "output_file_id": null,
+  "error_file_id": null,
+  "created_at": 1744383269,
+  "in_progress_at": null,
+  "finalizing_at": null,
+  "completed_at": null,
+  "failed_at": null,
+  "cancelling_at": null,
+  "cancelled_at": null,
+  "expires_at": 1744469669,
+  "expired_at": null,
+  "request_counts": {
+    "completed": 0,
+    "failed": 0,
+    "total": 0
+  },
+  "metadata": null,
+  "errors": null
+}

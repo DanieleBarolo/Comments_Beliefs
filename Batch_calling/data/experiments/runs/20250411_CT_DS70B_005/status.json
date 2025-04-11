@@ -1,0 +1,12 @@
+{
+  "created": "2025-04-11T16:54:11.558307",
+  "steps": {
+    "config_created": true,
+    "batches_created": true,
+    "uploads_completed": true,
+    "results_received": false,
+    "batch_jobs_created": true
+  },
+  "last_updated": "2025-04-11T16:54:29.474033",
+  "description": "Second batch for Motherjones collection"
+}

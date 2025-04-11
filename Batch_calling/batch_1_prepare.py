@@ -107,8 +107,8 @@ def write_line(
     default_sys_prompt,
     comment, 
     temperature,
-    llm_name_groq = 'deepseek-r1-distill-llama-70b',
-    collection_name = 'Breitbart', 
+    collection_name,
+    llm_name_groq = 'deepseek-r1-distill-llama-70b', 
     target_comment = True,
     article_title = True,
     parent_comment = True,
@@ -129,8 +129,12 @@ def write_line(
     # article title 
     article_id = comment.get('art_id')
     
-    article_obj = article_collection.find_one({'_id': article_id})
-    article_title_text = article_obj.get('clean_title') if article_title else ''
+    try:
+        article_obj = article_collection.find_one({'_id': article_id})
+        article_title_text = article_obj.get('clean_title') if article_title else ''
+    except:
+        article_title_text = ''
+        print(f"Article {article_id} not found")
     
     # retreive artcle body 
     if article_body: 
@@ -205,7 +209,9 @@ def write_jsonl_file(run_id: str, user_id: str, output_dir: Path, base_dir: Opti
     prompt_type = config.get('prompts', {}).get('type', "closed_target")
     default_sys_prompt = config.get('prompts', {}).get('system_prompt')
     batch_size = config.get('data', {}).get('batch_size', 100)
-    collection_name = config.get('data', {}).get('collection_name', "Breitbart")
+
+    collection_name = config.get('data', {}).get('collection_name')
+    print(f"Collection name: {collection_name}")
     context = config.get('context', {})
     
     print(f"Configuration loaded: model={llm_name_groq}, batch_size={batch_size}")

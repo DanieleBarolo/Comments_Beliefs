@@ -3,7 +3,7 @@ import glob
 import os
 
 # Path to the folder containing your PNG files
-run_id = '20250409_CT_DS70B_002'
+run_id = '20250411_CT_DS70B_005'
 basedir = f'fig/temporal/{run_id}'
 folders = os.listdir(basedir)
 

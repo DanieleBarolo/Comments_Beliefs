@@ -1,4 +1,4 @@
-from pymongo import MongoClient
+from pymongo import MongoClient, ASCENDING, DESCENDING
 
 def init_mongo(dbs: str, collection: str): 
     client = MongoClient("mongodb://localhost:27017/")
@@ -6,85 +6,59 @@ def init_mongo(dbs: str, collection: str):
     collection = db[collection]
     return collection
 
-def create_indexes_for_collection(collection_name: str):
+def create_indexes_for_collection(collection_name: str, present_indexes: list):
     """
     Creates all necessary indexes for a given collection.
     
     Args:
         collection_name (str): Name of the collection to create indexes for
+        present_indexes (list): List of present indexes for the collection
     """
     collection = init_mongo(dbs="Comments", collection=collection_name)
-    
+
+    # print which indexes are going to be generated 
+    needed_index = ['art_id_1', 'user_id_1', 'likes_1', 'createdAt_-1', 'art_id_1_createdAt_1', 'art_id_1_likes_-1']
+    index_to_create = [index for index in needed_index if index not in present_indexes]
+    print(f"Indexes going to be generated for collection {collection_name}: {index_to_create}")
+
     # Create single field indexes
-    collection.create_index("art_id")
-    collection.create_index("user_id")
-    collection.create_index("likes")
-    collection.create_index("createdAt", -1)
+    if 'art_id_1' not in present_indexes:
+        collection.create_index([("art_id", ASCENDING)])
+    if 'user_id_1' not in present_indexes:
+        collection.create_index([("user_id", ASCENDING)])
+    if 'likes_1' not in present_indexes:
+        collection.create_index([("likes", ASCENDING)])
+    if 'createdAt_-1' not in present_indexes:
+        collection.create_index([("createdAt", DESCENDING)])
     
     # Create compound indexes
-    collection.create_index([("art_id", 1), ("createdAt", 1)])
-    collection.create_index([("art_id", 1), ("likes", -1)])
+    if 'art_id_1_createdAt_1' not in present_indexes:
+        collection.create_index([("art_id", ASCENDING), ("createdAt", ASCENDING)])
+    if 'art_id_1_likes_-1' not in present_indexes:
+        collection.create_index([("art_id", ASCENDING), ("likes", DESCENDING)])
     
     print(f"Successfully created indexes for collection: {collection_name}")
 
 # Example usage:
 # create_indexes_for_collection("Motherjones")
 
-
-motherjones = init_mongo(dbs = "Comments", collection = "Motherjones")
-user_id = "27844421"
-comments = motherjones.find({"user_id": user_id})
-# transform to list
-comments = list(comments)
-
-print(len(comments))
-
-
-
-# given one comment_id, find to which colelction it belongs and give ther right flag
-
-comment_id = "1296188855"
-assumed_flag = 1
-
-comment_id = "1766699258"
-assumed_flag = 0
-
-comment_id = "1767767286"
-assumed_flag = 0
-
-comment_id = "5945168033"
-assumed_flag = 4
-
-comment_id = "1766728393"
-assumed_flag = 0
-
-comment_id = "636702611"
-assumed_flag = 2
-
 collection_lists = ["Atlantic", "Breitbart", "Gatewaypundit", "Motherjones", "Thehill"]
-
-
-COLLECTION_DICT = {
-    "Atlantic": "0",
-    "Breitbart": "1",
-    "Gatewaypundit": "2",
-    "Motherjones": "3",
-    "Thehill": "4"
-}
-
 for collection_name in collection_lists:
+    print(f"Creating indexes for collection: {collection_name}")
     collection = init_mongo(dbs = "Comments", collection = collection_name)
-    comment = collection.find_one({"_id": comment_id})
-    if comment:
-        print(f"Comment found in {collection} collection")
-        print(f"Flag: {COLLECTION_DICT[collection_name]}")
-        
+    indexes = collection.list_indexes()
+    present_indexes = [index['name'] for index in indexes]
+    print(f"Indexes present for collection {collection_name}: {present_indexes}")
+    create_indexes_for_collection(collection_name, present_indexes)
+
+# # sanity check 
+# motherjones = init_mongo(dbs = "Comments", collection = "Motherjones")
+# user_id = "27844421"
+# comments = motherjones.find({"user_id": user_id})
+# # transform to list
+# comments = list(comments)
+
+# print(len(comments))
 
 
-CORRECTED_DICT = {
-    "Gatewaypundit": "0",
-    "Breitbart": "1",
-    "Thehill": "2",
-    "Atlantic": "3",
-    "Motherjones": "4",
-}
+

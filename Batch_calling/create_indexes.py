@@ -59,6 +59,3 @@ for collection_name in collection_lists:
 # comments = list(comments)
 
 # print(len(comments))
-
-
-

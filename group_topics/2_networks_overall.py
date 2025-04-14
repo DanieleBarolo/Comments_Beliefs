@@ -1,7 +1,6 @@
 import pandas as pd 
 import os 
 import re
-import yaml
 from utility import compute_edges, aggregate_edges, aggregate_nodes, plot_network
 
 

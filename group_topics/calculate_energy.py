@@ -1,5 +1,6 @@
 import pandas as pd 
-from itertools import combinations
+import os 
+from utility import compute_edges, aggregate_edges, aggregate_nodes
 
 # open or closed targets
 user_id = '31499533'
@@ -8,59 +9,17 @@ model = 'llama-3.3-70b-versatile'# 'deepseek-r1-distill-llama-70b'
 date = '2025-03-31'
 df = pd.read_csv(f'data/{user_id}_{body}_{model}_{date}.csv')
 
-def get_connections(df, idx):
+# open or closed targets
+run_id = '20250409_CT_DS70B_002'
+path = f'data/{run_id}'
+files = os.listdir(path) 
+f = files[0]
 
-    pairs = list(combinations(df.index, 2))
+df = pd.read_csv(os.path.join(path, f))
 
-    # Create edges list
-    edges = []
-
-    for idx1, idx2 in pairs:
-        target1, stance1 = df.loc[idx1, ['target', 'stance']]
-        target2, stance2 = df.loc[idx2, ['target', 'stance']]
-
-        connection = 1 if stance1 == stance2 else -1
-
-        edges.append({
-            'source': target1,
-            'target': target2,
-            'connection': connection,
-            'idx': idx
-        })
-
-    return edges
-
-def aggregate_network(df):
-    # 1. Normalize the pairs so source-target and target-source are treated the same
-    df['pair'] = df.apply(lambda row: tuple(sorted([row['source'], row['target']])), axis=1)
-
-    # 2. Group by the normalized pair and aggregate
-    aggregated = df.groupby('pair').agg(
-        average_connection=('connection', 'mean'),
-        connection_count=('connection', 'count')
-    ).reset_index()
-
-    # 3. Optionally split the 'pair' back into two columns
-    aggregated[['source', 'target']] = pd.DataFrame(aggregated['pair'].tolist(), index=aggregated.index)
-    aggregated = aggregated.drop(columns='pair')
-    return aggregated 
-
-unique_idx = df['post_idx'].unique().tolist()
-super_edges = []
-for idx in unique_idx: 
-    df_sub = df[df['post_idx']==idx]
-    edges_sub = get_connections(df_sub, idx)
-    super_edges.extend(edges_sub)
-
-df_edges = pd.DataFrame(super_edges)
-df_edges_agg = aggregate_network(df_edges)
-
-### aggregation of nodes generally ###
-df['direction'] = df['stance'].map({'FAVOR': 1, 'AGAINST': -1})
-df_nodes = df.groupby('target').agg(
-    average_direction=('direction', 'mean'),
-    count=('direction', 'count')
-).reset_index()
+df_edges = compute_edges(df)
+df_edges = aggregate_edges(df_edges)
+df_nodes = aggregate_nodes(df)
 
 ## okay so calculate stuff ##
 def calc_H_pers(df_edges, df_nodes, filter=None): 
@@ -91,7 +50,7 @@ def calc_H_pers(df_edges, df_nodes, filter=None):
     return H_pers
 
 # has to be negative gives consonance, right? 
-df_h_pers = calc_H_pers(df_edges_agg, df_nodes) 
+df_h_pers = calc_H_pers(df_edges, df_nodes) 
 
 # let us calculate this across all concepts we have # 
 all_targets = df_nodes['target'].unique().tolist()
@@ -99,9 +58,9 @@ h_flip_list = []
 for i in all_targets:
     df_nodes_tmp = df_nodes.copy()
     df_nodes_tmp.loc[df_nodes_tmp['target']==i, 'average_direction'] = 1
-    h_flip_pos = calc_H_pers(df_edges_agg, df_nodes_tmp)
+    h_flip_pos = calc_H_pers(df_edges, df_nodes_tmp)
     df_nodes_tmp.loc[df_nodes_tmp['target']==i, 'average_direction'] = -1
-    h_flip_neg = calc_H_pers(df_edges_agg, df_nodes_tmp)
+    h_flip_neg = calc_H_pers(df_edges, df_nodes_tmp)
     h_flip_list.append((i, h_flip_pos, h_flip_neg))
 
 df_h = pd.DataFrame(

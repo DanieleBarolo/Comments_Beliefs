@@ -1,20 +1,13 @@
 import pandas as pd 
 import os 
 from utility import compute_edges, aggregate_edges, aggregate_nodes
-
-# open or closed targets
-user_id = '31499533'
-body = 'with_body'
-model = 'llama-3.3-70b-versatile'# 'deepseek-r1-distill-llama-70b'
-date = '2025-03-31'
-df = pd.read_csv(f'data/{user_id}_{body}_{model}_{date}.csv')
+import re 
 
 # open or closed targets
 run_id = '20250409_CT_DS70B_002'
 path = f'data/{run_id}'
 files = os.listdir(path) 
 f = files[0]
-
 df = pd.read_csv(os.path.join(path, f))
 
 df_edges = compute_edges(df)
@@ -73,7 +66,9 @@ df_h['sensitivity'] = df_h['h_flip_pos'] - df_h['h_flip_neg']
 
 # add back in the opinion to see # 
 df_h = df_h.merge(df_nodes, on = 'target', how = 'inner')
+df_h = df_h[['target', 'h_flip_pos', 'h_flip_neg', 'h_true_system', 'average_direction', 'count', 'sensitivity']]
 df_h.sort_values('sensitivity')
+df_h
 
 '''
 So here we have: 

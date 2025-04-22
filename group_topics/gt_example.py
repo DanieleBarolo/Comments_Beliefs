@@ -24,6 +24,7 @@ for m in range(M):
     X.append(istate.get_state().a.copy())
 X = np.array(X).T
 
+## with MDL ## 
 state = gt.inference.IsingGlauberBlockState(X, directed=False, self_loops=False)
 
 for i in range(10):
@@ -71,3 +72,56 @@ state.bstate.draw(
     ecnorm=cnorm,
     output="net_inference/dolphins-inf-sbm.pdf"
     )
+
+## with L1 instead (worse) ## 
+lstate = gt.inference.IsingGlauberBlockState(
+    X, 
+    disable_xdist=True, 
+    disable_tdist=True, 
+    directed=False, 
+    self_loops=False
+    )
+lstate.update_entropy_args(xl1=200)
+for i in range(10):
+   delta, *_ = lstate.mcmc_sweep(beta=np.inf, niter=10)
+u = lstate.get_graph()
+w_r = lstate.get_x()
+gt.draw.graph_draw(
+    u, 
+    g.vp.pos, 
+    edge_pen_width=gt.draw.prop_to_size(w_r.t(abs), 2, 8, power=1), 
+    edge_color=w_r,
+    ecmap=matplotlib.cm.coolwarm_r, 
+    ecnorm=cnorm,
+    output="net_inference/dolphins-inf-l1.pdf"
+    )
+
+## Empirical example (takes a little while to run: not finished) ## 
+import requests
+from collections import defaultdict
+import csv
+
+r = requests.get('https://downloads.skewed.de/data/all_stocks_5yr.csv')
+lines = r.iter_lines(decode_unicode=True)
+next(lines)                                     # remove header
+prices = defaultdict(list)
+for vals in csv.reader(lines, delimiter=','):
+    prices[vals[-1]].append(float(vals[4]))     # use closing price
+stocks, s = zip(*[(stock, vals) for stock, vals in prices.items() if len(vals) == 1259])
+
+# compute log-returns
+s = [[np.log(p[i+1]) - np.log(p[i]) for i in range(len(p)-1)] for p in s]
+s = np.array(s)
+
+state = gt.inference.PseudoNormalBlockState(s)
+
+delta = np.inf
+while delta > 20:
+    ret = state.mcmc_sweep(beta=np.inf, niter=1)
+    delta = abs(ret[0])
+
+bstate = state.get_block_state().levels[0]
+pos = gt.sfdp_layout(state.get_graph(), groups=bstate.get_blocks(), gamma=.02)
+bstate.draw(pos=pos, vertex_color="white", edge_gradient=[],
+            edge_pen_width=gt.prop_to_size(state.get_x().t(abs), .1, 3, power=1),
+            output="SP500.svg")

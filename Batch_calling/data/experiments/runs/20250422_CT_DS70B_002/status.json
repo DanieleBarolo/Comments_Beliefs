@@ -1,0 +1,12 @@
+{
+  "created": "2025-04-22T10:37:46.340999",
+  "steps": {
+    "config_created": true,
+    "batches_created": true,
+    "uploads_completed": true,
+    "results_received": false,
+    "batch_jobs_created": true
+  },
+  "last_updated": "2025-04-22T10:46:36.354784",
+  "description": "Test 5K users Breitbart"
+}

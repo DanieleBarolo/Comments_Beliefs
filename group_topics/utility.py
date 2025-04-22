@@ -110,3 +110,41 @@ def plot_network(df_edges_agg, df_nodes_agg, edge_scale, node_scale,
         plt.close()
     else: 
         plt.show()
+
+def flatten_time_windows(windows, time_col_name='time_slice'):
+    frames = []
+    for w in windows:
+        df_slice = w['data'].copy()
+        df_slice[time_col_name] = w['start']  # tag each row with the start of its window
+        frames.append(df_slice)
+    return pd.concat(frames, ignore_index=True)
+
+def create_time_windows(df, window_size_days, move_size_days, date_col='comment_date', return_df=False):
+    df = df.copy()
+    df[date_col] = pd.to_datetime(df[date_col])
+
+    # Get the range of dates
+    start_date = df[date_col].min()
+    end_date = df[date_col].max()
+
+    # Initialize slices
+    slices = []
+    current_start = start_date
+
+    # Generate slices
+    while current_start + pd.Timedelta(days=window_size_days) <= end_date:
+        current_end = current_start + pd.Timedelta(days=window_size_days)
+
+        slice_df = df[(df[date_col] >= current_start) & (df[date_col] < current_end)]
+        slices.append({
+            'start': current_start,
+            'end': current_end,
+            'data': slice_df
+        })
+
+        current_start += pd.Timedelta(days=move_size_days)
+
+    if return_df: 
+        return flatten_time_windows(slices)
+
+    return slices

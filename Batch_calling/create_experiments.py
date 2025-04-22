@@ -223,14 +223,14 @@ if __name__ == "__main__":
         raise ValueError("GROQ_API_FULL not found in environment variables")
     
     # Configuration parameters
-    sample_size = 5  # Number of users to sample
+    sample_size = 2 # Number of users to sample
     
     # Experiment parameters
-    description = "Second batch for Motherjones collection"
+    description = "Test 5K users Breitbart"
     model = "deepseek-r1-distill-llama-70b"
-    batch_size = 500
+    batch_size = 5000
     prompt_type = "closed_target"
-    collection_name = "Motherjones"
+    collection_name = "Breitbart"
     
     # Context settings
     context = {
@@ -269,7 +269,7 @@ if __name__ == "__main__":
     
     # # Step 5: Create batch files
     create_batches_step(run_id)
-    
+
     # # Step 6: Upload to Groq
     upload_batches_step(run_id)
     

@@ -52,6 +52,6 @@ def complete_runs(run_id, api_key):
 # Usage example
 load_dotenv()
 api_key = os.getenv('GROQ_API_FULL')
-run_id = '20250411_CT_DS70B_005' # MOTHERJONES UPDATED
+run_id = '20250422_CT_DS70B_002' # MOTHERJONES UPDATED
 check_batches_step(run_id)
 complete_runs(run_id, api_key)

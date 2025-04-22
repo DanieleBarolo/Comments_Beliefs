@@ -4,7 +4,7 @@ import re
 from utility import compute_edges, aggregate_edges, aggregate_nodes, plot_network
 
 # open or closed targets
-run_id = '20250409_CT_DS70B_002'
+run_id = '20250422_CT_DS70B_002'
 path = f'data/{run_id}'
 files = os.listdir(path) 
 
@@ -24,8 +24,8 @@ for f in files:
     plot_network(
         df_edges_agg = df_edges_agg,
         df_nodes_agg = df_nodes_agg, 
-        edge_scale = 0.5, 
-        node_scale = 10, 
+        edge_scale = 0.02, 
+        node_scale = 1, 
         edge_n_threshold = 5,
         k = 1,
         savefig = os.path.join(outdir, user_id)

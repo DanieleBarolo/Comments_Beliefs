@@ -79,7 +79,7 @@ def collect_user_nodes(user_lines, collection='Motherjones'):
     return node_data
 
 # actually run it 
-run_id = '20250411_CT_DS70B_005' #motherjones updated
+run_id = '20250422_CT_DS70B_002' #breitbart 5K
 resultlist = load_users_from_run(run_id)
 
 # make directory 

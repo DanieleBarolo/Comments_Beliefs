@@ -2,41 +2,13 @@ import pandas as pd
 import networkx as nx 
 import os 
 import re
-from utility import compute_edges, aggregate_edges, aggregate_nodes, plot_network
+from utility import compute_edges, aggregate_edges, aggregate_nodes, plot_network, create_time_windows
 import shutil
 
 def recreate_directory(directory_path):
     if os.path.exists(directory_path):
         shutil.rmtree(directory_path)  # Deletes directory and all its contents
     os.makedirs(directory_path) 
-
-# group into time slices, but overlapping # 
-def create_time_windows(df, window_size_days, move_size_days, date_col='comment_date'):
-    df = df.copy()
-    df[date_col] = pd.to_datetime(df[date_col])
-
-    # Get the range of dates
-    start_date = df[date_col].min()
-    end_date = df[date_col].max()
-
-    # Initialize slices
-    slices = []
-    current_start = start_date
-
-    # Generate slices
-    while current_start + pd.Timedelta(days=window_size_days) <= end_date:
-        current_end = current_start + pd.Timedelta(days=window_size_days)
-
-        slice_df = df[(df[date_col] >= current_start) & (df[date_col] < current_end)]
-        slices.append({
-            'start': current_start,
-            'end': current_end,
-            'data': slice_df
-        })
-
-        current_start += pd.Timedelta(days=move_size_days)
-
-    return slices
 
 def get_pos(df_edges, k=1):
     G = nx.Graph()
@@ -73,8 +45,8 @@ def plot_time_slices(
     global_x_lim=None,
     global_y_lim=None,
     n_min = 25,
-    edge_scale=0.5,
-    node_scale=10,
+    edge_scale=0.05,
+    node_scale=1,
     edge_n_threshold=0,
     k=1
     ):
@@ -105,7 +77,7 @@ def plot_time_slices(
                 )
 
 ### actually run shit ###
-run_id = '20250411_CT_DS70B_005'
+run_id = '20250422_CT_DS70B_002'
 path = f'data/{run_id}'
 files = os.listdir(path) 
 
@@ -122,7 +94,7 @@ for f in files:
     # create time slices
     time_slices = create_time_windows(
         df=df,
-        window_size_days=500, # 1 year
+        window_size_days=500, 
         move_size_days=100
     )
     

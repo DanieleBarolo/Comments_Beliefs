@@ -3,22 +3,26 @@ import matplotlib.pyplot as plt
 import networkx as nx 
 from itertools import combinations 
 
+# this is not super effective
 def get_connections(df, idx):
 
+    df['direction'] = df['stance'].map({'FAVOR': 1, 'AGAINST': -1})
     pairs = list(combinations(df.index, 2))
 
     # Create edges list
     edges = []
 
     for idx1, idx2 in pairs:
-        target1, stance1 = df.loc[idx1, ['target', 'stance']]
-        target2, stance2 = df.loc[idx2, ['target', 'stance']]
+        target1, stance1 = df.loc[idx1, ['target', 'direction']]
+        target2, stance2 = df.loc[idx2, ['target', 'direction']]
 
         connection = 1 if stance1 == stance2 else -1
 
         edges.append({
             'source': target1,
             'target': target2,
+            'source_spin': stance1, 
+            'target_spin': stance2,
             'connection': connection,
             'comment_id': idx
         })

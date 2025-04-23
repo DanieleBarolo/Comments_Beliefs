@@ -1,4 +1,5 @@
 /selected_users_data
+environment.yml
 Batch_calling/data/groq
 LLM_extraction/.env
 .DS_Store

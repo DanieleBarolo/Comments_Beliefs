@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt 
 import networkx as nx 
 from itertools import combinations 
+pd.options.mode.chained_assignment = None  # default='warn'
 
 # this is not super effective
 def get_connections(df, idx):

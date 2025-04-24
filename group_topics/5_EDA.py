@@ -186,7 +186,7 @@ for f in files:
         show_errorbars=True
     )
 
-### correlations ### 
+'''CORRELATIONS'''
 def compute_pairwise_correlations(df_edges):
     # Group by (source, target)
     grouped = df_edges.groupby(['source', 'target'])
@@ -209,6 +209,30 @@ def compute_pairwise_correlations(df_edges):
     df_corr = pd.DataFrame(correlation_data)
     return df_corr
 
+def compute_pairwise_correlations_platform(df_edges):
+    # Group by (source, target)
+    grouped = df_edges.groupby(['source', 'target', 'platform'])
+
+    # Compute correlation for each group
+    correlation_data = []
+    for (source, target, platform), group in grouped:
+        if len(group) > 1:
+            corr = group['source_spin'].corr(group['target_spin'])
+        else:
+            corr = None  # Not enough data to compute correlation
+
+        correlation_data.append({
+            'source': source,
+            'target': target,
+            'platform': platform,
+            'correlation': corr,
+            'count': len(group)  # Optional: to know how many times this pair occurred
+        })
+
+    df_corr = pd.DataFrame(correlation_data)
+    return df_corr
+
+# this needs to take the list of topics
 def create_full_pairwise_matrix(df_edges):
     # Step 1: Get all unique targets
     unique_targets = pd.concat([df_edges['source'], df_edges['target']]).unique()
@@ -228,12 +252,23 @@ def create_full_pairwise_matrix(df_edges):
 
     return df_corr_full
 
-# run  
-run_ids = ['20250422_CT_DS70B_002', '20250411_CT_DS70B_005', '20250409_CT_DS70B_002']
-paths = [f'data/{run_id}' for run_id in run_ids]
-files = [os.path.join(path, file) for path in paths for file in os.listdir(path)]
-corr_list = []
+def get_short_id(file_path):
+    for run_id in run_id_map:
+        if run_id in file_path:
+            return run_id_map[run_id]
+    return None
 
+# setup 
+run_id_map = {
+    '20250422_CT_DS70B_002': 'B5k',
+    '20250411_CT_DS70B_005': 'MJ',
+    '20250409_CT_DS70B_002': 'BB'
+}
+paths = [f'data/{run_id}' for run_id in run_id_map.keys()]
+files = [os.path.join(path, file) for path in paths for file in os.listdir(path)]
+
+corr_list = []
+data_list = []
 for f in files: 
 
     df = pd.read_csv(f)
@@ -242,13 +277,64 @@ for f in files:
 
     # take out actual correlations # 
     corr_edges_notna = corr_edges.dropna()
-    corr_edges_notna = corr_edges_notna.sort_values('correlation')
+    corr_edges_notna['platform'] = get_short_id(f)
+    data_list.append(corr_edges_notna)
 
-    # just get the length for now 
-    n_corr = len(corr_edges_notna)
-    corr_list.append((f, n_corr))
+# plot correlations 
+df_corr = pd.concat(data_list)
+fig, ax = plt.subplots(figsize=(4, 3))
+sns.kdeplot(
+    data = df_corr,
+    x = 'correlation',
+    hue = 'platform',
+    clip=(-1, 1)
+)
+plt.tight_layout()
+plt.savefig('fig/exploratory/corr_kde.png', dpi=300)
 
-### semantics ###
+### population-level correlations ###
+data_list = []
+for f in files: 
+    df = pd.read_csv(f)
+    df_edges = compute_edges(df)
+    df_edges['platform'] = get_short_id(f)
+    data_list.append(df_edges)
+df_corr_pop = pd.concat(data_list)
+df_corr = compute_pairwise_correlations_platform(df_corr_pop)
+df_corr = df_corr.dropna()
+fig, ax = plt.subplots(figsize=(4, 3))
+sns.kdeplot(
+    data = df_corr,
+    x = 'correlation',
+    hue = 'platform',
+    clip=(-1, 1)
+)
+plt.tight_layout()
+plt.savefig('fig/exploratory/corr_kde_pop.png', dpi=300)
+
+### straight up co-occurence ###
+counts = (
+    df_corr_pop.groupby('platform')[['source_spin', 'target_spin']]
+    .value_counts()
+    .unstack(fill_value=0)
+)
+counts_reset = counts.reset_index()
+
+platforms = counts_reset['platform'].unique()
+fig, axes = plt.subplots(1, len(platforms), figsize=(6, 3), sharey=True)
+
+for ax, platform in zip(axes, platforms):
+    sub_df = counts_reset[counts_reset['platform'] == platform]
+    pivot = sub_df.set_index('source_spin')[[ -1, 1 ]]  # Select target_spin columns explicitly
+    sns.heatmap(pivot, annot=True, fmt='g', cmap='Blues', ax=ax, cbar=False)
+    ax.set_title(f'Platform: {platform}')
+    ax.set_ylabel('source_spin')
+    ax.set_xlabel('target_spin')
+
+plt.tight_layout()
+plt.savefig('fig/exploratory/cooccurence.png', dpi=300)
+
+'''SEMANTICS'''
 def normalize_freq(df):
     user_total_counts = df.groupby('user_id')['count'].transform('sum')
     df['normalized_frequency'] = df['count'] / user_total_counts
@@ -283,7 +369,7 @@ def plot_dumbbell(df, outname=False, mj_col='mj_freq', bb_col='bb_freq', label_c
 
     # Set y-ticks and labels
     plt.yticks(y_positions, df_sorted[label_col])
-    plt.xlabel('Normalized Frequency')
+    plt.xlabel(xlabel)
     plt.title('Comparison of Target Frequencies: mj vs bb')
     plt.legend()
     plt.tight_layout()
@@ -439,5 +525,3 @@ def clean_raincloud(data, outname=False, x='platform', y='average_direction'):
 clean_raincloud(
     nodes_five_total,
     'violin_sentiment')
-
-### think about networks now: centralization, similarity... ### 

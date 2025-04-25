@@ -202,5 +202,3 @@ ax.set_title("Triadic Balance by User")
 
 # Save the plot
 plt.savefig("fig/exploratory/triadic_lmplot.png", dpi=300, bbox_inches='tight')
-
-#### can we do anything over time? #### 

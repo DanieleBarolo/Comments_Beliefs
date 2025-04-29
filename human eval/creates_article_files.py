@@ -61,7 +61,7 @@ def create_article_context_files(master_csv_path):
         # Get article info
         article_title = article_obj.get('clean_title', article_obj.get('title', 'No title available'))
         article_url = article_obj.get('link', 'No URL available')
-        article_date = article_obj.get('date', 'No date available')
+        article_date = article_obj.get('createdAt', 'No date available')
         
         # Try to get article body using the utility function
         article_body = ""

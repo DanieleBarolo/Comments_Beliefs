@@ -15,3 +15,5 @@ group_topics/gt_example
 Batch_calling/prompts/closed_target/generate_html_from_targets.py
 human_eval/
 Batch_calling/.env
+scrape_articles/
+add_venv.sh

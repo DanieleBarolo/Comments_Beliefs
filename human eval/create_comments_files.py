@@ -10,8 +10,27 @@ def init_mongo(dbs: str, collection: str):
     collection = db[collection]
     return collection
 
-def format_comment_file(comment_obj, parent_comment_obj, oldest_comment_obj, liked_comment_obj, article_title, article_url):
-    """Format the content of the annotation file in a minimal, easy-to-read format"""
+def get_comment_thread(comment_collection, comment_id):
+    """Retrieve the full parent thread for a comment"""
+    thread = []
+    current_id = comment_id
+    
+    while current_id:
+        comment = comment_collection.find_one({'_id': str(current_id)})
+        if not comment:
+            break
+            
+        thread.append(comment)
+        current_id = comment.get('parent')
+    
+    # Thread is now in reverse order (from target to root)
+    # Reverse it to get chronological order (from root to target)
+    thread.reverse()
+    
+    return thread
+
+def format_comment_file(comment_obj, parent_comment_obj, oldest_comment_obj, liked_comment_obj, thread, article_title, article_url):
+    """Format the content of the annotation file in a minimal, easy-to-read format with updated order"""
     content = []
     
     # Article Information
@@ -30,9 +49,26 @@ def format_comment_file(comment_obj, parent_comment_obj, oldest_comment_obj, lik
     content.append("=" * 70)
     content.append("")
     
-    # Parent Comment (if exists)
+    # Context section
     content.append(">" * 25 + " CONTEXT " + "<" * 25)
     
+    # 1. Oldest Comment
+    content.append("OLDEST COMMENT:")
+    content.append(f"Date: {oldest_comment_obj.get('createdAt', 'Unknown date')}")
+    content.append("")
+    content.append(oldest_comment_obj.get('raw_message', 'No message available'))
+    content.append("-" * 70)
+    content.append("")
+    
+    # 2. Most Liked Comment
+    content.append("MOST LIKED COMMENT:")
+    content.append(f"Likes: {liked_comment_obj.get('likes', 0)}")
+    content.append("")
+    content.append(liked_comment_obj.get('raw_message', 'No message available'))
+    content.append("-" * 70)
+    content.append("")
+    
+    # 3. Parent Comment (if exists)
     content.append("PARENT COMMENT:")
     if parent_comment_obj:
         content.append(parent_comment_obj.get('raw_message', 'No message available'))
@@ -41,19 +77,21 @@ def format_comment_file(comment_obj, parent_comment_obj, oldest_comment_obj, lik
     content.append("-" * 70)
     content.append("")
     
-    # Oldest Comment
-    content.append("OLDEST COMMENT:")
-    content.append(f"Date: {oldest_comment_obj.get('createdAt', 'Unknown date')}")
-    content.append("")
-    content.append(oldest_comment_obj.get('raw_message', 'No message available'))
-    content.append("-" * 70)
-    content.append("")
+    # 4. Full Comment Thread
+    content.append("FULL COMMENT THREAD:")
+    if thread and len(thread) > 1:  # Only show if there's actually a thread (more than just the target comment)
+        for i, comment in enumerate(thread):
+            if i > 0:  # Add separator between comments
+                content.append("- - - - - - - - - - - - - - - - - - - -")
+            indent = "  " * i  # Indent to show nesting level
+            content.append(f"{indent}Comment {i+1}:")
+            content.append(f"{indent}Date: {comment.get('createdAt', 'Unknown date')}")
+            content.append("")
+            content.append(f"{indent}{comment.get('raw_message', 'No message available')}")
+            content.append("")
+    else:
+        content.append("No thread available (single comment)")
     
-    # Most Liked Comment
-    content.append("MOST LIKED COMMENT:")
-    content.append(f"Likes: {liked_comment_obj.get('likes', 0)}")
-    content.append("")
-    content.append(liked_comment_obj.get('raw_message', 'No message available'))
     content.append("=" * 70)
     
     return "\n".join(content)
@@ -119,13 +157,12 @@ def create_annotation_files(master_csv_path):
         
         # Get article title and URL
         article_obj = article_collection.find_one({'_id': str(art_id)})
-
         if not article_obj:
             article_title = "Article not found"
             article_url = "URL not available"
         else:
             article_title = article_obj.get('clean_title', article_obj.get('title', 'No title available'))
-            article_url = article_obj.get('link', 'No URL available')
+            article_url = article_obj.get('link', article_obj.get('url', 'No URL available'))
         
         # Get parent comment if exists
         parent_comment_id = comment.get('parent')
@@ -143,12 +180,16 @@ def create_annotation_files(master_csv_path):
             sort=[('likes', -1)]
         )
         
+        # Get the full comment thread
+        comment_thread = get_comment_thread(comment_collection, comment_id)
+        
         # Format the content with minimal information
         content = format_comment_file(
             comment, 
             parent_comment_obj, 
             oldest_comment_obj, 
-            liked_comment_obj, 
+            liked_comment_obj,
+            comment_thread,
             article_title, 
             article_url
         )

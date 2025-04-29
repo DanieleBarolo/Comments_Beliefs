@@ -1,0 +1,4 @@
+annotator_1 : Daniele, 
+annotator_2 : Henrik, 
+annotator_3 : Mirta, 
+annotator_4 : Victor.

@@ -1,0 +1,73 @@
+Scraping article 5392511582 from http://www.motherjones.com/node/321686
+Warning: No article body found for article 5392511582 in Motherjones
+Created article context file for article 5392511582 in annotation_files/annotator_1/motherjones/5392511582/5392511582_context.txt
+Created article context file for article 5392511582 in annotation_files/annotator_2/motherjones/5392511582/5392511582_context.txt
+Scraping article 3530917221 from http://www.motherjones.com/node/270421
+Warning: No article body found for article 3530917221 in Motherjones
+Created article context file for article 3530917221 in annotation_files/annotator_1/motherjones/3530917221/3530917221_context.txt
+Created article context file for article 3530917221 in annotation_files/annotator_3/motherjones/3530917221/3530917221_context.txt
+Scraping article 2278909220 from http://www.motherjones.com/node/244996
+Warning: No article body found for article 2278909220 in Motherjones
+Created article context file for article 2278909220 in annotation_files/annotator_1/motherjones/2278909220/2278909220_context.txt
+Created article context file for article 2278909220 in annotation_files/annotator_4/motherjones/2278909220/2278909220_context.txt
+Scraping article 3501101516 from http://www.motherjones.com/node/270011
+Warning: No article body found for article 3501101516 in Motherjones
+Created article context file for article 3501101516 in annotation_files/annotator_2/motherjones/3501101516/3501101516_context.txt
+Created article context file for article 3501101516 in annotation_files/annotator_3/motherjones/3501101516/3501101516_context.txt
+Scraping article 2475779307 from http://www.motherjones.com/node/247976
+Warning: No article body found for article 2475779307 in Motherjones
+Created article context file for article 2475779307 in annotation_files/annotator_2/motherjones/2475779307/2475779307_context.txt
+Created article context file for article 2475779307 in annotation_files/annotator_4/motherjones/2475779307/2475779307_context.txt
+Scraping article 3740800309 from http://www.motherjones.com/node/274776
+Warning: No article body found for article 3740800309 in Motherjones
+Created article context file for article 3740800309 in annotation_files/annotator_3/motherjones/3740800309/3740800309_context.txt
+Created article context file for article 3740800309 in annotation_files/annotator_4/motherjones/3740800309/3740800309_context.txt
+Scraping article 8283465962 from https://thehill.com/homenews/administration/526752-trump-attorneys-step-up-efforts-to-reverse-elections-outcome
+Error fetching https://thehill.com/homenews/administration/526752-trump-attorneys-step-up-efforts-to-reverse-elections-outcome: status 403
+Warning: No article body found for article 8283465962 in Thehill
+Created article context file for article 8283465962 in annotation_files/annotator_1/thehill/8283465962/8283465962_context.txt
+Created article context file for article 8283465962 in annotation_files/annotator_2/thehill/8283465962/8283465962_context.txt
+Scraping article 9046450607 from https://thehill.com/policy/international/596036-zelenskyy-emerges-as-global-hero-in-ukraine-battle-against-russia
+Error fetching https://thehill.com/policy/international/596036-zelenskyy-emerges-as-global-hero-in-ukraine-battle-against-russia: status 403
+Warning: No article body found for article 9046450607 in Thehill
+Created article context file for article 9046450607 in annotation_files/annotator_1/thehill/9046450607/9046450607_context.txt
+Created article context file for article 9046450607 in annotation_files/annotator_3/thehill/9046450607/9046450607_context.txt
+Scraping article 8958859912 from https://thehill.com/homenews/administration/588527-biden-takes-on-trump-in-fiery-address-on-jan-6
+Error fetching https://thehill.com/homenews/administration/588527-biden-takes-on-trump-in-fiery-address-on-jan-6: status 403
+Warning: No article body found for article 8958859912 in Thehill
+Created article context file for article 8958859912 in annotation_files/annotator_1/thehill/8958859912/8958859912_context.txt
+Created article context file for article 8958859912 in annotation_files/annotator_4/thehill/8958859912/8958859912_context.txt
+Scraping article 7568558100 from https://thehill.com/homenews/state-watch/456054-shooter-injures-at-least-18-at-wal-mart-in-el-paso
+Error fetching https://thehill.com/homenews/state-watch/456054-shooter-injures-at-least-18-at-wal-mart-in-el-paso: status 403
+Warning: No article body found for article 7568558100 in Thehill
+Created article context file for article 7568558100 in annotation_files/annotator_2/thehill/7568558100/7568558100_context.txt
+Created article context file for article 7568558100 in annotation_files/annotator_3/thehill/7568558100/7568558100_context.txt
+Scraping article 8555615834 from https://thehill.com/homenews/senate/555755-senate-gop-block-legislation-on-jan-6-commission
+Error fetching https://thehill.com/homenews/senate/555755-senate-gop-block-legislation-on-jan-6-commission: status 403
+Warning: No article body found for article 8555615834 in Thehill
+Created article context file for article 8555615834 in annotation_files/annotator_2/thehill/8555615834/8555615834_context.txt
+Created article context file for article 8555615834 in annotation_files/annotator_4/thehill/8555615834/8555615834_context.txt
+Scraping article 7804760132 from https://thehill.com/policy/defense/477238-iran-state-media-tehran-launches-attack-on-iraq-base-housing-us-troops
+Error fetching https://thehill.com/policy/defense/477238-iran-state-media-tehran-launches-attack-on-iraq-base-housing-us-troops: status 403
+Warning: No article body found for article 7804760132 in Thehill
+Created article context file for article 7804760132 in annotation_files/annotator_3/thehill/7804760132/7804760132_context.txt
+Created article context file for article 7804760132 in annotation_files/annotator_4/thehill/7804760132/7804760132_context.txt
+Scraping article 5288423876 from http://www.breitbart.com/live/2016-election-day-live-updates/nbc-hillary-clinton-wins-colorado/
+Created article context file for article 5288423876 in annotation_files/annotator_1/breitbart/5288423876/5288423876_context.txt
+Created article context file for article 5288423876 in annotation_files/annotator_2/breitbart/5288423876/5288423876_context.txt
+Scraping article 6185044719 from http://www.breitbart.com/big-government/2017/10/02/las-vegas-report-one-gunman-open-fire-mandalay-bay-casino/
+Created article context file for article 6185044719 in annotation_files/annotator_1/breitbart/6185044719/6185044719_context.txt
+Created article context file for article 6185044719 in annotation_files/annotator_3/breitbart/6185044719/6185044719_context.txt
+Scraping article 9638510923 from https://www.breitbart.com/politics/2023/03/30/report-new-york-grand-jury-indicts-donald-trump/
+Created article context file for article 9638510923 in annotation_files/annotator_1/breitbart/9638510923/9638510923_context.txt
+Created article context file for article 9638510923 in annotation_files/annotator_4/breitbart/9638510923/9638510923_context.txt
+Scraping article 6998004795 from https://www.breitbart.com/politics/2018/10/26/reports-florida-police-detain-man-for-questioning-on-mail-bomb-campaign/
+Created article context file for article 6998004795 in annotation_files/annotator_2/breitbart/6998004795/6998004795_context.txt
+Created article context file for article 6998004795 in annotation_files/annotator_3/breitbart/6998004795/6998004795_context.txt
+Scraping article 8263361810 from https://www.breitbart.com/2020-election/2020/11/03/live-updates-election-2020-results/
+Created article context file for article 8263361810 in annotation_files/annotator_2/breitbart/8263361810/8263361810_context.txt
+Created article context file for article 8263361810 in annotation_files/annotator_4/breitbart/8263361810/8263361810_context.txt
+Scraping article 6141968269 from http://www.breitbart.com/big-government/2017/09/13/report-trump-caves-on-daca-wants-quick-amnesty-for-800k-illegal-aliens/
+Created article context file for article 6141968269 in annotation_files/annotator_3/breitbart/6141968269/6141968269_context.txt
+Created article context file for article 6141968269 in annotation_files/annotator_4/breitbart/6141968269/6141968269_context.txt
+Article context files generated successfully!

@@ -11,3 +11,7 @@ LLM_extraction/propts_tests/
 selected_users/
 group_topics/dolphins
 group_topics/gt_example
+/selected_users
+Batch_calling/prompts/closed_target/generate_html_from_targets.py
+human_eval/
+

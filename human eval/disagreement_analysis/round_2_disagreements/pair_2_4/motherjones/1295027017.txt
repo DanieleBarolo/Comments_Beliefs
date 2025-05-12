@@ -1,0 +1,82 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 2: About viagra, cannot give stance
+  Annotator 4: nan
+
+Field: Universal healthcare 
+  Annotator 2: nan
+  Annotator 4: I +
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Are You There God? It's Me, Hobby Lobby
+ARTICLE ID: 2475779307
+ARTICLE URL: http://www.motherjones.com/node/247976
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2014-03-21 16:46:22
+
+But, it should be, under certain circumstances.  
+
+
+
+For instance, it, and other similar drugs, are an accepted part of recuperative therapy for post radical prostatectomy patients, aiding in nerve and vascular repair.
+
+
+Certainly it should be covered for a year, post surgery .
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2014-03-21 10:20:03
+
+Hobby Lobby can turn American, or get the corporate death penalty. Control freak religious bigots: one of the biggest problems facing the U.S. today.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 293
+
+Hobby Lobby can turn American, or get the corporate death penalty. Control freak religious bigots: one of the biggest problems facing the U.S. today.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+Viagra is certainly NOT free to seniors!! I am a senior on Medicare and if I want Viagra I have to buy it - at $52 a pill !! which certainly is not free. In fact I don't know anyone whose insurance covers Viagra for free, although I do understand that there are some. But certainly not seniors on Medicare.
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2014-03-21 10:54:15
+
+Is viagra paid for under Hobby Lobby's health plan?  If so they are already interfering with God's plan for reproduction or absence thereof.   To take their theology to its logical extension, Impotence in men is God's way of protecting women from pregnancy. Beyond that, Hobby Lobby is a for profit company.  Ergo whether it closes on Saturday, Sunday or Thursday is merely an extension of its own secular policy.  It is not a religious issue.  ..Unless a company is NOT for profit, hires only from its own denomination, and turns over its profits to totally missional projects it should not be permitted to have the right to make the call on its employees' medical issues.
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2014-03-21 11:22:04
+
+  Yup! Viagra, penis pumps, Cialis, Levitra… all covered under everybody's insurance, of course. And free for seniors, too.
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2014-03-21 12:37:05
+
+    Viagra is certainly NOT free to seniors!! I am a senior on Medicare and if I want Viagra I have to buy it - at $52 a pill !! which certainly is not free. In fact I don't know anyone whose insurance covers Viagra for free, although I do understand that there are some. But certainly not seniors on Medicare.
+
+- - - - - - - - - - - - - - - - - - - -
+      Comment 4:
+      Date: 2014-03-21 16:46:22
+
+      But, it should be, under certain circumstances.  
+
+
+
+For instance, it, and other similar drugs, are an accepted part of recuperative therapy for post radical prostatectomy patients, aiding in nerve and vascular repair.
+
+
+Certainly it should be covered for a year, post surgery .
+
+======================================================================
+

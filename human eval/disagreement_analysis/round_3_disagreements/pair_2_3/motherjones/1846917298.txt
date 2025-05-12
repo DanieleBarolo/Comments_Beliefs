@@ -1,0 +1,72 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 2: Single payer is a universal healthcare system
+  Annotator 3: nan
+
+Field: (democrat | liberal) 
+  Annotator 2: nan
+  Annotator 3: I +
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: America's Largest Health Care Company Tells Supreme Court That Anti-Obamacare Argument Is "Absurd"
+ARTICLE ID: 3501101516
+ARTICLE URL: http://www.motherjones.com/node/270011
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2015-02-11 01:20:50
+
+Got a link or just shooting from the lip?
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2015-02-10 01:09:24
+
+So basically, Congress passed legislation - that the president signed into law - that was good for business, good for consumers, and beneficial to the welfare of Americans. Now it's being held hostage by "Christians", libertarians and slow-thinking Republicans - as usual.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 1561
+
+It seems this thread is full of morons.  What else to expect from a mother jones article though.
+
+
+The ACA is a horrible law.  You can't simultaneously cover more people for less money, it's impossible.  You all had to lie, obfuscate and omit, to get it passed.
+
+
+It's no surprise that a health care company that is making millions, and is guaranteed a bailout is playing their role as a cheerleaders for it.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+Single Payer is to the left of ACA, and is worse than the ACA
+EU is now about to dump the same thing, wise one.
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2015-02-11 01:16:09
+
+The ACA is the worst possible solution.  A Heritage Foundation idea that the Chief Justice called a tax.
+
+Single payer should have been put in place instead of this crazy bull snot.
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2015-02-11 01:20:00
+
+  Single Payer is to the left of ACA, and is worse than the ACA
+EU is now about to dump the same thing, wise one.
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2015-02-11 01:20:50
+
+    Got a link or just shooting from the lip?
+
+======================================================================
+

@@ -1,0 +1,86 @@
+DISAGREEMENTS:
+==================================================
+
+Field: (republican | conservative)
+  Annotator 1: I +
+  Annotator 2: nan
+
+Field: Voting process is fair 
+  Annotator 1: E -
+  Annotator 2: nan
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Trump, attorneys step up efforts to reverse election's outcome
+ARTICLE ID: 8283465962
+ARTICLE URL: https://thehill.com/homenews/administration/526752-trump-attorneys-step-up-efforts-to-reverse-elections-outcome
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2020-11-20 05:17:26
+
+2 dem election officials threatened their children on Twitter. Even future grandchildren and great great grandchildren.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2020-11-19 20:48:00
+
+This isn’t going to end well for Donny.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 342
+
+There's a reason Guiliani and Powell are laying out their case in a press conference instead of a courtroom.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+"Wayne County canvassers doxxed and threatened over votes, Detroit Free Press", November 18, 2020
+
+
+"After Republican members of the Wayne County Board of Canvassers first 
+refused to certify the results of the election, Twitter users spammed 
+the site with their names, personal details and links to their social 
+media pages. 
+
+
+
+The goal appeared to be to create offline consequences for 
+the two Republican board members, Chairperson Monica Palmer and William 
+Hartmann. People scrutinized Hartmann's Facebook posts going back to 2013. One user called for people to find out where the two worked."
+
+
+THIS, is the Democrat Party.
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2020-11-20 05:16:05
+
+"Wayne County canvassers doxxed and threatened over votes, Detroit Free Press", November 18, 2020
+
+
+"After Republican members of the Wayne County Board of Canvassers first 
+refused to certify the results of the election, Twitter users spammed 
+the site with their names, personal details and links to their social 
+media pages. 
+
+
+
+The goal appeared to be to create offline consequences for 
+the two Republican board members, Chairperson Monica Palmer and William 
+Hartmann. People scrutinized Hartmann's Facebook posts going back to 2013. One user called for people to find out where the two worked."
+
+
+THIS, is the Democrat Party.
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2020-11-20 05:17:26
+
+  2 dem election officials threatened their children on Twitter. Even future grandchildren and great great grandchildren.
+
+======================================================================
+

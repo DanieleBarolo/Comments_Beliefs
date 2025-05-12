@@ -1,0 +1,66 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 2: Against troll, alleged russian
+  Annotator 4: Need thread - parent here.
+
+Field: Joe Biden
+  Annotator 2: nan
+  Annotator 4: I +
+
+Field: Economy is good 
+  Annotator 2: nan
+  Annotator 4: 0
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Senate GOP block legislation on Jan. 6 commission
+ARTICLE ID: 8555615834
+ARTICLE URL: https://thehill.com/homenews/senate/555755-senate-gop-block-legislation-on-jan-6-commission
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2021-05-28 20:42:56
+
+Keep on rooting for America's economy to falter, Russian troll.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2021-05-28 16:19:25
+
+One only hopes voters punish the GOP in the next several elections.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 156
+
+Republicans just doomed themselves to Benghazi on steroids from the Dems. 
+
+This is going to be fun
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+<b>President Trump gave us the best Economy in Decades.
+
+Joe is going to give us Record Bad Economy again.
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2021-05-28 20:35:58
+
+<b>President Trump gave us the best Economy in Decades.
+
+Joe is going to give us Record Bad Economy again.
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2021-05-28 20:42:56
+
+  Keep on rooting for America's economy to falter, Russian troll.
+
+======================================================================
+

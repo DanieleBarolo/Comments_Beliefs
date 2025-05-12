@@ -1,0 +1,62 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 1: He is not addressing directely to big pharma but rather to "pharmaceutical companies"
+  Annotator 4: nan
+
+Field: (Media | Journalists) 
+  Annotator 1: nan
+  Annotator 4: E -
+
+Field: Vaccines
+  Annotator 1: E +
+  Annotator 4: 0
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: How Many People Aren’t Vaccinating Their Kids in Your State?
+ARTICLE ID: 2278909220
+ARTICLE URL: http://www.motherjones.com/node/244996
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2014-02-18 04:39:11
+
+It certainly is easy to get misinformation about vaccines on  the Internet, starting with this article.  With vaccines, as with ALL drugs, there is the good, the bad and the ugly.  As a scientist, I yearn for unbiased, accurate information, but one is hard-pressed to find such a rarity on this issue.  Instead, we have the "anti-vaccers", as the article so glibly labels them, and the "Big Pharma shills", as the vaccine doubters equally glibly label their opponents.  Evaluations are mostly biased, because they are funded by one side or the other.    It is in no one's best interest that the two sides act like a bunch of kindergarteners yelling, "poopy-head" and "doo-doo brain" at each other.  To engage in a science-based, reasonable dialog, the "poopy-heads", um, I mean, anti-vaccers need to acknowledge that some vaccines have been very effective and have come close to eradicating serious diseases.  And the "doo-doo brains", um, I mean Big-Pharma shills, need to acknowledge that pharmaceutical companies have been less than honest with clinical trial reports and side effect records on their vaccine products.  I won't hold my breath.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2014-02-17 11:33:17
+
+It is my "personal belief" that unless there is some medical reason why a child should not be vaccinated, the child should not be exempted - ever. This ridiculous vaccination rebellion is endangering the rest of us, let alone risking the lives of the poor kids whose parents subscribe to this misinformation. The fact that the governments of these states are acting in such a dangerous way is appalling.
+
+
+This is just another example of how lies are perpetuated by repetition. Science has discredited these myths and yet anti-government paranoids keep hammering away with untruths. People are dying as a result.
+
+
+As to the religious exemption...what child has a choice about that? Here we have another example of fairy tales in the form of "beliefs" endangering the rest of us. It is worse than immoral. It is arrogantly evil.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 624
+
+It is my "personal belief" that unless there is some medical reason why a child should not be vaccinated, the child should not be exempted - ever. This ridiculous vaccination rebellion is endangering the rest of us, let alone risking the lives of the poor kids whose parents subscribe to this misinformation. The fact that the governments of these states are acting in such a dangerous way is appalling.
+
+
+This is just another example of how lies are perpetuated by repetition. Science has discredited these myths and yet anti-government paranoids keep hammering away with untruths. People are dying as a result.
+
+
+As to the religious exemption...what child has a choice about that? Here we have another example of fairy tales in the form of "beliefs" endangering the rest of us. It is worse than immoral. It is arrogantly evil.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+TARGET COMMENT IS A PARENT COMMENT (no parent exists)
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+No thread available (single comment)
+======================================================================
+

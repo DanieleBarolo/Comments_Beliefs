@@ -1,0 +1,52 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 2: nan
+  Annotator 4: Not actually sure how to really understand this. Leaving blank.
+
+Field: (democrat | liberal) 
+  Annotator 2: I +
+  Annotator 4: nan
+
+Field: (republican | conservative)
+  Annotator 2: E -
+  Annotator 4: nan
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Senate GOP block legislation on Jan. 6 commission
+ARTICLE ID: 8555615834
+ARTICLE URL: https://thehill.com/homenews/senate/555755-senate-gop-block-legislation-on-jan-6-commission
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2021-05-28 18:09:04
+
+Why don't the Democrats form their own commission.  Then they can listen to the repubs complain they're being left out.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2021-05-28 16:19:25
+
+One only hopes voters punish the GOP in the next several elections.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 156
+
+Republicans just doomed themselves to Benghazi on steroids from the Dems. 
+
+This is going to be fun
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+TARGET COMMENT IS A PARENT COMMENT (no parent exists)
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+No thread available (single comment)
+======================================================================
+

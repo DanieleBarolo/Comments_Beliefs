@@ -1,0 +1,80 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 2: Sarcastic liberal from context
+  Annotator 3: nan
+
+Field: (democrat | liberal) 
+  Annotator 2: I +
+  Annotator 3: E +
+
+Field: Universal healthcare 
+  Annotator 2: nan
+  Annotator 3: I +
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: America's Largest Health Care Company Tells Supreme Court That Anti-Obamacare Argument Is "Absurd"
+ARTICLE ID: 3501101516
+ARTICLE URL: http://www.motherjones.com/node/270011
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2015-02-11 01:07:28
+
+Where is all this free stuff I've been bribed with? I haven't gotten my house or food yet, where do I go to claim my reward for voting librul?
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2015-02-10 01:09:24
+
+So basically, Congress passed legislation - that the president signed into law - that was good for business, good for consumers, and beneficial to the welfare of Americans. Now it's being held hostage by "Christians", libertarians and slow-thinking Republicans - as usual.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 1561
+
+It seems this thread is full of morons.  What else to expect from a mother jones article though.
+
+
+The ACA is a horrible law.  You can't simultaneously cover more people for less money, it's impossible.  You all had to lie, obfuscate and omit, to get it passed.
+
+
+It's no surprise that a health care company that is making millions, and is guaranteed a bailout is playing their role as a cheerleaders for it.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+Notice how the libs flag any comment they don't like?  Sound familiar? Libs can't win an argument so they call names and censor.
+Libs can't win elections so they have to import voters and bribe them with free housing, clothing, food, education medication and free incarceration.  From my experience, I had better and more affordable insurance before the government came to my rescue.
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2015-02-10 16:45:23
+
+
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2015-02-10 16:47:00
+
+  But they are going to take money from someone else to help you pay for your monthly bill. Unless you make too much or misjudge your income, then they will claw back those subsidies and fine you so they can pay for someone else's care.
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2015-02-10 21:17:00
+
+    Notice how the libs flag any comment they don't like?  Sound familiar? Libs can't win an argument so they call names and censor.
+Libs can't win elections so they have to import voters and bribe them with free housing, clothing, food, education medication and free incarceration.  From my experience, I had better and more affordable insurance before the government came to my rescue.
+
+- - - - - - - - - - - - - - - - - - - -
+      Comment 4:
+      Date: 2015-02-11 01:07:28
+
+      Where is all this free stuff I've been bribed with? I haven't gotten my house or food yet, where do I go to claim my reward for voting librul?
+
+======================================================================
+

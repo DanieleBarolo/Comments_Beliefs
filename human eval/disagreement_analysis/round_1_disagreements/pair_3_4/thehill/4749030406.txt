@@ -1,0 +1,50 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Donald Trump
+  Annotator 3: E -
+  Annotator 4: I -
+
+Field: (democrat | liberal) 
+  Annotator 3: E +
+  Annotator 4: nan
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Iran state media: Tehran launches attack on Iraq base housing US troops
+ARTICLE ID: 7804760132
+ARTICLE URL: https://thehill.com/policy/defense/477238-iran-state-media-tehran-launches-attack-on-iraq-base-housing-us-troops
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2020-01-08 01:12:27
+
+The cult can try to warmonger and lie about Democrats supporting Iran all they want. Simple fact is the vast majority of Americans do not support war with Iran. It's wildly unpopular, with bipartisan opposition. 
+
+So go ahead and revert back to the neo-cons we knew you were. You will drown on the sinking ship with your idiot in chief.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2020-01-07 23:59:26
+
+
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 211
+
+Iran has already stated this attack on our base was revenge for the killing of Solemani. Here we go. 
+
+“An eye for any eye makes everyone blind”
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+TARGET COMMENT IS A PARENT COMMENT (no parent exists)
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+No thread available (single comment)
+======================================================================
+

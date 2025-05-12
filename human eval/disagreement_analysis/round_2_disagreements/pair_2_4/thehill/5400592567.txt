@@ -1,0 +1,104 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 2: Against commentator, used Yuri so implicit - russa
+  Annotator 4: Need thread again here.
+
+Field: Donald Trump
+  Annotator 2: nan
+  Annotator 4: I -
+
+Field: (republican | conservative)
+  Annotator 2: nan
+  Annotator 4: I -
+
+Field: Progressives
+  Annotator 2: nan
+  Annotator 4: I +
+
+Field: Russia
+  Annotator 2: I -
+  Annotator 4: nan
+
+Field: Voting process is fair 
+  Annotator 2: nan
+  Annotator 4: I +
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Senate GOP block legislation on Jan. 6 commission
+ARTICLE ID: 8555615834
+ARTICLE URL: https://thehill.com/homenews/senate/555755-senate-gop-block-legislation-on-jan-6-commission
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2021-05-28 23:52:56
+
+Tell us retard were these riots disruptive of Congressional duties?
+
+Face it Yuri, you're a moron.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2021-05-28 16:19:25
+
+One only hopes voters punish the GOP in the next several elections.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 156
+
+Republicans just doomed themselves to Benghazi on steroids from the Dems. 
+
+This is going to be fun
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+Right?  All those riots from 2016 on?  Leftists blocking streets, attacking people.  Just awful.
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2021-05-28 22:48:21
+
+How you say....womp womp?
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2021-05-28 22:49:50
+
+  
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2021-05-28 22:50:51
+
+    Don't you hate it when your side gets the modern day Reichstag Fire set up, and the good guys shoot it down?
+
+And who tf is John K Jenkins?
+
+- - - - - - - - - - - - - - - - - - - -
+      Comment 4:
+      Date: 2021-05-28 23:02:58
+
+      
+
+- - - - - - - - - - - - - - - - - - - -
+        Comment 5:
+        Date: 2021-05-28 23:05:53
+
+        Right?  All those riots from 2016 on?  Leftists blocking streets, attacking people.  Just awful.
+
+- - - - - - - - - - - - - - - - - - - -
+          Comment 6:
+          Date: 2021-05-28 23:52:56
+
+          Tell us retard were these riots disruptive of Congressional duties?
+
+Face it Yuri, you're a moron.
+
+======================================================================
+

@@ -1,0 +1,93 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Progressives
+  Annotator 1: nan
+  Annotator 4: I -
+
+Field: Vaccines
+  Annotator 1: I +
+  Annotator 4: nan
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: How Many People Aren’t Vaccinating Their Kids in Your State?
+ARTICLE ID: 2278909220
+ARTICLE URL: http://www.motherjones.com/node/244996
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2014-02-19 00:04:06
+
+It matters.  When was the last time you learned from anyone who was insulting, belittling and humiliating you?  How many people who are nervous about vaccinating their children do you suppose were convinced by being insulted.
+
+
+Penn and Teller are not there for anything except to make their smug, conceited audience feel superior to other people so they will continue to be fans of theirs.
+
+There, did I convince you that I was right by putting it that way?
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2014-02-17 11:33:17
+
+It is my "personal belief" that unless there is some medical reason why a child should not be vaccinated, the child should not be exempted - ever. This ridiculous vaccination rebellion is endangering the rest of us, let alone risking the lives of the poor kids whose parents subscribe to this misinformation. The fact that the governments of these states are acting in such a dangerous way is appalling.
+
+
+This is just another example of how lies are perpetuated by repetition. Science has discredited these myths and yet anti-government paranoids keep hammering away with untruths. People are dying as a result.
+
+
+As to the religious exemption...what child has a choice about that? Here we have another example of fairy tales in the form of "beliefs" endangering the rest of us. It is worse than immoral. It is arrogantly evil.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 624
+
+It is my "personal belief" that unless there is some medical reason why a child should not be vaccinated, the child should not be exempted - ever. This ridiculous vaccination rebellion is endangering the rest of us, let alone risking the lives of the poor kids whose parents subscribe to this misinformation. The fact that the governments of these states are acting in such a dangerous way is appalling.
+
+
+This is just another example of how lies are perpetuated by repetition. Science has discredited these myths and yet anti-government paranoids keep hammering away with untruths. People are dying as a result.
+
+
+As to the religious exemption...what child has a choice about that? Here we have another example of fairy tales in the form of "beliefs" endangering the rest of us. It is worse than immoral. It is arrogantly evil.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+It's the correct message regardless. It shouldn't matter if you like the messenger.
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2014-02-18 15:05:37
+
+Look up "Penn and Teller on vaccinations" YouTube video. It's about as simplified as it gets. 
+
+
+Last I checked autism wasn't fatal, while most diseases we use vaccinations for are. If you believe autism is caused by vaccines, you are still risking the life of your child to possibly save them from a shitty but non life threatening, and not always debilitating disease. Pretty much as ignorant as it gets.
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2014-02-18 18:22:55
+
+  Much as I think anti-vaccers are wrong, using two of the biggest assholes in the world to make the case for vaccination is stupid.
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2014-02-18 18:36:27
+
+    It's the correct message regardless. It shouldn't matter if you like the messenger.
+
+- - - - - - - - - - - - - - - - - - - -
+      Comment 4:
+      Date: 2014-02-19 00:04:06
+
+      It matters.  When was the last time you learned from anyone who was insulting, belittling and humiliating you?  How many people who are nervous about vaccinating their children do you suppose were convinced by being insulted.
+
+
+Penn and Teller are not there for anything except to make their smug, conceited audience feel superior to other people so they will continue to be fans of theirs.
+
+There, did I convince you that I was right by putting it that way?
+
+======================================================================
+

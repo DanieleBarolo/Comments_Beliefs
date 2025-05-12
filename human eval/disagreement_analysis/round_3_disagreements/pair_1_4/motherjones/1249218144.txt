@@ -1,0 +1,59 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 1: against MoJo specifically
+  Annotator 4: nan
+
+Field: (Media | Journalists) 
+  Annotator 1: I -
+  Annotator 4: nan
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: How Many People Aren’t Vaccinating Their Kids in Your State?
+ARTICLE ID: 2278909220
+ARTICLE URL: http://www.motherjones.com/node/244996
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2014-02-18 04:27:28
+
+The simple vaccinations of years ago were fine but these new kind are near evil.
+I can't believe there are so many tools of Big Pharma at MoJo.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2014-02-17 11:33:17
+
+It is my "personal belief" that unless there is some medical reason why a child should not be vaccinated, the child should not be exempted - ever. This ridiculous vaccination rebellion is endangering the rest of us, let alone risking the lives of the poor kids whose parents subscribe to this misinformation. The fact that the governments of these states are acting in such a dangerous way is appalling.
+
+
+This is just another example of how lies are perpetuated by repetition. Science has discredited these myths and yet anti-government paranoids keep hammering away with untruths. People are dying as a result.
+
+
+As to the religious exemption...what child has a choice about that? Here we have another example of fairy tales in the form of "beliefs" endangering the rest of us. It is worse than immoral. It is arrogantly evil.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 624
+
+It is my "personal belief" that unless there is some medical reason why a child should not be vaccinated, the child should not be exempted - ever. This ridiculous vaccination rebellion is endangering the rest of us, let alone risking the lives of the poor kids whose parents subscribe to this misinformation. The fact that the governments of these states are acting in such a dangerous way is appalling.
+
+
+This is just another example of how lies are perpetuated by repetition. Science has discredited these myths and yet anti-government paranoids keep hammering away with untruths. People are dying as a result.
+
+
+As to the religious exemption...what child has a choice about that? Here we have another example of fairy tales in the form of "beliefs" endangering the rest of us. It is worse than immoral. It is arrogantly evil.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+TARGET COMMENT IS A PARENT COMMENT (no parent exists)
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+No thread available (single comment)
+======================================================================
+

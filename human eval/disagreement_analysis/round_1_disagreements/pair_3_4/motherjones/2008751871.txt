@@ -1,0 +1,77 @@
+DISAGREEMENTS:
+==================================================
+
+Field: (republican | conservative)
+  Annotator 3: nan
+  Annotator 4: I -
+
+Field: Economy is good 
+  Annotator 3: nan
+  Annotator 4: I -
+
+Field: Capitalism
+  Annotator 3: nan
+  Annotator 4: I -
+
+Field: America is in decline 
+  Annotator 3: nan
+  Annotator 4: I +
+
+Field: Guns | NRA | 2nd amendment 
+  Annotator 3: I -
+  Annotator 4: E -
+
+Field: Billionaires
+  Annotator 3: nan
+  Annotator 4: I -
+
+Field: Big pharma 
+  Annotator 3: nan
+  Annotator 4: I -
+
+Field: Big tech is too powerful
+  Annotator 3: nan
+  Annotator 4: I -
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Our Country's Cartoonish Gun Debate Isn't Just Idiotic—It's Really Damaging
+ARTICLE ID: 3740800309
+ARTICLE URL: http://www.motherjones.com/node/274776
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2015-05-06 11:34:19
+
+I've yet to talk to or even hear about anybody--even the most ardent, 2A-cloaked, Rambo-like firearm fetishist--who would disagree with the idea that some people should NOT have access to guns.  The central dichotomy seems to be between those who think you should first have to prove your worthiness to pack heat versus those who think you must first be disqualified from said right.  In either case, the cows are out and all our efforts to close the barn door are for naught. Commodification has taken over (a very special type of fetish in this case) and speculative bubbles are common; even the hint of scarcity drives up prices and causes runs on guns and ammo.  And I suppose somewhere people are cooking up schemes for gun insurance and others are looking at investing in trauma care futures.
+I suppose we get the kind of society we deserve.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2015-05-06 10:28:22
+
+If the United States wasn't handcuffed by the demography of the Senate the Democratic Party would be in a much better position to do something about gun violence. As it stands, though, we absolutely need those sparsely-populated states in the Midwest and Rockies to provide us enough Senators to do something about more existentially threatening issues like war, climate change, and the economy.
+
+
+If you ask me, letting the rural states jack off with their exploding dildos at the cost of a few ten thousand people dead to suicide/homicide is a fucking bargain compared to the collateral damage of their flipping out after getting their toys taken away.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 37
+
+We can have sane conversations about, say, motorcycles. We can talk about appropriate design standards and extra licensing and age restrictions and even banning certain people from riding motorcycles in the way that we can't about guns. No one accuses people of talking about appropriate additives for gasolines as trying to sneak in a backdoor clause to stop motorcycle ownership. Nor does a discussion of requiring more stringent state inspection standards for motorcycles introduce cries of tyranny and slippery slopes towards forced public transportation. And certainly no one says or even thinks that a hypothetical state law from forbidding people under the age of 18 riding motorcycles on highways is an assault on the commerce clause of the Constitution.
+
+
+Yet with firearm ownership we routinely see this kind of insane rhetorical brinksmanship. Which is why I call people who support this kind of talk gun fetishists. It shows a complete lack of perspective and I have nothing but disrespect for people who flip out this hard over the topic.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+TARGET COMMENT IS A PARENT COMMENT (no parent exists)
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+No thread available (single comment)
+======================================================================
+

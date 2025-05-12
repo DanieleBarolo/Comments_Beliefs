@@ -1,0 +1,94 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 2: "Stupid" comment from liberal about rw, maybe implicit negative GOP from context or + Democrat?
+  Annotator 3: stupid
+
+Field: (democrat | liberal) 
+  Annotator 2: I +
+  Annotator 3: nan
+
+Field: (republican | conservative)
+  Annotator 2: I -
+  Annotator 3: nan
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: America's Largest Health Care Company Tells Supreme Court That Anti-Obamacare Argument Is "Absurd"
+ARTICLE ID: 3501101516
+ARTICLE URL: http://www.motherjones.com/node/270011
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2015-02-19 19:46:42
+
+Does the Stupid hurt?  It's sure hurting this thread....
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2015-02-10 01:09:24
+
+So basically, Congress passed legislation - that the president signed into law - that was good for business, good for consumers, and beneficial to the welfare of Americans. Now it's being held hostage by "Christians", libertarians and slow-thinking Republicans - as usual.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 1561
+
+It seems this thread is full of morons.  What else to expect from a mother jones article though.
+
+
+The ACA is a horrible law.  You can't simultaneously cover more people for less money, it's impossible.  You all had to lie, obfuscate and omit, to get it passed.
+
+
+It's no surprise that a health care company that is making millions, and is guaranteed a bailout is playing their role as a cheerleaders for it.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+The dem congress did, or the Obama  administration did. Remember Nancy Pelosi, "you will now what's in the bill after you vote for it." We are paying the Moslem tax on infidels in it somewhere in page 140 to 180. We kill older Americans by having them made " comfortable" and drug them and deprive them of food and water, for the week or two it takes to die. 
+Of course all people on Medicare have had rate increases or pay for part D extra fees for life.
+ This is the worst plan that could have been developed with a few good parts that will be kept with a new plan.
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2015-02-10 17:04:03
+
+
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2015-02-10 17:05:24
+
+  That's cuz all their readers are hobos living on the street that have no concept of what a $7,500 deductible means to the "Average WORKING Joe".
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2015-02-10 22:39:33
+
+    It's OK, the deductible is subsidized.  Erm, what? It's not?  
+
+Surely Congress meant to subsidize deductibles as well as premiums - they couldn't possibly have been so stupid as to pass a law that left poor families paying no premiums but $12,700 annual deductibles?
+
+<sarc off>
+
+So, libs, why are there no cases before SCOTUS demanding subsidized deductibles?  HCA is using the same logic to rationalize continuance of premium subsidies:<i>  "the consequences are so absurd... that Congress could not have intended them."
+
+- - - - - - - - - - - - - - - - - - - -
+      Comment 4:
+      Date: 2015-02-11 01:02:39
+
+      The dem congress did, or the Obama  administration did. Remember Nancy Pelosi, "you will now what's in the bill after you vote for it." We are paying the Moslem tax on infidels in it somewhere in page 140 to 180. We kill older Americans by having them made " comfortable" and drug them and deprive them of food and water, for the week or two it takes to die. 
+Of course all people on Medicare have had rate increases or pay for part D extra fees for life.
+ This is the worst plan that could have been developed with a few good parts that will be kept with a new plan.
+
+- - - - - - - - - - - - - - - - - - - -
+        Comment 5:
+        Date: 2015-02-19 19:46:42
+
+        Does the Stupid hurt?  It's sure hurting this thread....
+
+======================================================================
+

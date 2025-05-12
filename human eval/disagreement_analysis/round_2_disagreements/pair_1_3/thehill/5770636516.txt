@@ -1,0 +1,74 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 1: refers to 'insider'
+  Annotator 3: nan
+
+Field: Donald Trump
+  Annotator 1: I +
+  Annotator 3: E +
+
+Field: Politicians
+  Annotator 1: E -
+  Annotator 3: I -
+
+Field: Elites
+  Annotator 1: nan
+  Annotator 3: I -
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Zelenskyy emerges as global hero in Ukraine battle against Russia
+ARTICLE ID: 9046450607
+ARTICLE URL: https://thehill.com/policy/international/596036-zelenskyy-emerges-as-global-hero-in-ukraine-battle-against-russia
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2022-02-27 17:09:58
+
+Guess he's in your head. For all the fears about him, none came to pass, and people were better off. But he's in your head.
+
+And, yes, the outsider can expose many things that insiders never would, as they ingatiate themselves at the public teat.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2022-02-27 16:37:04
+
+Zelensky = Balls.  Of.  Steel.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 227
+
+Zelenskyy is one TV personality who is fit to be president of his country.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+Like the orange blob who fuced everything up?
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2022-02-27 17:06:18
+
+Sometimes, outsiders have more and better effect than life long "public" servants.
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2022-02-27 17:07:21
+
+  Like the orange blob who fuced everything up?
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2022-02-27 17:09:58
+
+    Guess he's in your head. For all the fears about him, none came to pass, and people were better off. But he's in your head.
+
+And, yes, the outsider can expose many things that insiders never would, as they ingatiate themselves at the public teat.
+
+======================================================================
+

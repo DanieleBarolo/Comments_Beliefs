@@ -1,0 +1,71 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 1: stances are against Putin and Zelensky, I set implicitly against Russia and Ukraine, but it is clearly wrong. same is against "soros" which I labeled as elites
+  Annotator 3: nan
+
+Field: (democrat | liberal) 
+  Annotator 1: nan
+  Annotator 3: E -
+
+Field: Progressives
+  Annotator 1: nan
+  Annotator 3: E -
+
+Field: Elites
+  Annotator 1: I -
+  Annotator 3: nan
+
+Field: Socialism | communism 
+  Annotator 1: E -
+  Annotator 3: nan
+
+Field: Russia
+  Annotator 1: I -
+  Annotator 3: E -
+
+Field: Ukraine
+  Annotator 1: I -
+  Annotator 3: E -
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Zelenskyy emerges as global hero in Ukraine battle against Russia
+ARTICLE ID: 9046450607
+ARTICLE URL: https://thehill.com/policy/international/596036-zelenskyy-emerges-as-global-hero-in-ukraine-battle-against-russia
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2022-02-27 18:02:28
+
+Putin is a corrupt, self-made thug and murderer.
+Zelensky is a super-corrupt, soros-made thug.
+There are no good guys in that fight.
+Biden sides with the soros-thug.  The only likely thing that will accomplish is that the protection payments from Ukraine to the Joe Biden klan will continue unimpeded.  And I wonder if they are still making million$ from communist China?
+All hail corruption!
+...
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2022-02-27 16:37:04
+
+Zelensky = Balls.  Of.  Steel.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 227
+
+Zelenskyy is one TV personality who is fit to be president of his country.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+TARGET COMMENT IS A PARENT COMMENT (no parent exists)
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+No thread available (single comment)
+======================================================================
+

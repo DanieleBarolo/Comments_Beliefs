@@ -1,0 +1,72 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 1: sarcasm
+  Annotator 3: nan
+
+Field: (Media | Journalists) 
+  Annotator 1: nan
+  Annotator 3: I -
+
+Field: Israel 
+  Annotator 1: 0.0
+  Annotator 3: nan
+
+Field: Palestine
+  Annotator 1: 0.0
+  Annotator 3: nan
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Bill O'Reilly Has His Own Brian Williams Problem
+ARTICLE ID: 3530917221
+ARTICLE URL: http://www.motherjones.com/node/270421
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2015-02-20 13:49:07
+
+I was in Jerusalem during the intifada. That makes me a combat veteran.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2015-02-19 22:44:30
+
+Wow....I always hated Bill O'Reilly but I would've never accused him of being THIS bad until now
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 793
+
+One really can't overstate what a lying, cowardly piece of scum Bill O'Reilly is, he's a classic republican/conservative chicken hawk .
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+I was in Antrim in the 80s... does that make me a veteran? I guess if I was Bill O'Reilly it would.
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2015-02-20 13:37:39
+
+ROFL, that he calls Northern Ireland a "war zone" should have been a red flag. Even at the height of the Troubles it wasn't a "war zone." 
+
+O'Reilly is a typical chicken hawk. It's hilarious. 
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2015-02-20 13:45:42
+
+  I was in Antrim in the 80s... does that make me a veteran? I guess if I was Bill O'Reilly it would.
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2015-02-20 13:49:07
+
+    I was in Jerusalem during the intifada. That makes me a combat veteran.
+
+======================================================================
+

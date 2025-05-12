@@ -1,0 +1,56 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 2: Context against dems
+  Annotator 3: nan
+
+Field: (republican | conservative)
+  Annotator 2: nan
+  Annotator 3: I +
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Reports: Florida Police Detain Man for Questioning on Mail Bomb Campaign
+ARTICLE ID: 6998004795
+ARTICLE URL: https://www.breitbart.com/politics/2018/10/26/reports-florida-police-detain-man-for-questioning-on-mail-bomb-campaign/
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2018-10-26 16:34:19
+
+You are a pathetic denier of your own side spewing the violent rhetoric.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2018-10-26 15:10:05
+
+
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 849
+
+They're busy putting a MAGA hat and the Confederate Battle Standard in his place of residence.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+So sad. All of these angry and violent Trump supporters. I guess not even "winning" can make them happy. Sad out society has come to this because of the violent and twisted right.
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2018-10-26 16:31:24
+
+So sad. All of these angry and violent Trump supporters. I guess not even "winning" can make them happy. Sad out society has come to this because of the violent and twisted right.
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2018-10-26 16:34:19
+
+  You are a pathetic denier of your own side spewing the violent rhetoric.
+
+======================================================================
+

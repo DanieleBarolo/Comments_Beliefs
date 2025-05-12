@@ -1,0 +1,108 @@
+DISAGREEMENTS:
+==================================================
+
+Field: (democrat | liberal) 
+  Annotator 1: nan
+  Annotator 4: E -
+
+Field: Scientists
+  Annotator 1: 0
+  Annotator 4: nan
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: How Many People Aren’t Vaccinating Their Kids in Your State?
+ARTICLE ID: 2278909220
+ARTICLE URL: http://www.motherjones.com/node/244996
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2015-02-15 16:46:39
+
+you can forget the Media, even more unfortunate, the liberal media reporting anything contrary to the pro-vaccine zealotry that has gripped the country, they have become part of the witchhunt spreading the same fear-mongering distortions and deceptions as the shills and trolls who flock to any vaccine thread with smears, attacks and bullying.
+
+I have contacted several liberal news sources with links to the two Merck researchers lawsuit and zip, zilch, zero, nada.
+
+needless to say am not holding my breath, all I can do is post the information everywhere I go with the hopes of alerting those who have questions and concerns about vaccines.
+
+I am heartened to now see other commenters beginning to ask the same question.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2014-02-17 11:33:17
+
+It is my "personal belief" that unless there is some medical reason why a child should not be vaccinated, the child should not be exempted - ever. This ridiculous vaccination rebellion is endangering the rest of us, let alone risking the lives of the poor kids whose parents subscribe to this misinformation. The fact that the governments of these states are acting in such a dangerous way is appalling.
+
+
+This is just another example of how lies are perpetuated by repetition. Science has discredited these myths and yet anti-government paranoids keep hammering away with untruths. People are dying as a result.
+
+
+As to the religious exemption...what child has a choice about that? Here we have another example of fairy tales in the form of "beliefs" endangering the rest of us. It is worse than immoral. It is arrogantly evil.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 624
+
+It is my "personal belief" that unless there is some medical reason why a child should not be vaccinated, the child should not be exempted - ever. This ridiculous vaccination rebellion is endangering the rest of us, let alone risking the lives of the poor kids whose parents subscribe to this misinformation. The fact that the governments of these states are acting in such a dangerous way is appalling.
+
+
+This is just another example of how lies are perpetuated by repetition. Science has discredited these myths and yet anti-government paranoids keep hammering away with untruths. People are dying as a result.
+
+
+As to the religious exemption...what child has a choice about that? Here we have another example of fairy tales in the form of "beliefs" endangering the rest of us. It is worse than immoral. It is arrogantly evil.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+I agree with John's Mom.
+
+
+Mother Jones,
+
+Have you checked, yet, into the "whistleblower" CDC (Centers for Disease Control) top scientist yet, Dr. William W. Thompson, phD, who (and I give him a lot of credit for this) confessed that he and other scientists (in the CDC) "manipulated" (fudged &/or omitted) important CDC data, that WOULD have shown a connection between being vaccinated with certain vaccines, and then getting AUTISM?
+
+
+Parents and Mother Jones: Please read:
+
+
+www.NVIC.org and www.VAXTRUTH.org
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2015-02-03 22:23:38
+
+With an autism rate of 1 in 66, there are a whole bunch of parents out there who have good reason to suspect their children have a mitochondrial disorder.  Mitochondrial disorders were implicated in many of the cases of vaccine-induced autism that have been compensated over $2 Billion to date by the U.S. Government-administered Vaccine Injury Compensation Program.  Without any research explaining the already hair-raising--and accelerating-- rise in autism over the past two decades, is it any wonder that parents of children already diagnosed with autism or ADHD are reluctant to immunize their children?  I don't think so.
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2015-02-11 11:26:42
+
+  I agree with John's Mom.
+
+
+Mother Jones,
+
+Have you checked, yet, into the "whistleblower" CDC (Centers for Disease Control) top scientist yet, Dr. William W. Thompson, phD, who (and I give him a lot of credit for this) confessed that he and other scientists (in the CDC) "manipulated" (fudged &/or omitted) important CDC data, that WOULD have shown a connection between being vaccinated with certain vaccines, and then getting AUTISM?
+
+
+Parents and Mother Jones: Please read:
+
+
+www.NVIC.org and www.VAXTRUTH.org
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2015-02-15 16:46:39
+
+    you can forget the Media, even more unfortunate, the liberal media reporting anything contrary to the pro-vaccine zealotry that has gripped the country, they have become part of the witchhunt spreading the same fear-mongering distortions and deceptions as the shills and trolls who flock to any vaccine thread with smears, attacks and bullying.
+
+I have contacted several liberal news sources with links to the two Merck researchers lawsuit and zip, zilch, zero, nada.
+
+needless to say am not holding my breath, all I can do is post the information everywhere I go with the hopes of alerting those who have questions and concerns about vaccines.
+
+I am heartened to now see other commenters beginning to ask the same question.
+
+======================================================================
+

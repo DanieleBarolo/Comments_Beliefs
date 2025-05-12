@@ -1,0 +1,72 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 2: "Sorta like aximouth's threats...and Brennans', Obama's, Hillary's.........." Not sure from context, against maga or not?
+  Annotator 3: Brennan - antigun historian
+
+Field: Barack Obama
+  Annotator 2: nan
+  Annotator 3: E -
+
+Field: (democrat | liberal) 
+  Annotator 2: nan
+  Annotator 3: E -
+
+Field: Progressives
+  Annotator 2: nan
+  Annotator 3: I -
+
+Field: Hillary Clinton
+  Annotator 2: nan
+  Annotator 3: E -
+
+Field: Guns | NRA | 2nd amendment 
+  Annotator 2: nan
+  Annotator 3: I +
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Reports: Florida Police Detain Man for Questioning on Mail Bomb Campaign
+ARTICLE ID: 6998004795
+ARTICLE URL: https://www.breitbart.com/politics/2018/10/26/reports-florida-police-detain-man-for-questioning-on-mail-bomb-campaign/
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2018-10-26 15:50:21
+
+Sorta like aximouth's threats...and Brennans', Obama's, Hillary's..........
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2018-10-26 15:10:05
+
+
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 849
+
+They're busy putting a MAGA hat and the Confederate Battle Standard in his place of residence.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2018-10-26 15:49:07
+
+
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2018-10-26 15:50:21
+
+  Sorta like aximouth's threats...and Brennans', Obama's, Hillary's..........
+
+======================================================================
+

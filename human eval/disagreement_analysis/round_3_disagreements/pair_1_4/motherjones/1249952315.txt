@@ -1,0 +1,104 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 1: speaks a bout "science" and "religious" (not really christians) 
+  Annotator 4: Again, need "religion"?
+
+Field: Federal government has too much power
+  Annotator 1: nan
+  Annotator 4: I +
+
+Field: Scientists
+  Annotator 1: I -
+  Annotator 4: nan
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: How Many People Aren’t Vaccinating Their Kids in Your State?
+ARTICLE ID: 2278909220
+ARTICLE URL: http://www.motherjones.com/node/244996
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2014-02-18 17:46:26
+
+And just how do you determine this "medical reason", in advance?   
+
+In general, life threatening reactions to vaccines are not predictable at the individual level.
+
+I have personal experience with an infant (not my own, but a close relative) that, with no exaggeration, nearly died due having received a common childhood vaccine.
+
+His older siblings had all received this vaccine without ill effect, beyond slight fever, yet this child suffered near fatal fever and convulsions.  It was a harrowing experience for the family, as we kept vigil.
+ 
+I am tempted to vent some spleen on those of you on your "high horses" here, but will refrain, except to say that your alleged "scientific" views are soiled by your obvious hatred of those who disagree with you.  Especially when they hold a "religious" objection.
+
+Free will.  Heard of it?   Or do you simply wish to make a "herd" of us?
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2014-02-17 11:33:17
+
+It is my "personal belief" that unless there is some medical reason why a child should not be vaccinated, the child should not be exempted - ever. This ridiculous vaccination rebellion is endangering the rest of us, let alone risking the lives of the poor kids whose parents subscribe to this misinformation. The fact that the governments of these states are acting in such a dangerous way is appalling.
+
+
+This is just another example of how lies are perpetuated by repetition. Science has discredited these myths and yet anti-government paranoids keep hammering away with untruths. People are dying as a result.
+
+
+As to the religious exemption...what child has a choice about that? Here we have another example of fairy tales in the form of "beliefs" endangering the rest of us. It is worse than immoral. It is arrogantly evil.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 624
+
+It is my "personal belief" that unless there is some medical reason why a child should not be vaccinated, the child should not be exempted - ever. This ridiculous vaccination rebellion is endangering the rest of us, let alone risking the lives of the poor kids whose parents subscribe to this misinformation. The fact that the governments of these states are acting in such a dangerous way is appalling.
+
+
+This is just another example of how lies are perpetuated by repetition. Science has discredited these myths and yet anti-government paranoids keep hammering away with untruths. People are dying as a result.
+
+
+As to the religious exemption...what child has a choice about that? Here we have another example of fairy tales in the form of "beliefs" endangering the rest of us. It is worse than immoral. It is arrogantly evil.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+It is my "personal belief" that unless there is some medical reason why a child should not be vaccinated, the child should not be exempted - ever. This ridiculous vaccination rebellion is endangering the rest of us, let alone risking the lives of the poor kids whose parents subscribe to this misinformation. The fact that the governments of these states are acting in such a dangerous way is appalling.
+
+
+This is just another example of how lies are perpetuated by repetition. Science has discredited these myths and yet anti-government paranoids keep hammering away with untruths. People are dying as a result.
+
+
+As to the religious exemption...what child has a choice about that? Here we have another example of fairy tales in the form of "beliefs" endangering the rest of us. It is worse than immoral. It is arrogantly evil.
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2014-02-17 11:33:17
+
+It is my "personal belief" that unless there is some medical reason why a child should not be vaccinated, the child should not be exempted - ever. This ridiculous vaccination rebellion is endangering the rest of us, let alone risking the lives of the poor kids whose parents subscribe to this misinformation. The fact that the governments of these states are acting in such a dangerous way is appalling.
+
+
+This is just another example of how lies are perpetuated by repetition. Science has discredited these myths and yet anti-government paranoids keep hammering away with untruths. People are dying as a result.
+
+
+As to the religious exemption...what child has a choice about that? Here we have another example of fairy tales in the form of "beliefs" endangering the rest of us. It is worse than immoral. It is arrogantly evil.
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2014-02-18 17:46:26
+
+  And just how do you determine this "medical reason", in advance?   
+
+In general, life threatening reactions to vaccines are not predictable at the individual level.
+
+I have personal experience with an infant (not my own, but a close relative) that, with no exaggeration, nearly died due having received a common childhood vaccine.
+
+His older siblings had all received this vaccine without ill effect, beyond slight fever, yet this child suffered near fatal fever and convulsions.  It was a harrowing experience for the family, as we kept vigil.
+ 
+I am tempted to vent some spleen on those of you on your "high horses" here, but will refrain, except to say that your alleged "scientific" views are soiled by your obvious hatred of those who disagree with you.  Especially when they hold a "religious" objection.
+
+Free will.  Heard of it?   Or do you simply wish to make a "herd" of us?
+
+======================================================================
+

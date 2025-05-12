@@ -1,0 +1,114 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 1: mentioning Donald Henderson
+  Annotator 4: really difficult, complicated
+
+Field: Scientists
+  Annotator 1: nan
+  Annotator 4: I +
+
+Field: Vaccines
+  Annotator 1: 0
+  Annotator 4: I -
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: How Many People Aren’t Vaccinating Their Kids in Your State?
+ARTICLE ID: 2278909220
+ARTICLE URL: http://www.motherjones.com/node/244996
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2014-02-18 15:01:51
+
+Yes, and the only reservoir for smallpox was humans.  Question is, can we do the same with other diseases?  The person who spearheaded that effort (Donald Henderson) doesn't think so, and thinks smallpox was a special case.  So, have to take that into consideration.  We always have to consider that humans have adapted to their environment, which includes infectious diseases of all types.  Diamond's book includes this thought, which is why resistance to germs allowed Western societies to easily defeat natives.  The more we eliminate diseases, the more we become susceptible to pandemics of those diseases if for some reason they or something like them returns.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2014-02-17 11:33:17
+
+It is my "personal belief" that unless there is some medical reason why a child should not be vaccinated, the child should not be exempted - ever. This ridiculous vaccination rebellion is endangering the rest of us, let alone risking the lives of the poor kids whose parents subscribe to this misinformation. The fact that the governments of these states are acting in such a dangerous way is appalling.
+
+
+This is just another example of how lies are perpetuated by repetition. Science has discredited these myths and yet anti-government paranoids keep hammering away with untruths. People are dying as a result.
+
+
+As to the religious exemption...what child has a choice about that? Here we have another example of fairy tales in the form of "beliefs" endangering the rest of us. It is worse than immoral. It is arrogantly evil.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 624
+
+It is my "personal belief" that unless there is some medical reason why a child should not be vaccinated, the child should not be exempted - ever. This ridiculous vaccination rebellion is endangering the rest of us, let alone risking the lives of the poor kids whose parents subscribe to this misinformation. The fact that the governments of these states are acting in such a dangerous way is appalling.
+
+
+This is just another example of how lies are perpetuated by repetition. Science has discredited these myths and yet anti-government paranoids keep hammering away with untruths. People are dying as a result.
+
+
+As to the religious exemption...what child has a choice about that? Here we have another example of fairy tales in the form of "beliefs" endangering the rest of us. It is worse than immoral. It is arrogantly evil.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2014-02-17 12:11:40
+
+The piece of journalism seems to be pro-vaccine and not unbiased. However I could be biased. I do not vaccinate my children for many reason. I sign a exemption for ethical reasons because mercury and formaldehyde are poisons. That is just two of the many toxic ingredients in vaccines. So it is ridiculous and extremely dangerous to put highly dangerous chemicals and  heavy metals in infants, children's, and adults bodies. It is beyond me that there is anyone who still buys this insanity. The question is why are there so many childhood diseases now compared to before the ramped up vaccine schedule? How come pharmaceutical companies are protected from getting into legal trouble for vaccine injury. That is criminal. My children never get ill, we are perfectly healthy because we protect and boost our immune systems, and we avoid all poisons that we can. All states should make it easy for parents to avoid putting toxic poisons in their children's bodies.
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2014-02-17 14:09:28
+
+  Being "pro-vaccine" is being unbiased. Just as writing from the assumption that gravity draws objects of mass to the earth is not "gravity biased ". Vaccines work and have been proven to be safe. That's science not politics and not opinion. Anti-vaxxers are the climate change deniers of the left. 
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2014-02-17 15:44:23
+
+    The long term consequences of mass vaccination aren't known yet.  The things we are trying to vaccinate against are organisms that respond to environmental pressure.  Try to eliminate their niche and they change.  That's how organisms work.
+
+So, take Pertussis, for example.  "Science" suggests to us that vaccinating against it is leading Pertussis to change to become much more virulent:
+
+http://wwwnc.cdc.gov/eid/article/15/8/08-1511_article.htm
+
+Same thing going on with organisms that used to cause middle ear infections.  Ear infections used to be easily treatable, because most were caused by S. Pneumoniae or H. Influenzae, which can be readily killed with antibiotics.  Vaccines reduce the presence of these easily treated infections, but of course don't eliminate the middle ear as a good niche for bacteria.  And thus, bacteria move in that have resistant properties to antibiotics and can't be killed easily.  So, the rates of non-dangerous and simply annoying middle ear infections go down (yay vaccines!) while the rates of potentially life threatening middle ear infections with bacteria that can't be killed by antibiotics go up (boo vaccines!)  Turns out that the middle ear is like soil -- if you spray for weeds, you just get resistant weeds.
+
+And, what happens when you try to substitute the "fake" immunity that vaccines provide (fake because the whole point of vaccines is to activate the immune system without activating the immune system) for real immunity?  You get carriers.  People who have been vaccinated against pertussus carry it while those who got the real infection have real immunity and don't carry it:
+
+http://www.forbes.com/sites/emilywillingham/2013/11/26/government-funded-study-reveals-vaccine-weakness/
+
+So it's not as simple as all you pro-vaccine folks would make it out to be, now is it?
+
+And finally, how about side effects of vaccination like nut allergies?  You are aware that the etiology of life threatening nut allergies is almost certainly the peanut oil used as an adjuvant, right?  So, do you list those on the "deaths caused by vaccines" side of things?  Bet you don't.  So, no bias coming from the "scientists", now is there.....
+
+And finally, have vaccines really "saved the world" from the infectious diseases of childhood?
+
+Try this:
+
+https://jscholarship.library.jhu.edu/bitstream/handle/1774.2/936/WP90-07_Childhood_Mortality.pdf
+
+Look at Figure 1, infant mortality back to 1750.  Please show me where the "massive" drop off in infant mortality happens once vaccines are introduced in the last 60 years.  Because what I see is a long term declining trend that is pretty stable up until about 1950, at which point it levels off and doesn't change much.  Now, if you zoom in, I'm sure you will show me some decline, but when plotted against the big picture, vaccines disappear into insignificance.
+
+You folks need to think about the big picture instead of blindly singing your pro-vaccine hymns in the church of science.
+
+- - - - - - - - - - - - - - - - - - - -
+      Comment 4:
+      Date: 2014-02-17 17:55:44
+
+      
+
+- - - - - - - - - - - - - - - - - - - -
+        Comment 5:
+        Date: 2014-02-18 15:01:51
+
+        Yes, and the only reservoir for smallpox was humans.  Question is, can we do the same with other diseases?  The person who spearheaded that effort (Donald Henderson) doesn't think so, and thinks smallpox was a special case.  So, have to take that into consideration.  We always have to consider that humans have adapted to their environment, which includes infectious diseases of all types.  Diamond's book includes this thought, which is why resistance to germs allowed Western societies to easily defeat natives.  The more we eliminate diseases, the more we become susceptible to pandemics of those diseases if for some reason they or something like them returns.
+
+======================================================================
+

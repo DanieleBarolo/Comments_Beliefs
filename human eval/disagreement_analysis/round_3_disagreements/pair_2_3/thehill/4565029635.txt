@@ -1,0 +1,58 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 2: Mention, no stance
+  Annotator 3: racism is a problem
+
+Field: Israel 
+  Annotator 2: nan
+  Annotator 3: 0.0
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Shooter injures at least 18 at Wal-Mart in El Paso
+ARTICLE ID: 7568558100
+ARTICLE URL: https://thehill.com/homenews/state-watch/456054-shooter-injures-at-least-18-at-wal-mart-in-el-paso
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2019-08-04 03:34:24
+
+actually Trump is really close to Israel.
+Duke supports Tulsi now
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2019-08-03 18:19:32
+
+The president of hatred, strikes again.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 268
+
+
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+Jew Hater David Duke and White Racist is a trumpo supporter.
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2019-08-04 03:33:35
+
+Jew Hater David Duke and White Racist is a trumpo supporter.
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2019-08-04 03:34:24
+
+  actually Trump is really close to Israel.
+Duke supports Tulsi now
+
+======================================================================
+

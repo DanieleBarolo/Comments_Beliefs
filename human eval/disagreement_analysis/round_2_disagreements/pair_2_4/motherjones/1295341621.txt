@@ -1,0 +1,54 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 2: Viagra etc again. Against HL but difficult to see issue/stance for us
+  Annotator 4: nan
+
+Field: Universal healthcare 
+  Annotator 2: nan
+  Annotator 4: I +
+
+Field: Abortion
+  Annotator 2: nan
+  Annotator 4: I +
+
+Field: Feminism 
+  Annotator 2: nan
+  Annotator 4: I +
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Are You There God? It's Me, Hobby Lobby
+ARTICLE ID: 2475779307
+ARTICLE URL: http://www.motherjones.com/node/247976
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2014-03-21 19:41:18
+
+Why aren't they are also against paying for penis pumps, Viagra, and Cialis?  It's God's will when a man can't "stand proud" on his own.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2014-03-21 10:20:03
+
+Hobby Lobby can turn American, or get the corporate death penalty. Control freak religious bigots: one of the biggest problems facing the U.S. today.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 293
+
+Hobby Lobby can turn American, or get the corporate death penalty. Control freak religious bigots: one of the biggest problems facing the U.S. today.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+TARGET COMMENT IS A PARENT COMMENT (no parent exists)
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+No thread available (single comment)
+======================================================================
+

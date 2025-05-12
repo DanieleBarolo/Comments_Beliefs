@@ -1,0 +1,74 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 2: Context implicit trump -
+  Annotator 3: nan
+
+Field: Donald Trump
+  Annotator 2: I -
+  Annotator 3: E -
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Shooter injures at least 18 at Wal-Mart in El Paso
+ARTICLE ID: 7568558100
+ARTICLE URL: https://thehill.com/homenews/state-watch/456054-shooter-injures-at-least-18-at-wal-mart-in-el-paso
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2019-08-04 12:13:03
+
+"Unhinged nutjob" Jesus, why do I have to repeat myself: I AM NOT A TRUMPT@RD
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2019-08-03 18:19:32
+
+The president of hatred, strikes again.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 268
+
+
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+Unhinged nutjob, you are
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2019-08-04 12:07:14
+
+
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2019-08-04 12:08:23
+
+  You writing your manifesto yet?
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2019-08-04 12:10:15
+
+    Not a Trumpt@rd, no need for a manifesto. How's yours coming along?
+
+- - - - - - - - - - - - - - - - - - - -
+      Comment 4:
+      Date: 2019-08-04 12:10:44
+
+      Unhinged nutjob, you are
+
+- - - - - - - - - - - - - - - - - - - -
+        Comment 5:
+        Date: 2019-08-04 12:13:03
+
+        "Unhinged nutjob" Jesus, why do I have to repeat myself: I AM NOT A TRUMPT@RD
+
+======================================================================
+

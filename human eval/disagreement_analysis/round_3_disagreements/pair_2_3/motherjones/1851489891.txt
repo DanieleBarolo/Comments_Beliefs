@@ -1,0 +1,90 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Progressives
+  Annotator 2: E +
+  Annotator 3: 0
+
+Field: Universal healthcare 
+  Annotator 2: E +
+  Annotator 3: I +
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: America's Largest Health Care Company Tells Supreme Court That Anti-Obamacare Argument Is "Absurd"
+ARTICLE ID: 3501101516
+ARTICLE URL: http://www.motherjones.com/node/270011
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2015-02-13 11:49:31
+
+<em>You can't simultaneously cover more people for less money, it's impossible.</em>  You're the moron. You do know how insurance works, right? Pool the risks.  You also apparently don't know that the uninsured were still costing the insured people money, lots of money; having them insured actually gives them access to cheaper forms of medical care than going to the ER when, for example, their kid is running a 105º fever.  If they couldn't pay then the costs get passed on to the customers who can, customers like you, Fido70.  Keep up your stupid propaganda, it won't work.
+
+The ACA was the brainchild of Koch-funded, conservative libertarian thinktank The Heritage Foundation.  But it's working  (more people are insured, healthcare inflation has slowed to its lowest pace in decades, <em>etc.</em>and yet the conservative morons still complain.  Progressives want a single payer system, so stop your b-itching.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2015-02-10 01:09:24
+
+So basically, Congress passed legislation - that the president signed into law - that was good for business, good for consumers, and beneficial to the welfare of Americans. Now it's being held hostage by "Christians", libertarians and slow-thinking Republicans - as usual.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 1561
+
+It seems this thread is full of morons.  What else to expect from a mother jones article though.
+
+
+The ACA is a horrible law.  You can't simultaneously cover more people for less money, it's impossible.  You all had to lie, obfuscate and omit, to get it passed.
+
+
+It's no surprise that a health care company that is making millions, and is guaranteed a bailout is playing their role as a cheerleaders for it.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+It seems this thread is full of morons.  What else to expect from a mother jones article though.
+
+
+The ACA is a horrible law.  You can't simultaneously cover more people for less money, it's impossible.  You all had to lie, obfuscate and omit, to get it passed.
+
+
+It's no surprise that a health care company that is making millions, and is guaranteed a bailout is playing their role as a cheerleaders for it.
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2015-02-10 01:09:24
+
+So basically, Congress passed legislation - that the president signed into law - that was good for business, good for consumers, and beneficial to the welfare of Americans. Now it's being held hostage by "Christians", libertarians and slow-thinking Republicans - as usual.
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2015-02-10 01:29:00
+
+  That seems to be par for the course.
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2015-02-10 16:27:08
+
+    It seems this thread is full of morons.  What else to expect from a mother jones article though.
+
+
+The ACA is a horrible law.  You can't simultaneously cover more people for less money, it's impossible.  You all had to lie, obfuscate and omit, to get it passed.
+
+
+It's no surprise that a health care company that is making millions, and is guaranteed a bailout is playing their role as a cheerleaders for it.
+
+- - - - - - - - - - - - - - - - - - - -
+      Comment 4:
+      Date: 2015-02-13 11:49:31
+
+      <em>You can't simultaneously cover more people for less money, it's impossible.</em>  You're the moron. You do know how insurance works, right? Pool the risks.  You also apparently don't know that the uninsured were still costing the insured people money, lots of money; having them insured actually gives them access to cheaper forms of medical care than going to the ER when, for example, their kid is running a 105º fever.  If they couldn't pay then the costs get passed on to the customers who can, customers like you, Fido70.  Keep up your stupid propaganda, it won't work.
+
+The ACA was the brainchild of Koch-funded, conservative libertarian thinktank The Heritage Foundation.  But it's working  (more people are insured, healthcare inflation has slowed to its lowest pace in decades, <em>etc.</em>and yet the conservative morons still complain.  Progressives want a single payer system, so stop your b-itching.
+
+======================================================================
+

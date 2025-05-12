@@ -1,0 +1,72 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 1: this could also be interpreded in the opposite way 
+  Annotator 4: Again so difficult to really understand this; think that Trump is the cult here.
+
+Field: Donald Trump
+  Annotator 1: I -
+  Annotator 4: E -
+
+Field: Joe Biden
+  Annotator 1: nan
+  Annotator 4: E +
+
+Field: (democrat | liberal) 
+  Annotator 1: nan
+  Annotator 4: I +
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Biden takes on Trump in fiery address on Jan. 6
+ARTICLE ID: 8958859912
+ARTICLE URL: https://thehill.com/homenews/administration/588527-biden-takes-on-trump-in-fiery-address-on-jan-6
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2022-01-06 15:43:10
+
+" I don't like everything he has done. I won't pretend that he hasn't made some mistakes. "
+
+because you're not a crazy person and don't belong to a cult
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2022-01-06 14:57:26
+
+Trump KO'd.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 94
+
+Tea Pain
+@TeaPainUSA
+
+
+Garland's speech yesterday and President Biden labelin' Trump as the undisputed leader of the #January6th attack sounds like a one-two punch kickin' off 2022 as the year of accountability for those who sought to stop the peaceful transfer of power.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+Damn straight!  I stand with Joe.   I don't like everything he has done.  I won't pretend that he hasn't made some mistakes.   But, I'll take him over the former guy everyday of the week.  At least, when he makes a mistake, he owns it.  Unlike the former guy, he's trying to make this country better.
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2022-01-06 15:41:17
+
+Damn straight!  I stand with Joe.   I don't like everything he has done.  I won't pretend that he hasn't made some mistakes.   But, I'll take him over the former guy everyday of the week.  At least, when he makes a mistake, he owns it.  Unlike the former guy, he's trying to make this country better.
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2022-01-06 15:43:10
+
+  " I don't like everything he has done. I won't pretend that he hasn't made some mistakes. "
+
+because you're not a crazy person and don't belong to a cult
+
+======================================================================
+

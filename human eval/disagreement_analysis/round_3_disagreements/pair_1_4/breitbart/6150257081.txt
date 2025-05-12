@@ -1,0 +1,82 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 1: again used "elites" for "soros"
+  Annotator 4: Ahh the Soros thing here (so indirectly I would say getting into anti jewish)
+
+Field: Donald Trump
+  Annotator 1: nan
+  Annotator 4: E +
+
+Field: Joe Biden
+  Annotator 1: E -
+  Annotator 4: nan
+
+Field: (democrat | liberal) 
+  Annotator 1: E -
+  Annotator 4: nan
+
+Field: Federal government has too much power
+  Annotator 1: E -
+  Annotator 4: nan
+
+Field: Police
+  Annotator 1: E -
+  Annotator 4: nan
+
+Field: Elites
+  Annotator 1: E -
+  Annotator 4: nan
+
+Field: Jews
+  Annotator 1: nan
+  Annotator 4: I -
+
+Field: America is in decline 
+  Annotator 1: nan
+  Annotator 4: E +
+
+Field: Free trade | globalization 
+  Annotator 1: nan
+  Annotator 4: I -
+
+Field: Billionaires
+  Annotator 1: nan
+  Annotator 4: E -
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Report: New York Grand Jury Indicts Donald Trump
+ARTICLE ID: 9638510923
+ARTICLE URL: https://www.breitbart.com/politics/2023/03/30/report-new-york-grand-jury-indicts-donald-trump/
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2023-03-30 23:36:11
+
+We have the worse gov in our history, I hope the people start protesting all over this nation.  They protest over abortion and other crazy things, this is a serious blow to our country.  Clinton, Kennedy, Roosevelt and other presidents had affairs while in office, nothing was done to them.  What they are going after Trump happened 7 years ago, we got a blk. fat, soros bought no-good DA..  Where does Soros get all those millions from, he is almost 90 years old, perhaps those left political punks are funneling monies through Soros to do what they want.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2023-03-30 21:46:47
+
+Bragg.  You stupid bastard.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 929
+
+Go ahead. He still has my vote
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+TARGET COMMENT IS A PARENT COMMENT (no parent exists)
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+No thread available (single comment)
+======================================================================
+

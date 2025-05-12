@@ -1,0 +1,87 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Guns | NRA | 2nd amendment 
+  Annotator 3: I -
+  Annotator 4: E -
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Our Country's Cartoonish Gun Debate Isn't Just Idiotic—It's Really Damaging
+ARTICLE ID: 3740800309
+ARTICLE URL: http://www.motherjones.com/node/274776
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2015-05-07 23:20:26
+
+The best and most likely outcome for gun owners is it sits there and does nothing. If it gets used, it is more likely to harm the owner, a friend, a family member or a loved one than to hurt or repel a bad guy. A good way to see how this might be so is to notice how many news reports there are of the former vs. the latter. My informal count over the last year or so shows about a 20 to 1 ratio. 
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2015-05-06 10:28:22
+
+If the United States wasn't handcuffed by the demography of the Senate the Democratic Party would be in a much better position to do something about gun violence. As it stands, though, we absolutely need those sparsely-populated states in the Midwest and Rockies to provide us enough Senators to do something about more existentially threatening issues like war, climate change, and the economy.
+
+
+If you ask me, letting the rural states jack off with their exploding dildos at the cost of a few ten thousand people dead to suicide/homicide is a fucking bargain compared to the collateral damage of their flipping out after getting their toys taken away.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 37
+
+We can have sane conversations about, say, motorcycles. We can talk about appropriate design standards and extra licensing and age restrictions and even banning certain people from riding motorcycles in the way that we can't about guns. No one accuses people of talking about appropriate additives for gasolines as trying to sneak in a backdoor clause to stop motorcycle ownership. Nor does a discussion of requiring more stringent state inspection standards for motorcycles introduce cries of tyranny and slippery slopes towards forced public transportation. And certainly no one says or even thinks that a hypothetical state law from forbidding people under the age of 18 riding motorcycles on highways is an assault on the commerce clause of the Constitution.
+
+
+Yet with firearm ownership we routinely see this kind of insane rhetorical brinksmanship. Which is why I call people who support this kind of talk gun fetishists. It shows a complete lack of perspective and I have nothing but disrespect for people who flip out this hard over the topic.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+More likely if you have a gun in the house compared to those who don't.....but not the most likely outcome.
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2015-05-06 18:30:16
+
+If you look at the demographics of gun owners and compare them to the demographics of violent criminals, you will see that increasing the rigor around background checks, banning assault rifles, etc. will do little to address the problem of gun violence. The reason is that most gun crime is committed by prohibited persons. Taking guns away from law abiding citizens will do nothing to make us safer. 
+
+If you do not believe me do yourself a favor and look at these two maps that represent global gun ownership per capita and intentional homicides per capita.
+
+http://en.wikipedia.org/wiki/Number_of_guns_per_capita_by_country#/media/File:World_map_of_civilian_gun_ownership_-_2nd_color_scheme.svg
+
+http://en.wikipedia.org/wiki/List_of_countries_by_intentional_homicide_rate#/media/File:Map_of_world_by_intentional_homicide_rate.svg
+
+Finally, look at homicide statistics from three countries that have sweeping gun bans, England, Ireland and Jamaica.
+
+http://crimepreventionresearchcenter.org/2013/12/murder-and-homicide-rates-before-and-after-gun-bans/
+
+Violent crime is fundamentally a question of poverty and income inequality, Most gun crime is between criminals. 64% of gunshot victims had prior felony convictions, with an average of 11 prior arrests. 73% knew their assailant. 71% of individuals convicted of a gun crime were prohibited persons at the time of the offense. 
+
+Guns are just a convenient boogieman for the elite to target in place of real economic and social reform that would lift poor and middle class family incomes. That is the only effective way to reduce gun violence.
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2015-05-06 18:47:24
+
+  Divide and conquer, I say. Take each point and argue it as though it's the only point. 
+
+
+Nobody's saying gun background checks is going to stop all violence. That's an NRA straw man. But it will stop some, and technological improvements could also reduce the way too frequent deaths and injuries that result of too many guns being too casually kept and used. This is the target of education about the idiocy of owning guns for self protection in almost all circumstances. In he most recent illustrative anecdote (which is supported by careful epidemiologic research) a home owner was invaded and his gun was used to kill him. The invader talked his way into the house and was unarmed, but when threatened with a gun took it from the owner and shot him. This is the more likely outcome of private guns owned for protection, according research: it will harm the owner, a loved one, family member of friend much more often than it will protect one of these people. No amount of NRA propaganda, badly done non-peer-reviewed studies by lawyers, or imagined scenarios ripped from movies and TV will change that fact and if people were apprised of it, many, many fewer would have handguns in their homes in the mistaken belief that it makes them safer.
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2015-05-06 21:22:44
+
+    More likely if you have a gun in the house compared to those who don't.....but not the most likely outcome.
+
+- - - - - - - - - - - - - - - - - - - -
+      Comment 4:
+      Date: 2015-05-07 23:20:26
+
+      The best and most likely outcome for gun owners is it sits there and does nothing. If it gets used, it is more likely to harm the owner, a friend, a family member or a loved one than to hurt or repel a bad guy. A good way to see how this might be so is to notice how many news reports there are of the former vs. the latter. My informal count over the last year or so shows about a 20 to 1 ratio. 
+
+======================================================================
+

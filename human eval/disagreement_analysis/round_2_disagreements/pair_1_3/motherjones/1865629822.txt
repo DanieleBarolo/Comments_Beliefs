@@ -1,0 +1,91 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Military 
+  Annotator 1: 0
+  Annotator 3: nan
+
+Field: Politicians
+  Annotator 1: nan
+  Annotator 3: I -
+
+Field: Guns | NRA | 2nd amendment 
+  Annotator 1: 0
+  Annotator 3: nan
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Bill O'Reilly Has His Own Brian Williams Problem
+ARTICLE ID: 3530917221
+ARTICLE URL: http://www.motherjones.com/node/270421
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2015-02-20 13:59:44
+
+Oh, so they did find the WMDs, wow, who knew?
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2015-02-19 22:44:30
+
+Wow....I always hated Bill O'Reilly but I would've never accused him of being THIS bad until now
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 793
+
+One really can't overstate what a lying, cowardly piece of scum Bill O'Reilly is, he's a classic republican/conservative chicken hawk .
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2015-02-19 22:51:28
+
+Reminds me of Newt expressing moral indignation and trying to impeach Clinton for the Monica Affair while himself having one of his extramarital affairs at that same time.
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2015-02-19 23:22:31
+
+  Only except he didn't try to impeach him for having an affair but for lying under oath which Newt Gingrich didn't do.
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2015-02-19 23:36:34
+
+    And the only reason that hypocrites like little Newtie pressed Clinton on the issue is because they knew that he would lie about it, just like Republican officials (especially types like Newtie) and most other human beings would do under the circumstances. So basically, the pseudo-moralists of the Republican Party wanted to bring down a sitting president of the opposing party by any means available to them. Are you really naive enough to think that they were shocked and offended by the marital infidelity of another politician, be he the county supervisor or the president of the United States? Do you really think that they were scandalized that the president would lie about something like that? Are you so out of touch with reality that you think they were concerned about the dignity of the office of President of the United States?
+The truly pathetic thing about it all is that Clinton's tomcatting would have been shrugged off in most civilized countries.
+
+- - - - - - - - - - - - - - - - - - - -
+      Comment 4:
+      Date: 2015-02-19 23:49:40
+
+      Only except the uproar wasn't about Clinton's tomcatting but his act of perjury which I believe is something to be taken seriously in a democratic society.
+
+- - - - - - - - - - - - - - - - - - - -
+        Comment 5:
+        Date: 2015-02-19 23:54:41
+
+        So where do you stand on Dick Danny and George?
+
+- - - - - - - - - - - - - - - - - - - -
+          Comment 6:
+          Date: 2015-02-20 13:04:29
+
+          
+
+- - - - - - - - - - - - - - - - - - - -
+            Comment 7:
+            Date: 2015-02-20 13:59:44
+
+            Oh, so they did find the WMDs, wow, who knew?
+
+======================================================================
+

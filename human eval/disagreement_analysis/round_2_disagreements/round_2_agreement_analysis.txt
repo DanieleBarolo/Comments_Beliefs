@@ -1,0 +1,422 @@
+ANNOTATION AGREEMENT ANALYSIS - ROUND 2
+==================================================
+
+OVERALL STATISTICS
+------------------------------
+Total comments reviewed: 138
+Comments with at least one disagreement: 133
+Overall agreement rate: 3.62%
+
+AGREEMENT BY PROVIDER
+------------------------------
+thehill:
+  - Total comments: 46
+  - Comments with disagreements: 43
+  - Agreement rate: 6.52%
+
+breitbart:
+  - Total comments: 46
+  - Comments with disagreements: 45
+  - Agreement rate: 2.17%
+
+motherjones:
+  - Total comments: 46
+  - Comments with disagreements: 45
+  - Agreement rate: 2.17%
+
+ANNOTATOR PERFORMANCE
+------------------------------
+Annotator 1:
+  - Total comments annotated: 69
+  - Comments with disagreements: 65
+  - Agreement rate: 5.80%
+
+Annotator 3:
+  - Total comments annotated: 69
+  - Comments with disagreements: 65
+  - Agreement rate: 5.80%
+
+Annotator 2:
+  - Total comments annotated: 69
+  - Comments with disagreements: 68
+  - Agreement rate: 1.45%
+
+Annotator 4:
+  - Total comments annotated: 69
+  - Comments with disagreements: 68
+  - Agreement rate: 1.45%
+
+MOST DIFFICULT ARTICLES
+------------------------------
+motherjones_article_2475779307:
+  - Total comments: 23
+  - Comments with disagreements: 23
+  - Agreement rate: 0.00%
+
+breitbart_article_8263361810:
+  - Total comments: 23
+  - Comments with disagreements: 23
+  - Agreement rate: 0.00%
+
+motherjones_article_3530917221:
+  - Total comments: 23
+  - Comments with disagreements: 22
+  - Agreement rate: 4.35%
+
+breitbart_article_6185044719:
+  - Total comments: 23
+  - Comments with disagreements: 22
+  - Agreement rate: 4.35%
+
+thehill_article_8555615834:
+  - Total comments: 23
+  - Comments with disagreements: 22
+  - Agreement rate: 4.35%
+
+thehill_article_9046450607:
+  - Total comments: 23
+  - Comments with disagreements: 21
+  - Agreement rate: 8.70%
+
+DISAGREEMENT BY FIELD
+------------------------------
+Notes:
+  - Total disagreements: 85
+  - Common disagreement patterns:
+    * in reality the only stance here is against O'Reilly vs NaN: 4 occurrences
+    * sarcasm  vs NaN: 2 occurrences
+    * NaN vs country music: 2 occurrences
+    * I can't interpret "Billdo" vs NaN: 1 occurrences
+    * missing a topic about racism vs NaN: 1 occurrences
+
+(republican | conservative):
+  - Total disagreements: 29
+  - Common disagreement patterns:
+    * I - vs NaN: 8 occurrences
+    * NaN vs I +: 5 occurrences
+    * NaN vs I -: 5 occurrences
+    * I + vs NaN: 3 occurrences
+    * E - vs I -: 2 occurrences
+
+Donald Trump:
+  - Total disagreements: 26
+  - Common disagreement patterns:
+    * NaN vs I +: 9 occurrences
+    * NaN vs I -: 4 occurrences
+    * NaN vs E -: 3 occurrences
+    * I + vs E +: 2 occurrences
+    * 0 vs I -: 1 occurrences
+
+(democrat | liberal) :
+  - Total disagreements: 25
+  - Common disagreement patterns:
+    * E - vs I -: 7 occurrences
+    * NaN vs E -: 4 occurrences
+    * NaN vs I -: 4 occurrences
+    * NaN vs I +: 3 occurrences
+    * E - vs NaN: 2 occurrences
+
+Joe Biden:
+  - Total disagreements: 21
+  - Common disagreement patterns:
+    * NaN vs I -: 8 occurrences
+    * NaN vs E -: 4 occurrences
+    * NaN vs I +: 3 occurrences
+    * E - vs NaN: 2 occurrences
+    * I + vs E -: 1 occurrences
+
+(Media | Journalists) :
+  - Total disagreements: 18
+  - Common disagreement patterns:
+    * NaN vs I -: 6 occurrences
+    * E - vs I -: 5 occurrences
+    * E - vs NaN: 2 occurrences
+    * I - vs NaN: 2 occurrences
+    * I - vs E -: 1 occurrences
+
+Voting process is fair :
+  - Total disagreements: 18
+  - Common disagreement patterns:
+    * NaN vs I +: 8 occurrences
+    * NaN vs E -: 2 occurrences
+    * E - vs NaN: 2 occurrences
+    * NaN vs I -: 2 occurrences
+    * I - vs E -: 2 occurrences
+
+Progressives:
+  - Total disagreements: 14
+  - Common disagreement patterns:
+    * NaN vs I -: 5 occurrences
+    * NaN vs E -: 3 occurrences
+    * NaN vs I +: 3 occurrences
+    * E - vs I -: 3 occurrences
+
+Russia:
+  - Total disagreements: 12
+  - Common disagreement patterns:
+    * I - vs E -: 3 occurrences
+    * NaN vs I -: 2 occurrences
+    * 0 vs I -: 2 occurrences
+    * NaN vs I +: 1 occurrences
+    * 0 vs NaN: 1 occurrences
+
+America is in decline :
+  - Total disagreements: 10
+  - Common disagreement patterns:
+    * NaN vs I +: 3 occurrences
+    * NaN vs E +: 3 occurrences
+    * E + vs NaN: 1 occurrences
+    * E - vs E +: 1 occurrences
+    * 0 vs NaN: 1 occurrences
+
+Politicians:
+  - Total disagreements: 8
+  - Common disagreement patterns:
+    * NaN vs I -: 5 occurrences
+    * E - vs I -: 1 occurrences
+    * NaN vs I +: 1 occurrences
+    * NaN vs E -: 1 occurrences
+
+Guns | NRA | 2nd amendment :
+  - Total disagreements: 8
+  - Common disagreement patterns:
+    * 0 vs I +: 2 occurrences
+    * E + vs I +: 2 occurrences
+    * 0 vs NaN: 1 occurrences
+    * I - vs I +: 1 occurrences
+    * I + vs E +: 1 occurrences
+
+Socialism | communism :
+  - Total disagreements: 8
+  - Common disagreement patterns:
+    * NaN vs I -: 5 occurrences
+    * 0 vs NaN: 1 occurrences
+    * E - vs NaN: 1 occurrences
+    * NaN vs I +: 1 occurrences
+
+Universal healthcare :
+  - Total disagreements: 7
+  - Common disagreement patterns:
+    * NaN vs I +: 6 occurrences
+    * NaN vs E +: 1 occurrences
+
+Ukraine:
+  - Total disagreements: 6
+  - Common disagreement patterns:
+    * NaN vs I -: 2 occurrences
+    * I - vs E -: 2 occurrences
+    * NaN vs I +: 2 occurrences
+
+Military :
+  - Total disagreements: 5
+  - Common disagreement patterns:
+    * 0 vs NaN: 4 occurrences
+    * I - vs NaN: 1 occurrences
+
+Oil | Gas | Drill | Pipeline:
+  - Total disagreements: 5
+  - Common disagreement patterns:
+    * 0 vs NaN: 3 occurrences
+    * I - vs NaN: 1 occurrences
+    * 0 vs E +: 1 occurrences
+
+America is a great country | nation:
+  - Total disagreements: 5
+  - Common disagreement patterns:
+    * NaN vs I +: 2 occurrences
+    * 0 vs NaN: 1 occurrences
+    * NaN vs I -: 1 occurrences
+    * NaN vs E -: 1 occurrences
+
+White people:
+  - Total disagreements: 5
+  - Common disagreement patterns:
+    * NaN vs I +: 3 occurrences
+    * NaN vs I -: 1 occurrences
+    * I + vs NaN: 1 occurrences
+
+(Christians | Christianity):
+  - Total disagreements: 5
+  - Common disagreement patterns:
+    * NaN vs I -: 2 occurrences
+    * I - vs NaN: 1 occurrences
+    * NaN vs E -: 1 occurrences
+    * NaN vs I +: 1 occurrences
+
+Abortion:
+  - Total disagreements: 5
+  - Common disagreement patterns:
+    * NaN vs I +: 4 occurrences
+    * NaN vs E +: 1 occurrences
+
+Terrorism threat is on the rise:
+  - Total disagreements: 4
+  - Common disagreement patterns:
+    * I - vs NaN: 1 occurrences
+    * NaN vs I +: 1 occurrences
+    * E + vs I +: 1 occurrences
+    * E - vs E +: 1 occurrences
+
+Billionaires:
+  - Total disagreements: 4
+  - Common disagreement patterns:
+    * NaN vs I -: 3 occurrences
+    * NaN vs E -: 1 occurrences
+
+Fascism | Nazism:
+  - Total disagreements: 3
+  - Common disagreement patterns:
+    * 0 vs NaN: 1 occurrences
+    * I - vs E -: 1 occurrences
+    * NaN vs I -: 1 occurrences
+
+Elites:
+  - Total disagreements: 3
+  - Common disagreement patterns:
+    * NaN vs I -: 2 occurrences
+    * I - vs NaN: 1 occurrences
+
+Feminism :
+  - Total disagreements: 3
+  - Common disagreement patterns:
+    * NaN vs I +: 2 occurrences
+    * I + vs E +: 1 occurrences
+
+Scientists:
+  - Total disagreements: 2
+  - Common disagreement patterns:
+    * 0 vs NaN: 1 occurrences
+    * I + vs NaN: 1 occurrences
+
+Barack Obama:
+  - Total disagreements: 2
+  - Common disagreement patterns:
+    * 0 vs I +: 2 occurrences
+
+Immigrants | immigration:
+  - Total disagreements: 2
+  - Common disagreement patterns:
+    * 0 vs NaN: 1 occurrences
+    * NaN vs E -: 1 occurrences
+
+Economy is good :
+  - Total disagreements: 2
+  - Common disagreement patterns:
+    * NaN vs I +: 1 occurrences
+    * NaN vs 0: 1 occurrences
+
+Free trade | globalization :
+  - Total disagreements: 2
+  - Common disagreement patterns:
+    * 0 vs NaN: 1 occurrences
+    * 0 vs I +: 1 occurrences
+
+Crime is on the rise:
+  - Total disagreements: 2
+  - Common disagreement patterns:
+    * NaN vs I +: 2 occurrences
+
+Federal government has too much power:
+  - Total disagreements: 2
+  - Common disagreement patterns:
+    * NaN vs I +: 1 occurrences
+    * E - vs I +: 1 occurrences
+
+Hillary Clinton:
+  - Total disagreements: 2
+  - Common disagreement patterns:
+    * NaN vs I +: 1 occurrences
+    * NaN vs I -: 1 occurrences
+
+China:
+  - Total disagreements: 2
+  - Common disagreement patterns:
+    * NaN vs E -: 1 occurrences
+    * E - vs I -: 1 occurrences
+
+Black people:
+  - Total disagreements: 2
+  - Common disagreement patterns:
+    * NaN vs I +: 1 occurrences
+    * I + vs NaN: 1 occurrences
+
+Universities:
+  - Total disagreements: 1
+  - Common disagreement patterns:
+    * I + vs NaN: 1 occurrences
+
+Israel :
+  - Total disagreements: 1
+  - Common disagreement patterns:
+    * 0.0 vs NaN: 1 occurrences
+
+Palestine:
+  - Total disagreements: 1
+  - Common disagreement patterns:
+    * 0.0 vs NaN: 1 occurrences
+
+(Muslims | Islam):
+  - Total disagreements: 1
+  - Common disagreement patterns:
+    * 0 vs NaN: 1 occurrences
+
+Gay | LGBTQ+ :
+  - Total disagreements: 1
+  - Common disagreement patterns:
+    * E - vs NaN: 1 occurrences
+
+EU | Europe | European country:
+  - Total disagreements: 1
+  - Common disagreement patterns:
+    * I - vs NaN: 1 occurrences
+
+Social media:
+  - Total disagreements: 1
+  - Common disagreement patterns:
+    * NaN vs I -: 1 occurrences
+
+Capitalism:
+  - Total disagreements: 1
+  - Common disagreement patterns:
+    * NaN vs I +: 1 occurrences
+
+Unemployment benefits:
+  - Total disagreements: 1
+  - Common disagreement patterns:
+    * NaN vs I +: 1 occurrences
+
+Police:
+  - Total disagreements: 1
+  - Common disagreement patterns:
+    * NaN vs I +: 1 occurrences
+
+Covid:
+  - Total disagreements: 1
+  - Common disagreement patterns:
+    * NaN vs I -: 1 occurrences
+
+ANALYSIS OF SIMILAR DISAGREEMENTS
+------------------------------
+Common patterns in the disagreements:
+
+* Both contain '-': 34 occurrences
+  Examples:
+    - (democrat | liberal) : E - vs I -
+    - (Media | Journalists) : E - vs I -
+    - (Media | Journalists) : I - vs E -
+
+* Both contain '+': 7 occurrences
+  Examples:
+    - Guns | NRA | 2nd amendment : E + vs I +
+    - Guns | NRA | 2nd amendment : I + vs E +
+    - Terrorism threat is on the rise: E + vs I +
+
+* Both contain 'E': 2 occurrences
+  Examples:
+    - America is in decline : E - vs E +
+    - Terrorism threat is on the rise: E - vs E +
+
+* Both contain 'I': 2 occurrences
+  Examples:
+    - Guns | NRA | 2nd amendment : I - vs I +
+    - Russia: I + vs I -

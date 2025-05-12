@@ -1,0 +1,112 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 1: nan
+  Annotator 3: sarcasm, unclear
+
+Field: (republican | conservative)
+  Annotator 1: I -
+  Annotator 3: nan
+
+Field: (Media | Journalists) 
+  Annotator 1: I -
+  Annotator 3: nan
+
+Field: Scientists
+  Annotator 1: I +
+  Annotator 3: nan
+
+Field: Universities
+  Annotator 1: I +
+  Annotator 3: nan
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Bill O'Reilly Has His Own Brian Williams Problem
+ARTICLE ID: 3530917221
+ARTICLE URL: http://www.motherjones.com/node/270421
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2015-02-23 02:27:45
+
+Succinctly put.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2015-02-19 22:44:30
+
+Wow....I always hated Bill O'Reilly but I would've never accused him of being THIS bad until now
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 793
+
+One really can't overstate what a lying, cowardly piece of scum Bill O'Reilly is, he's a classic republican/conservative chicken hawk .
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+Come-on Bill.  Come clean.  Quit bullshitting us for cripes-sake.  
+Answer the questions about why so many are saying that you embellished 
+war stories.  Like Brian Williams did, you added copious amounts of 
+heroics and survival of life threatening combat situations which never 
+happened.  You really need to do a thorough examination of your 
+conscience. You aren't a journalist any more. You now stand accused of 
+being a phony and an imposter. You are widely regarded as a sleazy, propaganda
+ spewing whore for a notoriously corrupt disinformation service. You and
+ your FOX colleagues are loathed by honest news people with solid 
+ethics. You are wholly ignored by those who are well educated and 
+intelligent enough to recognize when they are deliberately being 
+misinformed. You are a such disgrace. Now, because "What goes around; 
+comes around" you've made yourself a casualty of what should have 
+brought you down long ago. Namely, the pompous way that your staunchest 
+critics allege that you purposefully lie to the audience. You pretend to
+ be our hero. But, you are merely a coward wanting a Purple Heart for a 
+self inflicted wound. You've been caught red-handed and exposed many 
+times before. Soon, the conclusive evidence you have boldly lied and 
+deliberately distorted the truth will emerge. You are opposite anything 
+anywhere near being "Fair and balanced". You are very close to finally 
+being exposed as both pathological and delusional. You probably consider
+ yourself a role model. But, the sad truth of the matter is what you 
+really are is simply, ... bad example.
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2015-02-23 00:07:11
+
+Come-on Bill.  Come clean.  Quit bullshitting us for cripes-sake.  
+Answer the questions about why so many are saying that you embellished 
+war stories.  Like Brian Williams did, you added copious amounts of 
+heroics and survival of life threatening combat situations which never 
+happened.  You really need to do a thorough examination of your 
+conscience. You aren't a journalist any more. You now stand accused of 
+being a phony and an imposter. You are widely regarded as a sleazy, propaganda
+ spewing whore for a notoriously corrupt disinformation service. You and
+ your FOX colleagues are loathed by honest news people with solid 
+ethics. You are wholly ignored by those who are well educated and 
+intelligent enough to recognize when they are deliberately being 
+misinformed. You are a such disgrace. Now, because "What goes around; 
+comes around" you've made yourself a casualty of what should have 
+brought you down long ago. Namely, the pompous way that your staunchest 
+critics allege that you purposefully lie to the audience. You pretend to
+ be our hero. But, you are merely a coward wanting a Purple Heart for a 
+self inflicted wound. You've been caught red-handed and exposed many 
+times before. Soon, the conclusive evidence you have boldly lied and 
+deliberately distorted the truth will emerge. You are opposite anything 
+anywhere near being "Fair and balanced". You are very close to finally 
+being exposed as both pathological and delusional. You probably consider
+ yourself a role model. But, the sad truth of the matter is what you 
+really are is simply, ... bad example.
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2015-02-23 02:27:45
+
+  Succinctly put.
+
+======================================================================
+

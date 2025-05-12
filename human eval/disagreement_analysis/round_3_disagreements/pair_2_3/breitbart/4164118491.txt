@@ -1,0 +1,56 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 2: Not clear what issue/stance. PO, tax dollars
+  Annotator 3: nan
+
+Field: Federal government has too much power
+  Annotator 2: nan
+  Annotator 3: I +
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Reports: Florida Police Detain Man for Questioning on Mail Bomb Campaign
+ARTICLE ID: 6998004795
+ARTICLE URL: https://www.breitbart.com/politics/2018/10/26/reports-florida-police-detain-man-for-questioning-on-mail-bomb-campaign/
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2018-10-26 17:21:20
+
+The PO already officially responded why. They admitted they often let odd shaped packages go thru without touching them. You federal tax dollars at work
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2018-10-26 15:10:05
+
+
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 849
+
+They're busy putting a MAGA hat and the Confederate Battle Standard in his place of residence.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+First question a reporter should ask is, “since these packages were mailed through the post office, why aren’t there any post office markings on the packages indicating the stamps were canceled?”
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2018-10-26 17:10:19
+
+First question a reporter should ask is, “since these packages were mailed through the post office, why aren’t there any post office markings on the packages indicating the stamps were canceled?”
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2018-10-26 17:21:20
+
+  The PO already officially responded why. They admitted they often let odd shaped packages go thru without touching them. You federal tax dollars at work
+
+======================================================================
+

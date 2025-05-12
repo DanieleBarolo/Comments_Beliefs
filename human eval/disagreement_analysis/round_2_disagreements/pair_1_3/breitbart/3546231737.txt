@@ -1,0 +1,104 @@
+DISAGREEMENTS:
+==================================================
+
+Field: (democrat | liberal) 
+  Annotator 1: nan
+  Annotator 3: I -
+
+Field: (republican | conservative)
+  Annotator 1: 0
+  Annotator 3: I +
+
+Field: Progressives
+  Annotator 1: nan
+  Annotator 3: I -
+
+Field: Socialism | communism 
+  Annotator 1: nan
+  Annotator 3: I -
+
+Field: America is in decline 
+  Annotator 1: nan
+  Annotator 3: I +
+
+Field: Guns | NRA | 2nd amendment 
+  Annotator 1: I +
+  Annotator 3: E +
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: BREAKING: Mass Shooting at Las Vegas’ Mandalay Bay; ‘Multiple Victims,’ Strip Shut Down
+ARTICLE ID: 6185044719
+ARTICLE URL: http://www.breitbart.com/big-government/2017/10/02/las-vegas-report-one-gunman-open-fire-mandalay-bay-casino/
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2017-10-02 08:45:00
+
+Given the difficulties for an American Citizen to get hold of an automatic weapon, this smells of foreign assisted terrorism more than any internal clashing between Antifa and those on the right.
+
+
+Calling it now...
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2017-10-02 07:22:20
+
+
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 678
+
+Trump has been trying to help protect us from this and liberals have overuled him at every step.
+
+The Sudanese immigrant who shot up a White Christian Church in Tennessee, now we see this horrific attack.
+
+You liberal sanctuary city appeasers are to blame for this carnage!
+
+The 9th Circuit should feel proud they stopped our President from protecting our homeland.
+
+Sickening!!
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+That's fully automatic gunfire. Serious business. Hope all you lefties are buying CC permits cause cowboys ain't giving up their six-guns.
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2017-10-02 07:22:20
+
+
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2017-10-02 07:29:05
+
+  Remember the judges that blocked the ban!!
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2017-10-02 07:35:26
+
+    Yeah the ones satan Obama personally went and visited to bribe and talk into being traitors in the purple revolution.
+
+- - - - - - - - - - - - - - - - - - - -
+      Comment 4:
+      Date: 2017-10-02 08:36:37
+
+      That's fully automatic gunfire. Serious business. Hope all you lefties are buying CC permits cause cowboys ain't giving up their six-guns.
+
+- - - - - - - - - - - - - - - - - - - -
+        Comment 5:
+        Date: 2017-10-02 08:45:00
+
+        Given the difficulties for an American Citizen to get hold of an automatic weapon, this smells of foreign assisted terrorism more than any internal clashing between Antifa and those on the right.
+
+
+Calling it now...
+
+======================================================================
+

@@ -1,0 +1,92 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 2: Context gives that this comment is for Obamacare, but cannot give stance. Does not say anything really.
+  Annotator 3: nan
+
+Field: Universal healthcare 
+  Annotator 2: nan
+  Annotator 3: I +
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: America's Largest Health Care Company Tells Supreme Court That Anti-Obamacare Argument Is "Absurd"
+ARTICLE ID: 3501101516
+ARTICLE URL: http://www.motherjones.com/node/270011
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2015-02-13 19:07:57
+
+This is the kind of question that is simply not worth answering in this environment, sorry. I have things to do today. Let's just pretend that I answered and that you shot down every single thing I said. There. Now we can move on.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2015-02-10 01:09:24
+
+So basically, Congress passed legislation - that the president signed into law - that was good for business, good for consumers, and beneficial to the welfare of Americans. Now it's being held hostage by "Christians", libertarians and slow-thinking Republicans - as usual.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 1561
+
+It seems this thread is full of morons.  What else to expect from a mother jones article though.
+
+
+The ACA is a horrible law.  You can't simultaneously cover more people for less money, it's impossible.  You all had to lie, obfuscate and omit, to get it passed.
+
+
+It's no surprise that a health care company that is making millions, and is guaranteed a bailout is playing their role as a cheerleaders for it.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+What is your opinion of the "family glitch" problem in the interpretation of the administration of the ACA?
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2015-02-13 12:25:21
+
+How long will the right-wing nutjobs be able to claim that Obamacare is a complete disaster, when EVERY BIT OF EVIDENCE suggests the exact opposite? Their stance has the same validity as that of the birthers. None.
+
+The larger question is, what on God's green earth is WRONG with these people?
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2015-02-13 17:00:25
+
+  EVERY BIT? Really?
+
+The so-called Affordable Care Act has undeniably expanded coverage. More people have some sort of health insurance now than before the Affordable Care Act. If that's your bar, well done, you passed it. Millions still don't have health insurance, of course, and the pricetag for this desultory shift from uninsurance to insurance is astronomical. But, y'know, yay health insurance.
+
+But what is Obamacare-era health insurance like? Look at deductibles. Kaiser Foundation figures show that employer-run plans had average deductibles around $1000 annually, before Obamacare and since (remember, the bit of the law that imposes mandates on employers has been gutted and waived and messed around with repeatedly by its sworn enemies, sorry, got that wrong, BY THE PRESIDENT - acting unlawfully to boot, so another yay for due process and good governance). Bronze-level plans, the most affordable on Obamacare exchanges, have average annual deductibles over $5000. Silver-level plans, the most popular on Obamacare exchanges, have average annual deductibles over $3000. A three- to five-fold increase in out-of-pocket costs might, for some people, constitute a 'bit of evidence' that Obamacare hasn't made care, y'know, affordable. Another 'bit of evidence' - on average, employer-run plans cover at 80%, meaning 20% of costs after the deductible are borne by the insured. For bronze-level Obamacare plans, that's a 40% cost share for the insured; 30% for silver-level plans. Overall, Kaiser figures show that an average American in an employer-run plan covers about 25% of typical annual healthcare costs; for an average American in an exchange plan, that's about 65%. It's unequivocally a great deal for insurers, but I'm surprised to find the readership of Mother Jones so cock-a-hoop about corporate exploitation of sick and elderly citizens. I guess it's okay if the government's involved.
+
+Now, you'll probably know Obamacare uses the tax-subsidy gimmick to disguise, or socialize if you will, the cost borne by the poorest Americans. Actually, wait, not the POOREST Americans - they already had Medicaid, or were here illegally of course. But just above the poorest Americans, the merely poor, those guys get both protection and affordability - just enough of both to impose a ceiling on their earning potential because boy, if they get dumb enough to aspire to something better than dependency, do they get caned. Not only do middle class Americans shoulder that whole cost-shift I talked about, paying two-thirds of their own healthcare costs instead of one-quarter; not only are those costs inflated by the various mechanisms of Obamacare that facilitate inflation at every link in the healthcare delivery chain; they also get to subsidize the group of poor Americans they just worked their way out of.
+
+Moreover, the measures in the law aimed at controlling costs are Stalinistically obtuse. Essentially, the law floods the market with demand and imposes price controls on the limited supply while erecting barriers to increasing that supply (the market-oriented, and so evil, or if you prefer practical, approach to controlling prices). Even if healthcare as a marketplace were not horribly distorted (and some of that distortion is in the nature of healthcare as a commodity; even as a right-winger, I'm not a fan of purely laissez-faire solutions to healthcare delivery as part of a social contract - there has to be a safety net), the restrictions Obamacare places on providers and insurers would strain access to healthcare. Remember, it's not the Affordable INSURANCE Act - it's supposed to provide CARE that affordably protects patients.
+
+On this ground too, there are 'bits of evidence' that the law is failing. The CBO last year observed that "[t]he plans being offered through exchanges in 2014 appear to have, in general, lower payment rates for providers, narrower networks of providers, and tighter management of their subscribers’ use of health care than employment-based plans do." This trend, the report observed, will be unsustainable past 2016 - but Obama will have had his second term by then. I suppose his re-election was the only 'bit of evidence' that mattered...
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2015-02-13 18:39:38
+
+    The sheer length and highly defensive tone of this rant strongly suggest that you know I am right. Bottom line: Obamacare is succeeding, and you don't like it.
+
+- - - - - - - - - - - - - - - - - - - -
+      Comment 4:
+      Date: 2015-02-13 19:05:49
+
+      What is your opinion of the "family glitch" problem in the interpretation of the administration of the ACA?
+
+- - - - - - - - - - - - - - - - - - - -
+        Comment 5:
+        Date: 2015-02-13 19:07:57
+
+        This is the kind of question that is simply not worth answering in this environment, sorry. I have things to do today. Let's just pretend that I answered and that you shot down every single thing I said. There. Now we can move on.
+
+======================================================================
+

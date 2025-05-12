@@ -1,0 +1,586 @@
+UNIFIED ANNOTATION AGREEMENT ANALYSIS
+==================================================
+
+AGREEMENT RATES BY ROUND
+------------------------------
+Round 1: 5.80%
+Round 2: 3.62%
+Round 3: 5.80%
+
+Average agreement rate across all rounds: 5.07%
+
+PROVIDER AGREEMENT RATES ACROSS ROUNDS
+------------------------------
+Provider       Round 1    Round 2    Round 3    Average
+--------------------------------------------------
+breitbart         10.87%    2.17%    6.52%    6.52%
+motherjones        2.17%    2.17%    4.35%    2.90%
+thehill            4.35%    6.52%    6.52%    5.80%
+
+PROVIDERS RANKED BY AVERAGE AGREEMENT RATE
+------------------------------
+breitbart      : 6.52%
+thehill        : 5.80%
+motherjones    : 2.90%
+
+ANNOTATOR AGREEMENT RATES ACROSS ROUNDS
+------------------------------
+Annotator Round 1    Round 2    Round 3    Average
+--------------------------------------------------
+Annotator 1     7.25%    5.80%    7.25%    6.76%
+Annotator 2     7.25%    1.45%    4.35%    4.35%
+Annotator 3     4.35%    5.80%    4.35%    4.83%
+Annotator 4     4.35%    1.45%    7.25%    4.35%
+
+ANALYSIS OF SIMILAR DISAGREEMENTS
+------------------------------
+Common patterns in the disagreements:
+
+* Both contain '-': 97 occurrences
+  Examples:
+    - (democrat | liberal) : E - vs I -
+    - (democrat | liberal) : I - vs E -
+    - Economy is good : I - vs E -
+    - Billionaires: I - vs E -
+    - (republican | conservative): I - vs E -
+
+* Both contain '+': 34 occurrences
+  Examples:
+    - Progressives: I + vs E +
+    - Universal healthcare : E + vs I +
+    - Donald Trump: I + vs E +
+    - Donald Trump: E + vs I +
+    - Voting process is fair : I + vs E +
+
+* Both contain 'I': 12 occurrences
+  Examples:
+    - (democrat | liberal) : I - vs I +
+    - Guns | NRA | 2nd amendment : I - vs I +
+    - Terrorism threat is on the rise: I - vs I +
+    - Feminism : I - vs I +
+    - Gay | LGBTQ+ : I - vs I +
+
+* Both contain 'E': 9 occurrences
+  Examples:
+    - (democrat | liberal) : E - vs E +
+    - Progressives: E - vs E +
+    - Wealth inequality: E + vs E -
+    - (republican | conservative): E + vs E -
+    - Donald Trump: E + vs E -
+
+DISAGREEMENT BY FIELD
+------------------------------
+Donald Trump:
+  - Total disagreements across all rounds: 96
+  - Appeared in 3 round(s)
+  - Common disagreement patterns:
+    * NaN vs I +: 15 occurrences
+    * I - vs E -: 12 occurrences
+    * I - vs NaN: 7 occurrences
+    * I + vs NaN: 7 occurrences
+    * NaN vs I -: 7 occurrences
+
+(republican | conservative):
+  - Total disagreements across all rounds: 95
+  - Appeared in 3 round(s)
+  - Common disagreement patterns:
+    * NaN vs I -: 19 occurrences
+    * I - vs NaN: 16 occurrences
+    * NaN vs I +: 12 occurrences
+    * E - vs NaN: 10 occurrences
+    * I + vs NaN: 9 occurrences
+
+(democrat | liberal) :
+  - Total disagreements across all rounds: 92
+  - Appeared in 3 round(s)
+  - Common disagreement patterns:
+    * NaN vs I -: 18 occurrences
+    * NaN vs I +: 15 occurrences
+    * E - vs I -: 15 occurrences
+    * E - vs NaN: 9 occurrences
+    * NaN vs E -: 9 occurrences
+
+Progressives:
+  - Total disagreements across all rounds: 48
+  - Appeared in 3 round(s)
+  - Common disagreement patterns:
+    * NaN vs I -: 17 occurrences
+    * NaN vs I +: 14 occurrences
+    * NaN vs E -: 7 occurrences
+    * E - vs I -: 3 occurrences
+    * NaN vs E +: 2 occurrences
+
+Joe Biden:
+  - Total disagreements across all rounds: 41
+  - Appeared in 3 round(s)
+  - Common disagreement patterns:
+    * NaN vs I -: 15 occurrences
+    * NaN vs I +: 7 occurrences
+    * NaN vs E -: 6 occurrences
+    * E - vs NaN: 4 occurrences
+    * NaN vs E +: 2 occurrences
+
+Voting process is fair :
+  - Total disagreements across all rounds: 31
+  - Appeared in 3 round(s)
+  - Common disagreement patterns:
+    * NaN vs I +: 9 occurrences
+    * I + vs NaN: 4 occurrences
+    * E - vs NaN: 4 occurrences
+    * I - vs NaN: 3 occurrences
+    * E - vs I -: 2 occurrences
+
+Universal healthcare :
+  - Total disagreements across all rounds: 28
+  - Appeared in 3 round(s)
+  - Common disagreement patterns:
+    * NaN vs I +: 19 occurrences
+    * E + vs I +: 2 occurrences
+    * E - vs I -: 2 occurrences
+    * E + vs NaN: 1 occurrences
+    * E - vs NaN: 1 occurrences
+
+(Media | Journalists) :
+  - Total disagreements across all rounds: 25
+  - Appeared in 3 round(s)
+  - Common disagreement patterns:
+    * NaN vs I -: 7 occurrences
+    * E - vs I -: 5 occurrences
+    * I - vs NaN: 4 occurrences
+    * E - vs NaN: 3 occurrences
+    * 0 vs NaN: 3 occurrences
+
+Guns | NRA | 2nd amendment :
+  - Total disagreements across all rounds: 25
+  - Appeared in 3 round(s)
+  - Common disagreement patterns:
+    * I - vs E -: 7 occurrences
+    * NaN vs I +: 4 occurrences
+    * I - vs NaN: 3 occurrences
+    * I - vs I +: 2 occurrences
+    * 0 vs NaN: 2 occurrences
+
+America is in decline :
+  - Total disagreements across all rounds: 21
+  - Appeared in 3 round(s)
+  - Common disagreement patterns:
+    * NaN vs I +: 5 occurrences
+    * E + vs NaN: 4 occurrences
+    * NaN vs E +: 4 occurrences
+    * I - vs NaN: 2 occurrences
+    * I + vs NaN: 1 occurrences
+
+Politicians:
+  - Total disagreements across all rounds: 20
+  - Appeared in 3 round(s)
+  - Common disagreement patterns:
+    * NaN vs I -: 8 occurrences
+    * NaN vs E -: 5 occurrences
+    * NaN vs I +: 2 occurrences
+    * NaN vs 0: 1 occurrences
+    * I - vs E -: 1 occurrences
+
+Federal government has too much power:
+  - Total disagreements across all rounds: 15
+  - Appeared in 3 round(s)
+  - Common disagreement patterns:
+    * NaN vs I -: 5 occurrences
+    * NaN vs I +: 3 occurrences
+    * I - vs NaN: 1 occurrences
+    * E + vs NaN: 1 occurrences
+    * E - vs I +: 1 occurrences
+
+Russia:
+  - Total disagreements across all rounds: 14
+  - Appeared in 2 round(s)
+  - Common disagreement patterns:
+    * I - vs E -: 4 occurrences
+    * NaN vs I -: 2 occurrences
+    * 0 vs I -: 2 occurrences
+    * E - vs I -: 1 occurrences
+    * NaN vs I +: 1 occurrences
+
+Military :
+  - Total disagreements across all rounds: 12
+  - Appeared in 3 round(s)
+  - Common disagreement patterns:
+    * 0 vs NaN: 6 occurrences
+    * I - vs NaN: 3 occurrences
+    * I - vs E -: 1 occurrences
+    * E + vs I +: 1 occurrences
+    * I + vs NaN: 1 occurrences
+
+America is a great country | nation:
+  - Total disagreements across all rounds: 12
+  - Appeared in 3 round(s)
+  - Common disagreement patterns:
+    * NaN vs I -: 3 occurrences
+    * E + vs NaN: 2 occurrences
+    * 0 vs NaN: 2 occurrences
+    * NaN vs I +: 2 occurrences
+    * E - vs NaN: 1 occurrences
+
+Scientists:
+  - Total disagreements across all rounds: 12
+  - Appeared in 3 round(s)
+  - Common disagreement patterns:
+    * NaN vs I +: 7 occurrences
+    * 0 vs NaN: 3 occurrences
+    * I + vs NaN: 1 occurrences
+    * I - vs NaN: 1 occurrences
+
+Immigrants | immigration:
+  - Total disagreements across all rounds: 12
+  - Appeared in 3 round(s)
+  - Common disagreement patterns:
+    * NaN vs I -: 4 occurrences
+    * E - vs NaN: 2 occurrences
+    * E - vs I -: 2 occurrences
+    * 0 vs NaN: 2 occurrences
+    * I - vs I +: 1 occurrences
+
+Billionaires:
+  - Total disagreements across all rounds: 11
+  - Appeared in 3 round(s)
+  - Common disagreement patterns:
+    * NaN vs I -: 5 occurrences
+    * NaN vs E -: 4 occurrences
+    * I - vs E -: 1 occurrences
+    * 0 vs NaN: 1 occurrences
+
+Vaccines:
+  - Total disagreements across all rounds: 11
+  - Appeared in 1 round(s)
+  - Common disagreement patterns:
+    * E - vs I -: 2 occurrences
+    * I + vs E +: 2 occurrences
+    * NaN vs I +: 2 occurrences
+    * I - vs E +: 1 occurrences
+    * I - vs I +: 1 occurrences
+
+Socialism | communism :
+  - Total disagreements across all rounds: 10
+  - Appeared in 3 round(s)
+  - Common disagreement patterns:
+    * NaN vs I -: 6 occurrences
+    * 0 vs NaN: 2 occurrences
+    * E - vs NaN: 1 occurrences
+    * NaN vs I +: 1 occurrences
+
+Free trade | globalization :
+  - Total disagreements across all rounds: 10
+  - Appeared in 3 round(s)
+  - Common disagreement patterns:
+    * I - vs NaN: 3 occurrences
+    * NaN vs I -: 2 occurrences
+    * E - vs NaN: 1 occurrences
+    * NaN vs 0: 1 occurrences
+    * 0 vs NaN: 1 occurrences
+
+Hillary Clinton:
+  - Total disagreements across all rounds: 9
+  - Appeared in 3 round(s)
+  - Common disagreement patterns:
+    * NaN vs I +: 2 occurrences
+    * E - vs NaN: 2 occurrences
+    * E + vs I +: 1 occurrences
+    * I - vs NaN: 1 occurrences
+    * I - vs E -: 1 occurrences
+
+White people:
+  - Total disagreements across all rounds: 8
+  - Appeared in 3 round(s)
+  - Common disagreement patterns:
+    * NaN vs I +: 4 occurrences
+    * I + vs NaN: 2 occurrences
+    * 0.0 vs NaN: 1 occurrences
+    * NaN vs I -: 1 occurrences
+
+Abortion:
+  - Total disagreements across all rounds: 8
+  - Appeared in 3 round(s)
+  - Common disagreement patterns:
+    * NaN vs I +: 5 occurrences
+    * 0.0 vs I +: 1 occurrences
+    * NaN vs E +: 1 occurrences
+    * 0 vs NaN: 1 occurrences
+
+Oil | Gas | Drill | Pipeline:
+  - Total disagreements across all rounds: 8
+  - Appeared in 3 round(s)
+  - Common disagreement patterns:
+    * 0 vs NaN: 3 occurrences
+    * I - vs NaN: 2 occurrences
+    * I + vs NaN: 1 occurrences
+    * 0 vs E +: 1 occurrences
+    * I + vs E +: 1 occurrences
+
+Barack Obama:
+  - Total disagreements across all rounds: 8
+  - Appeared in 3 round(s)
+  - Common disagreement patterns:
+    * NaN vs I -: 2 occurrences
+    * 0 vs I +: 2 occurrences
+    * I + vs E -: 1 occurrences
+    * I - vs NaN: 1 occurrences
+    * I + vs NaN: 1 occurrences
+
+Economy is good :
+  - Total disagreements across all rounds: 7
+  - Appeared in 3 round(s)
+  - Common disagreement patterns:
+    * E - vs NaN: 2 occurrences
+    * I - vs E -: 1 occurrences
+    * NaN vs I -: 1 occurrences
+    * NaN vs I +: 1 occurrences
+    * NaN vs 0: 1 occurrences
+
+(Christians | Christianity):
+  - Total disagreements across all rounds: 7
+  - Appeared in 3 round(s)
+  - Common disagreement patterns:
+    * NaN vs I -: 2 occurrences
+    * 0.0 vs NaN: 1 occurrences
+    * I - vs NaN: 1 occurrences
+    * NaN vs E -: 1 occurrences
+    * NaN vs I +: 1 occurrences
+
+Elites:
+  - Total disagreements across all rounds: 7
+  - Appeared in 3 round(s)
+  - Common disagreement patterns:
+    * NaN vs I -: 3 occurrences
+    * E - vs NaN: 3 occurrences
+    * I - vs NaN: 1 occurrences
+
+Black people:
+  - Total disagreements across all rounds: 6
+  - Appeared in 3 round(s)
+  - Common disagreement patterns:
+    * NaN vs E -: 2 occurrences
+    * 0 vs NaN: 1 occurrences
+    * NaN vs I +: 1 occurrences
+    * I + vs NaN: 1 occurrences
+    * I - vs NaN: 1 occurrences
+
+Terrorism threat is on the rise:
+  - Total disagreements across all rounds: 6
+  - Appeared in 2 round(s)
+  - Common disagreement patterns:
+    * NaN vs I +: 2 occurrences
+    * I - vs I +: 1 occurrences
+    * I - vs NaN: 1 occurrences
+    * E + vs I +: 1 occurrences
+    * E - vs E +: 1 occurrences
+
+Feminism :
+  - Total disagreements across all rounds: 6
+  - Appeared in 3 round(s)
+  - Common disagreement patterns:
+    * NaN vs I +: 2 occurrences
+    * NaN vs I -: 2 occurrences
+    * I - vs I +: 1 occurrences
+    * I + vs E +: 1 occurrences
+
+Ukraine:
+  - Total disagreements across all rounds: 6
+  - Appeared in 1 round(s)
+  - Common disagreement patterns:
+    * NaN vs I -: 2 occurrences
+    * I - vs E -: 2 occurrences
+    * NaN vs I +: 2 occurrences
+
+Wealth inequality:
+  - Total disagreements across all rounds: 5
+  - Appeared in 2 round(s)
+  - Common disagreement patterns:
+    * E + vs E -: 2 occurrences
+    * NaN vs I -: 2 occurrences
+    * E - vs NaN: 1 occurrences
+
+Taxation system is fair:
+  - Total disagreements across all rounds: 5
+  - Appeared in 2 round(s)
+  - Common disagreement patterns:
+    * NaN vs I -: 2 occurrences
+    * E - vs NaN: 1 occurrences
+    * 0 vs I +: 1 occurrences
+    * E + vs I +: 1 occurrences
+
+(Muslims | Islam):
+  - Total disagreements across all rounds: 5
+  - Appeared in 3 round(s)
+  - Common disagreement patterns:
+    * I + vs NaN: 1 occurrences
+    * NaN vs I -: 1 occurrences
+    * E - vs NaN: 1 occurrences
+    * 0 vs NaN: 1 occurrences
+    * I + vs 0: 1 occurrences
+
+Supreme court:
+  - Total disagreements across all rounds: 4
+  - Appeared in 2 round(s)
+  - Common disagreement patterns:
+    * I - vs NaN: 1 occurrences
+    * I + vs NaN: 1 occurrences
+    * 0 vs NaN: 1 occurrences
+    * E + vs NaN: 1 occurrences
+
+EU | Europe | European country:
+  - Total disagreements across all rounds: 4
+  - Appeared in 2 round(s)
+  - Common disagreement patterns:
+    * NaN vs I +: 2 occurrences
+    * E - vs NaN: 1 occurrences
+    * I - vs NaN: 1 occurrences
+
+Capitalism:
+  - Total disagreements across all rounds: 4
+  - Appeared in 3 round(s)
+  - Common disagreement patterns:
+    * NaN vs I -: 1 occurrences
+    * NaN vs I +: 1 occurrences
+    * I - vs 0: 1 occurrences
+    * I - vs NaN: 1 occurrences
+
+Crime is on the rise:
+  - Total disagreements across all rounds: 4
+  - Appeared in 3 round(s)
+  - Common disagreement patterns:
+    * NaN vs I +: 2 occurrences
+    * I - vs E +: 1 occurrences
+    * E + vs NaN: 1 occurrences
+
+Climate change is a threat:
+  - Total disagreements across all rounds: 4
+  - Appeared in 2 round(s)
+  - Common disagreement patterns:
+    * NaN vs E -: 1 occurrences
+    * I + vs NaN: 1 occurrences
+    * E - vs NaN: 1 occurrences
+    * NaN vs I -: 1 occurrences
+
+Fascism | Nazism:
+  - Total disagreements across all rounds: 4
+  - Appeared in 2 round(s)
+  - Common disagreement patterns:
+    * I - vs E -: 2 occurrences
+    * 0 vs NaN: 1 occurrences
+    * NaN vs I -: 1 occurrences
+
+Gay | LGBTQ+ :
+  - Total disagreements across all rounds: 3
+  - Appeared in 3 round(s)
+  - Common disagreement patterns:
+    * I - vs I +: 1 occurrences
+    * E - vs NaN: 1 occurrences
+    * E - vs I -: 1 occurrences
+
+Jews:
+  - Total disagreements across all rounds: 3
+  - Appeared in 2 round(s)
+  - Common disagreement patterns:
+    * NaN vs I +: 1 occurrences
+    * NaN vs I -: 1 occurrences
+    * NaN vs E -: 1 occurrences
+
+Universities:
+  - Total disagreements across all rounds: 3
+  - Appeared in 2 round(s)
+  - Common disagreement patterns:
+    * I + vs NaN: 1 occurrences
+    * E + vs I +: 1 occurrences
+    * 0 vs NaN: 1 occurrences
+
+Covid:
+  - Total disagreements across all rounds: 3
+  - Appeared in 2 round(s)
+  - Common disagreement patterns:
+    * 0.0 vs NaN: 2 occurrences
+    * NaN vs I -: 1 occurrences
+
+Unemployment benefits:
+  - Total disagreements across all rounds: 2
+  - Appeared in 2 round(s)
+  - Common disagreement patterns:
+    * E + vs NaN: 1 occurrences
+    * NaN vs I +: 1 occurrences
+
+Big tech is too powerful:
+  - Total disagreements across all rounds: 2
+  - Appeared in 1 round(s)
+  - Common disagreement patterns:
+    * I - vs NaN: 1 occurrences
+    * NaN vs I -: 1 occurrences
+
+Good jobs are available:
+  - Total disagreements across all rounds: 2
+  - Appeared in 1 round(s)
+  - Common disagreement patterns:
+    * E + vs NaN: 1 occurrences
+    * 0 vs E +: 1 occurrences
+
+Climate change is human caused:
+  - Total disagreements across all rounds: 2
+  - Appeared in 2 round(s)
+  - Common disagreement patterns:
+    * NaN vs I -: 1 occurrences
+    * E - vs NaN: 1 occurrences
+
+Israel :
+  - Total disagreements across all rounds: 2
+  - Appeared in 2 round(s)
+  - Common disagreement patterns:
+    * 0.0 vs NaN: 1 occurrences
+    * NaN vs 0.0: 1 occurrences
+
+China:
+  - Total disagreements across all rounds: 2
+  - Appeared in 1 round(s)
+  - Common disagreement patterns:
+    * NaN vs E -: 1 occurrences
+    * E - vs I -: 1 occurrences
+
+Police:
+  - Total disagreements across all rounds: 2
+  - Appeared in 2 round(s)
+  - Common disagreement patterns:
+    * NaN vs I +: 1 occurrences
+    * E - vs NaN: 1 occurrences
+
+Traditional family values:
+  - Total disagreements across all rounds: 1
+  - Appeared in 1 round(s)
+  - Common disagreement patterns:
+    * 0.0 vs NaN: 1 occurrences
+
+Big pharma :
+  - Total disagreements across all rounds: 1
+  - Appeared in 1 round(s)
+  - Common disagreement patterns:
+    * NaN vs I -: 1 occurrences
+
+Mexico / mexicans:
+  - Total disagreements across all rounds: 1
+  - Appeared in 1 round(s)
+  - Common disagreement patterns:
+    * E - vs I -: 1 occurrences
+
+Palestine:
+  - Total disagreements across all rounds: 1
+  - Appeared in 1 round(s)
+  - Common disagreement patterns:
+    * 0.0 vs NaN: 1 occurrences
+
+Social media:
+  - Total disagreements across all rounds: 1
+  - Appeared in 1 round(s)
+  - Common disagreement patterns:
+    * NaN vs I -: 1 occurrences
+
+Diversity:
+  - Total disagreements across all rounds: 1
+  - Appeared in 1 round(s)
+  - Common disagreement patterns:
+    * E - vs I -: 1 occurrences
+

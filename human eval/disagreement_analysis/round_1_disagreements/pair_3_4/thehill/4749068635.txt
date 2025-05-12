@@ -1,0 +1,48 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 3: nan
+  Annotator 4: Really hard now that we have changed terrorism, here clearly associating muslims-terror, but is the thread on the rise?
+
+Field: Terrorism threat is on the rise
+  Annotator 3: I -
+  Annotator 4: I +
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Iran state media: Tehran launches attack on Iraq base housing US troops
+ARTICLE ID: 7804760132
+ARTICLE URL: https://thehill.com/policy/defense/477238-iran-state-media-tehran-launches-attack-on-iraq-base-housing-us-troops
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2020-01-08 01:47:10
+
+So what if Muslim terrorists hit liberal run cities?
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2020-01-07 23:59:26
+
+
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 211
+
+Iran has already stated this attack on our base was revenge for the killing of Solemani. Here we go. 
+
+“An eye for any eye makes everyone blind”
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+TARGET COMMENT IS A PARENT COMMENT (no parent exists)
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+No thread available (single comment)
+======================================================================
+

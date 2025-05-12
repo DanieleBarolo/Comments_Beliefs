@@ -1,0 +1,60 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 1: about sanctions
+  Annotator 3: nan
+
+Field: Russia
+  Annotator 1: nan
+  Annotator 3: I -
+
+Field: Free trade | globalization 
+  Annotator 1: 0
+  Annotator 3: I +
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Zelenskyy emerges as global hero in Ukraine battle against Russia
+ARTICLE ID: 9046450607
+ARTICLE URL: https://thehill.com/policy/international/596036-zelenskyy-emerges-as-global-hero-in-ukraine-battle-against-russia
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2022-02-28 07:44:39
+
+What deranged lunatic told you that they reversed sanctions? You're an absolute idiot
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2022-02-27 16:37:04
+
+Zelensky = Balls.  Of.  Steel.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 227
+
+Zelenskyy is one TV personality who is fit to be president of his country.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+Globalists were hot to trot to interconnect the world's economies. Trouble is, once that you pull a string here, then ten strings elsewhere start unraveling. Canada learned that in a hurry after it started freezing bank accounts. They reversed that within hours after the "sanctions" resulted in blowback.
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2022-02-28 07:40:16
+
+Globalists were hot to trot to interconnect the world's economies. Trouble is, once that you pull a string here, then ten strings elsewhere start unraveling. Canada learned that in a hurry after it started freezing bank accounts. They reversed that within hours after the "sanctions" resulted in blowback.
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2022-02-28 07:44:39
+
+  What deranged lunatic told you that they reversed sanctions? You're an absolute idiot
+
+======================================================================
+

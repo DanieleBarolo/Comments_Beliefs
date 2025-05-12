@@ -1,0 +1,90 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 2: We have billionaires, but give also to millionairs as in this comment?
+  Annotator 3: nan
+
+Field: (democrat | liberal) 
+  Annotator 2: nan
+  Annotator 3: I +
+
+Field: Wealth inequality
+  Annotator 2: E -
+  Annotator 3: nan
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: America's Largest Health Care Company Tells Supreme Court That Anti-Obamacare Argument Is "Absurd"
+ARTICLE ID: 3501101516
+ARTICLE URL: http://www.motherjones.com/node/270011
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2015-02-10 11:30:48
+
+Can it be improved?  Absolutely.  Let's do it.
+
+
+However, one entire political party wants nothing more than to scrap it totally.  Their alternative?  Give tax breaks to millionaires.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2015-02-10 01:09:24
+
+So basically, Congress passed legislation - that the president signed into law - that was good for business, good for consumers, and beneficial to the welfare of Americans. Now it's being held hostage by "Christians", libertarians and slow-thinking Republicans - as usual.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 1561
+
+It seems this thread is full of morons.  What else to expect from a mother jones article though.
+
+
+The ACA is a horrible law.  You can't simultaneously cover more people for less money, it's impossible.  You all had to lie, obfuscate and omit, to get it passed.
+
+
+It's no surprise that a health care company that is making millions, and is guaranteed a bailout is playing their role as a cheerleaders for it.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+There's less to the law than people who want subsidies would like.
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2015-02-10 02:19:11
+
+So, now we get to see whether Chief Justice Roberts is a corporate shill or a religious libertarian nut.
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2015-02-10 02:22:30
+
+  We get to see if he interprets laws as written or as fools who hastily pass 2000 page bills might have wanted them to be written in retrospect.
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2015-02-10 04:59:41
+
+    there is more to the law that the 5 words you like.
+
+- - - - - - - - - - - - - - - - - - - -
+      Comment 4:
+      Date: 2015-02-10 06:37:46
+
+      There's less to the law than people who want subsidies would like.
+
+- - - - - - - - - - - - - - - - - - - -
+        Comment 5:
+        Date: 2015-02-10 11:30:48
+
+        Can it be improved?  Absolutely.  Let's do it.
+
+
+However, one entire political party wants nothing more than to scrap it totally.  Their alternative?  Give tax breaks to millionaires.
+
+======================================================================
+

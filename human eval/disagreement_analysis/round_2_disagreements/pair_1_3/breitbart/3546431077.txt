@@ -1,0 +1,94 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 1: nan
+  Annotator 3: leftis
+
+Field: (democrat | liberal) 
+  Annotator 1: nan
+  Annotator 3: I +
+
+Field: (republican | conservative)
+  Annotator 1: E -
+  Annotator 3: I -
+
+Field: Progressives
+  Annotator 1: nan
+  Annotator 3: I +
+
+Field: White people
+  Annotator 1: nan
+  Annotator 3: I -
+
+Field: Socialism | communism 
+  Annotator 1: nan
+  Annotator 3: I +
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: BREAKING: Mass Shooting at Las Vegas’ Mandalay Bay; ‘Multiple Victims,’ Strip Shut Down
+ARTICLE ID: 6185044719
+ARTICLE URL: http://www.breitbart.com/big-government/2017/10/02/las-vegas-report-one-gunman-open-fire-mandalay-bay-casino/
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2017-10-02 12:20:00
+
+Yeah, switching the narrative to he was a leftist.   These fuckers have been here all night with what they know, now they're changing it to what they know.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2017-10-02 07:22:20
+
+
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 678
+
+Trump has been trying to help protect us from this and liberals have overuled him at every step.
+
+The Sudanese immigrant who shot up a White Christian Church in Tennessee, now we see this horrific attack.
+
+You liberal sanctuary city appeasers are to blame for this carnage!
+
+The 9th Circuit should feel proud they stopped our President from protecting our homeland.
+
+Sickening!!
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+What's wrong with you guys? Stephen Paddock is white and very much American.
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2017-10-02 07:51:50
+
+Trump has been trying to help protect us from this and liberals have overuled him at every step.
+
+The Sudanese immigrant who shot up a White Christian Church in Tennessee, now we see this horrific attack.
+
+You liberal sanctuary city appeasers are to blame for this carnage!
+
+The 9th Circuit should feel proud they stopped our President from protecting our homeland.
+
+Sickening!!
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2017-10-02 12:19:01
+
+  What's wrong with you guys? Stephen Paddock is white and very much American.
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2017-10-02 12:20:00
+
+    Yeah, switching the narrative to he was a leftist.   These fuckers have been here all night with what they know, now they're changing it to what they know.
+
+======================================================================
+

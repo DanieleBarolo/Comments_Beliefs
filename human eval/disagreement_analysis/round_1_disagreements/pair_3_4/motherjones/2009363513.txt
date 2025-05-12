@@ -1,0 +1,130 @@
+DISAGREEMENTS:
+==================================================
+
+Field: (democrat | liberal) 
+  Annotator 3: nan
+  Annotator 4: I +
+
+Field: (republican | conservative)
+  Annotator 3: nan
+  Annotator 4: I -
+
+Field: Progressives
+  Annotator 3: nan
+  Annotator 4: I +
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Our Country's Cartoonish Gun Debate Isn't Just Idiotic—It's Really Damaging
+ARTICLE ID: 3740800309
+ARTICLE URL: http://www.motherjones.com/node/274776
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2015-05-06 17:00:00
+
+The NRA is a leftist organization?!
+
+Hahahaha.  Good joke.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2015-05-06 10:28:22
+
+If the United States wasn't handcuffed by the demography of the Senate the Democratic Party would be in a much better position to do something about gun violence. As it stands, though, we absolutely need those sparsely-populated states in the Midwest and Rockies to provide us enough Senators to do something about more existentially threatening issues like war, climate change, and the economy.
+
+
+If you ask me, letting the rural states jack off with their exploding dildos at the cost of a few ten thousand people dead to suicide/homicide is a fucking bargain compared to the collateral damage of their flipping out after getting their toys taken away.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 37
+
+We can have sane conversations about, say, motorcycles. We can talk about appropriate design standards and extra licensing and age restrictions and even banning certain people from riding motorcycles in the way that we can't about guns. No one accuses people of talking about appropriate additives for gasolines as trying to sneak in a backdoor clause to stop motorcycle ownership. Nor does a discussion of requiring more stringent state inspection standards for motorcycles introduce cries of tyranny and slippery slopes towards forced public transportation. And certainly no one says or even thinks that a hypothetical state law from forbidding people under the age of 18 riding motorcycles on highways is an assault on the commerce clause of the Constitution.
+
+
+Yet with firearm ownership we routinely see this kind of insane rhetorical brinksmanship. Which is why I call people who support this kind of talk gun fetishists. It shows a complete lack of perspective and I have nothing but disrespect for people who flip out this hard over the topic.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+The rhetoric comes from the left, I'm taking them at their word.
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2015-05-06 10:28:22
+
+If the United States wasn't handcuffed by the demography of the Senate the Democratic Party would be in a much better position to do something about gun violence. As it stands, though, we absolutely need those sparsely-populated states in the Midwest and Rockies to provide us enough Senators to do something about more existentially threatening issues like war, climate change, and the economy.
+
+
+If you ask me, letting the rural states jack off with their exploding dildos at the cost of a few ten thousand people dead to suicide/homicide is a fucking bargain compared to the collateral damage of their flipping out after getting their toys taken away.
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2015-05-06 11:53:39
+
+  <i>...fucking bargain compared to the collateral damage of their flipping out after getting their toys taken away.</i>
+
+But that's just it: approximately nobody is talking about "taking their toys away." I don't think there's a single prominent political figure in America today who advocates actually <b>banning</b> gun ownership. The most anybody is pushing for is reasonable firearms safety <b>regulations</b> (things like registration and licensing requirements, safety features, backgroud checks, more stringent retail regulations etc).
+
+The NRA wants them to think America is full of "gun-grabbers" but this is flatly untrue. Heck, quite a number of rich countries enjoy relatively widespread firearms ownership situations. If places like Germany and Finland haven't banned firearms ownership, America certainy never will.
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2015-05-06 12:16:01
+
+    http://thehill.com/regulation/other/239934-hillarys-2016-bid-energizes-supporters-of-gun-control
+
+
+Tell us again that no one wants to ban guns.
+
+- - - - - - - - - - - - - - - - - - - -
+      Comment 4:
+      Date: 2015-05-06 12:22:22
+
+      Your link demonstrates nothing. It suggests Hillary Clinton is a mainstream proponent of sensible gun regulations -- not an advocate for firearms prohibition.
+
+- - - - - - - - - - - - - - - - - - - -
+        Comment 5:
+        Date: 2015-05-06 12:23:55
+
+        I guess you missed the part that said "ban assault weapons."
+
+- - - - - - - - - - - - - - - - - - - -
+          Comment 6:
+          Date: 2015-05-06 12:25:43
+
+          Huh? Rather obviously, "banning assault weapons" is not the same thing as "banning guns." If assault weapons were banned, guns would still be available. Right?
+
+- - - - - - - - - - - - - - - - - - - -
+            Comment 7:
+            Date: 2015-05-06 12:28:53
+
+            No one is fooled by the lefts rhetoric about not wanting to take guns away from the citizens of this country. If they could do it they would.
+
+- - - - - - - - - - - - - - - - - - - -
+              Comment 8:
+              Date: 2015-05-06 13:58:41
+
+              "No one is fooled by the lefts rhetoric about not wanting to take guns away from the citizens of this country."
+
+Sigh . .  One more datum demonstrating that plenty are fooled by the rights rhetoric about the lefts wanting to take guns away from the citizens of this country.
+
+- - - - - - - - - - - - - - - - - - - -
+                Comment 9:
+                Date: 2015-05-06 14:05:44
+
+                The rhetoric comes from the left, I'm taking them at their word.
+
+- - - - - - - - - - - - - - - - - - - -
+                  Comment 10:
+                  Date: 2015-05-06 17:00:00
+
+                  The NRA is a leftist organization?!
+
+Hahahaha.  Good joke.
+
+======================================================================
+

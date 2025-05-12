@@ -1,0 +1,70 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 1: nan
+  Annotator 4: I really could be wrong here, not entirely sure which side this person is taking.
+
+Field: Donald Trump
+  Annotator 1: I -
+  Annotator 4: E -
+
+Field: Joe Biden
+  Annotator 1: nan
+  Annotator 4: I +
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Biden takes on Trump in fiery address on Jan. 6
+ARTICLE ID: 8958859912
+ARTICLE URL: https://thehill.com/homenews/administration/588527-biden-takes-on-trump-in-fiery-address-on-jan-6
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2022-01-06 15:33:47
+
+Funny how all that stopped once Trump left office.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2022-01-06 14:57:26
+
+Trump KO'd.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 94
+
+Tea Pain
+@TeaPainUSA
+
+
+Garland's speech yesterday and President Biden labelin' Trump as the undisputed leader of the #January6th attack sounds like a one-two punch kickin' off 2022 as the year of accountability for those who sought to stop the peaceful transfer of power.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+Never forget.   The over 500 riots in 2020 by BLM and ANTIFA was an insurrection.
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2022-01-06 15:01:44
+
+
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2022-01-06 15:19:22
+
+  Never forget.   The over 500 riots in 2020 by BLM and ANTIFA was an insurrection.
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2022-01-06 15:33:47
+
+    Funny how all that stopped once Trump left office.
+
+======================================================================
+

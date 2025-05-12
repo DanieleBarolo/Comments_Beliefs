@@ -1,0 +1,127 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 1: missing a topic about racism
+  Annotator 3: nan
+
+Field: Politicians
+  Annotator 1: nan
+  Annotator 3: I -
+
+Field: Scientists
+  Annotator 1: 0
+  Annotator 3: nan
+
+Field: America is in decline 
+  Annotator 1: E -
+  Annotator 3: E +
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Bill O'Reilly Has His Own Brian Williams Problem
+ARTICLE ID: 3530917221
+ARTICLE URL: http://www.motherjones.com/node/270421
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2015-02-21 19:28:16
+
+Peddle that sh*t elsewhere. The TP has done plenty of damage to the reputation of this country. Not to mention the attempted dumbing down of kids through science & history textbooks, the constant push to strip us of our freedoms, & the outright purchase of their gov't officials. That doesn't even address the rampant racism they spew. It's like 1960 all over again.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2015-02-19 22:44:30
+
+Wow....I always hated Bill O'Reilly but I would've never accused him of being THIS bad until now
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 793
+
+One really can't overstate what a lying, cowardly piece of scum Bill O'Reilly is, he's a classic republican/conservative chicken hawk .
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+The country is being snatched by large govt overstepping their bounds.  They simply do not have the ability to manage what they say they can, but they sure can take our money and time.  The tea party has done nothing negative to you.  They simply do not like large govt.  Let me reiterate - they have done nothing to you or this country - they just do not want large govt.
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2015-02-19 22:44:30
+
+Wow....I always hated Bill O'Reilly but I would've never accused him of being THIS bad until now
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2015-02-19 23:35:05
+
+  One really can't overstate what a lying, cowardly piece of scum Bill O'Reilly is, he's a classic republican/conservative chicken hawk .
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2015-02-20 00:17:08
+
+    Jim,
+
+
+You're being so vague.  You should say what's on your mind!  lol!
+
+- - - - - - - - - - - - - - - - - - - -
+      Comment 4:
+      Date: 2015-02-20 01:13:51
+
+      I do try to be tactful and sensitive to the feelings of our conservative brethren who may listen to Mr. O'Reilly . I certainly wouldn't want to offend any of those nimrods .
+
+- - - - - - - - - - - - - - - - - - - -
+        Comment 5:
+        Date: 2015-02-20 01:29:03
+
+        Just be honest about your feelings, as you OBVIOUSLY are!  I don't care if people agree/disagree.
+
+MY thoughts/feelings are important to ME.
+
+I don't love Brian Williams or Bill O'Reilly.  Don't care!
+
+I have no skin in the game.
+
+- - - - - - - - - - - - - - - - - - - -
+          Comment 6:
+          Date: 2015-02-20 04:22:03
+
+          
+
+- - - - - - - - - - - - - - - - - - - -
+            Comment 7:
+            Date: 2015-02-20 05:02:41
+
+            
+
+- - - - - - - - - - - - - - - - - - - -
+              Comment 8:
+              Date: 2015-02-20 16:39:49
+
+              
+
+- - - - - - - - - - - - - - - - - - - -
+                Comment 9:
+                Date: 2015-02-20 17:16:24
+
+                
+
+- - - - - - - - - - - - - - - - - - - -
+                  Comment 10:
+                  Date: 2015-02-20 19:18:49
+
+                  The country is being snatched by large govt overstepping their bounds.  They simply do not have the ability to manage what they say they can, but they sure can take our money and time.  The tea party has done nothing negative to you.  They simply do not like large govt.  Let me reiterate - they have done nothing to you or this country - they just do not want large govt.
+
+- - - - - - - - - - - - - - - - - - - -
+                    Comment 11:
+                    Date: 2015-02-21 19:28:16
+
+                    Peddle that sh*t elsewhere. The TP has done plenty of damage to the reputation of this country. Not to mention the attempted dumbing down of kids through science & history textbooks, the constant push to strip us of our freedoms, & the outright purchase of their gov't officials. That doesn't even address the rampant racism they spew. It's like 1960 all over again.
+
+======================================================================
+

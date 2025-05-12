@@ -1,0 +1,80 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 1:  
+  Annotator 4: nan
+
+Field: Supreme court
+  Annotator 1: E +
+  Annotator 4: nan
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Report: New York Grand Jury Indicts Donald Trump
+ARTICLE ID: 9638510923
+ARTICLE URL: https://www.breitbart.com/politics/2023/03/30/report-new-york-grand-jury-indicts-donald-trump/
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2023-03-30 23:00:36
+
+The court will throw it out as no  crime was committed. But please keep on a dreaming.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2023-03-30 21:46:47
+
+Bragg.  You stupid bastard.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 929
+
+Go ahead. He still has my vote
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+The court will decide if that is the case.
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2023-03-30 22:37:12
+
+If Trump broke the law, he deserves the indictment. It doesn't matter how much some people like him.
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2023-03-30 22:44:39
+
+  No law was broken clownboy.
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2023-03-30 22:55:39
+
+    Well he was indicted so there is evidence that there was. We'll wait for the court to decide.
+
+- - - - - - - - - - - - - - - - - - - -
+      Comment 4:
+      Date: 2023-03-30 22:57:25
+
+      Not at all. A political prosecution is in play. I can see why  you would t to ignore that fact and persist in you fantasy. Telling.
+
+- - - - - - - - - - - - - - - - - - - -
+        Comment 5:
+        Date: 2023-03-30 22:58:18
+
+        The court will decide if that is the case.
+
+- - - - - - - - - - - - - - - - - - - -
+          Comment 6:
+          Date: 2023-03-30 23:00:36
+
+          The court will throw it out as no  crime was committed. But please keep on a dreaming.
+
+======================================================================
+

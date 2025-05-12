@@ -1,0 +1,96 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 3: nan
+  Annotator 4: interesting comment ***
+
+Field: Barack Obama
+  Annotator 3: nan
+  Annotator 4: I -
+
+Field: (democrat | liberal) 
+  Annotator 3: E -
+  Annotator 4: I -
+
+Field: (republican | conservative)
+  Annotator 3: I -
+  Annotator 4: E -
+
+Field: Progressives
+  Annotator 3: nan
+  Annotator 4: I -
+
+Field: (Muslims | Islam)
+  Annotator 3: E -
+  Annotator 4: nan
+
+Field: Universal healthcare 
+  Annotator 3: E -
+  Annotator 4: I -
+
+Field: Politicians
+  Annotator 3: nan
+  Annotator 4: E -
+
+Field: Elites
+  Annotator 3: nan
+  Annotator 4: I -
+
+Field: Climate change is a threat
+  Annotator 3: nan
+  Annotator 4: E -
+
+Field: Climate change is human caused
+  Annotator 3: nan
+  Annotator 4: I -
+
+Field: Wealth inequality
+  Annotator 3: nan
+  Annotator 4: I -
+
+Field: Billionaires
+  Annotator 3: nan
+  Annotator 4: E -
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Report: Trump Caves on DACA, Wants ‘Quick’ Amnesty for 800K Illegal Aliens
+ARTICLE ID: 6141968269
+ARTICLE URL: http://www.breitbart.com/big-government/2017/09/13/report-trump-caves-on-daca-wants-quick-amnesty-for-800k-illegal-aliens/
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2017-09-14 14:33:23
+
+except for neil gorsuch and canceling paris accord, trump and this congress haven't accomplished squat in the first year.
+
+looks like their first big legislative accomplishment will be to help the GOPe donor class, and by extension, the illegals and the dem party.
+
+no repeal of obamacare, no travel ban, no wall, no rescision of nafta...
+
+the so-called tax reform isn't going to even slightly resemble the plan trump touted during his campaign. it will no doubt serve the GOPe donor class, too. you watch!
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2017-09-14 02:42:42
+
+When I want reliable fake-free "news", I always turn to The Hill.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 1215
+
+Not only no but HELL NO!
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+TARGET COMMENT IS A PARENT COMMENT (no parent exists)
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+No thread available (single comment)
+======================================================================
+

@@ -1,0 +1,124 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 1: hate speech - no real stances expressed
+  Annotator 2: "Thanks for the upgrade", difficult even from the context to give issue/stance
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Trump, attorneys step up efforts to reverse election's outcome
+ARTICLE ID: 8283465962
+ARTICLE URL: https://thehill.com/homenews/administration/526752-trump-attorneys-step-up-efforts-to-reverse-elections-outcome
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2020-11-19 22:11:00
+
+Thanks for the upgrade.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2020-11-19 20:48:00
+
+This isn’t going to end well for Donny.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 342
+
+There's a reason Guiliani and Powell are laying out their case in a press conference instead of a courtroom.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+Comrade, I may now call you Comrade, correct (?)...
+
+...Comrade, the only cul-de-sac is the circuitous nature of your BS comments leading no where since there is no evidence of election fraud and you whined about the "Fake News" being smug, nervous and asking stupid questions, no doubt addressing the lack of evidence.
+
+And with each successive comment you make without proving your BS, it verifies that I'm stuck in a Russian troll circuitous loop...
+
+...and as you so astutely suggested, a cul-de-sac...
+
+...well done, Comrade.....
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2020-11-19 21:10:47
+
+Fake News was just as brilliant as they were for the COVID briefings. Asking loud stupid questions. But that's always a good sign. They're too nervous to be smug.
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2020-11-19 21:12:58
+
+  Too nervous about what?
+
+If those morons had any evidence they would already be in court, not doing a press conference.
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2020-11-19 21:20:38
+
+    Did you watch it?
+
+- - - - - - - - - - - - - - - - - - - -
+      Comment 4:
+      Date: 2020-11-19 21:25:09
+
+      Watch a sh!t show, are you serious?
+
+- - - - - - - - - - - - - - - - - - - -
+        Comment 5:
+        Date: 2020-11-19 21:30:48
+
+        Oh.
+
+- - - - - - - - - - - - - - - - - - - -
+          Comment 6:
+          Date: 2020-11-19 21:35:56
+
+          Like I stated before, stable genius, if they had evidence, they would already be in court, because having a press conference does little to stop any certification of the election.
+
+- - - - - - - - - - - - - - - - - - - -
+            Comment 7:
+            Date: 2020-11-19 21:38:16
+
+            OK maestro, I'll take your word for it.
+
+- - - - - - - - - - - - - - - - - - - -
+              Comment 8:
+              Date: 2020-11-19 21:53:44
+
+              Again stable genius, have you ever known of or seen a legal maneuver that convinced a judge to decide in your favor with a press conference?
+
+- - - - - - - - - - - - - - - - - - - -
+                Comment 9:
+                Date: 2020-11-19 21:58:18
+
+                You seem to have gotten lost in a little cul-de-sac. Did you use bread crumbs?
+
+- - - - - - - - - - - - - - - - - - - -
+                  Comment 10:
+                  Date: 2020-11-19 22:08:19
+
+                  Comrade, I may now call you Comrade, correct (?)...
+
+...Comrade, the only cul-de-sac is the circuitous nature of your BS comments leading no where since there is no evidence of election fraud and you whined about the "Fake News" being smug, nervous and asking stupid questions, no doubt addressing the lack of evidence.
+
+And with each successive comment you make without proving your BS, it verifies that I'm stuck in a Russian troll circuitous loop...
+
+...and as you so astutely suggested, a cul-de-sac...
+
+...well done, Comrade.....
+
+- - - - - - - - - - - - - - - - - - - -
+                    Comment 11:
+                    Date: 2020-11-19 22:11:00
+
+                    Thanks for the upgrade.
+
+======================================================================
+

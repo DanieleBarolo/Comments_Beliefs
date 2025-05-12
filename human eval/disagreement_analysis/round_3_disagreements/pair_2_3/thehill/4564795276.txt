@@ -1,0 +1,70 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Donald Trump
+  Annotator 2: E +
+  Annotator 3: I +
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Shooter injures at least 18 at Wal-Mart in El Paso
+ARTICLE ID: 7568558100
+ARTICLE URL: https://thehill.com/homenews/state-watch/456054-shooter-injures-at-least-18-at-wal-mart-in-el-paso
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2019-08-03 22:40:33
+
+C’mon, be honest with yourself, because Trump Supporters have been laughing at you Liberal cry baby wimps for 3 years now -lol
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2019-08-03 18:19:32
+
+The president of hatred, strikes again.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 268
+
+
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+WORLD laughing at DT and his cult
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2019-08-03 22:36:07
+
+The root of hatred and insanity in the USA is spawned by Liberals who are not only inherently violent, but also incite violence by others!
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2019-08-03 22:36:52
+
+  What liberals are violent?
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2019-08-03 22:37:55
+
+    The entire breed of liberal rejects!
+
+- - - - - - - - - - - - - - - - - - - -
+      Comment 4:
+      Date: 2019-08-03 22:38:36
+
+      WORLD laughing at DT and his cult
+
+- - - - - - - - - - - - - - - - - - - -
+        Comment 5:
+        Date: 2019-08-03 22:40:33
+
+        C’mon, be honest with yourself, because Trump Supporters have been laughing at you Liberal cry baby wimps for 3 years now -lol
+
+======================================================================
+

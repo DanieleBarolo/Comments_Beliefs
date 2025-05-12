@@ -1,0 +1,70 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 2: "Like maybe a Hogg?" not sure from context what to put in
+  Annotator 3: Hogg - democrat anti-gun activist, also from Broward; conspiracy
+
+Field: (democrat | liberal) 
+  Annotator 2: nan
+  Annotator 3: I -
+
+Field: Progressives
+  Annotator 2: nan
+  Annotator 3: I -
+
+Field: Guns | NRA | 2nd amendment 
+  Annotator 2: nan
+  Annotator 3: I +
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Reports: Florida Police Detain Man for Questioning on Mail Bomb Campaign
+ARTICLE ID: 6998004795
+ARTICLE URL: https://www.breitbart.com/politics/2018/10/26/reports-florida-police-detain-man-for-questioning-on-mail-bomb-campaign/
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2018-10-26 15:24:44
+
+Like maybe a Hogg?
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2018-10-26 15:10:05
+
+
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 849
+
+They're busy putting a MAGA hat and the Confederate Battle Standard in his place of residence.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+Bet he's from Broward
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2018-10-26 15:12:33
+
+Bet it's a Democrat
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2018-10-26 15:21:06
+
+  Bet he's from Broward
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2018-10-26 15:24:44
+
+    Like maybe a Hogg?
+
+======================================================================
+

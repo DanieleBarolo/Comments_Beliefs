@@ -1,0 +1,64 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 2: Question
+  Annotator 4: Assuming that first commenter is also last commenter (which has to be true here, but cannot actually verify)
+
+Field: Donald Trump
+  Annotator 2: I -
+  Annotator 4: E -
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Senate GOP block legislation on Jan. 6 commission
+ARTICLE ID: 8555615834
+ARTICLE URL: https://thehill.com/homenews/senate/555755-senate-gop-block-legislation-on-jan-6-commission
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2021-05-28 17:50:11
+
+Looking for a serious answer.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2021-05-28 16:19:25
+
+One only hopes voters punish the GOP in the next several elections.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 156
+
+Republicans just doomed themselves to Benghazi on steroids from the Dems. 
+
+This is going to be fun
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+Possibly his breasts?
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2021-05-28 17:47:19
+
+Serious question.... can any Trump supporters tell me why you like him?
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2021-05-28 17:49:39
+
+  Possibly his breasts?
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2021-05-28 17:50:11
+
+    Looking for a serious answer.
+
+======================================================================
+

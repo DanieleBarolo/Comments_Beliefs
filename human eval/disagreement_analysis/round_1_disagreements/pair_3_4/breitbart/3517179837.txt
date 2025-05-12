@@ -1,0 +1,103 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Donald Trump
+  Annotator 3: nan
+  Annotator 4: I -
+
+Field: Immigrants | immigration
+  Annotator 3: E -
+  Annotator 4: I -
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Report: Trump Caves on DACA, Wants ‘Quick’ Amnesty for 800K Illegal Aliens
+ARTICLE ID: 6141968269
+ARTICLE URL: http://www.breitbart.com/big-government/2017/09/13/report-trump-caves-on-daca-wants-quick-amnesty-for-800k-illegal-aliens/
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2017-09-14 14:02:43
+
+Not a punishment to return to their countries of birth, of which they are citizens.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2017-09-14 02:42:42
+
+When I want reliable fake-free "news", I always turn to The Hill.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 1215
+
+Not only no but HELL NO!
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+They broke no law.  What kind of country are we to punish people who broke no law?
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2017-09-14 13:41:53
+
+Our Gov't HAS FAILED US AGAIN. 
+I think you all know what this means...
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2017-09-14 13:42:37
+
+  Everyone else in the WHOLE WORLD disagrees with you?
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2017-09-14 13:53:36
+
+    
+
+- - - - - - - - - - - - - - - - - - - -
+      Comment 4:
+      Date: 2017-09-14 13:56:16
+
+      No, but everyone in the world is looking at us and saying, "what a bunch of azzhols".  And they are right.  
+
+And everyone else in the country besides the posters here notice that we are apparently happy to inflict suffering on a bunch of innocent people who broke no law.
+
+- - - - - - - - - - - - - - - - - - - -
+        Comment 5:
+        Date: 2017-09-14 13:57:41
+
+        
+
+- - - - - - - - - - - - - - - - - - - -
+          Comment 6:
+          Date: 2017-09-14 13:58:22
+
+          Maybe, so WHY ARE WE PUNISHING THEM?
+
+They broke no law.
+
+- - - - - - - - - - - - - - - - - - - -
+            Comment 7:
+            Date: 2017-09-14 13:59:01
+
+            They are illegals, they need to leave.
+
+- - - - - - - - - - - - - - - - - - - -
+              Comment 8:
+              Date: 2017-09-14 14:00:34
+
+              They broke no law.  What kind of country are we to punish people who broke no law?
+
+- - - - - - - - - - - - - - - - - - - -
+                Comment 9:
+                Date: 2017-09-14 14:02:43
+
+                Not a punishment to return to their countries of birth, of which they are citizens.
+
+======================================================================
+

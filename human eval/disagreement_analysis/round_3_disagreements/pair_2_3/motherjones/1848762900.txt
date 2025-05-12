@@ -1,0 +1,113 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 2: Obamacare turns religion...
+  Annotator 3: nan
+
+Field: (Muslims | Islam)
+  Annotator 2: I +
+  Annotator 3: 0
+
+Field: (Christians | Christianity)
+  Annotator 2: E -
+  Annotator 3: I -
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: America's Largest Health Care Company Tells Supreme Court That Anti-Obamacare Argument Is "Absurd"
+ARTICLE ID: 3501101516
+ARTICLE URL: http://www.motherjones.com/node/270011
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2015-02-11 23:37:33
+
+Depends entirely on which historians you read. The truth is much more complex and a lot of it is that Christians decided to go East, expand trade and invade lands held by other people some of whom happened to be Muslim. Why is it alright when Christians invade, kill and subjugate in the name of Jesus but wrong when other religions do it?
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2015-02-10 01:09:24
+
+So basically, Congress passed legislation - that the president signed into law - that was good for business, good for consumers, and beneficial to the welfare of Americans. Now it's being held hostage by "Christians", libertarians and slow-thinking Republicans - as usual.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 1561
+
+It seems this thread is full of morons.  What else to expect from a mother jones article though.
+
+
+The ACA is a horrible law.  You can't simultaneously cover more people for less money, it's impossible.  You all had to lie, obfuscate and omit, to get it passed.
+
+
+It's no surprise that a health care company that is making millions, and is guaranteed a bailout is playing their role as a cheerleaders for it.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+well, according to historians, they were. Maybe you got your information from the same place Obama did.  I suggest you wash your hands thoroughly.
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2015-02-10 01:09:24
+
+So basically, Congress passed legislation - that the president signed into law - that was good for business, good for consumers, and beneficial to the welfare of Americans. Now it's being held hostage by "Christians", libertarians and slow-thinking Republicans - as usual.
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2015-02-10 01:30:14
+
+  Those are the ultra right-wing's base anymore.  But you forgot to add the term "ignorant"... and it fits with every example you mentioned... sadly and unfortunately.  And I truly hate that the word "christian" (I choose the small "c" intentionally here) fits your thought so well:  That's truly embarrassing to some of us people of faith that continually watch our identity being stolen by some of these nutcases...
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2015-02-10 07:17:01
+
+    Much to the chagrin of Republicans, Obama appears to have touched a raw nerve in his Prayer Breakfast speech where he reminded his listeners that it is not just Muslim extremists who have twisted and perverted their religious concepts. Any religion or philosophy can be subjected to that. I learned early on in life that people who need to proclaim, "I'm a good Christian (subsequently, Jew, Muslim ...)" usually isn't. Just as jihadists have done a good job of turning many against their faith, those I call the "phony christians" have done the same for those who work at learning the depth of Christianity. Just like Sarah Palin drove a wedge between Americans with her "elitists" vs "real Americans", religion is being used as a political weapon. 
+
+
+
+    
+Supposedly it was Twain who quipped (I cannot say for certain),  “It's better to keep your mouth shut and appear stupid than open it and remove all doubt”. Well, I guess we know which path the GOP has chosen.
+
+- - - - - - - - - - - - - - - - - - - -
+      Comment 4:
+      Date: 2015-02-10 12:56:30
+
+      Perhaps you're unaware, but Obama's mangled analogies about the Crusades doesn't square with the facts.  I don't recall him mentioning that the prophet Mohammed was a slave holder and directed his followers to conquer and subjugate.
+
+- - - - - - - - - - - - - - - - - - - -
+        Comment 5:
+        Date: 2015-02-10 15:27:25
+
+        Christians were slave holders and killed many in the name of Jesus and still do. You also need to read areal world history of the Crusades.
+
+- - - - - - - - - - - - - - - - - - - -
+          Comment 6:
+          Date: 2015-02-10 15:36:22
+
+          the Crusades weren't a response to mooslim conquest and subjugation of Christians?
+
+- - - - - - - - - - - - - - - - - - - -
+            Comment 7:
+            Date: 2015-02-11 13:55:42
+
+            Not particularly.
+
+- - - - - - - - - - - - - - - - - - - -
+              Comment 8:
+              Date: 2015-02-11 14:17:55
+
+              well, according to historians, they were. Maybe you got your information from the same place Obama did.  I suggest you wash your hands thoroughly.
+
+- - - - - - - - - - - - - - - - - - - -
+                Comment 9:
+                Date: 2015-02-11 23:37:33
+
+                Depends entirely on which historians you read. The truth is much more complex and a lot of it is that Christians decided to go East, expand trade and invade lands held by other people some of whom happened to be Muslim. Why is it alright when Christians invade, kill and subjugate in the name of Jesus but wrong when other religions do it?
+
+======================================================================
+

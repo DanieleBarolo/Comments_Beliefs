@@ -1,0 +1,90 @@
+DISAGREEMENTS:
+==================================================
+
+Field: (republican | conservative)
+  Annotator 2: nan
+  Annotator 4: I -
+
+Field: Black people
+  Annotator 2: I +
+  Annotator 4: nan
+
+Field: Voting process is fair 
+  Annotator 2: nan
+  Annotator 4: I +
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Senate GOP block legislation on Jan. 6 commission
+ARTICLE ID: 8555615834
+ARTICLE URL: https://thehill.com/homenews/senate/555755-senate-gop-block-legislation-on-jan-6-commission
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2021-05-28 17:43:14
+
+The Q Cucks Klan is doing Putin's work, just like Trump told them to do.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2021-05-28 16:19:25
+
+One only hopes voters punish the GOP in the next several elections.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 156
+
+Republicans just doomed themselves to Benghazi on steroids from the Dems. 
+
+This is going to be fun
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2021-05-28 16:20:32
+
+Republicans just doomed themselves to Benghazi on steroids from the Dems. 
+
+This is going to be fun
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2021-05-28 16:22:17
+
+  Yep.
+
+These traitors are going to face long prison terms by the time this is over.
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2021-05-28 16:28:31
+
+    Party over country.  Every single time.
+
+- - - - - - - - - - - - - - - - - - - -
+      Comment 4:
+      Date: 2021-05-28 16:32:18
+
+      
+
+- - - - - - - - - - - - - - - - - - - -
+        Comment 5:
+        Date: 2021-05-28 17:03:33
+
+        
+
+- - - - - - - - - - - - - - - - - - - -
+          Comment 6:
+          Date: 2021-05-28 17:43:14
+
+          The Q Cucks Klan is doing Putin's work, just like Trump told them to do.
+
+======================================================================
+

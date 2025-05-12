@@ -1,0 +1,70 @@
+DISAGREEMENTS:
+==================================================
+
+Field: (Media | Journalists) 
+  Annotator 1: E -
+  Annotator 3: I -
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Bill O'Reilly Has His Own Brian Williams Problem
+ARTICLE ID: 3530917221
+ARTICLE URL: http://www.motherjones.com/node/270421
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2015-02-20 00:36:45
+
+You can believe in the tooth fairy, but that won't make it any more real than the edited footage you "believe" may be true.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2015-02-19 22:44:30
+
+Wow....I always hated Bill O'Reilly but I would've never accused him of being THIS bad until now
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 793
+
+One really can't overstate what a lying, cowardly piece of scum Bill O'Reilly is, he's a classic republican/conservative chicken hawk .
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+I believe that there was a protest or two in which a handful of idiots were indeed chanting that mindless slogan. The deceitful thing is that Fox edited their report to make it look as if Al Sharpton (who I think is a spotlight-hugging buffoon) was leading the same protest (when in reality, he wasn't anywhere near that one). After that particular bit of editing magic, they decided to keep insisting that the whole Black Lives Matter movement was lead by the few people who were chanting the aforementioned slogan.
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2015-02-19 22:59:41
+
+The difference is that NBC cares about credibility; Fox doesn't.
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2015-02-19 23:22:43
+
+  
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2015-02-19 23:24:38
+
+    You mean like when a Fox affiliate edited a protest video just a few weeks ago to show the protestors were chanting "We want dead cops"?
+
+- - - - - - - - - - - - - - - - - - - -
+      Comment 4:
+      Date: 2015-02-20 00:08:59
+
+      I believe that there was a protest or two in which a handful of idiots were indeed chanting that mindless slogan. The deceitful thing is that Fox edited their report to make it look as if Al Sharpton (who I think is a spotlight-hugging buffoon) was leading the same protest (when in reality, he wasn't anywhere near that one). After that particular bit of editing magic, they decided to keep insisting that the whole Black Lives Matter movement was lead by the few people who were chanting the aforementioned slogan.
+
+- - - - - - - - - - - - - - - - - - - -
+        Comment 5:
+        Date: 2015-02-20 00:36:45
+
+        You can believe in the tooth fairy, but that won't make it any more real than the edited footage you "believe" may be true.
+
+======================================================================
+

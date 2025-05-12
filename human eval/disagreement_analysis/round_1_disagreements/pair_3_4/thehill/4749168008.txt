@@ -1,0 +1,58 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 3: nan
+  Annotator 4: not sure
+
+Field: Oil | Gas | Drill | Pipeline
+  Annotator 3: I +
+  Annotator 4: nan
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Iran state media: Tehran launches attack on Iraq base housing US troops
+ARTICLE ID: 7804760132
+ARTICLE URL: https://thehill.com/policy/defense/477238-iran-state-media-tehran-launches-attack-on-iraq-base-housing-us-troops
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2020-01-08 03:30:44
+
+Iran is sitting atom 18% of the World's Proven reserves.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2020-01-07 23:59:26
+
+
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 211
+
+Iran has already stated this attack on our base was revenge for the killing of Solemani. Here we go. 
+
+“An eye for any eye makes everyone blind”
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+But we took the oil right?  Yes?
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2020-01-08 03:30:04
+
+But we took the oil right?  Yes?
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2020-01-08 03:30:44
+
+  Iran is sitting atom 18% of the World's Proven reserves.
+
+======================================================================
+

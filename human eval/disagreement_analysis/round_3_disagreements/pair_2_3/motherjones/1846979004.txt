@@ -1,0 +1,120 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 2: Sarcastic liberal from context? Not sure, cannot do stance.
+  Annotator 3: nan
+
+Field: (republican | conservative)
+  Annotator 2: nan
+  Annotator 3: I -
+
+Field: Universal healthcare 
+  Annotator 2: nan
+  Annotator 3: I +
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: America's Largest Health Care Company Tells Supreme Court That Anti-Obamacare Argument Is "Absurd"
+ARTICLE ID: 3501101516
+ARTICLE URL: http://www.motherjones.com/node/270011
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2015-02-11 01:55:34
+
+Well, you keep fighting the right fight and don't forget to say 'no' to any health care you can't pay cash up front for!
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2015-02-10 01:09:24
+
+So basically, Congress passed legislation - that the president signed into law - that was good for business, good for consumers, and beneficial to the welfare of Americans. Now it's being held hostage by "Christians", libertarians and slow-thinking Republicans - as usual.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 1561
+
+It seems this thread is full of morons.  What else to expect from a mother jones article though.
+
+
+The ACA is a horrible law.  You can't simultaneously cover more people for less money, it's impossible.  You all had to lie, obfuscate and omit, to get it passed.
+
+
+It's no surprise that a health care company that is making millions, and is guaranteed a bailout is playing their role as a cheerleaders for it.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+If you don't want the whole country angry at you, and flooding your echo chamber websites where you hang out, maybe you shouldn't take away their right to choose to buy a product or not.
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2015-02-11 01:28:21
+
+Consider this, now that the govt can mandate you purchase a product or service whether you want it or need it at any point in your life, what is going to stop the govt from mandating you purchase carbon credits to offset your energy usage. Does the mandate still sound like a good idea
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2015-02-11 01:31:36
+
+  'now'?  Clearly you have never owned a motorized vehicle nor any property...
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2015-02-11 01:36:45
+
+    I own a car because I CHOSE to purchase a car, the govt did not MANDATE I purchase a car. Using your logic the govt may as well MANDATE everyone buy car insurance even if you don't own a car since you may be a passenger in a car or even be hit by a car someday and with everyone being mandated to purchase car insurance it should spread the cost across more people and lower the cost, that is liberal logic for you.
+
+- - - - - - - - - - - - - - - - - - - -
+      Comment 4:
+      Date: 2015-02-11 01:40:42
+
+      You are right - a car is a choice...
+
+Is your body and it's health a choice you can decide to not manage?
+
+- - - - - - - - - - - - - - - - - - - -
+        Comment 5:
+        Date: 2015-02-11 01:42:14
+
+        What makes you think I don't manage my health because I don't want obamacare?
+
+- - - - - - - - - - - - - - - - - - - -
+          Comment 6:
+          Date: 2015-02-11 01:44:38
+
+          You mean insurance...
+
+Let's hope you stay in such good health :)
+
+- - - - - - - - - - - - - - - - - - - -
+            Comment 7:
+            Date: 2015-02-11 01:48:00
+
+            Other people's health is not your concern.
+
+Mind your own business.
+
+- - - - - - - - - - - - - - - - - - - -
+              Comment 8:
+              Date: 2015-02-11 01:51:45
+
+              If you don't want folks to comment to you, perhaps you should step away from the device...
+
+- - - - - - - - - - - - - - - - - - - -
+                Comment 9:
+                Date: 2015-02-11 01:53:32
+
+                If you don't want the whole country angry at you, and flooding your echo chamber websites where you hang out, maybe you shouldn't take away their right to choose to buy a product or not.
+
+- - - - - - - - - - - - - - - - - - - -
+                  Comment 10:
+                  Date: 2015-02-11 01:55:34
+
+                  Well, you keep fighting the right fight and don't forget to say 'no' to any health care you can't pay cash up front for!
+
+======================================================================
+

@@ -1,0 +1,76 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 1: the actual topic is "research", so i have included "scientists" and "universities" instead
+  Annotator 4: nan
+
+Field: Scientists
+  Annotator 1: 0
+  Annotator 4: nan
+
+Field: Vaccines
+  Annotator 1: I +
+  Annotator 4: E +
+
+Field: Universities
+  Annotator 1: 0
+  Annotator 4: nan
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: How Many People Aren’t Vaccinating Their Kids in Your State?
+ARTICLE ID: 2278909220
+ARTICLE URL: http://www.motherjones.com/node/244996
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2014-02-17 13:39:59
+
+You don't get the flu from the vaccine.  You talk about "research" but provide no links or sources.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2014-02-17 11:33:17
+
+It is my "personal belief" that unless there is some medical reason why a child should not be vaccinated, the child should not be exempted - ever. This ridiculous vaccination rebellion is endangering the rest of us, let alone risking the lives of the poor kids whose parents subscribe to this misinformation. The fact that the governments of these states are acting in such a dangerous way is appalling.
+
+
+This is just another example of how lies are perpetuated by repetition. Science has discredited these myths and yet anti-government paranoids keep hammering away with untruths. People are dying as a result.
+
+
+As to the religious exemption...what child has a choice about that? Here we have another example of fairy tales in the form of "beliefs" endangering the rest of us. It is worse than immoral. It is arrogantly evil.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 624
+
+It is my "personal belief" that unless there is some medical reason why a child should not be vaccinated, the child should not be exempted - ever. This ridiculous vaccination rebellion is endangering the rest of us, let alone risking the lives of the poor kids whose parents subscribe to this misinformation. The fact that the governments of these states are acting in such a dangerous way is appalling.
+
+
+This is just another example of how lies are perpetuated by repetition. Science has discredited these myths and yet anti-government paranoids keep hammering away with untruths. People are dying as a result.
+
+
+As to the religious exemption...what child has a choice about that? Here we have another example of fairy tales in the form of "beliefs" endangering the rest of us. It is worse than immoral. It is arrogantly evil.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+This article ignores the research that shows that people who get flu vaccinations are actually more likely to catch it.  Marin County may have the second highest rate of Whooping Cough in the state, but how many of those affected were unvaccinated?  Studies have shown that those that were vaccinated are the ones that were ill.
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2014-02-17 12:13:53
+
+This article ignores the research that shows that people who get flu vaccinations are actually more likely to catch it.  Marin County may have the second highest rate of Whooping Cough in the state, but how many of those affected were unvaccinated?  Studies have shown that those that were vaccinated are the ones that were ill.
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2014-02-17 13:39:59
+
+  You don't get the flu from the vaccine.  You talk about "research" but provide no links or sources.
+
+======================================================================
+

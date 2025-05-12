@@ -1,0 +1,144 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 1: refering to NATO and to Putin
+  Annotator 3: NATO
+
+Field: Fascism | Nazism
+  Annotator 1: I -
+  Annotator 3: E -
+
+Field: Oil | Gas | Drill | Pipeline
+  Annotator 1: 0
+  Annotator 3: nan
+
+Field: EU | Europe | European country
+  Annotator 1: I -
+  Annotator 3: nan
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Zelenskyy emerges as global hero in Ukraine battle against Russia
+ARTICLE ID: 9046450607
+ARTICLE URL: https://thehill.com/policy/international/596036-zelenskyy-emerges-as-global-hero-in-ukraine-battle-against-russia
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2022-02-27 19:03:39
+
+The NATO NAZI World is about top become really cold right now with their gas shut off. You must pay Putin for heat.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2022-02-27 16:37:04
+
+Zelensky = Balls.  Of.  Steel.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 227
+
+Zelenskyy is one TV personality who is fit to be president of his country.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+The world hates Putin.
+The world hates Trump.
+
+The world hates kremlebots posing as anti-semitic lunatics ^ to disrupt discussions.
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2022-02-27 16:38:23
+
+Zelenskyy is one TV personality who is fit to be president of his country.
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2022-02-27 16:43:27
+
+  I'm trying to imagine one of the current crop of Senators and Congresscritters standing up like this, and I...can't.
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2022-02-27 16:59:59
+
+    While I certainly don't wish any harm to Zelenskyy, Putin now needs to be very careful with him.
+
+Imagine if (Gods forbid) Zelenskyy died fighting Russia? Instant martyr.
+
+- - - - - - - - - - - - - - - - - - - -
+      Comment 4:
+      Date: 2022-02-27 17:07:29
+
+      <b>Laura Ingraham Was Forced To Educate The Self-Proclaimed Very Stable Genius About Putin's War</b><blockquote>-- Trump ignorantly said US troops were deploying in Ukraine.
+-- "You told me about the amphibious attack by Americans. You shouldn't be saying that," Trump said.
+-- Fox News host Laura Ingraham replied, "No, those are the Russians."</blockquote>"You know what's also very dangerous is you told me about the amphibious attack by Americans," Trump mistakenly said on The Ingraham Angle. "You shouldn't be saying that, because you and everybody else shouldn't know about," Trump continued. "They should do that secretly, not be doing that through the great Laura Ingraham."
+
+"No, those are the Russians," Ingraham replied.
+
+"Oh, I thought you said that we were sending people in," Trump said. "That'll be next."
+
+- - - - - - - - - - - - - - - - - - - -
+        Comment 5:
+        Date: 2022-02-27 17:31:55
+
+        This has been a true lesson in global leadership by Biden, proving once again that the U.S. relationship with the rest of the free world matters. All the work Biden has put in to repair the damage Trump and the Republicans did to our global alliances is paying off.
+
+- - - - - - - - - - - - - - - - - - - -
+          Comment 6:
+          Date: 2022-02-27 18:11:03
+
+          The Trump and his supporters at home and from far away have said for years that our President was involved in criminal activities in the Ukraine. If true, why aren't the current or past Ukrainian leaders using information they have on President Biden to blackmail him into sending a heck of a lot more support? Or could all that noise they've made and still cling to today all been just another lie to keep someone they knew (Trump) they could take advantage of in our White House?
+
+Holly-Molly!  In response to my question a Trump supporter below just said that a hero like Zelensky who is putting his life on the line to save his people and his country is actually a "CIA asset and was "put in power" in Ukraine by us to deliver Ukraine to NATO".  Translation, he wants us to think
+A. That Zelensky is evil and only sacrificing his life to protect the lies and corruption of Joe Biden.  Totally illogical.  If true, such a man would possess more power as someone who could spread Trump's "truths" (LOL!) than as a puppet and cover-up "agent" for Biden and America.  
+B. That Zelensky is evil because as an "agent" for America he could be trying to move his country further away from being controlled by Putin's authoritarian dictatorship.  Is that a bad thing???
+
+- - - - - - - - - - - - - - - - - - - -
+            Comment 7:
+            Date: 2022-02-27 18:41:41
+
+            Relax bunkie. Bass ackwards comment. It's the big guy & family who are the Russian AND Chinese assets. The big guy needs to protect Ukraine so they don't reveal his corruption & double dealing. Your TDS is stage 4. Call in the obamacare psychiatrists ASAP. Let's go Brandon while you hold his hand.
+
+- - - - - - - - - - - - - - - - - - - -
+              Comment 8:
+              Date: 2022-02-27 18:46:16
+
+              Hunter Bidens girl is hot and she smokes weed.
+
+I hope Putin gives him a job at Gasprom once the French and Germans and their Ukrainian NAZI's surrender to Russia.
+
+- - - - - - - - - - - - - - - - - - - -
+                Comment 9:
+                Date: 2022-02-27 18:50:15
+
+                ^ kremlebot poses as anti-Semitic lunatic to disrupt discussions.
+
+- - - - - - - - - - - - - - - - - - - -
+                  Comment 10:
+                  Date: 2022-02-27 18:56:04
+
+                  Why does SoroS's NATO flag have a visible swatsika?
+
+- - - - - - - - - - - - - - - - - - - -
+                    Comment 11:
+                    Date: 2022-02-27 18:58:47
+
+                    The world hates Putin.
+The world hates Trump.
+
+The world hates kremlebots posing as anti-semitic lunatics ^ to disrupt discussions.
+
+- - - - - - - - - - - - - - - - - - - -
+                      Comment 12:
+                      Date: 2022-02-27 19:03:39
+
+                      The NATO NAZI World is about top become really cold right now with their gas shut off. You must pay Putin for heat.
+
+======================================================================
+

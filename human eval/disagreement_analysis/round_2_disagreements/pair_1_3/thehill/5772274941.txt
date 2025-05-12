@@ -1,0 +1,60 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 1: nan
+  Annotator 3: debunking fake news
+
+Field: Military 
+  Annotator 1: 0
+  Annotator 3: nan
+
+Field: Russia
+  Annotator 1: 0
+  Annotator 3: nan
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Zelenskyy emerges as global hero in Ukraine battle against Russia
+ARTICLE ID: 9046450607
+ARTICLE URL: https://thehill.com/policy/international/596036-zelenskyy-emerges-as-global-hero-in-ukraine-battle-against-russia
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2022-02-28 03:50:44
+
+That wasn't real.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2022-02-27 16:37:04
+
+Zelensky = Balls.  Of.  Steel.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 227
+
+Zelenskyy is one TV personality who is fit to be president of his country.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+"The Ghost of Kyiv" is a unconfirmed rumor about an Ukrainian Mig-29 pilot who, alone, has shot down six enemy aircraft in less than 24 hours. If true, he would be the first "ace" of the 21st centuryImage (i.redd.it)"
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2022-02-28 03:48:55
+
+"The Ghost of Kyiv" is a unconfirmed rumor about an Ukrainian Mig-29 pilot who, alone, has shot down six enemy aircraft in less than 24 hours. If true, he would be the first "ace" of the 21st centuryImage (i.redd.it)"
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2022-02-28 03:50:44
+
+  That wasn't real.
+
+======================================================================
+

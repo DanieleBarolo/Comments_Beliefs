@@ -1,0 +1,95 @@
+INTER-ANNOTATOR AGREEMENT ANALYSIS
+==================================================
+
+OVERALL METRICS
+------------------------------
+Average topics marked per comment by first annotator: 1.67
+Average topics marked per comment by second annotator: 2.01
+Average topics marked by both annotators (intersection): 1.10
+Average topics marked by either annotator (union): 2.57
+
+basic_coverage_rate: 1.78%
+basic_directional_rate: 87.55%
+standard_jaccard_score: 52.93%
+modified_jaccard_score: 97.64%
+f1_score: 60.07%
+topic_selection_agreement: 52.93%
+topic_direction_agreement: 87.44%
+
+COMPARISON OF METRICS
+------------------------------
+* Basic Coverage Rate (pooled): Percentage of all possible topics that both annotators provided values for
+  - Calculated by pooling all comments together, then dividing
+  - Gives more weight to comments with more annotated topics
+
+* Basic Directional Rate (pooled): Among topics both annotated, percentage with directional agreement
+  - Calculated by pooling all comments together, then dividing
+  - Gives more weight to comments with more shared annotations
+
+* Standard Jaccard Score: Intersection over union of topics marked by either annotator
+  - Calculated per-comment, then averaged
+  - Gives equal weight to each comment regardless of topic count
+
+* Modified Jaccard Score: Agreement counting both mutual annotations and mutual NaN values
+  - Calculated per-comment, then averaged
+  - Considers agreement on NOT annotating a topic as a form of agreement
+
+* F1 Score: Balances precision and recall for topic selection
+  - Calculated per-comment, then averaged
+  - Treats topic selection as a binary classification task
+
+* Topic Selection Agreement: Agreement on which topics to annotate (same as Jaccard)
+  - Calculated per-comment, then averaged
+  - Focuses only on which topics were selected, not how they were annotated
+
+* Topic Direction Agreement: Agreement on direction for mutually annotated topics
+  - Calculated per-comment, then averaged
+  - Only considers topics that both annotators marked
+  - Treats E+/I+ as the same direction, E-/I- as the same direction
+
+WHY METRICS DIFFER
+------------------------------
+The key reason 'Basic Directional Rate' and 'Topic Direction Agreement' differ is the method of aggregation:
+
+1. Basic Directional Rate pools all topics across all comments, then calculates a single percentage.
+   - This gives more weight to comments with more shared annotations
+
+2. Topic Direction Agreement calculates a percentage for each comment, then averages these percentages.
+   - This gives equal weight to each comment regardless of how many topics were shared
+
+Example to illustrate:
+- Comment 1: 2 out of 2 shared topics have direction agreement (100%)
+- Comment 2: 1 out of 10 shared topics have direction agreement (10%)
+
+Basic Directional Rate: (2+1)/(2+10) = 3/12 = 25%
+Topic Direction Agreement: (100% + 10%)/2 = 55%
+
+AGREEMENT BY ANNOTATOR PAIR
+------------------------------
+Pair       | A1 Topics  | A2 Topics  | Intersect  | Union      | Coverage | Direction |
+-----------+------------+------------+------------+------------+----------+-----------|
+1-2        |       2.20 |       1.70 |       1.22 |       2.68 |    1.96% |    85.71% |
+1-3        |       1.90 |       2.12 |       1.23 |       2.78 |    1.99% |    78.82% |
+1-4        |       1.96 |       2.14 |       1.16 |       2.94 |    1.87% |    92.50% |
+2-3        |       1.20 |       1.77 |       0.96 |       2.01 |    1.54% |    86.36% |
+2-4        |       1.01 |       2.17 |       0.72 |       2.46 |    1.17% |    96.00% |
+3-4        |       1.72 |       2.14 |       1.33 |       2.54 |    2.15% |    85.87% |
+
+Pair       | Jaccard | ModJacc | F1      | Selection | Direction |
+-----------+---------+---------+---------+-----------+-----------|
+1-2        |  53.18% |  97.64% |  61.65% |    53.18% |    88.51% |
+1-3        |  51.18% |  97.50% |  58.14% |    51.18% |    77.72% |
+1-4        |  47.34% |  97.12% |  56.74% |    47.34% |    92.20% |
+2-3        |  58.82% |  98.29% |  63.22% |    58.82% |    85.51% |
+2-4        |  45.89% |  97.19% |  52.70% |    45.89% |    96.40% |
+3-4        |  61.17% |  98.06% |  68.00% |    61.17% |    84.28% |
+
+WHICH METRICS TO USE
+------------------------------
+* If you care more about overall annotation quality across all topics: Use Modified Jaccard
+* If you want to separate 'which topics to annotate' from 'how to annotate them': 
+  - For topic selection: Use Standard Jaccard or Topic Selection Agreement
+  - For direction assignment: Use Topic Direction Agreement
+* For comparing with other annotation projects: Use F1 Score
+* If you care more about comments with many annotations: Use Basic Directional Rate
+* If you care equally about all comments: Use Topic Direction Agreement

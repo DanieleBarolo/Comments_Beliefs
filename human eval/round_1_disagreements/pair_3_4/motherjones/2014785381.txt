@@ -1,0 +1,145 @@
+DISAGREEMENTS:
+==================================================
+
+Field: America is a great country | nation
+  Annotator 3: nan
+  Annotator 4: I -
+
+Field: Guns | NRA | 2nd amendment 
+  Annotator 3: I -
+  Annotator 4: E -
+
+Field: EU | Europe | European country
+  Annotator 3: nan
+  Annotator 4: I +
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Our Country's Cartoonish Gun Debate Isn't Just Idiotic—It's Really Damaging
+ARTICLE ID: 3740800309
+ARTICLE URL: http://www.motherjones.com/node/274776
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2015-05-09 05:09:12
+
+Is your head made entirely of stone? I have LIVED in Europe regularly for the past 26 years. What you are saying about gun violence being under reported is nonsense. America is a very violent nation, with a crazy level of gun deaths. Admit it or don't, but at least stop spouting this foolishness. You are talking to somebody who really knows and you really don't.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2015-05-06 10:28:22
+
+If the United States wasn't handcuffed by the demography of the Senate the Democratic Party would be in a much better position to do something about gun violence. As it stands, though, we absolutely need those sparsely-populated states in the Midwest and Rockies to provide us enough Senators to do something about more existentially threatening issues like war, climate change, and the economy.
+
+
+If you ask me, letting the rural states jack off with their exploding dildos at the cost of a few ten thousand people dead to suicide/homicide is a fucking bargain compared to the collateral damage of their flipping out after getting their toys taken away.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 37
+
+We can have sane conversations about, say, motorcycles. We can talk about appropriate design standards and extra licensing and age restrictions and even banning certain people from riding motorcycles in the way that we can't about guns. No one accuses people of talking about appropriate additives for gasolines as trying to sneak in a backdoor clause to stop motorcycle ownership. Nor does a discussion of requiring more stringent state inspection standards for motorcycles introduce cries of tyranny and slippery slopes towards forced public transportation. And certainly no one says or even thinks that a hypothetical state law from forbidding people under the age of 18 riding motorcycles on highways is an assault on the commerce clause of the Constitution.
+
+
+Yet with firearm ownership we routinely see this kind of insane rhetorical brinksmanship. Which is why I call people who support this kind of talk gun fetishists. It shows a complete lack of perspective and I have nothing but disrespect for people who flip out this hard over the topic.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2015-05-06 10:28:22
+
+If the United States wasn't handcuffed by the demography of the Senate the Democratic Party would be in a much better position to do something about gun violence. As it stands, though, we absolutely need those sparsely-populated states in the Midwest and Rockies to provide us enough Senators to do something about more existentially threatening issues like war, climate change, and the economy.
+
+
+If you ask me, letting the rural states jack off with their exploding dildos at the cost of a few ten thousand people dead to suicide/homicide is a fucking bargain compared to the collateral damage of their flipping out after getting their toys taken away.
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2015-05-06 11:33:57
+
+  This comment is a fine example of the cartoon debate.
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2015-05-06 12:14:25
+
+    There's nothing inherently evil about guns. To me, they're in the same category as fried cheese and fast cars. Even though they kill people above and beyond their expected utility, I can accept that the amount of joy they bring to people is worth keeping them around. And in light of the lead-crime hypothesis, I think it's worth rethinking the liberal consensus on how gun proliferation led to or even contributed to the crime waves of the 70s to late 90s.
+
+
+However, what I despise is the fetishism about guns. We can't have an intelligent conversation about them the way we do about fireworks* because people go into hysterics just at the mention of restricting access. This engenders a sneering cynicism at so-called adults who can't look at a topic rationally.
+
+
+*Where the verdict is, sure they can blind and cripple small children but they're cool so let's just minimize the damage.
+
+- - - - - - - - - - - - - - - - - - - -
+      Comment 4:
+      Date: 2015-05-06 12:18:39
+
+      "what I despise is the fetishism about guns."
+
+
+The fetishism about guns in this country is owned by the left, they never stop trying to undermine the second amendment.
+
+- - - - - - - - - - - - - - - - - - - -
+        Comment 5:
+        Date: 2015-05-06 17:57:29
+
+        Read the 2nd amendment. Read what Scalia said in a semi recent opinion. The 2nd amendment does not support rampant gun possession. Americans have an insane policy on guns and a severe blindspot on gun violence.
+
+- - - - - - - - - - - - - - - - - - - -
+          Comment 6:
+          Date: 2015-05-07 00:26:48
+
+          Americans. All three hundred thirty million ?
+
+- - - - - - - - - - - - - - - - - - - -
+            Comment 7:
+            Date: 2015-05-08 06:39:08
+
+            I know you think that is a tremendously clever and pithy response. It isn't. The American culture suffers from a blind spot on the level of gun violence that occurs in this country. Americans can't or won't do anything about it. Collectively , Americans tolerate insane gun policy. 
+
+- - - - - - - - - - - - - - - - - - - -
+              Comment 8:
+              Date: 2015-05-08 07:04:43
+
+              
+
+- - - - - - - - - - - - - - - - - - - -
+                Comment 9:
+                Date: 2015-05-08 07:37:00
+
+                This is utter nonsense. America is awash in guns, awash in myths about guns,
+ And in your case awash in myths that other countries miss report gun deaths. Really, what you are saying is beyond absurd. 
+
+- - - - - - - - - - - - - - - - - - - -
+                  Comment 10:
+                  Date: 2015-05-08 07:55:23
+
+                  
+
+- - - - - - - - - - - - - - - - - - - -
+                    Comment 11:
+                    Date: 2015-05-08 13:13:50
+
+                    You are talking through your hat . I have over 25 years of dual residence in trigger happy America and not gun toting other continent. What you are saying is in no way true.  Unbelievably rediculous premise, based on total nonsense. 
+
+- - - - - - - - - - - - - - - - - - - -
+                      Comment 12:
+                      Date: 2015-05-09 02:56:16
+
+                      
+
+- - - - - - - - - - - - - - - - - - - -
+                        Comment 13:
+                        Date: 2015-05-09 05:09:12
+
+                        Is your head made entirely of stone? I have LIVED in Europe regularly for the past 26 years. What you are saying about gun violence being under reported is nonsense. America is a very violent nation, with a crazy level of gun deaths. Admit it or don't, but at least stop spouting this foolishness. You are talking to somebody who really knows and you really don't.
+
+======================================================================
+

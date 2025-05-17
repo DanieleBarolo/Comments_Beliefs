@@ -1,0 +1,100 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 3: nan
+  Annotator 4: Death penalty cool topic maybe
+
+Field: (republican | conservative)
+  Annotator 3: nan
+  Annotator 4: I -
+
+Field: Abortion
+  Annotator 3: 0.0
+  Annotator 4: I +
+
+Field: Guns | NRA | 2nd amendment 
+  Annotator 3: I -
+  Annotator 4: nan
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Our Country's Cartoonish Gun Debate Isn't Just Idiotic—It's Really Damaging
+ARTICLE ID: 3740800309
+ARTICLE URL: http://www.motherjones.com/node/274776
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2015-05-06 15:58:13
+
+Since you've never advocated the death penalty or even hard jail time for women who have abortions, I think you're lying about your beliefs. This is just something for you to say so you can deploy the both sides are equally at fault defense.
+
+Sorry. Not going to happen until you put your money where your mouth is.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2015-05-06 10:28:22
+
+If the United States wasn't handcuffed by the demography of the Senate the Democratic Party would be in a much better position to do something about gun violence. As it stands, though, we absolutely need those sparsely-populated states in the Midwest and Rockies to provide us enough Senators to do something about more existentially threatening issues like war, climate change, and the economy.
+
+
+If you ask me, letting the rural states jack off with their exploding dildos at the cost of a few ten thousand people dead to suicide/homicide is a fucking bargain compared to the collateral damage of their flipping out after getting their toys taken away.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 37
+
+We can have sane conversations about, say, motorcycles. We can talk about appropriate design standards and extra licensing and age restrictions and even banning certain people from riding motorcycles in the way that we can't about guns. No one accuses people of talking about appropriate additives for gasolines as trying to sneak in a backdoor clause to stop motorcycle ownership. Nor does a discussion of requiring more stringent state inspection standards for motorcycles introduce cries of tyranny and slippery slopes towards forced public transportation. And certainly no one says or even thinks that a hypothetical state law from forbidding people under the age of 18 riding motorcycles on highways is an assault on the commerce clause of the Constitution.
+
+
+Yet with firearm ownership we routinely see this kind of insane rhetorical brinksmanship. Which is why I call people who support this kind of talk gun fetishists. It shows a complete lack of perspective and I have nothing but disrespect for people who flip out this hard over the topic.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+who's definition? Is that not the problem. Sorry I consider innocent human babies children if they are in the womb or not. I guess thats because I am a rightly, and you see them as muck or organisms to be sucked out with vacuum cleaners. Because you are lefty? I guess the cartoony debates will continue.
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2015-05-06 11:40:34
+
+I never thought the debate was really about guns. I think its more about getting under the skin of conservatives or liberals. It could be about swimming pools (keeping the politics as same as guns) and we would see the same cartoon debate. Considering how the political balance of power changes every few years, we will continue to see a swing of laws passed that do not do very much, and laws repealed. In the next 10 years or so, its VERY likely there will be legislation on background checks and magazine capacity, and just as likely, they will be "sunset-ted or repealed" as they were before. Even the research is political, you cannot look at the government funded research (what research there is) without seeing politics play out. The silver lining is that homicide in general is declining rapidly, so continuing this trend (whatever the reason) is going to have to be good enough.
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2015-05-06 13:23:12
+
+  Wherein rambling.dawg decides to ignore the thousands of lives list to gun violence annually, and pretend that we do nothing to address all the other common causes of premature deaths.
+
+If this were the 60's, you'd be arguing against seat belts.
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2015-05-06 13:52:03
+
+    We kill millions of innocent children a year in abortion clinics. Maybe as the left ignores those, the Right ignores the gun deaths.
+
+- - - - - - - - - - - - - - - - - - - -
+      Comment 4:
+      Date: 2015-05-06 13:53:07
+
+      In which rambling.dawg decides to ignore the definition of "child".
+
+- - - - - - - - - - - - - - - - - - - -
+        Comment 5:
+        Date: 2015-05-06 13:54:53
+
+        who's definition? Is that not the problem. Sorry I consider innocent human babies children if they are in the womb or not. I guess thats because I am a rightly, and you see them as muck or organisms to be sucked out with vacuum cleaners. Because you are lefty? I guess the cartoony debates will continue.
+
+- - - - - - - - - - - - - - - - - - - -
+          Comment 6:
+          Date: 2015-05-06 15:58:13
+
+          Since you've never advocated the death penalty or even hard jail time for women who have abortions, I think you're lying about your beliefs. This is just something for you to say so you can deploy the both sides are equally at fault defense.
+
+Sorry. Not going to happen until you put your money where your mouth is.
+
+======================================================================
+

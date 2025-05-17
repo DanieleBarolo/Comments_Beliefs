@@ -1,0 +1,135 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 1: not clear how to label "wealth inequality" I used + to mean the wealth is inequally distributed? I used "billionairs" for Walla street (and big corporations)'s  stance
+  Annotator 2: nan
+
+Field: Progressives
+  Annotator 1: nan
+  Annotator 2: E +
+
+Field: Economy is good 
+  Annotator 1: E -
+  Annotator 2: nan
+
+Field: Universal healthcare 
+  Annotator 1: E +
+  Annotator 2: I +
+
+Field: America is in decline 
+  Annotator 1: E +
+  Annotator 2: nan
+
+Field: Wealth inequality
+  Annotator 1: E +
+  Annotator 2: E -
+
+Field: Free trade | globalization 
+  Annotator 1: E -
+  Annotator 2: nan
+
+Field: Billionaires
+  Annotator 1: I -
+  Annotator 2: E -
+
+Field: Big tech is too powerful
+  Annotator 1: I -
+  Annotator 2: nan
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: How Liberals Can Use the Tea Party Playbook to Stop Trump
+ARTICLE ID: 5392511582
+ARTICLE URL: http://www.motherjones.com/node/321686
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2016-12-24 01:12:55
+
+...the middle class began shrinking during the Reagan administration thanks in part to it's anti union stance followed by consolidations and off-shoring of manufacturing operations to nations with cheap labour.  Blue collar wages flatlined and continued to pretty much stagnate for decades while living costs and production expectations continued to rise.  Mr Trump's  choice of labour secretary is the final nail in the coffin as he is anti labour and opposed to the minimum wage (not just to raising it).  Considering well as his company's franchises were fined for wage theft and violating state minimum wage laws (by the very department he is to head) there is a pretty severe conflict of interest here. This fellow also publicly claimed that robots would make "better workers" then people.
+
+As to healthcare, when it was under the private sector, millions were uninsured as premiums were steep or didn't comply with restrictive conditions in the policies.  Those who were uninsured would usually end up as charity cases costing the heath provider industry even more, which then had to be passed on somehow, usually in higher costs to the insured as well as to their policy providers (who in turn increased premiums further to defray the increased costs). The only other option, would be to just let needy people suffer and die.  Is that what you want?  We were (and still are) one of the very few industrialised nations that does not offer comprehensive healthcare coverage for its citizens.  For the last eight years, the Republicans in Congress still have never advanced any concrete counterproposal to the ACA, except attempting to repeal it.
+
+Oh and Mr Trump not in bed with Wall Street and the big corporations? Just look at the list of his cabinet nominees, it reads almost like a who's who of the Wall Street and the corporate sector. 
+
+However, I am sure what I've written here or whatever I may in future comments will do nothing to change your outlook or even make you stop for a moment to consider that maybe, a viewpoint different than yours might just have some merit.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2016-12-19 11:48:49
+
+We need to get our representatives to explain to their constituents that there was Russian hacking, and yes, it did compromise the election, and, yes, it did skew the election to t rump.  When will it become a given that states with the easiest voting process have the most progressive congressional delegations.  I fear that there is a movement afoot by conservatives to instigate easily detectable fraud in a state with mail in ballots in order to say, " see! see! Making voting easier makes fraud easier."  .
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 24
+
+"The Tea Party's ideas were wrong and their behavior was often horrible....We are better than this."
+
+As they used to say on Mythbusters......"Well there's your problem." If we (should have) learned anything from this most recent electoral debacle it's that taking the high road landed us smack in a political ditch from which it may take years or even decades to extricate ourselves. We got Trumped, Bannoned, Comeyed, Putined and in every way imaginable screwed six ways from Sunday by the nastiest campaign of white-is-right fear and loathing since George Wallace.
+
+The only way to stop Trumpism is take the gloves off and get down in the mud with the plug-uglies on the uber right, and that poses a yuge problem because far too many younger voters, who represent the future of the liberal/progressive/independent movement, were already disengaged because they felt that the whole political process was irretrievably corrupted by "the boomers" and was not something they wanted to soil themselves by participating in. The "conservatives" knew that and used it to their advantage. 
+
+Clearly, Trump's strategy was to be so nasty and so crazy-like-a-fox.....to lie constantly on a level that can only be described as a pathological Gish Gallop for the ages, that he'd depress voter turnout on the left. And it worked in large part because:
+
+(1) The allegedly liberal MSM refused to go after him  until it was much too late, 
+(2) The right wing media celebrated the Gallop instead of excoriating it, 
+(3) The FBI refused to go after Trump's campaign for its ties to Russia and instead joined in the Clinton-bashing, and
+(4) Most of all, too many voters on the left bought into his campaign of slander and character assassination and decided that Hillary Clinton just wasn't trustworthy enough to deserve their votes in spite of repeated warnings that a protest vote or an abstention could lead to exactly the kind of sociocultural and environmental calamity we're facing today. 
+
+Republicans need to be hammered relentlessly for their continued willingness to sell out to the corporate greed, Christian extremism, rampant homophobia, militant misogyny and racist filth that are now the hallmarks of Trumpism. There are 686 days until election day in 2018, but the decision to abandon the high road and prepare to get the proverbial hair mussed needs to come today or nothing is going to change. Trump has lowered the bar and it's going to stay low from now on. That's an ugly truth but in politics as in all things, "why fix something that works?"
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2016-12-23 13:04:35
+
+
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2016-12-23 19:52:56
+
+  Trump better find some other supporters then, who won't "insist on integrity" like you do.
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2016-12-23 20:30:24
+
+    
+
+- - - - - - - - - - - - - - - - - - - -
+      Comment 4:
+      Date: 2016-12-23 23:57:35
+
+      ..."great again"  right.  Seniors and the disabled ending up on the streets due to gutting of Social Security.  Workplaces with little regard for safety or worker rights which treat employees like expendable resources rather than people and pay poverty level wages.  Children in what remains of our public school system getting shafted even more as tax money is funnelled into for profit private, charter, and religious schools.  More fouling of our land, lakes rivers streams, groundwater and air as well as more drought and extreme weather.  Healthcare back in the hands of the private for profit insurance industry as the ACA and Medicare gutted.  Hate groups on the rise, emboldened by "their President's" rhetoric, and intolerance becoming more widespread.  The gap in wealth widening faster as the middle class disappears and more people are pushed into poverty to benefit those at the top.  Corporations and big money interests calling the shots on Capital Hill.  Even more people in prison serving long sentences for minor and victimless crimes.
+
+...yep, those are the signs of a really great nation...
+
+- - - - - - - - - - - - - - - - - - - -
+        Comment 5:
+        Date: 2016-12-24 00:14:27
+
+        
+
+- - - - - - - - - - - - - - - - - - - -
+          Comment 6:
+          Date: 2016-12-24 01:12:55
+
+          ...the middle class began shrinking during the Reagan administration thanks in part to it's anti union stance followed by consolidations and off-shoring of manufacturing operations to nations with cheap labour.  Blue collar wages flatlined and continued to pretty much stagnate for decades while living costs and production expectations continued to rise.  Mr Trump's  choice of labour secretary is the final nail in the coffin as he is anti labour and opposed to the minimum wage (not just to raising it).  Considering well as his company's franchises were fined for wage theft and violating state minimum wage laws (by the very department he is to head) there is a pretty severe conflict of interest here. This fellow also publicly claimed that robots would make "better workers" then people.
+
+As to healthcare, when it was under the private sector, millions were uninsured as premiums were steep or didn't comply with restrictive conditions in the policies.  Those who were uninsured would usually end up as charity cases costing the heath provider industry even more, which then had to be passed on somehow, usually in higher costs to the insured as well as to their policy providers (who in turn increased premiums further to defray the increased costs). The only other option, would be to just let needy people suffer and die.  Is that what you want?  We were (and still are) one of the very few industrialised nations that does not offer comprehensive healthcare coverage for its citizens.  For the last eight years, the Republicans in Congress still have never advanced any concrete counterproposal to the ACA, except attempting to repeal it.
+
+Oh and Mr Trump not in bed with Wall Street and the big corporations? Just look at the list of his cabinet nominees, it reads almost like a who's who of the Wall Street and the corporate sector. 
+
+However, I am sure what I've written here or whatever I may in future comments will do nothing to change your outlook or even make you stop for a moment to consider that maybe, a viewpoint different than yours might just have some merit.
+
+======================================================================
+

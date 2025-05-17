@@ -1,0 +1,116 @@
+DISAGREEMENTS:
+==================================================
+
+Field: (democrat | liberal) 
+  Annotator 1: E -
+  Annotator 2: E +
+
+Field: (republican | conservative)
+  Annotator 1: E +
+  Annotator 2: E -
+
+Field: Taxation system is fair
+  Annotator 1: E -
+  Annotator 2: nan
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: How Liberals Can Use the Tea Party Playbook to Stop Trump
+ARTICLE ID: 5392511582
+ARTICLE URL: http://www.motherjones.com/node/321686
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2016-12-23 18:59:20
+
+Yeah, THAT must be why all the taker states are red, and all the states that contribute more to the fed than they get in return are blue. HA!
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2016-12-19 11:48:49
+
+We need to get our representatives to explain to their constituents that there was Russian hacking, and yes, it did compromise the election, and, yes, it did skew the election to t rump.  When will it become a given that states with the easiest voting process have the most progressive congressional delegations.  I fear that there is a movement afoot by conservatives to instigate easily detectable fraud in a state with mail in ballots in order to say, " see! see! Making voting easier makes fraud easier."  .
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 24
+
+"The Tea Party's ideas were wrong and their behavior was often horrible....We are better than this."
+
+As they used to say on Mythbusters......"Well there's your problem." If we (should have) learned anything from this most recent electoral debacle it's that taking the high road landed us smack in a political ditch from which it may take years or even decades to extricate ourselves. We got Trumped, Bannoned, Comeyed, Putined and in every way imaginable screwed six ways from Sunday by the nastiest campaign of white-is-right fear and loathing since George Wallace.
+
+The only way to stop Trumpism is take the gloves off and get down in the mud with the plug-uglies on the uber right, and that poses a yuge problem because far too many younger voters, who represent the future of the liberal/progressive/independent movement, were already disengaged because they felt that the whole political process was irretrievably corrupted by "the boomers" and was not something they wanted to soil themselves by participating in. The "conservatives" knew that and used it to their advantage. 
+
+Clearly, Trump's strategy was to be so nasty and so crazy-like-a-fox.....to lie constantly on a level that can only be described as a pathological Gish Gallop for the ages, that he'd depress voter turnout on the left. And it worked in large part because:
+
+(1) The allegedly liberal MSM refused to go after him  until it was much too late, 
+(2) The right wing media celebrated the Gallop instead of excoriating it, 
+(3) The FBI refused to go after Trump's campaign for its ties to Russia and instead joined in the Clinton-bashing, and
+(4) Most of all, too many voters on the left bought into his campaign of slander and character assassination and decided that Hillary Clinton just wasn't trustworthy enough to deserve their votes in spite of repeated warnings that a protest vote or an abstention could lead to exactly the kind of sociocultural and environmental calamity we're facing today. 
+
+Republicans need to be hammered relentlessly for their continued willingness to sell out to the corporate greed, Christian extremism, rampant homophobia, militant misogyny and racist filth that are now the hallmarks of Trumpism. There are 686 days until election day in 2018, but the decision to abandon the high road and prepare to get the proverbial hair mussed needs to come today or nothing is going to change. Trump has lowered the bar and it's going to stay low from now on. That's an ugly truth but in politics as in all things, "why fix something that works?"
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2016-12-23 14:24:55
+
+This is something I have been yelling about for months.
+I suspect many people don't know who their congresspersons or Senators are.
+It seems that people don't bother to show their heads except during the presidential election,
+when it is especially the congressional race that really, really count.
+This is why, even though for many Republicans disliked Trump and was willing to let him waiver in the wind, they focused on preserving the House.
+It's the House that controls the bills introduced and the money to pay for those bills.
+Even if a president introduces a bill or idea to be passed, even he and it will have to go pass the House.
+The house member are represented in each state and how many there are for each state is represented by the population of that state.
+If a state's population is down by people moving to another state then that state loses a seat, and another state is in line to pick up another seats
+I will emplore, beg everyone to get to know your district and what congressional district one lives in.
+Learn what your congressional member has done for you lately.
+Every two years you can reaffirm one's vote for that person or vote them out.
+That goes for your invidivial states also.
+Most states are ran very simularly to the national level.
+At the state level, there are Governor's Races and senate and legislative seats to be challanged.
+We lost our way because many folks got caught up in B/S with this election.
+There is no reason we as a nation should be awaiting the inauguration of a Donald Trump especailly with his kind of baggage.
+We have never before voted for such a president-elect, at least, not in my livetime.
+I don't know if many voted for him because they saw a TV character and thought he acted like that character, his money, his tendency to lying or conning as I call it or his campaign that focused on division.
+I hope that America never again let that happens as long as this country stands, 
+But first of all, any progressive, democrat, liberal or on the fencer need to learn how our laws work, how we elect our 'leaders' or at least those who vow to represent us.
+Start now by learning who these folks are.
+Right now, many of the people who are elected especially on the conservative realm are business persons who are in there making sure that laws are passed that make sure their businesses and their pocketbooks is/are protected.
+Now we have a president-elect who is going to do the same things?
+Please, please make sure that you come out in force at the next election in less than 24 months.
+VOTE!!!
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2016-12-23 17:25:33
+
+  
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2016-12-23 18:16:58
+
+    Yeah, all those taker red states, that take far more than they contribute to the national economy, really need to be represented equally.
+
+- - - - - - - - - - - - - - - - - - - -
+      Comment 4:
+      Date: 2016-12-23 18:51:03
+
+      
+
+- - - - - - - - - - - - - - - - - - - -
+        Comment 5:
+        Date: 2016-12-23 18:59:20
+
+        Yeah, THAT must be why all the taker states are red, and all the states that contribute more to the fed than they get in return are blue. HA!
+
+======================================================================
+

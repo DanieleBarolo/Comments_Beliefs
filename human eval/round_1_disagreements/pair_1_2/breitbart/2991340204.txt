@@ -1,0 +1,60 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 1: nan
+  Annotator 2: Joke
+
+Field: Donald Trump
+  Annotator 1: I +
+  Annotator 2: E +
+
+Field: Hillary Clinton
+  Annotator 1: I -
+  Annotator 2: nan
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: NBC: Hillary Clinton Wins Colorado
+ARTICLE ID: 5288423876
+ARTICLE URL: http://www.breitbart.com/live/2016-election-day-live-updates/nbc-hillary-clinton-wins-colorado/
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2016-11-08 18:00:40
+
+He said: "I'll BED the First Lady." Don't worry. Trump will protect her!
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2016-11-08 14:33:37
+
+and it begins
+
+we need to vote in huge numbers all across the country
+
+the Cemeteries across the country have already voted for Hillary now we need get out and vote to overcome her living dead votes!
+
+Vote to Make America Great Again!
+Vote Trump!
+
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 1543
+
+Come on USA! Make America Great Again. 
+
+See? I'm trying to be positive :)
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+TARGET COMMENT IS A PARENT COMMENT (no parent exists)
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+No thread available (single comment)
+======================================================================
+

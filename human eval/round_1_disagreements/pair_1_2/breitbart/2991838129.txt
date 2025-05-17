@@ -1,0 +1,79 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Donald Trump
+  Annotator 1: E +
+  Annotator 2: nan
+
+Field: (democrat | liberal) 
+  Annotator 1: E -
+  Annotator 2: I -
+
+Field: Hillary Clinton
+  Annotator 1: E -
+  Annotator 2: nan
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: NBC: Hillary Clinton Wins Colorado
+ARTICLE ID: 5288423876
+ARTICLE URL: http://www.breitbart.com/live/2016-election-day-live-updates/nbc-hillary-clinton-wins-colorado/
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2016-11-08 22:40:31
+
+I'm hoping to eliminate around 30 traitors @ a time...
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2016-11-08 14:33:37
+
+and it begins
+
+we need to vote in huge numbers all across the country
+
+the Cemeteries across the country have already voted for Hillary now we need get out and vote to overcome her living dead votes!
+
+Vote to Make America Great Again!
+Vote Trump!
+
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 1543
+
+Come on USA! Make America Great Again. 
+
+See? I'm trying to be positive :)
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+Amazon: 32 feet hemp rope $9.95
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2016-11-08 22:25:27
+
+Limbaugh quoted  “Members of the club … they’re going to hang together to preserve the existence of the club and its exclusivity.”.
+I certainly HOPE They ALL HANG TOGETHER...!!!
+It shouldn't take more than about a thousand feet of good tightly woven rope to accomplish this 'task' within a couple days of the Trump Inauguration... 
+The gallows can be operated in shifts, until the traitors are all dispatched...
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2016-11-08 22:29:05
+
+  Amazon: 32 feet hemp rope $9.95
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2016-11-08 22:40:31
+
+    I'm hoping to eliminate around 30 traitors @ a time...
+
+======================================================================
+

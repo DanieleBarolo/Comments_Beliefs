@@ -1,0 +1,54 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 1: nan
+  Annotator 2: Against leagal team, not really any issues or stances for our list
+
+Field: Donald Trump
+  Annotator 1: E +
+  Annotator 2: nan
+
+Field: (republican | conservative)
+  Annotator 1: E +
+  Annotator 2: nan
+
+Field: Voting process is fair 
+  Annotator 1: I -
+  Annotator 2: nan
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Trump, attorneys step up efforts to reverse election's outcome
+ARTICLE ID: 8283465962
+ARTICLE URL: https://thehill.com/homenews/administration/526752-trump-attorneys-step-up-efforts-to-reverse-elections-outcome
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2020-11-20 01:10:01
+
+Over signed affidavits by witnesses. If they lied, they can be prosected
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2020-11-19 20:48:00
+
+This isn’t going to end well for Donny.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 342
+
+There's a reason Guiliani and Powell are laying out their case in a press conference instead of a courtroom.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+TARGET COMMENT IS A PARENT COMMENT (no parent exists)
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+No thread available (single comment)
+======================================================================
+

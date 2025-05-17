@@ -1,0 +1,64 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 1: nan
+  Annotator 2: Trump - but also Evangelicals but cannot give - to Christians
+
+Field: Donald Trump
+  Annotator 1: I -
+  Annotator 2: E -
+
+Field: (republican | conservative)
+  Annotator 1: I -
+  Annotator 2: nan
+
+Field: Black people
+  Annotator 1: 0
+  Annotator 2: nan
+
+Field: White people
+  Annotator 1: 0.0
+  Annotator 2: nan
+
+Field: (Christians | Christianity)
+  Annotator 1: 0.0
+  Annotator 2: nan
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Trump, attorneys step up efforts to reverse election's outcome
+ARTICLE ID: 8283465962
+ARTICLE URL: https://thehill.com/homenews/administration/526752-trump-attorneys-step-up-efforts-to-reverse-elections-outcome
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2020-11-20 03:10:05
+
+Trump's Orange 🍊 sticks way better than Rudy's Black ⚫ 
+
+White Trash Evangelicals Love Orange, Hate Black.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2020-11-19 20:48:00
+
+This isn’t going to end well for Donny.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 342
+
+There's a reason Guiliani and Powell are laying out their case in a press conference instead of a courtroom.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+TARGET COMMENT IS A PARENT COMMENT (no parent exists)
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+No thread available (single comment)
+======================================================================
+

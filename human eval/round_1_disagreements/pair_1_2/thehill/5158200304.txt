@@ -1,0 +1,56 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 1: nan
+  Annotator 2: Rethorical Trump question + Trump
+
+Field: Donald Trump
+  Annotator 1: I +
+  Annotator 2: E +
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Trump, attorneys step up efforts to reverse election's outcome
+ARTICLE ID: 8283465962
+ARTICLE URL: https://thehill.com/homenews/administration/526752-trump-attorneys-step-up-efforts-to-reverse-elections-outcome
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2020-11-19 21:55:57
+
+What is illegal about what Trump is doing?
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2020-11-19 20:48:00
+
+This isn’t going to end well for Donny.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 342
+
+There's a reason Guiliani and Powell are laying out their case in a press conference instead of a courtroom.
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+Treasonous Trump is illegally trying to overturn the election results.
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2020-11-19 21:54:24
+
+Treasonous Trump is illegally trying to overturn the election results.
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2020-11-19 21:55:57
+
+  What is illegal about what Trump is doing?
+
+======================================================================
+

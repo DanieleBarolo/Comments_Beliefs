@@ -1,0 +1,82 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 3: nan
+  Annotator 4: Against US imperialism I think, but how do I code that?
+
+Field: Donald Trump
+  Annotator 3: I -
+  Annotator 4: nan
+
+Field: (democrat | liberal) 
+  Annotator 3: I +
+  Annotator 4: nan
+
+Field: (republican | conservative)
+  Annotator 3: nan
+  Annotator 4: I -
+
+Field: Military 
+  Annotator 3: I -
+  Annotator 4: nan
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Iran state media: Tehran launches attack on Iraq base housing US troops
+ARTICLE ID: 7804760132
+ARTICLE URL: https://thehill.com/policy/defense/477238-iran-state-media-tehran-launches-attack-on-iraq-base-housing-us-troops
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2020-01-08 11:24:05
+
+shhhh ...you are not worth a debate start your studies CIA/Mossad over throws demoracy in Iran 1953
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2020-01-07 23:59:26
+
+
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 211
+
+Iran has already stated this attack on our base was revenge for the killing of Solemani. Here we go. 
+
+“An eye for any eye makes everyone blind”
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+Who did you blame before Friday
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+Comment 1:
+Date: 2020-01-08 00:24:39
+
+Fun watching the democrat party and their dumb as dirt democrat voters cheering for iran
+
+- - - - - - - - - - - - - - - - - - - -
+  Comment 2:
+  Date: 2020-01-08 00:25:28
+
+  you dumb red hats started silly
+
+- - - - - - - - - - - - - - - - - - - -
+    Comment 3:
+    Date: 2020-01-08 00:26:36
+
+    Who did you blame before Friday
+
+- - - - - - - - - - - - - - - - - - - -
+      Comment 4:
+      Date: 2020-01-08 11:24:05
+
+      shhhh ...you are not worth a debate start your studies CIA/Mossad over throws demoracy in Iran 1953
+
+======================================================================
+

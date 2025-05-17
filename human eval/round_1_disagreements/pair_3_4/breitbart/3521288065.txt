@@ -1,0 +1,50 @@
+DISAGREEMENTS:
+==================================================
+
+Field: Notes
+  Annotator 3: nan
+  Annotator 4: This comment is crazy long and complicated. Would be so curious how you would do it. 
+
+Field: Free trade | globalization 
+  Annotator 3: nan
+  Annotator 4: 0
+
+Field: Mexico / mexicans
+  Annotator 3: E -
+  Annotator 4: I -
+
+COMMENT TEXT:
+==================================================
+======================================================================
+ARTICLE TITLE: Report: Trump Caves on DACA, Wants ‘Quick’ Amnesty for 800K Illegal Aliens
+ARTICLE ID: 6141968269
+ARTICLE URL: http://www.breitbart.com/big-government/2017/09/13/report-trump-caves-on-daca-wants-quick-amnesty-for-800k-illegal-aliens/
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> TARGET COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<
+Date: 2017-09-17 08:16:44
+
+I think of the well educated 830,000 20somethings and 30somethings these "DACA" cover going back to Mexico over the next 2 years and remaking that country into a liberal democracy based on capitalism (since I keep hearing they have jobs and give over $400 billion over 10 years that we'll lose = $40bil a year vs. what we give to them in DACA O'Care payments + education k-12+food subsidies while in k-12, various enforcement costs, various medical freebies at clinics which we ultimately pay for in higher prices for other items at their chain stores in sections not located in high concentrated areas w/DACA+DAPA people, section 8 housing grants in certain cities that accept them-because I keep hearing about how the "cities" will lose gov't money = our tax money if these people go back to their home countries: 80% of them Mexico so let's not be fools and think we're saving money by having them stay here). Mexico has a chance of going into a Golden Age w/all the "Silicon Valley trained" DACA workers that can start their own companies with the help of JPMorgan and Jamie Dimon. It would all work out to everyone's interest: American citizens - inner city minorites get trained and hired, high school students go to tech schools not universities and get hired, over 50yr olds who were fired and supplanted for youth would get rehired and off the $4Trillion US debt clock. Tax bases for both countries would rise. Trade agreements could be made independently of NAFTA for both countries. Home building would rise in Mexico putting people to work for returning citizens. DACA +DAPA came here not knowing this country. They can go back to their native country and make it 1000% better than it is. If they don't go then they shouldn't fly the Mexican flag anywhere - on their car, in their yard, painted on their skin. They're not true patriots. Unless the real reason they don't go back is LaRaza.
+======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>> CONTEXT <<<<<<<<<<<<<<<<<<<<<<<<<
+OLDEST COMMENT:
+Date: 2017-09-14 02:42:42
+
+When I want reliable fake-free "news", I always turn to The Hill.
+----------------------------------------------------------------------
+
+MOST LIKED COMMENT:
+Likes: 1215
+
+Not only no but HELL NO!
+----------------------------------------------------------------------
+
+PARENT COMMENT:
+TARGET COMMENT IS A PARENT COMMENT (no parent exists)
+----------------------------------------------------------------------
+
+FULL COMMENT THREAD:
+No thread available (single comment)
+======================================================================
+
